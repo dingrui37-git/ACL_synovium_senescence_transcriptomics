@@ -1,0 +1,10 @@
+"module_name","pass_n","warn_n","fail_n","warn_or_fail_n","warn_or_fail_pct"
+"Adapter Content",36,0,0,0,0
+"Per base sequence quality",36,0,0,0,0
+"Per sequence quality scores",36,0,0,0,0
+"Per base N content",32,0,4,4,11.1
+"Overrepresented sequences",25,11,0,11,30.6
+"Sequence Duplication Levels",0,13,23,36,100
+"Per base sequence content",0,0,36,36,100
+"Per tile sequence quality",22,5,9,14,38.9
+"Per sequence GC content",31,5,0,5,13.9

@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+title: "Cross-species transcriptomic analysis identifies a persistent senescence-associated synovial remodeling program after ACL injury"
+message: "If you use this repository, please cite the associated manuscript and the archived Zenodo release."
+type: software
+authors:
+  - family-names: "Ding"
+    given-names: "Rui"
+repository-code: "https://github.com/dingrui37-git/ACL_synovium_senescence_transcriptomics"
+date-released: 2026-05-25
+license: MIT

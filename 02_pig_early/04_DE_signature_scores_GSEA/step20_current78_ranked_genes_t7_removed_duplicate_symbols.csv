@@ -1,0 +1,5 @@
+"contrast","gene_id","gene_symbol","gene_symbol_original","identifier_source","logFC","PValue_original","PValue","FDR","rank_stat","removal_reason"
+"ACLT_untreated_t7_vs_Control","ENSSSCG00000057267","Metazoa_SRP","Metazoa_SRP","pig_gene_symbol_from_DE_table",-3.98288755458312,2.75064236945113e-06,2.75064236945113e-06,6.29780833974215e-05,-5.56056587164973,"duplicate_pig_gene_symbol_lower_absolute_rank_stat"
+"ACLT_untreated_t7_vs_Control","ENSSSCG00000059807","Metazoa_SRP","Metazoa_SRP","pig_gene_symbol_from_DE_table",-3.79132824798472,3.68128237438963e-06,3.68128237438963e-06,7.77384154817325e-05,-5.43400086852568,"duplicate_pig_gene_symbol_lower_absolute_rank_stat"
+"ACLT_untreated_t7_vs_Control","ENSSSCG00000021542","SNORA71","SNORA71","pig_gene_symbol_from_DE_table",0.589099025662544,0.0336697803359526,0.0336697803359526,0.0723244768369474,1.47275971697083,"duplicate_pig_gene_symbol_lower_absolute_rank_stat"
+"ACLT_untreated_t7_vs_Control","ENSSSCG00000027555","DEFB1","DEFB1","pig_gene_symbol_from_DE_table",0.404017031056522,0.5319263902569,0.5319263902569,0.63096160617772,0.274148462661871,"duplicate_pig_gene_symbol_lower_absolute_rank_stat"

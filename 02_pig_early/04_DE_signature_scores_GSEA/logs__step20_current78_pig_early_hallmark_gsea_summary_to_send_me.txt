@@ -1,0 +1,163 @@
+===== STEP20_CURRENT78 SUMMARY TO SEND =====
+Run time: 2026-05-16 21:11:31
+
+Main run summary:
+                                     metric
+1                          t7_DE_input_file
+2                         t28_DE_input_file
+3                       n_ranked_symbols_t7
+4                      n_ranked_symbols_t28
+5             n_symbol_filled_by_mapping_t7
+6            n_symbol_filled_by_mapping_t28
+7   n_removed_no_valid_symbol_or_invalid_t7
+8  n_removed_no_valid_symbol_or_invalid_t28
+9            n_duplicate_symbols_removed_t7
+10          n_duplicate_symbols_removed_t28
+11                        identifier_policy
+12         n_full_hallmark_gene_sets_loaded
+13                  MSigDB_database_version
+14           MSigDB_database_version_source
+15      n_full_hallmark_gene_sets_tested_t7
+16     n_full_hallmark_gene_sets_tested_t28
+17                            fgsea_minSize
+18                            fgsea_maxSize
+19                                fgsea_eps
+20                              fgsea_nproc
+21                            fgsea_seed_t7
+22                           fgsea_seed_t28
+23                           rank_statistic
+24                          target_pathways
+25                 full_collection_FDR_used
+26                               output_dir
+                                                                                                                                                               value
+1                                                                   E:/R/ACLsenescence2/rebuild_submission/02_pig_early/tables/step17_pig_early_DE_t7_vs_CON_QLF.csv
+2                                                                  E:/R/ACLsenescence2/rebuild_submission/02_pig_early/tables/step17_pig_early_DE_t28_vs_CON_QLF.csv
+3                                                                                                                                                              14229
+4                                                                                                                                                              13998
+5                                                                                                                                                                  0
+6                                                                                                                                                                  0
+7                                                                                                                                                                  0
+8                                                                                                                                                                  0
+9                                                                                                                                                                  4
+10                                                                                                                                                                 4
+11 pig gene symbol only; missing symbols mapped from available annotation when unambiguous; unresolved records excluded, no gene_id fallback in formal ranked vector
+12                                                                                                                                                                50
+13                                                                                                                                                         2026.1.Hs
+14                                                                                                                                                msig_df$db_version
+15                                                                                                                                                                50
+16                                                                                                                                                                50
+17                                                                                                                                                                10
+18                                                                                                                                                               500
+19                                                                                                                                                                 0
+20                                                                                                                                                                 1
+21                                                                                                                                                                 1
+22                                                                                                                                                                 1
+23                                                                                                                                      sign(logFC) * -log10(PValue)
+24                                                                                        HALLMARK_INFLAMMATORY_RESPONSE; HALLMARK_EPITHELIAL_MESENCHYMAL_TRANSITION
+25                                                                                                                                                              TRUE
+26                                                               E:/R/ACLsenescence2/rebuild_submission/02_pig_early/tables/step20_current78_pig_early_hallmark_gsea
+
+Target pathway results from full Hallmark fgsea:
+                        contrast                                    pathway         pval        padj   log2err        ES      NES size leadingEdge_size
+64 ACLT_untreated_t28_vs_Control HALLMARK_EPITHELIAL_MESENCHYMAL_TRANSITION 0.0011148691 0.003483966 0.4550599 0.3475899 1.513431  170               49
+14  ACLT_untreated_t7_vs_Control HALLMARK_EPITHELIAL_MESENCHYMAL_TRANSITION 0.0002022184 0.001123435 0.5188481 0.4031573 1.632928  173               57
+75 ACLT_untreated_t28_vs_Control             HALLMARK_INFLAMMATORY_RESPONSE 0.3800623053 0.527864313 0.1226792 0.2366566 1.011805  146               23
+25  ACLT_untreated_t7_vs_Control             HALLMARK_INFLAMMATORY_RESPONSE 0.0127916729 0.030456364 0.3807304 0.3430753 1.362350  150               52
+                                                                                                                                                                                                                                                                                                                                             leadingEdge_genes
+64                                                    TNC;COPA;SPP1;ADAM12;FBN2;HTRA1;CTHRC1;FAP;SNAI2;GPX7;POSTN;CALU;BMP1;MMP2;ITGAV;MMP14;CDH11;PLOD2;COL6A3;ITGB1;BDNF;MMP1;THBS2;COL1A1;COL1A2;COL5A2;SPARC;COL5A1;LOXL2;CALD1;COL3A1;SERPINE1;IGFBP4;PMEPA1;MEST;RGS4;ITGA5;IL6;ECM2;SERPINH1;GJA1;COL4A2;TNFRSF12A;ANPEP;COL16A1;CD44;CRLF1;FSTL1;PRRX1
+14 FBN2;SPP1;TNC;IL6;ADAM12;COPA;HTRA1;IGFBP4;P3H1;BMP1;ANPEP;GPX7;COL6A3;COL1A1;SNAI2;MMP1;SERPINH1;MMP14;MCM7;CTHRC1;MMP2;COL16A1;COL5A1;COL4A2;ITGA5;CALU;CDH11;SPOCK1;LOXL2;COL5A2;FAP;MMP3;TNFRSF12A;GJA1;THBS2;PLOD2;PLOD3;COL1A2;ITGB1;TGFBI;COL3A1;CRLF1;INHBA;POSTN;PPIB;COL5A3;SPARC;SERPINE1;TPM1;GADD45A;BGN;PRRX1;VCAN;GADD45B;AMCF-II;SDC1;CALD1
+75                                                                                                                                                                                                          KIF1B;ATP2C1;SLC31A1;OSMR;KCNJ2;MARCO;MMP14;ATP2A2;SGMS2;TNFAIP6;NFKB1;HIF1A;CHST2;APLNR;SERPINE1;RGS16;IL1R1;DCBLD2;IFNAR1;ITGA5;IL6;IL4R;TNFSF15
+25                                   IL6;IL4R;KCNJ2;MARCO;OSMR;SLC31A1;MMP14;APLNR;HIF1A;NFKB1;KIF1B;TNFAIP6;ITGA5;IL1R1;ATP2C1;IL7R;ATP2A2;PDPN;CHST2;LDLR;ICAM1;TNFSF15;IFNAR1;CSF3R;SLC1A2;LCK;INHBA;SLC11A2;DCBLD2;CMKLR1;SERPINE1;IL2RB;MYC;SHAS2;SLC7A1;FZD5;AMCF-II;SPHK1;BST2;TIMP1;NOD2;RGS16;LYN;AQP9;TLR2;PCDH7;PDE4B;CDKN1A;CD55;P2RY2;ACVR1B;CCL2
+
+Hallmark coverage for target pathways:
+                                                                              pathway n_genes_in_pathway n_genes_present_in_t7_rank n_genes_present_in_t28_rank
+HALLMARK_EPITHELIAL_MESENCHYMAL_TRANSITION HALLMARK_EPITHELIAL_MESENCHYMAL_TRANSITION                195                        173                         170
+HALLMARK_INFLAMMATORY_RESPONSE                         HALLMARK_INFLAMMATORY_RESPONSE                196                        150                         146
+
+Version and parameter records:
+                              item
+1                        R_version
+2            fgsea_package_version
+3          msigdbr_package_version
+4          ggplot2_package_version
+5            dplyr_package_version
+6                  msigdbr_species
+7               msigdbr_collection
+8          MSigDB_database_version
+9   MSigDB_database_version_source
+10          msigdbr_output_columns
+11                   fgsea_minSize
+12                   fgsea_maxSize
+13                       fgsea_eps
+14                     fgsea_nproc
+15                   fgsea_seed_t7
+16                  fgsea_seed_t28
+17                  rank_statistic
+18 ranked_vector_identifier_policy
+19         missing_symbol_handling
+20            target_pathways_note
+                                                                                                                                                                                                                                                                                                                                            value
+1                                                                                                                                                                                                                                                                                                                                           4.5.2
+2                                                                                                                                                                                                                                                                                                                                          1.36.2
+3                                                                                                                                                                                                                                                                                                                                          26.1.0
+4                                                                                                                                                                                                                                                                                                                                           4.0.2
+5                                                                                                                                                                                                                                                                                                                                           1.1.4
+6                                                                                                                                                                                                                                                                                                                                      Sus scrofa
+7                                                                                                                                                                                                                                                                                                                    MSigDB Hallmark collection H
+8                                                                                                                                                                                                                                                                                                                                       2026.1.Hs
+9                                                                                                                                                                                                                                                                                                                              msig_df$db_version
+10 gene_symbol; ncbi_gene; ensembl_gene; db_gene_symbol; db_ncbi_gene; db_ensembl_gene; source_gene; gs_id; gs_name; gs_collection; gs_subcollection; gs_collection_name; gs_description; gs_source_species; gs_pmid; gs_geoid; gs_exact_source; gs_url; db_version; db_target_species; ortholog_taxon_id; ortholog_sources; num_ortholog_sources
+11                                                                                                                                                                                                                                                                                                                                             10
+12                                                                                                                                                                                                                                                                                                                                            500
+13                                                                                                                                                                                                                                                                                                                                              0
+14                                                                                                                                                                                                                                                                                                                                              1
+15                                                                                                                                                                                                                                                                                                                                              1
+16                                                                                                                                                                                                                                                                                                                                              1
+17                                                                                                                                                                                                                                                                                                                   sign(logFC) * -log10(PValue)
+18                                                                                                                                                                                                                           Pig gene symbols are used as formal fgsea ranked-vector identifiers to match msigdbr Sus scrofa Hallmark membership.
+19                                                                                                                                              Records lacking pig gene symbols are mapped from available DE-table gene_id-to-symbol annotation when unambiguous; unresolved records are excluded and audited, not replaced by gene_id fallback.
+20                                                                                                                                                                                                                                                       fgsea was run on the full Hallmark collection; target pathways were extracted afterward.
+
+fgsea reproducibility settings:
+                       contrast seed nproc minSize maxSize eps                                              fgsea_implementation
+1  ACLT_untreated_t7_vs_Control    1     1      10     500   0 fgsea default multilevel implementation; no fixed nperm specified
+2 ACLT_untreated_t28_vs_Control    1     1      10     500   0 fgsea default multilevel implementation; no fixed nperm specified
+
+Primary output files:
+full_combined_fgsea: E:/R/ACLsenescence2/rebuild_submission/02_pig_early/tables/step20_current78_pig_early_hallmark_gsea/step20_current78_fgsea_full_hallmark_combined.csv
+target_pathway_results: E:/R/ACLsenescence2/rebuild_submission/02_pig_early/tables/step20_current78_pig_early_hallmark_gsea/step20_current78_target_pathway_results_from_full_hallmark.csv
+ranked_t7: E:/R/ACLsenescence2/rebuild_submission/02_pig_early/tables/step20_current78_pig_early_hallmark_gsea/step20_current78_ranked_genes_t7_vs_Control.csv
+ranked_t28: E:/R/ACLsenescence2/rebuild_submission/02_pig_early/tables/step20_current78_pig_early_hallmark_gsea/step20_current78_ranked_genes_t28_vs_Control.csv
+removed_t7: E:/R/ACLsenescence2/rebuild_submission/02_pig_early/tables/step20_current78_pig_early_hallmark_gsea/step20_current78_ranked_genes_t7_removed_no_valid_symbol_or_invalid_values.csv
+removed_t28: E:/R/ACLsenescence2/rebuild_submission/02_pig_early/tables/step20_current78_pig_early_hallmark_gsea/step20_current78_ranked_genes_t28_removed_no_valid_symbol_or_invalid_values.csv
+running_curve_source_data: E:/R/ACLsenescence2/rebuild_submission/02_pig_early/tables/step20_current78_pig_early_hallmark_gsea/step20_current78_target_pathway_running_curve_source_data.csv
+summary_csv: E:/R/ACLsenescence2/rebuild_submission/02_pig_early/tables/step20_current78_pig_early_hallmark_gsea/step20_current78_pig_early_hallmark_gsea_summary.csv
+fgsea_reproducibility_settings: E:/R/ACLsenescence2/rebuild_submission/02_pig_early/tables/step20_current78_pig_early_hallmark_gsea/step20_current78_fgsea_reproducibility_settings.csv
+
+Plots:
+                                                                                   plot
+1                 Figure4B_current78_pig_early_Hallmark_GSEA_running_curves_mouse_style
+2                 Figure4B_current78_pig_early_Hallmark_GSEA_running_curves_mouse_style
+3              ACLT_untreated_t28_vs_Control_HALLMARK_INFLAMMATORY_RESPONSE_mouse_style
+4              ACLT_untreated_t28_vs_Control_HALLMARK_INFLAMMATORY_RESPONSE_mouse_style
+5  ACLT_untreated_t28_vs_Control_HALLMARK_EPITHELIAL_MESENCHYMAL_TRANSITION_mouse_style
+6  ACLT_untreated_t28_vs_Control_HALLMARK_EPITHELIAL_MESENCHYMAL_TRANSITION_mouse_style
+7               ACLT_untreated_t7_vs_Control_HALLMARK_INFLAMMATORY_RESPONSE_mouse_style
+8               ACLT_untreated_t7_vs_Control_HALLMARK_INFLAMMATORY_RESPONSE_mouse_style
+9   ACLT_untreated_t7_vs_Control_HALLMARK_EPITHELIAL_MESENCHYMAL_TRANSITION_mouse_style
+10  ACLT_untreated_t7_vs_Control_HALLMARK_EPITHELIAL_MESENCHYMAL_TRANSITION_mouse_style
+                                                                                                                                                                                         file
+1                                    E:/R/ACLsenescence2/rebuild_submission/02_pig_early/figures/Figure4B_current78/Figure4B_current78_pig_early_Hallmark_GSEA_running_curves_mouse_style.png
+2                                    E:/R/ACLsenescence2/rebuild_submission/02_pig_early/figures/Figure4B_current78/Figure4B_current78_pig_early_Hallmark_GSEA_running_curves_mouse_style.pdf
+3              E:/R/ACLsenescence2/rebuild_submission/02_pig_early/figures/Figure4B_current78/Figure4B_current78_ACLT_untreated_t28_vs_Control_HALLMARK_INFLAMMATORY_RESPONSE_mouse_style.png
+4              E:/R/ACLsenescence2/rebuild_submission/02_pig_early/figures/Figure4B_current78/Figure4B_current78_ACLT_untreated_t28_vs_Control_HALLMARK_INFLAMMATORY_RESPONSE_mouse_style.pdf
+5  E:/R/ACLsenescence2/rebuild_submission/02_pig_early/figures/Figure4B_current78/Figure4B_current78_ACLT_untreated_t28_vs_Control_HALLMARK_EPITHELIAL_MESENCHYMAL_TRANSITION_mouse_style.png
+6  E:/R/ACLsenescence2/rebuild_submission/02_pig_early/figures/Figure4B_current78/Figure4B_current78_ACLT_untreated_t28_vs_Control_HALLMARK_EPITHELIAL_MESENCHYMAL_TRANSITION_mouse_style.pdf
+7               E:/R/ACLsenescence2/rebuild_submission/02_pig_early/figures/Figure4B_current78/Figure4B_current78_ACLT_untreated_t7_vs_Control_HALLMARK_INFLAMMATORY_RESPONSE_mouse_style.png
+8               E:/R/ACLsenescence2/rebuild_submission/02_pig_early/figures/Figure4B_current78/Figure4B_current78_ACLT_untreated_t7_vs_Control_HALLMARK_INFLAMMATORY_RESPONSE_mouse_style.pdf
+9   E:/R/ACLsenescence2/rebuild_submission/02_pig_early/figures/Figure4B_current78/Figure4B_current78_ACLT_untreated_t7_vs_Control_HALLMARK_EPITHELIAL_MESENCHYMAL_TRANSITION_mouse_style.png
+10  E:/R/ACLsenescence2/rebuild_submission/02_pig_early/figures/Figure4B_current78/Figure4B_current78_ACLT_untreated_t7_vs_Control_HALLMARK_EPITHELIAL_MESENCHYMAL_TRANSITION_mouse_style.pdf
+
+Interpretation checkpoint:
+Please verify that fgsea was run on the full Hallmark collection and that target pathway FDR values are from the full collection-level analysis.
+Current parameters should be minSize = 10, maxSize = 500, eps = 0, nproc = 1, seed_t7 = 1, seed_t28 = 1.

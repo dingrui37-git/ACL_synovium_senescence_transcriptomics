@@ -1,0 +1,16 @@
+metric,n
+tested_genes_1W,14311
+tested_genes_4W,14316
+strict_1W_total,3429
+strict_1W_up,2053
+strict_1W_down,1376
+strict_4W_total,1716
+strict_4W_up,1182
+strict_4W_down,534
+shared_strict_any_direction,1421
+shared_strict_same_direction_persistent,1416
+shared_strict_opposite_direction,5
+strict_1W_only,2008
+strict_4W_only,295
+persistent_up,970
+persistent_down,446

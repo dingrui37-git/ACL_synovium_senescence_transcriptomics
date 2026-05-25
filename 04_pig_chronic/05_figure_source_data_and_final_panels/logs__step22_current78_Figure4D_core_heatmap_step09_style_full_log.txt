@@ -1,0 +1,108 @@
+===== STEP22 CURRENT78 FIGURE4D CORE HEATMAP STEP09 STYLE =====
+Run time: 2026-05-15 17:05:15 CEST
+Style: rev(RColorBrewer::RdYlBu), z-score clipped to [-2, 2], expanded canvas.
+Normalization correction: TMM factors are estimated from the full Step16 count matrix before extracting the 24 core genes.
+
+Validation file: E:/R/ACLsenescence2/rebuild_submission/02_pig_early/tables/step18_current78_pig_early_signature_remap/step18_current78_pig_signature_validation_table.csv
+Step18 summary file: E:/R/ACLsenescence2/rebuild_submission/02_pig_early/tables/step18_current78_pig_early_signature_remap/step18_current78_pig_early_signature_remap_summary.csv
+Step19 score file: E:/R/ACLsenescence2/rebuild_submission/02_pig_early/tables/step19_current78_pig_signature_score/step19_current78_pig_signature_scores_by_sample.csv
+Count file: E:/R/ACLsenescence2/rebuild_submission/02_pig_early/tables/step16_pig_early_gene_count_matrix.csv
+Optional Step11C overlap file found for CellAgeEffect annotation: E:/R/ACLsenescence2/rebuild_submission/02_mouse_discovery/07_tables/step11C_intersect_current_gorth_mapping_with_CellAge_clean/step11C_persistent_CellAge_overlap_78_genes.csv
+
+indexing step18_current78_pig_signature_validation_table.csv [===============================================================================================================] 122.50MB/s, eta:  0s                                                                                                                                                                                                   indexing step18_current78_pig_early_signature_remap_summary.csv [=============================================================================================================] 35.15MB/s, eta:  0s                                                                                                                                                                                                   indexing step19_current78_pig_signature_scores_by_sample.csv [===============================================================================================================] 156.31MB/s, eta:  0s                                                                                                                                                                                                   indexing step11C_persistent_CellAge_overlap_78_genes.csv [=====================================================================================================================] 1.17GB/s, eta:  0s                                                                                                                                                                                                   indexing step16_pig_early_gene_count_matrix.csv [============================================================================================================------------------] 2.15GB/s, eta:  0sindexing step16_pig_early_gene_count_matrix.csv [============================================================================================================================] 924.27MB/s, eta:  0s                                                                                                                                                                                                   Core genes identified: 24
+Saved: E:/R/ACLsenescence2/rebuild_submission/02_pig_early/tables/step22_current78_Figure4D_core_heatmap_step09_style/step22_current78_Figure4D_core_ortholog_gene_table.csv
+Saved: E:/R/ACLsenescence2/rebuild_submission/02_pig_early/tables/step22_current78_Figure4D_core_heatmap_step09_style/step22_current78_Figure4D_core_heatmap_zscore_matrix.csv
+Saved: E:/R/ACLsenescence2/rebuild_submission/02_pig_early/tables/step22_current78_Figure4D_core_heatmap_step09_style/step22_current78_Figure4D_core_TMM_logCPM_matrix.csv
+Saved: E:/R/ACLsenescence2/rebuild_submission/02_pig_early/tables/step22_current78_Figure4D_core_heatmap_step09_style/step22_current78_Figure4D_full_matrix_TMM_normalization_factors.csv
+Saved: E:/R/ACLsenescence2/rebuild_submission/02_pig_early/tables/step22_current78_Figure4D_core_heatmap_step09_style/step22_current78_Figure4D_core_sample_annotation.csv
+Saved: E:/R/ACLsenescence2/rebuild_submission/02_pig_early/tables/step22_current78_Figure4D_core_heatmap_step09_style/step22_current78_Figure4D_core_heatmap_step09_style_summary.csv
+
+===== STEP22 CURRENT78 FIGURE4D SUMMARY =====
+                     metric
+1      current78_core_genes
+2                 control_n
+3                 aclt_1w_n
+4                 aclt_4w_n
+5       normalization_scope
+6      normalization_method
+7  CellAgeEffect_annotation
+8       heatmap_color_scale
+9               zscore_clip
+10                 pdf_file
+11                 png_file
+12               output_dir
+13                     note
+                                                                                                                                                                                                                 value
+1                                                                                                                                                                                                                   24
+2                                                                                                                                                                                                                    6
+3                                                                                                                                                                                                                    6
+4                                                                                                                                                                                                                    6
+5                                                                               Full Step16 gene-level count matrix across the 18 plotted samples; 24 core genes are extracted after TMM-normalized logCPM calculation
+6                                                                  edgeR::DGEList(full count matrix) -> edgeR::calcNormFactors(method = 'TMM') -> edgeR::cpm(log = TRUE, prior.count = 1, normalized.lib.sizes = TRUE)
+7  Included from optional Step11C file: E:/R/ACLsenescence2/rebuild_submission/02_mouse_discovery/07_tables/step11C_intersect_current_gorth_mapping_with_CellAge_clean/step11C_persistent_CellAge_overlap_78_genes.csv
+8                                                                                                                                                          rev(RColorBrewer::RdYlBu): deep blue -> lemon yellow -> red
+9                                                                                                                                                                                                              [-2, 2]
+10                                                                                       E:/R/ACLsenescence2/rebuild_submission/02_pig_early/figures/Figure4/Figure4D_current78_core_ortholog_heatmap_step09_style.pdf
+11                                                                                       E:/R/ACLsenescence2/rebuild_submission/02_pig_early/figures/Figure4/Figure4D_current78_core_ortholog_heatmap_step09_style.png
+12                                                                                                      E:/R/ACLsenescence2/rebuild_submission/02_pig_early/tables/step22_current78_Figure4D_core_heatmap_step09_style
+13                                                              Corrected Step22: TMM normalization is estimated from the full Step16 count matrix before extracting 24 core genes; one PDF and one PNG are generated.
+
+Core genes preview:
+# A tibble: 20 × 9
+   display_label human_gene pig_ensg           CellAgeEffect MouseDirection        logFC_t7      FDR_t7 logFC_t28     FDR_t28
+   <chr>         <chr>      <chr>              <chr>         <chr>                    <dbl>       <dbl>     <dbl>       <dbl>
+ 1 FASN          FASN       ENSSSCG00000029944 Induce   display_label human_gene pig_ensg           CellAgeEffect MouseDirection        logFC_t7      FDR_t7 logFC_t28     FDR_t28
+   <chr>         <chr>      <chr>              <chr>         <chr>                    <dbl>       <dbl>     <dbl>       <dbl>
+ 1 FASN          FASN       ENSSSCG00000029944 Induces       mouse_persistent_down    -2.11 0.000494        -3.93 0.000000106
+ 2 PPARG         PPARG      ENSSSCG00000011579 Induces       mouse_persistent_down    -1.33 0.00102         -2.33 0.0000336  
+ 3 CBS           CBS        ENSSSCG00000040779 Inhibits      mouse_persistent_down    -1.90 0.000653        -3.11 0.0000993  
+ 4 ENTPD7        ENTPD7     ENSSSCG00000010540 Induces       mouse_persistent_up       1.70 0.0000369        1.50 0.0000135  
+ 5 HTRA1         HTRA1      ENSSSCG00000010703 Induces       mouse_persistent_up       1.38 0.0000203        1.27 0.0000243  
+ 6 RUNX1         RUNX1      ENSSSCG00000035537 Induces       mouse_persistent_up       1.44 0.000000141      1.28 0.0000478  
+ 7 SERPINE1      SERPINE1   ENSSSCG00000025698 Induces       mouse_persistent_up       1.26 0.00725          1.38 0.00573    
+ 8 SPARC         SPARC      ENSSSCG00000017082 Induces       mouse_persistent_up       1.21 0.00721          1.58 0.00323    
+ 9 TNFSF15       TNFSF15    ENSSSCG00000059646 Induces       mouse_persistent_up       1.84 0.00302          1.44 0.00933    
+10 BUB1          BUB1       ENSSSCG00000030469 Inhibits      mouse_persistent_up       3.88 0.000000141      2.46 0.0000135  
+11 CCNB1         CCNB1      ENSSSCG00000029326 Inhibits      mouse_persistent_up       3.81 0.000000125      2.07 0.0000103  
+12 CDK1          CDK1       ENSSSCG00000010214 Inhibits      mouse_persistent_up       3.18 0.00000328       2.06 0.0000756  
+13 CKAP2         CKAP2      ENSSSCG00000009378 Inhibits      mouse_persistent_up       3.34 0.000000324      2.00 0.0000158  
+14 ESPL1         ESPL1      ENSSSCG00000000265 Inhibits      mouse_persistent_up       3.29 0.00000156       1.61 0.00163    
+15 FOXM1         FOXM1      ENSSSCG00000000739 Inhibits      mouse_persistent_up       3.53 0.000000226      1.87 0.0000401  
+16 HIF1A         HIF1A      ENSSSCG00000005096 Inhibits      mouse_persistent_up       1.06 0.000295         1.06 0.00126    
+17 KIF20A        KIF20A     ENSSSCG00000014326 Inhibits      mouse_persistent_up       3.87 0.000000122      2.22 0.00000243 
+18 KIF2C         KIF2C      ENSSSCG00000003931 Inhibits      mouse_persist
+Sample annotation:
+# A tibble: 18 × 2
+   sample_id group            
+   <chr>     <fct>            
+ 1 CON1      Control          
+ 2 CON2      Control          
+ 3 CON3      Control          
+ 4 CON4      Control          
+ 5 CON5      Control          
+ 6 CON6      Control          
+ 7 INJS1     ACLT-untreated-1W
+ 8 INJS2     ACLT-u   sample_id group            
+   <chr>     <fct>            
+ 1 CON1      Control          
+ 2 CON2      Control          
+ 3 CON3      Control          
+ 4 CON4      Control          
+ 5 CON5      Control          
+ 6 CON6      Control          
+ 7 INJS1     ACLT-untreated-1W
+ 8 INJS2     ACLT-untreated-1W
+ 9 INJS3     
+Normalization check: full Step16 count matrix was used to estimate TMM factors before extracting core genes.
+Step22 current78 Figure4D core heatmap completed successfully.
+W
+15 INJL3     ACLT-untreated-4W
+16 INJL4     ACLT-untreated-4W
+17 INJL5     ACLT-untreated-4W
+18 INJL6     ACLT-untreated-4W
+
+Normalization check: full Step16 count matrix was used to estimate TMM factors before extracting core genes.
+Step22 current78 Figure4D core heatmap completed successfully.
+
+Step22 current78 Figure4D core heatmap completed.
+Summary to send me: E:/R/ACLsenescence2/rebuild_submission/02_pig_early/tables/step22_current78_Figure4D_core_heatmap_step09_style/logs/step22_current78_Figure4D_core_heatmap_step09_style_summary_to_send_me.txt

@@ -1,0 +1,10 @@
+"step_order","category","n"
+6,"24 strict core ortholog genes
+(t7 + t28 + direction-consistent)",24
+5,"47 direction-consistent in pig
+(t7 and t28 direction match mouse)",47
+4,"75 detected in pig expression matrix",75
+3,"75 strict 1:1 pig orthologs",75
+2,"78 human→pig raw ortholog mapping",78
+1,"78 human genes
+(mouse persistent ∩ CellAge)",78

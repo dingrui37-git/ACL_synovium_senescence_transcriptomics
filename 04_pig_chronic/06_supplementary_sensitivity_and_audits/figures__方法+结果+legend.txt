@@ -1,0 +1,7 @@
+For sample-level exploratory assessment in the early pig cohort, the gene-level count matrix from the 18 core synovium samples was used. Lowly expressed genes were filtered using edgeR::filterByExpr, followed by TMM normalization. PCA was performed on the filtered TMM-normalized logCPM matrix using prcomp. For consistency with the mouse discovery dataset, MDS coordinates were generated from the same filtered TMM-normalized logCPM matrix using limma::plotMDS with the top 500 genes and common gene selection.
+
+Sample-level PCA and MDS based on filtered TMM-normalized logCPM values showed that the 18 early pig synovium samples separated primarily according to injury status, with Control samples clustering apart from ACLT_1W and ACLT_4W samples. PC1 and PC2 explained 40.6% and 14.9% of the variance, respectively.
+
+Supplementary Figure Sx. Sample-level PCA and MDS of the early pig synovium cohort.
+
+PCA and MDS plots were generated from the filtered TMM-normalized logCPM matrix of 18 early pig synovium samples. Lowly expressed genes were removed using edgeR::filterByExpr, and MDS was performed using limma::plotMDS.

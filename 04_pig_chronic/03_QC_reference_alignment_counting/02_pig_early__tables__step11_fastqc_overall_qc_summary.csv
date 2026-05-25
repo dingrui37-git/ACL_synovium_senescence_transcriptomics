@@ -1,0 +1,12 @@
+"metric","value"
+"n_fastq_reports",36
+"n_fastq_with_any_fail",36
+"n_fastq_with_any_warn_or_fail",36
+"n_adapter_content_warn_or_fail",0
+"n_per_base_sequence_quality_warn_or_fail",0
+"n_per_sequence_quality_scores_warn_or_fail",0
+"n_overrepresented_sequences_warn_or_fail",11
+"n_sequence_duplication_levels_warn_or_fail",36
+"n_per_base_n_content_warn_or_fail",4
+"median_total_sequences",15444976
+"median_gc_percent",50

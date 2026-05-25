@@ -1,0 +1,4 @@
+"item","absolute_path","relative_path","exists"
+"genome_fasta","D:/R/ACL ∩ senescence2/reference/Sus_scrofa_Ensembl115/Sus_scrofa.Sscrofa11.1.dna.toplevel.fa.gz","reference/Sus_scrofa_Ensembl115/Sus_scrofa.Sscrofa11.1.dna.toplevel.fa.gz",TRUE
+"annotation_gtf","D:/R/ACL ∩ senescence2/reference/Sus_scrofa_Ensembl115/Sus_scrofa.Sscrofa11.1.115.gtf.gz","reference/Sus_scrofa_Ensembl115/Sus_scrofa.Sscrofa11.1.115.gtf.gz",TRUE
+"subread_index_basename","D:/R/ACL ∩ senescence2/reference/Sus_scrofa_Ensembl115/Rsubread_index/Sus_scrofa_Sscrofa11.1_gapped","reference/Sus_scrofa_Ensembl115/Rsubread_index/Sus_scrofa_Sscrofa11.1_gapped",TRUE

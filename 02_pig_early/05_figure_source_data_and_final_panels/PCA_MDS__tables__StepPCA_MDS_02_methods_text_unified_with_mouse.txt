@@ -1,0 +1,4 @@
+For the early pig validation dataset, exploratory sample-level PCA and MDS analyses were performed using the 18 core synovium samples, including six Control, six ACLT untreated 1-week, and six ACLT untreated 4-week samples.
+Raw gene-level counts were filtered using edgeR::filterByExpr, followed by TMM normalization using edgeR::calcNormFactors.
+PCA was performed on the filtered TMM-normalized logCPM matrix using stats::prcomp with centering and without scaling.
+For consistency with the mouse discovery dataset, MDS coordinates were generated from the same filtered TMM-normalized logCPM matrix using limma::plotMDS with the top 500 genes and common gene selection.

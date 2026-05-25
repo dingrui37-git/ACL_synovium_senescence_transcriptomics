@@ -1,0 +1,193 @@
+============================================================
+StepPCA_MDS_02_pig_early_unified_limma_MDS 
+Started at: 2026-05-10 14:10:22 
+Fix/method version: 2026-05-10_unified_with_mouse_limma_plotMDS_on_filtered_TMM_logCPM 
+============================================================
+
+Cleaning previous StepPCA_MDS_02 outputs from output_root subfolders...
+Number of previous StepPCA_MDS_02 files removed: 0 
+
+Script archive note: --file argument was not detected. If running interactively, manually save this script in:
+E:/R/ACLsenescence2/rebuild_submission/supplementary files/MDS_PCA/scripts 
+
+Required packages loaded.
+edgeR version: 4.8.2 
+limma version: 3.66.0 
+ggplot2 version: 4.0.2 
+ggrepel available for label plots: TRUE 
+
+Input count file:
+E:/R/ACLsenescence2/rebuild_submission/02_pig_early/tables/step16_pig_early_gene_count_matrix.csv
+
+Raw count table dimension: 35682 rows x 19 columns
+First 10 column names:
+ [1] "gene_id" "CON1"    "CON2"    "CON3"    "CON4"    "CON5"    "CON6"    "INJS1"   "INJS2"   "INJS3"  
+
+Validated count matrix dimension: 35682 genes x 18 samples
+
+Inferred sample metadata:
+      sample_id   group time_point sample_number count_column
+CON1       CON1 Control         t0             1         CON1
+CON2       CON2 Control         t0             2         CON2
+CON3       CON3 Control         t0             3         CON3
+CON4       CON4 Control         t0             4         CON4
+CON5       CON5 Control         t0             5         CON5
+CON6       CON6 Control         t0             6         CON6
+INJS1     INJS1 ACLT_1W         t7             1        INJS1
+INJS2     INJS2 ACLT_1W         t7             2        INJS2
+INJS3     INJS3 ACLT_1W         t7             3        INJS3
+INJS4     INJS4 ACLT_1W         t7             4        INJS4
+INJS5     INJS5 ACLT_1W         t7             5        INJS5
+INJS6     INJS6 ACLT_1W         t7             6        INJS6
+INJL1     INJL1 ACLT_4W        t28             1        INJL1
+INJL2     INJL2 ACLT_4W        t28             2        INJL2
+INJL3     INJL3 ACLT_4W        t28             3        INJL3
+INJL4     INJL4 ACLT_4W        t28             4        INJL4
+INJL5     INJL5 ACLT_4W        t28             5        INJL5
+INJL6     INJL6 ACLT_4W        t28             6        INJL6
+
+Group counts:
+
+Control ACLT_1W ACLT_4W 
+      6       6       6 
+
+Filtering and normalization summary:
+                          metric                                                                 value
+1                 method_version    2026-05-10_unified_with_mouse_limma_plotMDS_on_filtered_TMM_logCPM
+2      genes_before_filterByExpr                                                                 35682
+3       genes_after_filterByExpr                                                                 14528
+4  genes_removed_by_filterByExpr                                                                 21154
+5                        samples                                                                    18
+6           normalization_method                                                             edgeR_TMM
+7             logCPM_prior_count                                                                     1
+8                     PCA_method             prcomp(t(filtered_TMM_logCPM), center=TRUE, scale.=FALSE)
+9                     MDS_method limma::plotMDS(filtered_TMM_logCPM, top=500, gene.selection='common')
+10                     MDS_input                                 filtered TMM-normalized logCPM matrix
+11                 MDS_top_genes                                                                   500
+12            MDS_gene_selection                                                                common
+
+Library summary after TMM:
+      sample_id   group raw_library_size filtered_library_size norm_factor_TMM effective_library_size
+CON1       CON1 Control          9802241               9780168       1.0021079                9800784
+CON2       CON2 Control          7182805               7169153       0.9879390                7082686
+CON3       CON3 Control         10664100              10641233       0.9391878                9994117
+CON4       CON4 Control         13210214              13182543       1.0320348               13604843
+CON5       CON5 Control         17038498              17009356       1.0392971               17677775
+CON6       CON6 Control         10394313              10374191       1.0301356               10686824
+INJS1     INJS1 ACLT_1W         14050912              14032100       0.9774549               13715745
+INJS2     INJS2 ACLT_1W         13326409              13306275       0.9642182               12830153
+INJS3     INJS3 ACLT_1W         12059998              12042724       1.0718003               12907395
+INJS4     INJS4 ACLT_1W          8857217               8843678       1.0522430                9305698
+INJS5     INJS5 ACLT_1W         12116184              12099263       1.0311657               12476345
+INJS6     INJS6 ACLT_1W          7482593               7465802       1.0725251                8007260
+INJL1     INJL1 ACLT_4W          9737507               9724320       0.9528531                9265848
+INJL2     INJL2 ACLT_4W          9393742               9382053       0.9988523                9371285
+INJL3     INJL3 ACLT_4W         12121875              12107506       0.9472240               11468520
+INJL4     INJL4 ACLT_4W         13604350              13589629       0.8938312               12146835
+INJL5     INJL5 ACLT_4W         11646492              11630851       0.9884048               11495989
+INJL6     INJL6 ACLT_4W          9446634               9432742       1.0396000                9806279
+
+PCA variance explained by first five PCs:
+   PC variance_fraction variance_percent
+1 PC1        0.40599463        40.599463
+2 PC2        0.14883294        14.883294
+3 PC3        0.08227815         8.227815
+4 PC4        0.05190851         5.190851
+5 PC5        0.04353731         4.353731
+
+MDS object diagnostic:
+MDS function used: limma::plotMDS
+MDS input object: filtered TMM-normalized logCPM matrix
+length(mds_obj$x): 18 
+length(mds_obj$y): 18 
+length(colnames(logcpm)): 18 
+MDS sample ID source used: colnames(logcpm)
+
+MDS coordinate table preview:
+   sample_id       MDS1        MDS2   group time_point sample_number count_column
+1       CON1 -2.1527511 -0.52853524 Control         t0             1         CON1
+2       CON2 -1.9431609  0.16464935 Control         t0             2         CON2
+3       CON3 -2.0325166 -0.54271425 Control         t0             3         CON3
+4       CON4 -1.7308533  0.35384326 Control         t0             4         CON4
+5       CON5 -1.5876300  0.30947090 Control         t0             5         CON5
+6       CON6 -1.5454089  0.32758246 Control         t0             6         CON6
+7      INJS1  1.1578541 -0.33688630 ACLT_1W         t7             1        INJS1
+8      INJS2  1.2968446  1.11010375 ACLT_1W         t7             2        INJS2
+9      INJS3  0.5419898  0.72576081 ACLT_1W         t7             3        INJS3
+10     INJS4  0.7520113  0.08466297 ACLT_1W         t7             4        INJS4
+11     INJS5  1.1613781 -0.47189668 ACLT_1W         t7             5        INJS5
+12     INJS6  1.1311594  1.53803707 ACLT_1W         t7             6        INJS6
+13     INJL1  0.4062506  0.22577149 ACLT_4W        t28             1        INJL1
+14     INJL2  1.1795106 -1.10285919 ACLT_4W        t28             2        INJL2
+15     INJL3  1.2143184 -0.79893216 ACLT_4W        t28             3        INJL3
+16     INJL4  0.8190621 -0.34363402 ACLT_4W        t28             4        INJL4
+17     INJL5  0.7180786 -1.05484301 ACLT_4W        t28             5        INJL5
+18     INJL6  0.6138634  0.34041879 ACLT_4W        t28             6        INJL6
+
+Final summary for review:
+                      metric                                                                                             value
+1                 run_status                                                                                           SUCCESS
+2             method_version                                2026-05-10_unified_with_mouse_limma_plotMDS_on_filtered_TMM_logCPM
+3           input_count_file E:/R/ACLsenescence2/rebuild_submission/02_pig_early/tables/step16_pig_early_gene_count_matrix.csv
+4                output_root                                E:/R/ACLsenescence2/rebuild_submission/supplementary files/MDS_PCA
+5  genes_before_filterByExpr                                                                                             35682
+6   genes_after_filterByExpr                                                                                             14528
+7                    samples                                                                                                18
+8                     groups                                                                   Control 6; ACLT_1W 6; ACLT_4W 6
+9            PCA_PC1_percent                                                                                         40.599463
+10           PCA_PC2_percent                                                                                         14.883294
+11              MDS_function                                                                                    limma::plotMDS
+12                 MDS_input                                                             filtered TMM-normalized logCPM matrix
+13                  MDS1_min                                                                                         -2.152751
+14                  MDS1_max                                                                                          1.296845
+15                  MDS2_min                                                                                         -1.102859
+16                  MDS2_max                                                                                          1.538037
+
+Key output files:
+1) PCA coordinates:
+E:/R/ACLsenescence2/rebuild_submission/supplementary files/MDS_PCA/source_data/StepPCA_MDS_02_PCA_coordinates.csv
+2) MDS coordinates:
+E:/R/ACLsenescence2/rebuild_submission/supplementary files/MDS_PCA/source_data/StepPCA_MDS_02_MDS_coordinates.csv
+3) Filtered TMM logCPM matrix:
+E:/R/ACLsenescence2/rebuild_submission/supplementary files/MDS_PCA/source_data/StepPCA_MDS_02_filtered_TMM_logCPM_matrix.csv
+4) Method parameters:
+E:/R/ACLsenescence2/rebuild_submission/supplementary files/MDS_PCA/tables/StepPCA_MDS_02_method_parameters.csv
+5) Methods text:
+E:/R/ACLsenescence2/rebuild_submission/supplementary files/MDS_PCA/tables/StepPCA_MDS_02_methods_text_unified_with_mouse.txt
+6) PCA figures:
+E:/R/ACLsenescence2/rebuild_submission/supplementary files/MDS_PCA/figures/StepPCA_MDS_02_PCA_unlabeled.pdf
+E:/R/ACLsenescence2/rebuild_submission/supplementary files/MDS_PCA/figures/StepPCA_MDS_02_PCA_labeled.pdf
+7) MDS figures:
+E:/R/ACLsenescence2/rebuild_submission/supplementary files/MDS_PCA/figures/StepPCA_MDS_02_MDS_unlabeled.pdf
+E:/R/ACLsenescence2/rebuild_submission/supplementary files/MDS_PCA/figures/StepPCA_MDS_02_MDS_labeled.pdf
+
+Session information:
+R version 4.5.2 (2025-10-31 ucrt)
+Platform: x86_64-w64-mingw32/x64
+Running under: Windows 10 x64 (build 19045)
+
+Matrix products: default
+  LAPACK version 3.12.1
+
+locale:
+[1] LC_COLLATE=Chinese (Simplified)_China.utf8  LC_CTYPE=Chinese (Simplified)_China.utf8    LC_MONETARY=Chinese (Simplified)_China.utf8 LC_NUMERIC=C                               
+[5] LC_TIME=Chinese (Simplified)_China.utf8    
+
+time zone: Europe/Berlin
+tzcode source: internal
+
+attached base packages:
+[1] stats     graphics  grDevices utils     datasets  methods   base     
+
+other attached packages:
+[1] ggrepel_0.9.6 ggplot2_4.0.2 edgeR_4.8.2   limma_3.66.0 
+
+loaded via a namespace (and not attached):
+ [1] vctrs_0.7.2        cli_3.6.5          rlang_1.1.7        generics_0.1.4     S7_0.2.1           glue_1.8.0         labeling_0.4.3     statmod_1.5.1      locfit_1.5-9.12   
+[10] scales_1.4.0       grid_4.5.2         tibble_3.3.1       lifecycle_1.0.5    compiler_4.5.2     dplyr_1.1.4        RColorBrewer_1.1-3 Rcpp_1.1.1         pkgconfig_2.0.3   
+[19] farver_2.1.2       lattice_0.22-7     R6_2.6.1           tidyselect_1.2.1   pillar_1.11.1      magrittr_2.0.4     tools_4.5.2        withr_3.0.2        gtable_0.3.6      
+
+============================================================
+StepPCA_MDS_02_pig_early_unified_limma_MDS completed successfully.
+Finished at: 2026-05-10 14:10:29 
+============================================================

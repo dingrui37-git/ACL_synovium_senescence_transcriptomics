@@ -1,0 +1,938 @@
+"ortholog_name","input","input_number","input_ensg","ensg_number","ortholog_ensg","description","n_mouse_orthologs","n_human_inputs"
+"Aak1","AAK1",1,"ENSG00000115977","1.1.1","ENSMUSG00000057230","AP2 associated kinase 1 [Source:MGI Symbol;Acc:MGI:1098687]",1,1
+"Abcb1a","ABCB1",2,"ENSG00000085563","2.1.2","ENSMUSG00000040584","ATP-binding cassette, sub-family B member 1A [Source:MGI Symbol;Acc:MGI:97570]",2,1
+"Abcb1b","ABCB1",2,"ENSG00000085563","2.1.1","ENSMUSG00000028970","ATP-binding cassette, sub-family B member 1B [Source:MGI Symbol;Acc:MGI:97568]",2,1
+"Abcc6","ABCC6",3,"ENSG00000091262","3.1.1","ENSMUSG00000030834","ATP-binding cassette, sub-family C member 6 [Source:MGI Symbol;Acc:MGI:1351634]",1,1
+"Abi3","ABI3",4,"ENSG00000108798","4.1.1","ENSMUSG00000018381","ABI family member 3 [Source:MGI Symbol;Acc:MGI:1913860]",1,1
+"Abi3bp","ABI3BP",5,"ENSG00000154175","5.1.1","ENSMUSG00000035258","ABI family member 3 binding protein [Source:MGI Symbol;Acc:MGI:2444583]",1,1
+"Acer2","ACER2",6,"ENSG00000177076","6.1.1","ENSMUSG00000038007","alkaline ceramidase 2 [Source:MGI Symbol;Acc:MGI:1920932]",1,1
+"Ackr1","ACKR1",7,"ENSG00000213088","7.1.1","ENSMUSG00000037872","atypical chemokine receptor 1 (Duffy blood group) [Source:MGI Symbol;Acc:MGI:1097689]",1,1
+"Acly","ACLY",8,"ENSG00000131473","8.1.1","ENSMUSG00000020917","ATP citrate lyase [Source:MGI Symbol;Acc:MGI:103251]",1,1
+"Adck5","ADCK5",9,"ENSG00000173137","9.1.1","ENSMUSG00000022550","aarF domain containing kinase 5 [Source:MGI Symbol;Acc:MGI:2679274]",1,1
+"Ago2","AGO2",10,"ENSG00000123908","10.1.1","ENSMUSG00000036698","argonaute RISC catalytic subunit 2 [Source:MGI Symbol;Acc:MGI:2446632]",1,1
+"Agr2","AGR2",11,"ENSG00000106541","11.1.1","ENSMUSG00000020581","anterior gradient 2 [Source:MGI Symbol;Acc:MGI:1344405]",1,1
+"Agt","AGT",12,"ENSG00000135744","12.1.1","ENSMUSG00000031980","angiotensinogen [Source:MGI Symbol;Acc:MGI:87963]",1,1
+"Ahr","AHR",13,"ENSG00000106546","13.1.1","ENSMUSG00000019256","aryl-hydrocarbon receptor [Source:MGI Symbol;Acc:MGI:105043]",1,1
+"Akap4","AKAP4",14,"ENSG00000147081","14.1.1","ENSMUSG00000050089","A kinase anchor protein 4 [Source:MGI Symbol;Acc:MGI:102794]",1,1
+"Akr1b1","AKR1B1",15,"ENSG00000085662","15.1.1","ENSMUSG00000001642","aldo-keto reductase family 1 member B [Source:MGI Symbol;Acc:MGI:1353494]",1,1
+"Akt1","AKT1",16,"ENSG00000142208","16.1.1","ENSMUSG00000001729","thymoma viral proto-oncogene 1 [Source:MGI Symbol;Acc:MGI:87986]",1,1
+"Akt1s1","AKT1S1",17,"ENSG00000204673","17.1.1","ENSMUSG00000011096","AKT1 substrate 1 [Source:MGI Symbol;Acc:MGI:1914855]",1,1
+"Akt3","AKT3",18,"ENSG00000117020","18.1.1","ENSMUSG00000019699","thymoma viral proto-oncogene 3 [Source:MGI Symbol;Acc:MGI:1345147]",1,1
+"Aktip","AKTIP",19,"ENSG00000166971","19.1.1","ENSMUSG00000031667","AKT interacting protein [Source:MGI Symbol;Acc:MGI:3693832]",1,1
+"Aldh2","ALDH2",20,"ENSG00000111275","20.1.1","ENSMUSG00000029455","aldehyde dehydrogenase 2, mitochondrial [Source:MGI Symbol;Acc:MGI:99600]",1,1
+"Aldoa","ALDOA",21,"ENSG00000149925","21.1.1","ENSMUSG00000030695","aldolase A, fructose-bisphosphate [Source:MGI Symbol;Acc:MGI:87994]",3,1
+"Aldoart1","ALDOA",21,"ENSG00000149925","21.1.2","ENSMUSG00000059343","aldolase 1 A, retrogene 1 [Source:MGI Symbol;Acc:MGI:2447811]",3,1
+"Aldoart2","ALDOA",21,"ENSG00000149925","21.1.3","ENSMUSG00000063129","aldolase 1 A, retrogene 2 [Source:MGI Symbol;Acc:MGI:1931052]",3,1
+"Alkbh3","ALKBH3",22,"ENSG00000166199","22.1.1","ENSMUSG00000040174","alkB homolog 3, alpha-ketoglutarate-dependent dioxygenase [Source:MGI Symbol;Acc:MGI:1916363]",1,1
+"Alox8","ALOX15B",23,"ENSG00000179593","23.1.1","ENSMUSG00000020891","arachidonate 8-lipoxygenase [Source:MGI Symbol;Acc:MGI:1098228]",1,1
+"Anapc1","ANAPC1",24,"ENSG00000153107","24.1.1","ENSMUSG00000014355","anaphase promoting complex subunit 1 [Source:MGI Symbol;Acc:MGI:103097]",1,1
+"Anln","ANLN",25,"ENSG00000011426","25.1.1","ENSMUSG00000036777","anillin, actin binding protein [Source:MGI Symbol;Acc:MGI:1920174]",1,1
+"Anxa5","ANXA5",26,"ENSG00000164111","26.1.1","ENSMUSG00000027712","annexin A5 [Source:MGI Symbol;Acc:MGI:106008]",1,1
+"Apex1","APEX1",27,"ENSG00000100823","27.1.1","ENSMUSG00000035960","apurinic/apyrimidinic endonuclease 1 [Source:MGI Symbol;Acc:MGI:88042]",1,1
+"Ar","AR",28,"ENSG00000169083","28.1.1","ENSMUSG00000046532","androgen receptor [Source:MGI Symbol;Acc:MGI:88064]",1,1
+"Arf1","ARF1",29,"ENSG00000143761","29.1.1","ENSMUSG00000048076","ADP-ribosylation factor 1 [Source:MGI Symbol;Acc:MGI:99431]",1,1
+"Arg2","ARG2",30,"ENSG00000081181","30.1.1","ENSMUSG00000021125","arginase type II [Source:MGI Symbol;Acc:MGI:1330806]",1,1
+"Arid1a","ARID1A",31,"ENSG00000117713","31.1.1","ENSMUSG00000007880","AT-rich interaction domain 1A [Source:MGI Symbol;Acc:MGI:1935147]",1,1
+"Arid1b","ARID1B",32,"ENSG00000049618","32.1.1","ENSMUSG00000069729","AT-rich interaction domain 1B [Source:MGI Symbol;Acc:MGI:1926129]",1,1
+"Arid3a","ARID3A",33,"ENSG00000116017","33.1.1","ENSMUSG00000019564","AT-rich interaction domain 3A [Source:MGI Symbol;Acc:MGI:1328360]",1,1
+"Arid4b","ARID4B",34,"ENSG00000054267","34.1.1","ENSMUSG00000039219","AT-rich interaction domain 4B [Source:MGI Symbol;Acc:MGI:2137512]",1,1
+"Arpc1b","ARPC1B",35,"ENSG00000130429","35.1.1","ENSMUSG00000029622","actin related protein 2/3 complex, subunit 1B [Source:MGI Symbol;Acc:MGI:1343142]",2,1
+"Arrb1","ARRB1",36,"ENSG00000137486","36.1.1","ENSMUSG00000018909","arrestin, beta 1 [Source:MGI Symbol;Acc:MGI:99473]",1,1
+"Asah1","ASAH1",37,"ENSG00000104763","37.1.1","ENSMUSG00000031591","N-acylsphingosine amidohydrolase 1 [Source:MGI Symbol;Acc:MGI:1277124]",1,1
+"Asf1a","ASF1A",38,"ENSG00000111875","38.1.1","ENSMUSG00000019857","anti-silencing function 1A histone chaperone [Source:MGI Symbol;Acc:MGI:1913653]",1,1
+"Asph","ASPH",39,"ENSG00000198363","39.1.1","ENSMUSG00000028207","aspartate-beta-hydroxylase [Source:MGI Symbol;Acc:MGI:1914186]",1,1
+"Asxl2","ASXL2",40,"ENSG00000143970","40.1.1","ENSMUSG00000037486","ASXL transcriptional regulator 2 [Source:MGI Symbol;Acc:MGI:1922552]",1,1
+"Atf3","ATF3",41,"ENSG00000162772","41.1.1","ENSMUSG00000026628","activating transcription factor 3 [Source:MGI Symbol;Acc:MGI:109384]",1,1
+"Atf6","ATF6",42,"ENSG00000118217","42.1.1","ENSMUSG00000026663","activating transcription factor 6 [Source:MGI Symbol;Acc:MGI:1926157]",1,1
+"Atf7ip","ATF7IP",43,"ENSG00000171681","43.1.1","ENSMUSG00000030213","activating transcription factor 7 interacting protein [Source:MGI Symbol;Acc:MGI:1858965]",1,1
+"Atg10","ATG10",44,"ENSG00000152348","44.1.1","ENSMUSG00000021619","autophagy related 10 [Source:MGI Symbol;Acc:MGI:1914045]",1,1
+"Atg12","ATG12",45,"ENSG00000145782","45.1.1","ENSMUSG00000032905","autophagy related 12 [Source:MGI Symbol;Acc:MGI:1914776]",1,1
+"Atg16l1","ATG16L1",46,"ENSG00000085978","46.1.1","ENSMUSG00000026289","autophagy related 16 like 1 [Source:MGI Symbol;Acc:MGI:1924290]",1,1
+"Atg4d","ATG4D",47,"ENSG00000130734","47.1.1","ENSMUSG00000002820","autophagy related 4D, cysteine peptidase [Source:MGI Symbol;Acc:MGI:2444308]",1,1
+"Atg5","ATG5",48,"ENSG00000057663","48.1.1","ENSMUSG00000038160","autophagy related 5 [Source:MGI Symbol;Acc:MGI:1277186]",1,1
+"Atg7","ATG7",49,"ENSG00000197548","49.1.1","ENSMUSG00000030314","autophagy related 7 [Source:MGI Symbol;Acc:MGI:1921494]",1,1
+"Atm","ATM",50,"ENSG00000149311","50.1.1","ENSMUSG00000034218","ataxia telangiectasia mutated [Source:MGI Symbol;Acc:MGI:107202]",1,1
+"Atp6v0a2","ATP6V0A2",51,"ENSG00000185344","51.1.1","ENSMUSG00000038023","ATPase, H+ transporting, lysosomal V0 subunit A2 [Source:MGI Symbol;Acc:MGI:104855]",1,1
+"Atp6v0c","ATP6V0C",52,"ENSG00000185883","52.1.1","ENSMUSG00000024121","ATPase, H+ transporting, lysosomal V0 subunit C [Source:MGI Symbol;Acc:MGI:88116]",1,1
+"Atr","ATR",53,"ENSG00000175054","53.1.1","ENSMUSG00000032409","ataxia telangiectasia and Rad3 related [Source:MGI Symbol;Acc:MGI:108028]",1,1
+"Atraid","ATRAID",54,"ENSG00000138085","54.1.1","ENSMUSG00000013622","all-trans retinoic acid induced differentiation factor [Source:MGI Symbol;Acc:MGI:1918918]",1,1
+"Atrx","ATRX",55,"ENSG00000085224","55.1.1","ENSMUSG00000031229","ATRX, chromatin remodeler [Source:MGI Symbol;Acc:MGI:103067]",1,1
+"Atxn10","ATXN10",56,"ENSG00000130638","56.1.1","ENSMUSG00000016541","ataxin 10 [Source:MGI Symbol;Acc:MGI:1859293]",1,1
+"Aurka","AURKA",57,"ENSG00000087586","57.1.1","ENSMUSG00000027496","aurora kinase A [Source:MGI Symbol;Acc:MGI:894678]",1,1
+"Aurkb","AURKB",58,"ENSG00000178999","58.1.1","ENSMUSG00000020897","aurora kinase B [Source:MGI Symbol;Acc:MGI:107168]",1,1
+"Axl","AXL",59,"ENSG00000167601","59.1.1","ENSMUSG00000002602","AXL receptor tyrosine kinase [Source:MGI Symbol;Acc:MGI:1347244]",1,1
+"Bag3","BAG3",60,"ENSG00000151929","60.1.1","ENSMUSG00000030847","BCL2-associated athanogene 3 [Source:MGI Symbol;Acc:MGI:1352493]",1,1
+"Bap1","BAP1",61,"ENSG00000163930","61.1.1","ENSMUSG00000021901","Brca1 associated protein 1 [Source:MGI Symbol;Acc:MGI:1206586]",1,1
+"Baz1a","BAZ1A",62,"ENSG00000198604","62.1.1","ENSMUSG00000035021","bromodomain adjacent to zinc finger domain 1A [Source:MGI Symbol;Acc:MGI:1309478]",1,1
+"BC035947","ERVW-1",232,"ENSG00000242950","232.1.1","ENSMUSG00000090486","cDNA sequence BC035947 [Source:MGI Symbol;Acc:MGI:2652858]",2,1
+"Bcl11b","BCL11B",63,"ENSG00000127152","63.1.1","ENSMUSG00000048251","B cell leukemia/lymphoma 11B [Source:MGI Symbol;Acc:MGI:1929913]",1,1
+"Bcl2","BCL2",64,"ENSG00000171791","64.1.1","ENSMUSG00000057329","B cell leukemia/lymphoma 2 [Source:MGI Symbol;Acc:MGI:88138]",1,1
+"Bcl2l1","BCL2L1",65,"ENSG00000171552","65.1.1","ENSMUSG00000007659","BCL2-like 1 [Source:MGI Symbol;Acc:MGI:88139]",1,1
+"Bcl2l2","BCL2L2",66,"ENSG00000129473","66.1.1","ENSMUSG00000089682","BCL2-like 2 [Source:MGI Symbol;Acc:MGI:108052]",2,1
+"Bcl3","BCL3",67,"ENSG00000069399","67.1.1","ENSMUSG00000053175","B cell leukemia/lymphoma 3 [Source:MGI Symbol;Acc:MGI:88140]",1,1
+"Bcl6","BCL6",68,"ENSG00000113916","68.1.1","ENSMUSG00000022508","B cell leukemia/lymphoma 6 [Source:MGI Symbol;Acc:MGI:107187]",1,1
+"Bclaf1","BCLAF1",69,"ENSG00000029363","69.1.1","ENSMUSG00000037608","BCL2-associated transcription factor 1 [Source:MGI Symbol;Acc:MGI:1917580]",1,1
+"Becn1","BECN1",70,"ENSG00000126581","70.1.1","ENSMUSG00000035086","beclin 1, autophagy related [Source:MGI Symbol;Acc:MGI:1891828]",1,1
+"Bhlhe40","BHLHE40",71,"ENSG00000134107","71.1.1","ENSMUSG00000030103","basic helix-loop-helix family, member e40 [Source:MGI Symbol;Acc:MGI:1097714]",1,1
+"Bin1","BIN1",72,"ENSG00000136717","72.1.1","ENSMUSG00000024381","bridging integrator 1 [Source:MGI Symbol;Acc:MGI:108092]",1,1
+"Birc5","BIRC5",73,"ENSG00000089685","73.1.1","ENSMUSG00000017716","baculoviral IAP repeat-containing 5 [Source:MGI Symbol;Acc:MGI:1203517]",1,1
+"Blk","BLK",74,"ENSG00000136573","74.1.1","ENSMUSG00000014453","B lymphoid kinase [Source:MGI Symbol;Acc:MGI:88169]",1,1
+"Blvra","BLVRA",75,"ENSG00000106605","75.1.1","ENSMUSG00000001999","biliverdin reductase A [Source:MGI Symbol;Acc:MGI:88170]",1,1
+"Bmi1","BMI1",76,"ENSG00000168283","76.1.1","ENSMUSG00000026739","Bmi1 polycomb ring finger oncogene [Source:MGI Symbol;Acc:MGI:88174]",1,1
+"Bmp4","BMP4",77,"ENSG00000125378","77.1.1","ENSMUSG00000021835","bone morphogenetic protein 4 [Source:MGI Symbol;Acc:MGI:88180]",1,1
+"Bmpr2","BMPR2",78,"ENSG00000204217","78.1.1","ENSMUSG00000067336","bone morphogenetic protein receptor type 2 [Source:MGI Symbol;Acc:MGI:1095407]",1,1
+"Bms1","BMS1",79,"ENSG00000165733","79.1.1","ENSMUSG00000030138","BMS1, ribosome biogenesis factor [Source:MGI Symbol;Acc:MGI:2446132]",1,1
+"Bnip3l","BNIP3L",80,"ENSG00000104765","80.1.1","ENSMUSG00000022051","BCL2/adenovirus E1B interacting protein 3-like [Source:MGI Symbol;Acc:MGI:1332659]",1,1
+"Braf","BRAF",81,"ENSG00000157764","81.1.1","ENSMUSG00000002413","Braf transforming gene [Source:MGI Symbol;Acc:MGI:88190]",1,1
+"Brca1","BRCA1",82,"ENSG00000012048","82.1.1","ENSMUSG00000017146","breast cancer 1, early onset [Source:MGI Symbol;Acc:MGI:104537]",1,1
+"Brd4","BRD4",83,"ENSG00000141867","83.1.1","ENSMUSG00000024002","bromodomain containing 4 [Source:MGI Symbol;Acc:MGI:1888520]",1,1
+"Brd7","BRD7",84,"ENSG00000166164","84.1.1","ENSMUSG00000031660","bromodomain containing 7 [Source:MGI Symbol;Acc:MGI:1349766]",1,1
+"Brip1","BRIP1",85,"ENSG00000136492","85.1.1","ENSMUSG00000034329","BRCA1 interacting protein C-terminal helicase 1 [Source:MGI Symbol;Acc:MGI:2442836]",1,1
+"Btg1","BTG1",86,"ENSG00000133639","86.1.1","ENSMUSG00000036478","BTG anti-proliferation factor 1 [Source:MGI Symbol;Acc:MGI:88215]",1,1
+"Btg2","BTG2",87,"ENSG00000159388","87.1.1","ENSMUSG00000020423","BTG anti-proliferation factor 2 [Source:MGI Symbol;Acc:MGI:108384]",1,1
+"Btg3","BTG3",88,"ENSG00000154640","88.1.1","ENSMUSG00000022863","BTG anti-proliferation factor 3 [Source:MGI Symbol;Acc:MGI:109532]",1,1
+"Bub1","BUB1",89,"ENSG00000169679","89.1.1","ENSMUSG00000027379","BUB1, mitotic checkpoint serine/threonine kinase [Source:MGI Symbol;Acc:MGI:1100510]",1,1
+"Bub1b","BUB1B",90,"ENSG00000156970","90.1.1","ENSMUSG00000040084","BUB1B, mitotic checkpoint serine/threonine kinase [Source:MGI Symbol;Acc:MGI:1333889]",1,1
+"Calr","CALR",91,"ENSG00000179218","91.1.1","ENSMUSG00000003814","calreticulin [Source:MGI Symbol;Acc:MGI:88252]",1,1
+"Capns1","CAPNS1",92,"ENSG00000126247","92.1.1","ENSMUSG00000001794","calpain, small subunit 1 [Source:MGI Symbol;Acc:MGI:88266]",1,1
+"Carf","CARF",93,"ENSG00000138380","93.1.1","ENSMUSG00000026017","calcium response factor [Source:MGI Symbol;Acc:MGI:2182269]",1,1
+"Carm1","CARM1",94,"ENSG00000142453","94.1.1","ENSMUSG00000032185","coactivator-associated arginine methyltransferase 1 [Source:MGI Symbol;Acc:MGI:1913208]",1,1
+"Casp2","CASP2",95,"ENSG00000106144","95.1.1","ENSMUSG00000029863","caspase 2 [Source:MGI Symbol;Acc:MGI:97295]",1,1
+"Cav1","CAV1",96,"ENSG00000105974","96.1.1","ENSMUSG00000007655","caveolin 1, caveolae protein [Source:MGI Symbol;Acc:MGI:102709]",1,1
+"Cavin1","CAVIN1",97,"ENSG00000177469","97.1.1","ENSMUSG00000004044","caveolae associated 1 [Source:MGI Symbol;Acc:MGI:1277968]",1,1
+"Cbs","CBS",98,"ENSG00000160200","98.1.1","ENSMUSG00000024039","cystathionine beta-synthase [Source:MGI Symbol;Acc:MGI:88285]",1,1
+"Cbx5","CBX5",99,"ENSG00000094916","99.1.1","ENSMUSG00000009575","chromobox 5 [Source:MGI Symbol;Acc:MGI:109372]",1,1
+"Cbx7","CBX7",100,"ENSG00000100307","100.1.1","ENSMUSG00000053411","chromobox 7 [Source:MGI Symbol;Acc:MGI:1196439]",1,1
+"Cbx8","CBX8",101,"ENSG00000141570","101.1.1","ENSMUSG00000025578","chromobox 8 [Source:MGI Symbol;Acc:MGI:1353589]",1,1
+"Ccl2","CCL2",102,"ENSG00000108691","102.1.1","ENSMUSG00000035385","C-C motif chemokine ligand 2 [Source:MGI Symbol;Acc:MGI:98259]",1,1
+"Ccn2","CCN2",103,"ENSG00000118523","103.1.1","ENSMUSG00000019997","cellular communication network factor 2 [Source:MGI Symbol;Acc:MGI:95537]",1,1
+"Ccn6","CCN6",104,"ENSG00000112761","104.1.1","ENSMUSG00000062074","cellular communication network factor 6 [Source:MGI Symbol;Acc:MGI:2685581]",1,1
+"Ccna2","CCNA2",105,"ENSG00000145386","105.1.1","ENSMUSG00000027715","cyclin A2 [Source:MGI Symbol;Acc:MGI:108069]",1,1
+"Ccnb1","CCNB1",106,"ENSG00000134057","106.1.1","ENSMUSG00000041431","cyclin B1 [Source:MGI Symbol;Acc:MGI:88302]",1,1
+"Ccnd1","CCND1",107,"ENSG00000110092","107.1.1","ENSMUSG00000070348","cyclin D1 [Source:MGI Symbol;Acc:MGI:88313]",1,1
+"Ccnd3","CCND3",108,"ENSG00000112576","108.1.1","ENSMUSG00000034165","cyclin D3 [Source:MGI Symbol;Acc:MGI:88315]",1,1
+"Cd28","CD28",109,"ENSG00000178562","109.1.1","ENSMUSG00000026012","CD28 antigen [Source:MGI Symbol;Acc:MGI:88327]",1,1
+"Cd34","CD34",110,"ENSG00000174059","110.1.1","ENSMUSG00000016494","CD34 antigen [Source:MGI Symbol;Acc:MGI:88329]",1,1
+"Cd40lg","CD40LG",111,"ENSG00000102245","111.1.1","ENSMUSG00000031132","CD40 ligand [Source:MGI Symbol;Acc:MGI:88337]",1,1
+"Cd82","CD82",112,"ENSG00000085117","112.1.1","ENSMUSG00000027215","CD82 antigen [Source:MGI Symbol;Acc:MGI:104651]",1,1
+"Cdc25a","CDC25A",113,"ENSG00000164045","113.1.1","ENSMUSG00000032477","cell division cycle 25A [Source:MGI Symbol;Acc:MGI:103198]",1,1
+"Cdc45","CDC45",114,"ENSG00000093009","114.1.1","ENSMUSG00000000028","cell division cycle 45 [Source:MGI Symbol;Acc:MGI:1338073]",1,1
+"Cdc6","CDC6",115,"ENSG00000094804","115.1.1","ENSMUSG00000017499","cell division cycle 6 [Source:MGI Symbol;Acc:MGI:1345150]",1,1
+"Cdc7","CDC7",116,"ENSG00000097046","116.1.1","ENSMUSG00000029283","cell division cycle 7 [Source:MGI Symbol;Acc:MGI:1309511]",1,1
+"Cdca2","CDCA2",117,"ENSG00000184661","117.1.1","ENSMUSG00000048922","cell division cycle associated 2 [Source:MGI Symbol;Acc:MGI:1919787]",1,1
+"Cdca4","CDCA4",118,"ENSG00000170779","118.1.1","ENSMUSG00000047832","cell division cycle associated 4 [Source:MGI Symbol;Acc:MGI:1919213]",1,1
+"Cdh1","CDH1",119,"ENSG00000039068","119.1.1","ENSMUSG00000000303","cadherin 1 [Source:MGI Symbol;Acc:MGI:88354]",1,1
+"Cdk1","CDK1",120,"ENSG00000170312","120.1.1","ENSMUSG00000019942","cyclin dependent kinase 1 [Source:MGI Symbol;Acc:MGI:88351]",1,1
+"Cdk18","CDK18",121,"ENSG00000117266","121.1.1","ENSMUSG00000026437","cyclin dependent kinase 18 [Source:MGI Symbol;Acc:MGI:97518]",1,1
+"Cdk2","CDK2",122,"ENSG00000123374","122.1.1","ENSMUSG00000025358","cyclin dependent kinase 2 [Source:MGI Symbol;Acc:MGI:104772]",1,1
+"Cdk2ap1","CDK2AP1",123,"ENSG00000111328","123.1.1","ENSMUSG00000029394","cyclin dependent kinase 2 associated protein 1 [Source:MGI Symbol;Acc:MGI:1202069]",2,1
+"Cdk2ap1rt","CDK2AP1",123,"ENSG00000111328","123.1.2","ENSMUSG00000078154","cyclin dependent kinase 2 associated protein 1 retrotransposed [Source:MGI Symbol;Acc:MGI:3652174]",2,1
+"Cdk4","CDK4",124,"ENSG00000135446","124.1.1","ENSMUSG00000006728","cyclin dependent kinase 4 [Source:MGI Symbol;Acc:MGI:88357]",1,1
+"Cdk5","CDK5",125,"ENSG00000164885","125.1.1","ENSMUSG00000028969","cyclin dependent kinase 5 [Source:MGI Symbol;Acc:MGI:101765]",1,1
+"Cdk5r1","CDK5R1",126,"ENSG00000176749","126.1.1","ENSMUSG00000048895","cyclin dependent kinase 5, regulatory subunit 1 [Source:MGI Symbol;Acc:MGI:101764]",1,1
+"Cdk6","CDK6",127,"ENSG00000105810","127.1.1","ENSMUSG00000040274","cyclin dependent kinase 6 [Source:MGI Symbol;Acc:MGI:1277162]",1,1
+"Cdkn1a","CDKN1A",128,"ENSG00000124762","128.1.1","ENSMUSG00000023067","cyclin dependent kinase inhibitor 1A [Source:MGI Symbol;Acc:MGI:104556]",1,1
+"Cdkn1b","CDKN1B",129,"ENSG00000111276","129.1.1","ENSMUSG00000003031","cyclin dependent kinase inhibitor 1B [Source:MGI Symbol;Acc:MGI:104565]",1,1
+"Cdkn1c","CDKN1C",130,"ENSG00000129757","130.1.1","ENSMUSG00000037664","cyclin dependent kinase inhibitor 1C [Source:MGI Symbol;Acc:MGI:104564]",1,1
+"Cdkn2a","CDKN2A",131,"ENSG00000147889","131.1.1","ENSMUSG00000044303","cyclin dependent kinase inhibitor 2A [Source:MGI Symbol;Acc:MGI:104738]",1,1
+"Cdkn2aip","CDKN2AIP",132,"ENSG00000168564","132.1.1","ENSMUSG00000038069","CDKN2A interacting protein [Source:MGI Symbol;Acc:MGI:1918175]",1,1
+"Cdkn2b","CDKN2B",133,"ENSG00000147883","133.1.1","ENSMUSG00000073802","cyclin dependent kinase inhibitor 2B [Source:MGI Symbol;Acc:MGI:104737]",1,1
+"Cebpb","CEBPB",135,"ENSG00000172216","135.1.1","ENSMUSG00000056501","CCAAT/enhancer binding protein beta [Source:MGI Symbol;Acc:MGI:88373]",1,1
+"Cebpg","CEBPG",136,"ENSG00000153879","136.1.1","ENSMUSG00000056216","CCAAT/enhancer binding protein gamma [Source:MGI Symbol;Acc:MGI:104982]",1,1
+"Cenpa","CENPA",137,"ENSG00000115163","137.1.1","ENSMUSG00000029177","centromere protein A [Source:MGI Symbol;Acc:MGI:88375]",1,1
+"Chaf1b","CHAF1B",138,"ENSG00000159259","138.1.1","ENSMUSG00000022945","chromatin assembly factor 1, subunit B [Source:MGI Symbol;Acc:MGI:1314881]",1,1
+"Chd5","CHD5",139,"ENSG00000116254","139.1.1","ENSMUSG00000005045","chromodomain helicase DNA binding protein 5 [Source:MGI Symbol;Acc:MGI:3036258]",1,1
+"Chek1","CHEK1",140,"ENSG00000149554","140.1.1","ENSMUSG00000032113","checkpoint kinase 1 [Source:MGI Symbol;Acc:MGI:1202065]",1,1
+"Chek2","CHEK2",141,"ENSG00000183765","141.1.1","ENSMUSG00000029521","checkpoint kinase 2 [Source:MGI Symbol;Acc:MGI:1355321]",1,1
+"Chuk","CHUK",142,"ENSG00000213341","142.1.1","ENSMUSG00000025199","conserved helix-loop-helix ubiquitous kinase [Source:MGI Symbol;Acc:MGI:99484]",1,1
+"Cip2a","CIP2A",143,"ENSG00000163507","143.1.1","ENSMUSG00000033031","cell proliferation regulating inhibitor of protein phosphatase 2A [Source:MGI Symbol;Acc:MGI:2146335]",1,1
+"Cit","CIT",144,"ENSG00000122966","144.1.1","ENSMUSG00000029516","citron [Source:MGI Symbol;Acc:MGI:105313]",1,1
+"Ckap2","CKAP2",145,"ENSG00000136108","145.1.1","ENSMUSG00000037725","cytoskeleton associated protein 2 [Source:MGI Symbol;Acc:MGI:1931797]",1,1
+"Ckb","CKB",146,"ENSG00000166165","146.1.1","ENSMUSG00000001270","creatine kinase, brain [Source:MGI Symbol;Acc:MGI:88407]",1,1
+"Clca2","CLCA2",147,"ENSG00000137975","147.1.1","ENSMUSG00000036960","chloride channel accessory 2 [Source:MGI Symbol;Acc:MGI:2139758]",1,1
+"Clpp","CLPP",148,"ENSG00000125656","148.1.1","ENSMUSG00000002660","caseinolytic mitochondrial matrix peptidase proteolytic subunit [Source:MGI Symbol;Acc:MGI:1858213]",1,1
+"Clspn","CLSPN",149,"ENSG00000092853","149.1.1","ENSMUSG00000042489","claspin [Source:MGI Symbol;Acc:MGI:2445153]",1,1
+"Clu","CLU",150,"ENSG00000120885","150.1.1","ENSMUSG00000022037","clusterin [Source:MGI Symbol;Acc:MGI:88423]",1,1
+"Cnot6","CNOT6",151,"ENSG00000113300","151.1.1","ENSMUSG00000020362","CCR4-NOT transcription complex, subunit 6 [Source:MGI Symbol;Acc:MGI:2144529]",1,1
+"Cnot6l","CNOT6L",152,"ENSG00000138767","152.1.1","ENSMUSG00000034724","CCR4-NOT transcription complex, subunit 6-like [Source:MGI Symbol;Acc:MGI:2443154]",1,1
+"Cox5b","COX5B",153,"ENSG00000135940","153.1.1","ENSMUSG00000061518","cytochrome c oxidase subunit 5B [Source:MGI Symbol;Acc:MGI:88475]",2,1
+"Cox5b-ps","COX5B",153,"ENSG00000135940","153.1.2","ENSMUSG00000079941","cytochrome c oxidase subunit 5B, pseudogene [Source:MGI Symbol;Acc:MGI:3649411]",2,1
+"Cpeb1","CPEB1",154,"ENSG00000214575","154.1.1","ENSMUSG00000025586","cytoplasmic polyadenylation element binding protein 1 [Source:MGI Symbol;Acc:MGI:108442]",1,1
+"Cpt1c","CPT1C",155,"ENSG00000169169","155.1.1","ENSMUSG00000007783","carnitine palmitoyltransferase 1c [Source:MGI Symbol;Acc:MGI:2446526]",1,1
+"Creg1","CREG1",156,"ENSG00000143162","156.1.1","ENSMUSG00000040713","cellular repressor of E1A-stimulated genes 1 [Source:MGI Symbol;Acc:MGI:1344382]",1,1
+"Crispld2","CRISPLD2",157,"ENSG00000103196","157.1.1","ENSMUSG00000031825","cysteine-rich secretory protein LCCL domain containing 2 [Source:MGI Symbol;Acc:MGI:1926142]",1,1
+"Csnk1a1","CSNK1A1",158,"ENSG00000113712","158.1.1","ENSMUSG00000024576","casein kinase 1, alpha 1 [Source:MGI Symbol;Acc:MGI:1934950]",1,1
+"Csnk2a1","CSNK2A1",159,"ENSG00000101266","159.1.1","ENSMUSG00000074698","casein kinase 2, alpha 1 polypeptide [Source:MGI Symbol;Acc:MGI:88543]",1,1
+"Cth","CTH",160,"ENSG00000116761","160.1.1","ENSMUSG00000028179","cystathionine gamma lyase [Source:MGI Symbol;Acc:MGI:1339968]",1,1
+"Ctnnal1","CTNNAL1",161,"ENSG00000119326","161.1.1","ENSMUSG00000038816","catenin alpha like 1 [Source:MGI Symbol;Acc:MGI:1859649]",1,1
+"Ctnnb1","CTNNB1",162,"ENSG00000168036","162.1.1","ENSMUSG00000006932","catenin beta 1 [Source:MGI Symbol;Acc:MGI:88276]",1,1
+"Ctsb","CTSB",163,"ENSG00000164733","163.1.1","ENSMUSG00000021939","cathepsin B [Source:MGI Symbol;Acc:MGI:88561]",1,1
+"Ctsd","CTSD",164,"ENSG00000117984","164.1.1","ENSMUSG00000007891","cathepsin D [Source:MGI Symbol;Acc:MGI:88562]",1,1
+"Cul4b","CUL4B",165,"ENSG00000158290","165.1.1","ENSMUSG00000031095","cullin 4B [Source:MGI Symbol;Acc:MGI:1919834]",1,1
+"Cux1","CUX1",166,"ENSG00000257923","166.1.1","ENSMUSG00000029705","cut-like homeobox 1 [Source:MGI Symbol;Acc:MGI:88568]",1,1
+"Cxcr2","CXCR2",168,"ENSG00000180871","168.1.1","ENSMUSG00000026180","C-X-C motif chemokine receptor 2 [Source:MGI Symbol;Acc:MGI:105303]",1,1
+"Cyb5r3","CYB5R3",169,"ENSG00000100243","169.1.1","ENSMUSG00000018042","cytochrome b5 reductase 3 [Source:MGI Symbol;Acc:MGI:94893]",1,1
+"Cybb","CYBB",170,"ENSG00000165168","170.1.1","ENSMUSG00000015340","cytochrome b-245, beta polypeptide [Source:MGI Symbol;Acc:MGI:88574]",1,1
+"Cyp26a1","CYP26A1",171,"ENSG00000095596","171.1.1","ENSMUSG00000024987","cytochrome P450, family 26, subfamily a, polypeptide 1 [Source:MGI Symbol;Acc:MGI:1096359]",1,1
+"D17H6S56E-5","ERVW-1",232,"ENSG00000242950","232.1.2","ENSMUSG00000120992","DNA segment, Chr 17, human D6S56E 5 [Source:MGI Symbol;Acc:MGI:1306799]",2,1
+"Dao","DAO",172,"ENSG00000110887","172.1.1","ENSMUSG00000042096","D-amino acid oxidase [Source:MGI Symbol;Acc:MGI:94859]",1,1
+"Ddah2","DDAH2",173,"ENSG00000213722","173.1.1","ENSMUSG00000007039","DDAH family member 2, ADMA independent [Source:MGI Symbol;Acc:MGI:1859016]",1,1
+"Ddb1","DDB1",174,"ENSG00000167986","174.1.1","ENSMUSG00000024740","damage specific DNA binding protein 1 [Source:MGI Symbol;Acc:MGI:1202384]",1,1
+"Ddb2","DDB2",175,"ENSG00000134574","175.1.1","ENSMUSG00000002109","damage specific DNA binding protein 2 [Source:MGI Symbol;Acc:MGI:1355314]",1,1
+"Ddit4","DDIT4",176,"ENSG00000168209","176.1.1","ENSMUSG00000020108","DNA-damage-inducible transcript 4 [Source:MGI Symbol;Acc:MGI:1921997]",1,1
+"Dek","DEK",177,"ENSG00000124795","177.1.1","ENSMUSG00000021377","DEK proto-oncogene [Source:MGI Symbol;Acc:MGI:1926209]",1,1
+"Deptor","DEPTOR",178,"ENSG00000155792","178.1.1","ENSMUSG00000022419","DEP domain containing MTOR-interacting protein [Source:MGI Symbol;Acc:MGI:2146322]",1,1
+"Dgcr8","DGCR8",179,"ENSG00000128191","179.1.1","ENSMUSG00000022718","DGCR8, microprocessor complex subunit [Source:MGI Symbol;Acc:MGI:2151114]",1,1
+"Dhcr24","DHCR24",180,"ENSG00000116133","180.1.1","ENSMUSG00000034926","24-dehydrocholesterol reductase [Source:MGI Symbol;Acc:MGI:1922004]",1,1
+"Dhrs2","DHRS2",181,"ENSG00000100867","181.1.1","ENSMUSG00000022209","dehydrogenase/reductase member 2 [Source:MGI Symbol;Acc:MGI:1918662]",1,1
+"Dhx9","DHX9",182,"ENSG00000135829","182.1.1","ENSMUSG00000042699","DExH-box helicase 9 [Source:MGI Symbol;Acc:MGI:108177]",1,1
+"Dicer1","DICER1",183,"ENSG00000100697","183.1.1","ENSMUSG00000041415","dicer 1, ribonuclease type III [Source:MGI Symbol;Acc:MGI:2177178]",1,1
+"Dido1","DIDO1",184,"ENSG00000101191","184.1.1","ENSMUSG00000038914","death inducer-obliterator 1 [Source:MGI Symbol;Acc:MGI:1344352]",1,1
+"Dkc1","DKC1",186,"ENSG00000130826","186.1.1","ENSMUSG00000031403","dyskeratosis congenita 1, dyskerin [Source:MGI Symbol;Acc:MGI:1861727]",1,1
+"Dlc1","DLC1",187,"ENSG00000164741","187.1.1","ENSMUSG00000031523","deleted in liver cancer 1 [Source:MGI Symbol;Acc:MGI:1354949]",1,1
+"Dmtf1","DMTF1",188,"ENSG00000135164","188.1.1","ENSMUSG00000042508","cyclin D binding myb like transcription factor 1 [Source:MGI Symbol;Acc:MGI:1344415]",2,1
+"Dmtf1l","DMTF1",188,"ENSG00000135164","188.1.2","ENSMUSG00000058670","cyclin D binding myb like transcription factor 1 like [Source:MGI Symbol;Acc:MGI:3045322]",2,1
+"Dnmt1","DNMT1",189,"ENSG00000130816","189.1.1","ENSMUSG00000004099","DNA methyltransferase 1 [Source:MGI Symbol;Acc:MGI:94912]",1,1
+"Dnmt3a","DNMT3A",190,"ENSG00000119772","190.1.1","ENSMUSG00000020661","DNA methyltransferase 3A [Source:MGI Symbol;Acc:MGI:1261827]",1,1
+"Dnmt3b","DNMT3B",191,"ENSG00000088305","191.1.1","ENSMUSG00000027478","DNA methyltransferase 3B [Source:MGI Symbol;Acc:MGI:1261819]",2,1
+"Dnmt3c","DNMT3B",191,"ENSG00000088305","191.1.2","ENSMUSG00000082079","DNA methyltransferase 3C [Source:MGI Symbol;Acc:MGI:3649996]",2,1
+"Dot1l","DOT1L",192,"ENSG00000104885","192.1.1","ENSMUSG00000061589","DOT1 like histone lysine methyltransferase [Source:MGI Symbol;Acc:MGI:2143886]",1,1
+"Dpp4","DPP4",193,"ENSG00000197635","193.1.1","ENSMUSG00000035000","dipeptidylpeptidase 4 [Source:MGI Symbol;Acc:MGI:94919]",1,1
+"Dpy30","DPY30",194,"ENSG00000162961","194.1.1","ENSMUSG00000024067","dpy-30, histone methyltransferase complex regulatory subunit [Source:MGI Symbol;Acc:MGI:1913560]",1,1
+"Dtl","DTL",195,"ENSG00000143476","195.1.1","ENSMUSG00000037474","denticleless E3 ubiquitin protein ligase [Source:MGI Symbol;Acc:MGI:1924093]",1,1
+"Dusp1","DUSP1",196,"ENSG00000120129","196.1.1","ENSMUSG00000024190","dual specificity phosphatase 1 [Source:MGI Symbol;Acc:MGI:105120]",1,1
+"Dusp16","DUSP16",197,"ENSG00000111266","197.1.1","ENSMUSG00000030203","dual specificity phosphatase 16 [Source:MGI Symbol;Acc:MGI:1917936]",1,1
+"Dusp21","DUSP21",198,"ENSG00000189037","198.1.1","ENSMUSG00000025043","dual specificity phosphatase 21 [Source:MGI Symbol;Acc:MGI:1920797]",1,1
+"Dusp6","DUSP6",200,"ENSG00000139318","200.1.1","ENSMUSG00000019960","dual specificity phosphatase 6 [Source:MGI Symbol;Acc:MGI:1914853]",1,1
+"Dyrk1a","DYRK1A",201,"ENSG00000157540","201.1.1","ENSMUSG00000022897","dual-specificity tyrosine phosphorylation regulated kinase 1a [Source:MGI Symbol;Acc:MGI:1330299]",1,1
+"E2f1","E2F1",202,"ENSG00000101412","202.1.1","ENSMUSG00000027490","E2F transcription factor 1 [Source:MGI Symbol;Acc:MGI:101941]",1,1
+"E2f3","E2F3",203,"ENSG00000112242","203.1.1","ENSMUSG00000016477","E2F transcription factor 3 [Source:MGI Symbol;Acc:MGI:1096340]",1,1
+"E2f7","E2F7",204,"ENSG00000165891","204.1.1","ENSMUSG00000020185","E2F transcription factor 7 [Source:MGI Symbol;Acc:MGI:1289147]",1,1
+"Ect2","ECT2",205,"ENSG00000114346","205.1.1","ENSMUSG00000027699","ect2 oncogene [Source:MGI Symbol;Acc:MGI:95281]",1,1
+"Eef1e1","EEF1E1",206,"ENSG00000124802","206.1.1","ENSMUSG00000001707","eukaryotic translation elongation factor 1 epsilon 1 [Source:MGI Symbol;Acc:MGI:1913393]",1,1
+"Egfr","EGFR",207,"ENSG00000146648","207.1.1","ENSMUSG00000020122","epidermal growth factor receptor [Source:MGI Symbol;Acc:MGI:95294]",1,1
+"Egln1","EGLN1",208,"ENSG00000135766","208.1.1","ENSMUSG00000031987","egl-9 family hypoxia-inducible factor 1 [Source:MGI Symbol;Acc:MGI:1932286]",1,1
+"Egr2","EGR2",209,"ENSG00000122877","209.1.1","ENSMUSG00000037868","early growth response 2 [Source:MGI Symbol;Acc:MGI:95296]",1,1
+"Ehf","EHF",210,"ENSG00000135373","210.1.1","ENSMUSG00000012350","ets homologous factor [Source:MGI Symbol;Acc:MGI:1270840]",1,1
+"Ehmt2","EHMT2",211,"ENSG00000204371","211.1.1","ENSMUSG00000013787","euchromatic histone lysine N-methyltransferase 2 [Source:MGI Symbol;Acc:MGI:2148922]",1,1
+"Eid3","EID3",212,"ENSG00000255150","212.1.1","ENSMUSG00000109864","EP300 interacting inhibitor of differentiation 3 [Source:MGI Symbol;Acc:MGI:1913591]",1,1
+"Eif2ak2","EIF2AK2",213,"ENSG00000055332","213.1.1","ENSMUSG00000024079","eukaryotic translation initiation factor 2-alpha kinase 2 [Source:MGI Symbol;Acc:MGI:1353449]",1,1
+"Eif2ak3","EIF2AK3",214,"ENSG00000172071","214.1.1","ENSMUSG00000031668","eukaryotic translation initiation factor 2 alpha kinase 3 [Source:MGI Symbol;Acc:MGI:1341830]",1,1
+"Eif4e","EIF4E",215,"ENSG00000151247","215.1.1","ENSMUSG00000028156","eukaryotic translation initiation factor 4E [Source:MGI Symbol;Acc:MGI:95305]",1,1
+"Eif4ebp1","EIF4EBP1",216,"ENSG00000187840","216.1.1","ENSMUSG00000031490","eukaryotic translation initiation factor 4E binding protein 1 [Source:MGI Symbol;Acc:MGI:103267]",1,1
+"Eif4g2","EIF4G2",217,"ENSG00000110321","217.1.1","ENSMUSG00000005610","eukaryotic translation initiation factor 4, gamma 2 [Source:MGI Symbol;Acc:MGI:109207]",1,1
+"Elavl1","ELAVL1",218,"ENSG00000066044","218.1.1","ENSMUSG00000040028","ELAV like RNA binding protein 1 [Source:MGI Symbol;Acc:MGI:1100851]",1,1
+"Eloa","ELOA",219,"ENSG00000011007","219.1.1","ENSMUSG00000028668","elongin A [Source:MGI Symbol;Acc:MGI:1351315]",1,1
+"Endog","ENDOG",220,"ENSG00000167136","220.1.1","ENSMUSG00000015337","endonuclease G [Source:MGI Symbol;Acc:MGI:1261433]",1,1
+"Eng","ENG",221,"ENSG00000106991","221.1.1","ENSMUSG00000026814","endoglin [Source:MGI Symbol;Acc:MGI:95392]",1,1
+"Eno1","ENO1",222,"ENSG00000074800","222.1.2","ENSMUSG00000063524","enolase 1, alpha non-neuron [Source:MGI Symbol;Acc:MGI:95393]",2,1
+"Eno1b","ENO1",222,"ENSG00000074800","222.1.1","ENSMUSG00000059040","enolase 1B, retrotransposed [Source:MGI Symbol;Acc:MGI:3648653]",2,1
+"ENSMUSG00000142832","ARPC1B",35,"ENSG00000130429","35.1.2","ENSMUSG00000142832","novel protein similar to actin related protein 2/3 complex, subunit 1B Arpc1b",2,1
+"Entpd7","ENTPD7",223,"ENSG00000198018","223.1.1","ENSMUSG00000025192","ectonucleoside triphosphate diphosphohydrolase 7 [Source:MGI Symbol;Acc:MGI:2135885]",1,1
+"Ep300","EP300",224,"ENSG00000100393","224.1.1","ENSMUSG00000055024","E1A binding protein p300 [Source:MGI Symbol;Acc:MGI:1276116]",1,1
+"Epas1","EPAS1",225,"ENSG00000116016","225.1.1","ENSMUSG00000024140","endothelial PAS domain protein 1 [Source:MGI Symbol;Acc:MGI:109169]",1,1
+"Epha3","EPHA3",226,"ENSG00000044524","226.1.1","ENSMUSG00000052504","Eph receptor A3 [Source:MGI Symbol;Acc:MGI:99612]",1,1
+"Epha5","EPHA5",227,"ENSG00000145242","227.1.1","ENSMUSG00000029245","Eph receptor A5 [Source:MGI Symbol;Acc:MGI:99654]",1,1
+"Epor","EPOR",228,"ENSG00000187266","228.1.1","ENSMUSG00000006235","erythropoietin receptor [Source:MGI Symbol;Acc:MGI:95408]",1,1
+"Erbb2","ERBB2",229,"ENSG00000141736","229.1.1","ENSMUSG00000062312","erb-b2 receptor tyrosine kinase 2 [Source:MGI Symbol;Acc:MGI:95410]",1,1
+"Ercc1","ERCC1",230,"ENSG00000012061","230.1.1","ENSMUSG00000003549","excision repair cross-complementing rodent repair deficiency, complementation group 1 [Source:MGI Symbol;Acc:MGI:95412]",1,1
+"Errfi1","ERRFI1",231,"ENSG00000116285","231.1.1","ENSMUSG00000028967","ERBB receptor feedback inhibitor 1 [Source:MGI Symbol;Acc:MGI:1921405]",1,1
+"Espl1","ESPL1",233,"ENSG00000135476","233.1.1","ENSMUSG00000058290","extra spindle pole bodies 1, separase [Source:MGI Symbol;Acc:MGI:2146156]",1,1
+"Esr1","ESR1",234,"ENSG00000091831","234.1.1","ENSMUSG00000019768","estrogen receptor 1 (alpha) [Source:MGI Symbol;Acc:MGI:1352467]",1,1
+"Esrrb","ESRRB",235,"ENSG00000119715","235.1.1","ENSMUSG00000021255","estrogen related receptor, beta [Source:MGI Symbol;Acc:MGI:1346832]",1,1
+"Ets1","ETS1",236,"ENSG00000134954","236.1.1","ENSMUSG00000032035","E26 avian leukemia oncogene 1, 5' domain [Source:MGI Symbol;Acc:MGI:95455]",1,1
+"Ets2","ETS2",237,"ENSG00000157557","237.1.1","ENSMUSG00000022895","E26 avian leukemia oncogene 2, 3' domain [Source:MGI Symbol;Acc:MGI:95456]",1,1
+"Etv6","ETV6",238,"ENSG00000139083","238.1.1","ENSMUSG00000030199","ets variant 6 [Source:MGI Symbol;Acc:MGI:109336]",1,1
+"Ewsr1","EWSR1",239,"ENSG00000182944","239.1.1","ENSMUSG00000009079","Ewing sarcoma breakpoint region 1 [Source:MGI Symbol;Acc:MGI:99960]",1,1
+"Ezh2","EZH2",240,"ENSG00000106462","240.1.1","ENSMUSG00000029687","enhancer of zeste 2 polycomb repressive complex 2 subunit [Source:MGI Symbol;Acc:MGI:107940]",1,1
+"Fancd2","FANCD2",241,"ENSG00000144554","241.1.1","ENSMUSG00000034023","Fanconi anemia, complementation group D2 [Source:MGI Symbol;Acc:MGI:2448480]",1,1
+"Fasn","FASN",242,"ENSG00000169710","242.1.1","ENSMUSG00000025153","fatty acid synthase [Source:MGI Symbol;Acc:MGI:95485]",1,1
+"Fastk","FASTK",243,"ENSG00000164896","243.1.1","ENSMUSG00000028959","Fas-activated serine/threonine kinase [Source:MGI Symbol;Acc:MGI:1913837]",1,1
+"Fbxo22","FBXO22",244,"ENSG00000167196","244.1.1","ENSMUSG00000032309","F-box protein 22 [Source:MGI Symbol;Acc:MGI:1926014]",1,1
+"Fbxo31","FBXO31",245,"ENSG00000103264","245.1.1","ENSMUSG00000052934","F-box protein 31 [Source:MGI Symbol;Acc:MGI:1354708]",1,1
+"Fbxo4","FBXO4",246,"ENSG00000151876","246.1.1","ENSMUSG00000022184","F-box protein 4 [Source:MGI Symbol;Acc:MGI:2146220]",1,1
+"Fbxo5","FBXO5",247,"ENSG00000112029","247.1.1","ENSMUSG00000019773","F-box protein 5 [Source:MGI Symbol;Acc:MGI:1914391]",1,1
+"Fbxw11","FBXW11",248,"ENSG00000072803","248.1.1","ENSMUSG00000020271","F-box and WD-40 domain protein 11 [Source:MGI Symbol;Acc:MGI:2144023]",1,1
+"Fdps","FDPS",249,"ENSG00000160752","249.1.1","ENSMUSG00000059743","farnesyl diphosphate synthetase [Source:MGI Symbol;Acc:MGI:104888]",1,1
+"Fermt1","FERMT1",250,"ENSG00000101311","250.1.1","ENSMUSG00000027356","fermitin family member 1 [Source:MGI Symbol;Acc:MGI:2443583]",1,1
+"Fermt2","FERMT2",251,"ENSG00000073712","251.1.1","ENSMUSG00000037712","fermitin family member 2 [Source:MGI Symbol;Acc:MGI:2385001]",1,1
+"Fgf21","FGF21",252,"ENSG00000105550","252.1.1","ENSMUSG00000030827","fibroblast growth factor 21 [Source:MGI Symbol;Acc:MGI:1861377]",1,1
+"Fgfr1","FGFR1",253,"ENSG00000077782","253.1.1","ENSMUSG00000031565","fibroblast growth factor receptor 1 [Source:MGI Symbol;Acc:MGI:95522]",1,1
+"Fgfr2","FGFR2",254,"ENSG00000066468","254.1.1","ENSMUSG00000030849","fibroblast growth factor receptor 2 [Source:MGI Symbol;Acc:MGI:95523]",1,1
+"Fgfr3","FGFR3",255,"ENSG00000068078","255.1.1","ENSMUSG00000054252","fibroblast growth factor receptor 3 [Source:MGI Symbol;Acc:MGI:95524]",1,1
+"Fis1","FIS1",256,"ENSG00000214253","256.1.1","ENSMUSG00000019054","fission, mitochondrial 1 [Source:MGI Symbol;Acc:MGI:1913687]",1,1
+"Flt1","FLT1",257,"ENSG00000102755","257.1.1","ENSMUSG00000029648","FMS-like tyrosine kinase 1 [Source:MGI Symbol;Acc:MGI:95558]",1,1
+"Fntb","FNTB",258,"ENSG00000257365","258.1.1","ENSMUSG00000033373","farnesyltransferase, CAAX box, beta [Source:MGI Symbol;Acc:MGI:1861305]",1,1
+"Fos","FOS",259,"ENSG00000170345","259.1.1","ENSMUSG00000021250","FBJ osteosarcoma oncogene [Source:MGI Symbol;Acc:MGI:95574]",1,1
+"Foxa1","FOXA1",260,"ENSG00000129514","260.1.1","ENSMUSG00000035451","forkhead box A1 [Source:MGI Symbol;Acc:MGI:1347472]",1,1
+"Foxd1","FOXD1",261,"ENSG00000251493","261.1.1","ENSMUSG00000078302","forkhead box D1 [Source:MGI Symbol;Acc:MGI:1347463]",1,1
+"Foxm1","FOXM1",262,"ENSG00000111206","262.1.1","ENSMUSG00000001517","forkhead box M1 [Source:MGI Symbol;Acc:MGI:1347487]",1,1
+"Foxo1","FOXO1",263,"ENSG00000150907","263.1.1","ENSMUSG00000044167","forkhead box O1 [Source:MGI Symbol;Acc:MGI:1890077]",1,1
+"Foxo3","FOXO3",264,"ENSG00000118689","264.1.1","ENSMUSG00000048756","forkhead box O3 [Source:MGI Symbol;Acc:MGI:1890081]",1,1
+"Foxo4","FOXO4",265,"ENSG00000184481","265.1.1","ENSMUSG00000042903","forkhead box O4 [Source:MGI Symbol;Acc:MGI:1891915]",1,1
+"Foxp1","FOXP1",266,"ENSG00000114861","266.1.1","ENSMUSG00000030067","forkhead box P1 [Source:MGI Symbol;Acc:MGI:1914004]",2,1
+"Foxp3","FOXP3",267,"ENSG00000049768","267.1.1","ENSMUSG00000039521","forkhead box P3 [Source:MGI Symbol;Acc:MGI:1891436]",1,1
+"Foxq1","FOXQ1",268,"ENSG00000164379","268.1.1","ENSMUSG00000038415","forkhead box Q1 [Source:MGI Symbol;Acc:MGI:1298228]",1,1
+"Fscn1","FSCN1",269,"ENSG00000075618","269.1.1","ENSMUSG00000029581","fascin actin-bundling protein 1 [Source:MGI Symbol;Acc:MGI:1352745]",1,1
+"Fxn","FXN",270,"ENSG00000165060","270.1.1","ENSMUSG00000059363","frataxin [Source:MGI Symbol;Acc:MGI:1096879]",2,1
+"Fxr1","FXR1",271,"ENSG00000114416","271.1.1","ENSMUSG00000027680","FMR1 autosomal homolog 1 [Source:MGI Symbol;Acc:MGI:104860]",1,1
+"G6pd2","G6PD",272,"ENSG00000160211","272.1.2","ENSMUSG00000089992","glucose-6-phosphate dehydrogenase 2 [Source:MGI Symbol;Acc:MGI:105977]",2,1
+"G6pdx","G6PD",272,"ENSG00000160211","272.1.1","ENSMUSG00000031400","glucose-6-phosphate dehydrogenase X-linked [Source:MGI Symbol;Acc:MGI:105979]",2,1
+"Gadd45g","GADD45G",273,"ENSG00000130222","273.1.1","ENSMUSG00000021453","growth arrest and DNA-damage-inducible 45 gamma [Source:MGI Symbol;Acc:MGI:1346325]",1,1
+"Gapdh","GAPDH",274,"ENSG00000111640","274.1.1","ENSMUSG00000057666","glyceraldehyde-3-phosphate dehydrogenase [Source:MGI Symbol;Acc:MGI:95640]",3,1
+"Gapdhrt","GAPDH",274,"ENSG00000111640","274.1.2","ENSMUSG00000097148","glyceraldehyde-3-phosphate dehydrogenase, retrotransposed [Source:MGI Symbol;Acc:MGI:3782011]",3,1
+"Gapdhrt2","GAPDH",274,"ENSG00000111640","274.1.3","ENSMUSG00000110469","glyceraldehyde-3-phosphate dehydrogenase, retrotransposed 2 [Source:MGI Symbol;Acc:MGI:3708786]",3,1
+"Gata4","GATA4",275,"ENSG00000136574","275.1.1","ENSMUSG00000021944","GATA binding protein 4 [Source:MGI Symbol;Acc:MGI:95664]",1,1
+"Gdf15","GDF15",276,"ENSG00000130513","276.1.1","ENSMUSG00000038508","growth differentiation factor 15 [Source:MGI Symbol;Acc:MGI:1346047]",1,1
+"Gemin2","GEMIN2",277,"ENSG00000092208","277.1.1","ENSMUSG00000060121","gem nuclear organelle associated protein 2 [Source:MGI Symbol;Acc:MGI:1913853]",1,1
+"Ggct","GGCT",278,"ENSG00000006625","278.1.1","ENSMUSG00000002797","gamma-glutamyl cyclotransferase [Source:MGI Symbol;Acc:MGI:95700]",1,1
+"Gja6","GJA1",279,"ENSG00000152661","279.1.1","ENSMUSG00000055691","gap junction protein, alpha 6 [Source:MGI Symbol;Acc:MGI:95717]",1,1
+"Gkn1","GKN1",280,"ENSG00000169605","280.1.1","ENSMUSG00000030050","gastrokine 1 [Source:MGI Symbol;Acc:MGI:1913533]",1,1
+"Gli1","GLI1",281,"ENSG00000111087","281.1.1","ENSMUSG00000025407","GLI-Kruppel family member GLI1 [Source:MGI Symbol;Acc:MGI:95727]",1,1
+"Gm5773","SPOP",735,"ENSG00000121067","735.1.4","ENSMUSG00000068879","predicted pseudogene 5773 [Source:MGI Symbol;Acc:MGI:3645792]",13,1
+"Gmnn","GMNN",282,"ENSG00000112312","282.1.1","ENSMUSG00000006715","geminin [Source:MGI Symbol;Acc:MGI:1927344]",1,1
+"Gmps","GMPS",283,"ENSG00000163655","283.1.1","ENSMUSG00000027823","guanine monophosphate synthetase [Source:MGI Symbol;Acc:MGI:2448526]",1,1
+"Gng11","GNG11",284,"ENSG00000127920","284.1.1","ENSMUSG00000032766","guanine nucleotide binding protein (G protein), gamma 11 [Source:MGI Symbol;Acc:MGI:1913316]",1,1
+"Gnmt","GNMT",285,"ENSG00000124713","285.1.1","ENSMUSG00000002769","glycine N-methyltransferase [Source:MGI Symbol;Acc:MGI:1202304]",1,1
+"Gpc3","GPC3",286,"ENSG00000147257","286.1.1","ENSMUSG00000055653","glypican 3 [Source:MGI Symbol;Acc:MGI:104903]",1,1
+"Grik2","GRIK2",287,"ENSG00000164418","287.1.1","ENSMUSG00000056073","glutamate receptor, ionotropic, kainate 2 (beta 2) [Source:MGI Symbol;Acc:MGI:95815]",1,1
+"Grk4","GRK4",288,"ENSG00000125388","288.1.1","ENSMUSG00000052783","G protein-coupled receptor kinase 4 [Source:MGI Symbol;Acc:MGI:95801]",1,1
+"Grk6","GRK6",289,"ENSG00000198055","289.1.1","ENSMUSG00000074886","G protein-coupled receptor kinase 6 [Source:MGI Symbol;Acc:MGI:1347078]",1,1
+"Grn","GRN",290,"ENSG00000030582","290.1.1","ENSMUSG00000034708","granulin [Source:MGI Symbol;Acc:MGI:95832]",1,1
+"Grpr","GRPR",291,"ENSG00000126010","291.1.1","ENSMUSG00000031364","gastrin releasing peptide receptor [Source:MGI Symbol;Acc:MGI:95836]",1,1
+"Grsf1","GRSF1",292,"ENSG00000132463","292.1.1","ENSMUSG00000044221","G-rich RNA sequence binding factor 1 [Source:MGI Symbol;Acc:MGI:106479]",1,1
+"Gsk3a","GSK3A",293,"ENSG00000105723","293.1.1","ENSMUSG00000057177","glycogen synthase kinase 3 alpha [Source:MGI Symbol;Acc:MGI:2152453]",1,1
+"Gsk3b","GSK3B",294,"ENSG00000082701","294.1.1","ENSMUSG00000022812","glycogen synthase kinase 3 beta [Source:MGI Symbol;Acc:MGI:1861437]",1,1
+"Gtse1","GTSE1",295,"ENSG00000075218","295.1.1","ENSMUSG00000022385","G two S phase expressed protein 1 [Source:MGI Symbol;Acc:MGI:1352755]",1,1
+"Has1","HAS1",296,"ENSG00000105509","296.1.1","ENSMUSG00000003665","hyaluronan synthase 1 [Source:MGI Symbol;Acc:MGI:106590]",1,1
+"Haus4","HAUS4",297,"ENSG00000092036","297.1.1","ENSMUSG00000022177","HAUS augmin-like complex, subunit 4 [Source:MGI Symbol;Acc:MGI:1261794]",1,1
+"Hbp1","HBP1",298,"ENSG00000105856","298.1.1","ENSMUSG00000002996","high mobility group box transcription factor 1 [Source:MGI Symbol;Acc:MGI:894659]",1,1
+"Hdac1","HDAC1",299,"ENSG00000116478","299.1.1","ENSMUSG00000028800","histone deacetylase 1 [Source:MGI Symbol;Acc:MGI:108086]",1,1
+"Hdac2","HDAC2",300,"ENSG00000196591","300.1.1","ENSMUSG00000019777","histone deacetylase 2 [Source:MGI Symbol;Acc:MGI:1097691]",1,1
+"Hdac3","HDAC3",301,"ENSG00000171720","301.1.1","ENSMUSG00000024454","histone deacetylase 3 [Source:MGI Symbol;Acc:MGI:1343091]",1,1
+"Hdac4","HDAC4",302,"ENSG00000068024","302.1.1","ENSMUSG00000026313","histone deacetylase 4 [Source:MGI Symbol;Acc:MGI:3036234]",1,1
+"Hdac7","HDAC7",303,"ENSG00000061273","303.1.1","ENSMUSG00000022475","histone deacetylase 7 [Source:MGI Symbol;Acc:MGI:1891835]",1,1
+"Hells","HELLS",304,"ENSG00000119969","304.1.1","ENSMUSG00000025001","helicase, lymphoid specific [Source:MGI Symbol;Acc:MGI:106209]",1,1
+"Hepacam","HEPACAM",305,"ENSG00000165478","305.1.1","ENSMUSG00000046240","hepatocyte cell adhesion molecule [Source:MGI Symbol;Acc:MGI:1920177]",1,1
+"Hif1a","HIF1A",306,"ENSG00000100644","306.1.1","ENSMUSG00000021109","hypoxia inducible factor 1, alpha subunit [Source:MGI Symbol;Acc:MGI:106918]",1,1
+"Hipk2","HIPK2",307,"ENSG00000064393","307.1.1","ENSMUSG00000061436","homeodomain interacting protein kinase 2 [Source:MGI Symbol;Acc:MGI:1314872]",1,1
+"Hira","HIRA",308,"ENSG00000100084","308.1.1","ENSMUSG00000022702","histone cell cycle regulator [Source:MGI Symbol;Acc:MGI:99430]",1,1
+"Hivep1","HIVEP1",309,"ENSG00000095951","309.1.1","ENSMUSG00000021366","human immunodeficiency virus type I enhancer binding protein 1 [Source:MGI Symbol;Acc:MGI:96100]",1,1
+"Hjurp","HJURP",310,"ENSG00000123485","310.1.1","ENSMUSG00000044783","Holliday junction recognition protein [Source:MGI Symbol;Acc:MGI:2685821]",1,1
+"Hk3","HK3",311,"ENSG00000160883","311.1.1","ENSMUSG00000025877","hexokinase 3 [Source:MGI Symbol;Acc:MGI:2670962]",1,1
+"Hmga1","HMGA1",312,"ENSG00000137309","312.1.1","ENSMUSG00000046711","high mobility group AT-hook 1 [Source:MGI Symbol;Acc:MGI:96160]",1,1
+"Hmga2","HMGA2",313,"ENSG00000149948","313.1.1","ENSMUSG00000056758","high mobility group AT-hook 2 [Source:MGI Symbol;Acc:MGI:101761]",1,1
+"Hmgb1","HMGB1",314,"ENSG00000189403","314.1.1","ENSMUSG00000066551","high mobility group box 1 [Source:MGI Symbol;Acc:MGI:96113]",1,1
+"Hmgb2","HMGB2",315,"ENSG00000164104","315.1.1","ENSMUSG00000054717","high mobility group box 2 [Source:MGI Symbol;Acc:MGI:96157]",1,1
+"Hmgb3","HMGB3",316,"ENSG00000029993","316.1.1","ENSMUSG00000015217","high mobility group box 3 [Source:MGI Symbol;Acc:MGI:1098219]",1,1
+"Hmgcr","HMGCR",317,"ENSG00000113161","317.1.1","ENSMUSG00000021670","3-hydroxy-3-methylglutaryl-Coenzyme A reductase [Source:MGI Symbol;Acc:MGI:96159]",1,1
+"Hnrnpa1","HNRNPA1",318,"ENSG00000135486","318.1.1","ENSMUSG00000046434","heterogeneous nuclear ribonucleoprotein A1 [Source:MGI Symbol;Acc:MGI:104820]",1,1
+"Hnrnpa3","HNRNPA3",319,"ENSG00000170144","319.1.1","ENSMUSG00000059005","heterogeneous nuclear ribonucleoprotein A3 [Source:MGI Symbol;Acc:MGI:1917171]",1,1
+"Hnrnpab","HNRNPAB",320,"ENSG00000197451","320.1.1","ENSMUSG00000020358","heterogeneous nuclear ribonucleoprotein A/B [Source:MGI Symbol;Acc:MGI:1330294]",1,1
+"Hnrnpd","HNRNPD",322,"ENSG00000138668","322.1.1","ENSMUSG00000000568","heterogeneous nuclear ribonucleoprotein D [Source:MGI Symbol;Acc:MGI:101947]",1,1
+"Hopx","HOPX",323,"ENSG00000171476","323.1.1","ENSMUSG00000059325","HOP homeobox [Source:MGI Symbol;Acc:MGI:1916782]",1,1
+"Hoxa9","HOXA9",324,"ENSG00000078399","324.1.1","ENSMUSG00000038227","homeobox A9 [Source:MGI Symbol;Acc:MGI:96180]",1,1
+"Hras","HRAS",325,"ENSG00000174775","325.1.1","ENSMUSG00000025499","Harvey rat sarcoma virus oncogene [Source:MGI Symbol;Acc:MGI:96224]",1,1
+"Hs2st1","HS2ST1",326,"ENSG00000153936","326.1.1","ENSMUSG00000040151","heparan sulfate 2-O-sulfotransferase 1 [Source:MGI Symbol;Acc:MGI:1346049]",1,1
+"Hsf1","HSF1",327,"ENSG00000185122","327.1.1","ENSMUSG00000022556","heat shock factor 1 [Source:MGI Symbol;Acc:MGI:96238]",1,1
+"Hsp90aa1","HSP90AA1",328,"ENSG00000080824","328.1.1","ENSMUSG00000021270","heat shock protein 90, alpha (cytosolic), class A member 1 [Source:MGI Symbol;Acc:MGI:96250]",1,1
+"Hsp90ab1","HSP90AB1",329,"ENSG00000096384","329.1.1","ENSMUSG00000023944","heat shock protein 90 alpha (cytosolic), class B member 1 [Source:MGI Symbol;Acc:MGI:96247]",1,1
+"Hspa1a","HSPA1A",330,"ENSG00000204389","330.1.2","ENSMUSG00000091971","heat shock protein 1A [Source:MGI Symbol;Acc:MGI:96244]",2,1
+"Hspa1b","HSPA1A",330,"ENSG00000204389","330.1.1","ENSMUSG00000090877","heat shock protein 1B [Source:MGI Symbol;Acc:MGI:99517]",2,1
+"Hspa2","HSPA2",331,"ENSG00000126803","331.1.1","ENSMUSG00000059970","heat shock protein 2 [Source:MGI Symbol;Acc:MGI:96243]",1,1
+"Hspa5","HSPA5",332,"ENSG00000044574","332.1.1","ENSMUSG00000026864","heat shock protein 5 [Source:MGI Symbol;Acc:MGI:95835]",1,1
+"Hspa9","HSPA9",333,"ENSG00000113013","333.1.1","ENSMUSG00000024359","heat shock protein 9 [Source:MGI Symbol;Acc:MGI:96245]",1,1
+"Hspb1","HSPB1",334,"ENSG00000106211","334.1.1","ENSMUSG00000004951","heat shock protein 1 [Source:MGI Symbol;Acc:MGI:96240]",1,1
+"Htra1","HTRA1",335,"ENSG00000166033","335.1.1","ENSMUSG00000006205","HtrA serine peptidase 1 [Source:MGI Symbol;Acc:MGI:1929076]",1,1
+"Hyou1","HYOU1",336,"ENSG00000149428","336.1.1","ENSMUSG00000032115","hypoxia up-regulated 1 [Source:MGI Symbol;Acc:MGI:108030]",1,1
+"Id1","ID1",337,"ENSG00000125968","337.1.1","ENSMUSG00000042745","inhibitor of DNA binding 1, HLH protein [Source:MGI Symbol;Acc:MGI:96396]",1,1
+"Ifi203","IFI16",338,"ENSG00000163565","338.1.2","ENSMUSG00000039997","interferon activated gene 203 [Source:MGI Symbol;Acc:MGI:96428]",8,1
+"Ifi204","IFI16",338,"ENSG00000163565","338.1.6","ENSMUSG00000073489","interferon activated gene 204 [Source:MGI Symbol;Acc:MGI:96429]",8,1
+"Ifi206","IFI16",338,"ENSG00000163565","338.1.1","ENSMUSG00000037849","interferon activated gene 206 [Source:MGI Symbol;Acc:MGI:3646410]",8,1
+"Ifi207","IFI16",338,"ENSG00000163565","338.1.7","ENSMUSG00000073490","interferon activated gene 207 [Source:MGI Symbol;Acc:MGI:2138302]",8,1
+"Ifi208","IFI16",338,"ENSG00000163565","338.1.4","ENSMUSG00000066677","interferon activated gene 208 [Source:MGI Symbol;Acc:MGI:2442822]",8,1
+"Ifi209","IFI16",338,"ENSG00000163565","338.1.3","ENSMUSG00000043263","interferon activated gene 209 [Source:MGI Symbol;Acc:MGI:2138243]",8,1
+"Ifi213","IFI16",338,"ENSG00000163565","338.1.8","ENSMUSG00000073491","interferon activated gene 213 [Source:MGI Symbol;Acc:MGI:3695276]",8,1
+"Ifi214","IFI16",338,"ENSG00000163565","338.1.5","ENSMUSG00000070501","interferon activated gene 214 [Source:MGI Symbol;Acc:MGI:3584522]",8,1
+"Ifng","IFNG",339,"ENSG00000111537","339.1.1","ENSMUSG00000055170","interferon gamma [Source:MGI Symbol;Acc:MGI:107656]",1,1
+"Igfbp1","IGFBP1",340,"ENSG00000146678","340.1.1","ENSMUSG00000020429","insulin-like growth factor binding protein 1 [Source:MGI Symbol;Acc:MGI:96436]",1,1
+"Igfbp3","IGFBP3",341,"ENSG00000146674","341.1.1","ENSMUSG00000020427","insulin-like growth factor binding protein 3 [Source:MGI Symbol;Acc:MGI:96438]",1,1
+"Igfbp5","IGFBP5",342,"ENSG00000115461","342.1.1","ENSMUSG00000026185","insulin-like growth factor binding protein 5 [Source:MGI Symbol;Acc:MGI:96440]",1,1
+"Igfbp7","IGFBP7",343,"ENSG00000163453","343.1.1","ENSMUSG00000036256","insulin-like growth factor binding protein 7 [Source:MGI Symbol;Acc:MGI:1352480]",1,1
+"Ikbkg","IKBKG",344,"ENSG00000269335","344.1.1","ENSMUSG00000004221","inhibitor of kappaB kinase gamma [Source:MGI Symbol;Acc:MGI:1338074]",1,1
+"Il1a","IL1A",345,"ENSG00000115008","345.1.1","ENSMUSG00000027399","interleukin 1 alpha [Source:MGI Symbol;Acc:MGI:96542]",1,1
+"Il1r1","IL1R1",346,"ENSG00000115594","346.1.1","ENSMUSG00000026072","interleukin 1 receptor, type I [Source:MGI Symbol;Acc:MGI:96545]",1,1
+"Il1rn","IL1RN",347,"ENSG00000136689","347.1.1","ENSMUSG00000026981","interleukin 1 receptor antagonist [Source:MGI Symbol;Acc:MGI:96547]",1,1
+"Il24","IL24",348,"ENSG00000162892","348.1.1","ENSMUSG00000026420","interleukin 24 [Source:MGI Symbol;Acc:MGI:2135548]",1,1
+"Il6","IL6",349,"ENSG00000136244","349.1.1","ENSMUSG00000025746","interleukin 6 [Source:MGI Symbol;Acc:MGI:96559]",1,1
+"Ilf3","ILF3",350,"ENSG00000129351","350.1.1","ENSMUSG00000032178","interleukin enhancer binding factor 3 [Source:MGI Symbol;Acc:MGI:1339973]",1,1
+"Ilk","ILK",351,"ENSG00000166333","351.1.1","ENSMUSG00000030890","integrin linked kinase [Source:MGI Symbol;Acc:MGI:1195267]",1,1
+"Immt","IMMT",352,"ENSG00000132305","352.1.1","ENSMUSG00000052337","inner membrane protein, mitochondrial [Source:MGI Symbol;Acc:MGI:1923864]",1,1
+"Incenp","INCENP",353,"ENSG00000149503","353.1.1","ENSMUSG00000024660","inner centromere protein [Source:MGI Symbol;Acc:MGI:1313288]",1,1
+"Ing1","ING1",354,"ENSG00000153487","354.1.1","ENSMUSG00000045969","inhibitor of growth family, member 1 [Source:MGI Symbol;Acc:MGI:1349481]",1,1
+"Ing2","ING2",355,"ENSG00000168556","355.1.1","ENSMUSG00000063049","inhibitor of growth family, member 2 [Source:MGI Symbol;Acc:MGI:1916510]",1,1
+"Ing5","ING5",356,"ENSG00000168395","356.1.1","ENSMUSG00000026283","inhibitor of growth family, member 5 [Source:MGI Symbol;Acc:MGI:1922816]",1,1
+"Inpp4b","INPP4B",357,"ENSG00000109452","357.1.1","ENSMUSG00000037940","inositol polyphosphate-4-phosphatase, type II [Source:MGI Symbol;Acc:MGI:2158925]",1,1
+"Irak4","IRAK4",358,"ENSG00000198001","358.1.1","ENSMUSG00000059883","interleukin-1 receptor-associated kinase 4 [Source:MGI Symbol;Acc:MGI:2182474]",1,1
+"Irf1","IRF1",359,"ENSG00000125347","359.1.1","ENSMUSG00000018899","interferon regulatory factor 1 [Source:MGI Symbol;Acc:MGI:96590]",1,1
+"Irf3","IRF3",360,"ENSG00000126456","360.1.1","ENSMUSG00000003184","interferon regulatory factor 3 [Source:MGI Symbol;Acc:MGI:1859179]",1,1
+"Irf5","IRF5",361,"ENSG00000128604","361.1.1","ENSMUSG00000029771","interferon regulatory factor 5 [Source:MGI Symbol;Acc:MGI:1350924]",1,1
+"Irf7","IRF7",362,"ENSG00000185507","362.1.1","ENSMUSG00000025498","interferon regulatory factor 7 [Source:MGI Symbol;Acc:MGI:1859212]",1,1
+"Itgb3","ITGB3",363,"ENSG00000259207","363.1.1","ENSMUSG00000020689","integrin beta 3 [Source:MGI Symbol;Acc:MGI:96612]",1,1
+"Itgb4","ITGB4",364,"ENSG00000132470","364.1.1","ENSMUSG00000020758","integrin beta 4 [Source:MGI Symbol;Acc:MGI:96613]",1,1
+"Itpk1","ITPK1",365,"ENSG00000100605","365.1.1","ENSMUSG00000057963","inositol 1,3,4-triphosphate 5/6 kinase [Source:MGI Symbol;Acc:MGI:2446159]",1,1
+"Itpkb","ITPKB",366,"ENSG00000143772","366.1.1","ENSMUSG00000038855","inositol 1,4,5-trisphosphate 3-kinase B [Source:MGI Symbol;Acc:MGI:109235]",1,1
+"Itpr1","ITPR1",367,"ENSG00000150995","367.1.1","ENSMUSG00000030102","inositol 1,4,5-trisphosphate receptor 1 [Source:MGI Symbol;Acc:MGI:96623]",1,1
+"Itpr2","ITPR2",368,"ENSG00000123104","368.1.1","ENSMUSG00000030287","inositol 1,4,5-triphosphate receptor 2 [Source:MGI Symbol;Acc:MGI:99418]",1,1
+"Itpr3","ITPR3",369,"ENSG00000096433","369.1.1","ENSMUSG00000042644","inositol 1,4,5-triphosphate receptor 3 [Source:MGI Symbol;Acc:MGI:96624]",1,1
+"Itsn2","ITSN2",370,"ENSG00000198399","370.1.1","ENSMUSG00000020640","intersectin 2 [Source:MGI Symbol;Acc:MGI:1338049]",1,1
+"Jak2","JAK2",371,"ENSG00000096968","371.1.1","ENSMUSG00000024789","Janus kinase 2 [Source:MGI Symbol;Acc:MGI:96629]",1,1
+"Jpt1","JPT1",372,"ENSG00000189159","372.1.1","ENSMUSG00000020737","Jupiter microtubule associated homolog 1 [Source:MGI Symbol;Acc:MGI:1096361]",1,1
+"Jun","JUN",373,"ENSG00000177606","373.1.1","ENSMUSG00000052684","jun proto-oncogene [Source:MGI Symbol;Acc:MGI:96646]",1,1
+"Junb","JUNB",374,"ENSG00000171223","374.1.1","ENSMUSG00000052837","jun B proto-oncogene [Source:MGI Symbol;Acc:MGI:96647]",1,1
+"Kat5","KAT5",375,"ENSG00000172977","375.1.1","ENSMUSG00000024926","K(lysine) acetyltransferase 5 [Source:MGI Symbol;Acc:MGI:1932051]",1,1
+"Kcna1","KCNA1",376,"ENSG00000111262","376.1.1","ENSMUSG00000047976","potassium voltage-gated channel, shaker-related subfamily, member 1 [Source:MGI Symbol;Acc:MGI:96654]",1,1
+"Kcnj12","KCNJ12",377,"ENSG00000184185","377.1.1","ENSMUSG00000042529","potassium inwardly-rectifying channel, subfamily J, member 12 [Source:MGI Symbol;Acc:MGI:108495]",1,1
+"Kdm1a","KDM1A",378,"ENSG00000004487","378.1.1","ENSMUSG00000036940","lysine (K)-specific demethylase 1A [Source:MGI Symbol;Acc:MGI:1196256]",1,1
+"Kdm2b","KDM2B",379,"ENSG00000089094","379.1.1","ENSMUSG00000029475","lysine (K)-specific demethylase 2B [Source:MGI Symbol;Acc:MGI:1354737]",1,1
+"Kdm4a","KDM4A",380,"ENSG00000066135","380.1.1","ENSMUSG00000033326","lysine (K)-specific demethylase 4A [Source:MGI Symbol;Acc:MGI:2446210]",1,1
+"Kdm4c","KDM4C",381,"ENSG00000107077","381.1.1","ENSMUSG00000028397","lysine (K)-specific demethylase 4C [Source:MGI Symbol;Acc:MGI:1924054]",1,1
+"Kdm5b","KDM5B",382,"ENSG00000117139","382.1.1","ENSMUSG00000042207","lysine demethylase 5B [Source:MGI Symbol;Acc:MGI:1922855]",1,1
+"Kdm6b","KDM6B",383,"ENSG00000132510","383.1.1","ENSMUSG00000018476","KDM1 lysine (K)-specific demethylase 6B [Source:MGI Symbol;Acc:MGI:2448492]",1,1
+"Kdr","KDR",384,"ENSG00000128052","384.1.1","ENSMUSG00000062960","kinase insert domain protein receptor [Source:MGI Symbol;Acc:MGI:96683]",1,1
+"Keap1","KEAP1",385,"ENSG00000079999","385.1.1","ENSMUSG00000003308","kelch-like ECH-associated protein 1 [Source:MGI Symbol;Acc:MGI:1858732]",1,1
+"Kif11","KIF11",386,"ENSG00000138160","386.1.1","ENSMUSG00000012443","kinesin family member 11 [Source:MGI Symbol;Acc:MGI:1098231]",1,1
+"Kif20a","KIF20A",387,"ENSG00000112984","387.1.1","ENSMUSG00000003779","kinesin family member 20A [Source:MGI Symbol;Acc:MGI:1201682]",1,1
+"Kif2c","KIF2C",388,"ENSG00000142945","388.1.1","ENSMUSG00000028678","kinesin family member 2C [Source:MGI Symbol;Acc:MGI:1921054]",1,1
+"Kifc1","KIFC1",389,"ENSG00000237649","389.1.2","ENSMUSG00000079553","kinesin family member C1 [Source:MGI Symbol;Acc:MGI:109596]",2,1
+"Kifc5b","KIFC1",389,"ENSG00000237649","389.1.1","ENSMUSG00000024301","kinesin family member C5B [Source:MGI Symbol;Acc:MGI:2137414]",2,1
+"Kl","KL",390,"ENSG00000133116","390.1.1","ENSMUSG00000058488","klotho [Source:MGI Symbol;Acc:MGI:1101771]",1,1
+"Klf4","KLF4",391,"ENSG00000136826","391.1.1","ENSMUSG00000003032","Kruppel-like transcription factor 4 (gut) [Source:MGI Symbol;Acc:MGI:1342287]",1,1
+"Kndc1","KNDC1",392,"ENSG00000171798","392.1.1","ENSMUSG00000066129","kinase non-catalytic C-lobe domain (KIND) containing 1 [Source:MGI Symbol;Acc:MGI:1923734]",1,1
+"Krt19","KRT19",393,"ENSG00000171345","393.1.1","ENSMUSG00000020911","keratin 19 [Source:MGI Symbol;Acc:MGI:96693]",1,1
+"Ksr2","KSR2",394,"ENSG00000171435","394.1.1","ENSMUSG00000061578","kinase suppressor of ras 2 [Source:MGI Symbol;Acc:MGI:3610315]",1,1
+"Lamp2","LAMP2",395,"ENSG00000005893","395.1.1","ENSMUSG00000016534","lysosomal-associated membrane protein 2 [Source:MGI Symbol;Acc:MGI:96748]",1,1
+"Lats1","LATS1",396,"ENSG00000131023","396.1.1","ENSMUSG00000040021","large tumor suppressor [Source:MGI Symbol;Acc:MGI:1333883]",1,1
+"Lats2","LATS2",397,"ENSG00000150457","397.1.1","ENSMUSG00000021959","large tumor suppressor 2 [Source:MGI Symbol;Acc:MGI:1354386]",1,1
+"Layn","LAYN",398,"ENSG00000204381","398.1.1","ENSMUSG00000060594","layilin [Source:MGI Symbol;Acc:MGI:2685357]",1,1
+"Lbr","LBR",399,"ENSG00000143815","399.1.1","ENSMUSG00000004880","lamin B receptor [Source:MGI Symbol;Acc:MGI:2138281]",1,1
+"Lcn2","LCN2",400,"ENSG00000148346","400.1.1","ENSMUSG00000026822","lipocalin 2 [Source:MGI Symbol;Acc:MGI:96757]",1,1
+"Leo1","LEO1",401,"ENSG00000166477","401.1.1","ENSMUSG00000042487","Leo1, Paf1/RNA polymerase II complex component [Source:MGI Symbol;Acc:MGI:2685031]",1,1
+"Lgals3","LGALS3",402,"ENSG00000131981","402.1.1","ENSMUSG00000050335","lectin, galactose binding, soluble 3 [Source:MGI Symbol;Acc:MGI:96778]",1,1
+"Lima1","LIMA1",403,"ENSG00000050405","403.1.1","ENSMUSG00000023022","LIM domain and actin binding 1 [Source:MGI Symbol;Acc:MGI:1920992]",1,1
+"Limk1","LIMK1",404,"ENSG00000106683","404.1.1","ENSMUSG00000029674","LIM domain kinase 1 [Source:MGI Symbol;Acc:MGI:104572]",1,1
+"Lin52","LIN52",405,"ENSG00000205659","405.1.1","ENSMUSG00000085793","lin-52 DREAM MuvB core complex component [Source:MGI Symbol;Acc:MGI:3045391]",1,1
+"Lin54","LIN54",406,"ENSG00000189308","406.1.1","ENSMUSG00000118665","lin-54 DREAM MuvB core complex component [Source:MGI Symbol;Acc:MGI:2140902]",1,1
+"Lin9","LIN9",407,"ENSG00000183814","407.1.1","ENSMUSG00000058729","lin-9 DREAM MuvB core complex component [Source:MGI Symbol;Acc:MGI:1919818]",1,1
+"Lmna","LMNA",408,"ENSG00000160789","408.1.1","ENSMUSG00000028063","lamin A [Source:MGI Symbol;Acc:MGI:96794]",1,1
+"Lmnb1","LMNB1",409,"ENSG00000113368","409.1.1","ENSMUSG00000024590","lamin B1 [Source:MGI Symbol;Acc:MGI:96795]",1,1
+"Lox","LOX",411,"ENSG00000113083","411.1.1","ENSMUSG00000024529","lysyl oxidase [Source:MGI Symbol;Acc:MGI:96817]",1,1
+"Loxl2","LOXL2",412,"ENSG00000134013","412.1.1","ENSMUSG00000034205","lysyl oxidase-like 2 [Source:MGI Symbol;Acc:MGI:2137913]",1,1
+"Lpar1","LPAR1",413,"ENSG00000198121","413.1.1","ENSMUSG00000038668","lysophosphatidic acid receptor 1 [Source:MGI Symbol;Acc:MGI:108429]",1,1
+"Lpar3","LPAR3",414,"ENSG00000171517","414.1.1","ENSMUSG00000036832","lysophosphatidic acid receptor 3 [Source:MGI Symbol;Acc:MGI:1929469]",1,1
+"Lrrk2","LRRK2",415,"ENSG00000188906","415.1.1","ENSMUSG00000036273","leucine-rich repeat kinase 2 [Source:MGI Symbol;Acc:MGI:1913975]",1,1
+"Ly6d","LY6D",416,"ENSG00000167656","416.1.1","ENSMUSG00000034634","lymphocyte antigen 6 family member D [Source:MGI Symbol;Acc:MGI:96881]",1,1
+"Mad1l1","MAD1L1",417,"ENSG00000002822","417.1.1","ENSMUSG00000029554","MAD1 mitotic arrest deficient 1-like 1 [Source:MGI Symbol;Acc:MGI:1341857]",1,1
+"Mad2l1","MAD2L1",418,"ENSG00000164109","418.1.1","ENSMUSG00000029910","MAD2 mitotic arrest deficient-like 1 [Source:MGI Symbol;Acc:MGI:1860374]",1,1
+"Mael","MAEL",419,"ENSG00000143194","419.1.1","ENSMUSG00000040629","maelstrom spermatogenic transposon silencer [Source:MGI Symbol;Acc:MGI:2138453]",1,1
+"Maf","MAF",420,"ENSG00000178573","420.1.1","ENSMUSG00000055435","MAF bZIP transcription factor [Source:MGI Symbol;Acc:MGI:96909]",1,1
+"Magea13","MAGEA2",421,"ENSG00000268606","421.2.1","ENSMUSG00000046180","MAGE family member A13 [Source:MGI Symbol;Acc:MGI:1922602]",1,1
+"Magea13","MAGEA2",421,"ENSG00000183305","421.1.1","ENSMUSG00000046180","MAGE family member A13 [Source:MGI Symbol;Acc:MGI:1922602]",1,1
+"Map2k1","MAP2K1",423,"ENSG00000169032","423.1.1","ENSMUSG00000004936","mitogen-activated protein kinase kinase 1 [Source:MGI Symbol;Acc:MGI:1346866]",1,1
+"Map2k2","MAP2K2",424,"ENSG00000126934","424.1.1","ENSMUSG00000035027","mitogen-activated protein kinase kinase 2 [Source:MGI Symbol;Acc:MGI:1346867]",1,1
+"Map2k3","MAP2K3",425,"ENSG00000034152","425.1.1","ENSMUSG00000018932","mitogen-activated protein kinase kinase 3 [Source:MGI Symbol;Acc:MGI:1346868]",1,1
+"Map2k6","MAP2K6",426,"ENSG00000108984","426.1.1","ENSMUSG00000020623","mitogen-activated protein kinase kinase 6 [Source:MGI Symbol;Acc:MGI:1346870]",1,1
+"Map2k7","MAP2K7",427,"ENSG00000076984","427.1.1","ENSMUSG00000002948","mitogen-activated protein kinase kinase 7 [Source:MGI Symbol;Acc:MGI:1346871]",1,1
+"Map3k14","MAP3K14",428,"ENSG00000006062","428.1.1","ENSMUSG00000020941","mitogen-activated protein kinase kinase kinase 14 [Source:MGI Symbol;Acc:MGI:1858204]",1,1
+"Map3k5","MAP3K5",429,"ENSG00000197442","429.1.1","ENSMUSG00000071369","mitogen-activated protein kinase kinase kinase 5 [Source:MGI Symbol;Acc:MGI:1346876]",1,1
+"Map3k6","MAP3K6",430,"ENSG00000142733","430.1.1","ENSMUSG00000028862","mitogen-activated protein kinase kinase kinase 6 [Source:MGI Symbol;Acc:MGI:1855691]",1,1
+"Map3k7","MAP3K7",431,"ENSG00000135341","431.1.1","ENSMUSG00000028284","mitogen-activated protein kinase kinase kinase 7 [Source:MGI Symbol;Acc:MGI:1346877]",1,1
+"Map4k1","MAP4K1",432,"ENSG00000104814","432.1.1","ENSMUSG00000037337","mitogen-activated protein kinase kinase kinase kinase 1 [Source:MGI Symbol;Acc:MGI:1346882]",1,1
+"Mapk1","MAPK1",433,"ENSG00000100030","433.1.1","ENSMUSG00000063358","mitogen-activated protein kinase 1 [Source:MGI Symbol;Acc:MGI:1346858]",1,1
+"Mapk12","MAPK12",434,"ENSG00000188130","434.1.1","ENSMUSG00000022610","mitogen-activated protein kinase 12 [Source:MGI Symbol;Acc:MGI:1353438]",1,1
+"Mapk14","MAPK14",435,"ENSG00000112062","435.1.1","ENSMUSG00000053436","mitogen-activated protein kinase 14 [Source:MGI Symbol;Acc:MGI:1346865]",1,1
+"Mapk9","MAPK9",436,"ENSG00000050748","436.1.1","ENSMUSG00000020366","mitogen-activated protein kinase 9 [Source:MGI Symbol;Acc:MGI:1346862]",1,1
+"Mapkapk5","MAPKAPK5",437,"ENSG00000089022","437.1.1","ENSMUSG00000029454","MAP kinase-activated protein kinase 5 [Source:MGI Symbol;Acc:MGI:1333110]",1,1
+"Marchf5","MARCHF5",438,"ENSG00000198060","438.1.1","ENSMUSG00000023307","membrane associated ring-CH-type finger 5 [Source:MGI Symbol;Acc:MGI:1915207]",1,1
+"Marcks","MARCKS",439,"ENSG00000277443","439.1.1","ENSMUSG00000069662","myristoylated alanine rich protein kinase C substrate [Source:MGI Symbol;Acc:MGI:96907]",1,1
+"Mast1","MAST1",440,"ENSG00000105613","440.1.1","ENSMUSG00000053693","microtubule associated serine/threonine kinase 1 [Source:MGI Symbol;Acc:MGI:1861901]",1,1
+"Matk","MATK",441,"ENSG00000007264","441.1.1","ENSMUSG00000004933","megakaryocyte-associated tyrosine kinase [Source:MGI Symbol;Acc:MGI:99259]",1,1
+"Mavs","MAVS",442,"ENSG00000088888","442.1.1","ENSMUSG00000037523","mitochondrial antiviral signaling protein [Source:MGI Symbol;Acc:MGI:2444773]",1,1
+"Mcam","MCAM",443,"ENSG00000076706","443.1.1","ENSMUSG00000032135","melanoma cell adhesion molecule [Source:MGI Symbol;Acc:MGI:1933966]",1,1
+"Mcl1","MCL1",444,"ENSG00000143384","444.1.1","ENSMUSG00000038612","myeloid cell leukemia sequence 1 [Source:MGI Symbol;Acc:MGI:101769]",1,1
+"Mcm3ap","MCM3AP",445,"ENSG00000160294","445.1.1","ENSMUSG00000001150","minichromosome maintenance complex component 3 associated protein [Source:MGI Symbol;Acc:MGI:1930089]",1,1
+"Mcm7","MCM7",446,"ENSG00000166508","446.1.1","ENSMUSG00000029730","minichromosome maintenance complex component 7 [Source:MGI Symbol;Acc:MGI:1298398]",1,1
+"Mcrs1","MCRS1",447,"ENSG00000187778","447.1.1","ENSMUSG00000037570","microspherule protein 1 [Source:MGI Symbol;Acc:MGI:1858420]",1,1
+"Mcu","MCU",448,"ENSG00000156026","448.1.1","ENSMUSG00000009647","mitochondrial calcium uniporter [Source:MGI Symbol;Acc:MGI:3026965]",1,1
+"Mdc1","MDC1",449,"ENSG00000137337","449.1.1","ENSMUSG00000061607","mediator of DNA damage checkpoint 1 [Source:MGI Symbol;Acc:MGI:3525201]",1,1
+"Mdh1","MDH1",450,"ENSG00000014641","450.1.1","ENSMUSG00000020321","malate dehydrogenase 1, NAD (soluble) [Source:MGI Symbol;Acc:MGI:97051]",1,1
+"Mdk","MDK",451,"ENSG00000110492","451.1.1","ENSMUSG00000027239","midkine [Source:MGI Symbol;Acc:MGI:96949]",1,1
+"Mdm2","MDM2",452,"ENSG00000135679","452.1.1","ENSMUSG00000020184","transformed mouse 3T3 cell double minute 2 [Source:MGI Symbol;Acc:MGI:96952]",1,1
+"Me1","ME1",454,"ENSG00000065833","454.1.1","ENSMUSG00000032418","malic enzyme 1, NADP(+)-dependent, cytosolic [Source:MGI Symbol;Acc:MGI:97043]",1,1
+"Me2","ME2",455,"ENSG00000082212","455.1.1","ENSMUSG00000024556","malic enzyme 2, NAD(+)-dependent, mitochondrial [Source:MGI Symbol;Acc:MGI:2147351]",1,1
+"Mecp2","MECP2",456,"ENSG00000169057","456.1.1","ENSMUSG00000031393","methyl CpG binding protein 2 [Source:MGI Symbol;Acc:MGI:99918]",1,1
+"Med12","MED12",457,"ENSG00000184634","457.1.1","ENSMUSG00000079487","mediator complex subunit 12 [Source:MGI Symbol;Acc:MGI:1926212]",1,1
+"Mef2a","MEF2A",458,"ENSG00000068305","458.1.1","ENSMUSG00000030557","myocyte enhancer factor 2A [Source:MGI Symbol;Acc:MGI:99532]",1,1
+"Meis2","MEIS2",459,"ENSG00000134138","459.1.1","ENSMUSG00000027210","Meis homeobox 2 [Source:MGI Symbol;Acc:MGI:108564]",1,1
+"Men1","MEN1",460,"ENSG00000133895","460.1.1","ENSMUSG00000024947","multiple endocrine neoplasia 1 [Source:MGI Symbol;Acc:MGI:1316736]",1,1
+"Meox1","MEOX1",461,"ENSG00000005102","461.1.1","ENSMUSG00000001493","mesenchyme homeobox 1 [Source:MGI Symbol;Acc:MGI:103220]",1,1
+"Met","MET",462,"ENSG00000105976","462.1.1","ENSMUSG00000009376","met proto-oncogene [Source:MGI Symbol;Acc:MGI:96969]",1,1
+"Mettl14","METTL14",463,"ENSG00000145388","463.1.1","ENSMUSG00000028114","methyltransferase 14, N6-adenosine-methyltransferase subunit [Source:MGI Symbol;Acc:MGI:2442926]",1,1
+"Mif","MIF",464,"ENSG00000240972","464.1.1","ENSMUSG00000033307","macrophage migration inhibitory factor (glycosylation-inhibiting factor) [Source:MGI Symbol;Acc:MGI:96982]",1,1
+"Mink1","MINK1",465,"ENSG00000141503","465.1.1","ENSMUSG00000020827","misshapen-like kinase 1 (zebrafish) [Source:MGI Symbol;Acc:MGI:1355329]",1,1
+"Mitf","MITF",466,"ENSG00000187098","466.1.1","ENSMUSG00000035158","melanogenesis associated transcription factor [Source:MGI Symbol;Acc:MGI:104554]",1,1
+"Mkrn1","MKRN1",467,"ENSG00000133606","467.1.1","ENSMUSG00000029922","makorin, ring finger protein, 1 [Source:MGI Symbol;Acc:MGI:1859353]",1,1
+"Mme","MME",468,"ENSG00000196549","468.1.1","ENSMUSG00000027820","membrane metallo endopeptidase [Source:MGI Symbol;Acc:MGI:97004]",1,1
+"Mmp7","MMP7",469,"ENSG00000137673","469.1.1","ENSMUSG00000018623","matrix metallopeptidase 7 [Source:MGI Symbol;Acc:MGI:103189]",1,1
+"Mmp9","MMP9",470,"ENSG00000100985","470.1.1","ENSMUSG00000017737","matrix metallopeptidase 9 [Source:MGI Symbol;Acc:MGI:97011]",1,1
+"Mnx1","MNX1",471,"ENSG00000130675","471.1.1","ENSMUSG00000001566","motor neuron and pancreas homeobox 1 [Source:MGI Symbol;Acc:MGI:109160]",1,1
+"Mob3a","MOB3A",472,"ENSG00000172081","472.1.1","ENSMUSG00000003348","MOB kinase activator 3A [Source:MGI Symbol;Acc:MGI:3050117]",1,1
+"Morc3","MORC3",473,"ENSG00000159256","473.1.1","ENSMUSG00000039456","microrchidia 3 [Source:MGI Symbol;Acc:MGI:2136841]",1,1
+"Morf4l1","MORF4L1",474,"ENSG00000185787","474.1.1","ENSMUSG00000062270","mortality factor 4 like 1 [Source:MGI Symbol;Acc:MGI:1096551]",1,1
+"Mos","MOS",475,"ENSG00000172680","475.1.1","ENSMUSG00000078365","Moloney sarcoma oncogene [Source:MGI Symbol;Acc:MGI:97052]",1,1
+"Mrtfa","MRTFA",476,"ENSG00000196588","476.1.1","ENSMUSG00000042292","myocardin related transcription factor A [Source:MGI Symbol;Acc:MGI:2384495]",1,1
+"Mrtfb","MRTFB",477,"ENSG00000186260","477.1.1","ENSMUSG00000009569","myocardin related transcription factor B [Source:MGI Symbol;Acc:MGI:3050795]",1,1
+"Msn","MSN",478,"ENSG00000147065","478.1.1","ENSMUSG00000031207","moesin [Source:MGI Symbol;Acc:MGI:97167]",1,1
+"Mst1","MST1",479,"ENSG00000173531","479.1.1","ENSMUSG00000032591","macrophage stimulating 1 (hepatocyte growth factor-like) [Source:MGI Symbol;Acc:MGI:96080]",1,1
+"Mtdh","MTDH",481,"ENSG00000147649","481.1.1","ENSMUSG00000022255","metadherin [Source:MGI Symbol;Acc:MGI:1914404]",1,1
+"Mthfd2","MTHFD2",482,"ENSG00000065911","482.1.1","ENSMUSG00000005667","methylenetetrahydrofolate dehydrogenase (NAD+ dependent), methenyltetrahydrofolate cyclohydrolase [Source:MGI Symbol;Acc:MGI:1338850]",1,1
+"Mtor","MTOR",483,"ENSG00000198793","483.1.1","ENSMUSG00000028991","mechanistic target of rapamycin kinase [Source:MGI Symbol;Acc:MGI:1928394]",1,1
+"Muc4","MUC4",484,"ENSG00000145113","484.1.1","ENSMUSG00000118672","mucin 4 [Source:MGI Symbol;Acc:MGI:2153525]",1,1
+"Mus81","MUS81",485,"ENSG00000172732","485.1.1","ENSMUSG00000024906","MUS81 structure-specific endonuclease subunit [Source:MGI Symbol;Acc:MGI:1918961]",1,1
+"Mvk","MVK",486,"ENSG00000110921","486.1.1","ENSMUSG00000041939","mevalonate kinase [Source:MGI Symbol;Acc:MGI:107624]",1,1
+"Mvp","MVP",487,"ENSG00000013364","487.1.1","ENSMUSG00000030681","major vault protein [Source:MGI Symbol;Acc:MGI:1925638]",1,1
+"Mxd4","MXD4",488,"ENSG00000123933","488.1.1","ENSMUSG00000037235","Max dimerization protein 4 [Source:MGI Symbol;Acc:MGI:104991]",1,1
+"Mybbp1a","MYBBP1A",489,"ENSG00000132382","489.1.1","ENSMUSG00000040463","MYB binding protein (P160) 1a [Source:MGI Symbol;Acc:MGI:106181]",1,1
+"Mybl2","MYBL2",490,"ENSG00000101057","490.1.1","ENSMUSG00000017861","myeloblastosis oncogene-like 2 [Source:MGI Symbol;Acc:MGI:101785]",1,1
+"Myc","MYC",491,"ENSG00000136997","491.1.1","ENSMUSG00000022346","myelocytomatosis oncogene [Source:MGI Symbol;Acc:MGI:97250]",1,1
+"Mycn","MYCN",492,"ENSG00000134323","492.1.1","ENSMUSG00000037169","v-myc avian myelocytomatosis viral related oncogene, neuroblastoma derived [Source:MGI Symbol;Acc:MGI:97357]",1,1
+"Myd88","MYD88",493,"ENSG00000172936","493.1.1","ENSMUSG00000032508","myeloid differentiation primary response gene 88 [Source:MGI Symbol;Acc:MGI:108005]",1,1
+"Mylk","MYLK",494,"ENSG00000065534","494.1.1","ENSMUSG00000022836","myosin, light polypeptide kinase [Source:MGI Symbol;Acc:MGI:894806]",1,1
+"N/A","BCL2L2",66,"ENSG00000258643","66.2.1","N/A","N/A",2,23
+"N/A","LNCTAM34A",410,"ENSG00000234546","410.1.1","N/A","N/A",1,23
+"N/A","DIRAS3",185,"ENSG00000162595","185.1.1","N/A","N/A",1,23
+"N/A","SETD1A",686,"ENSG00000099381","686.1.1","N/A","N/A",1,23
+"N/A","TLR10",783,"ENSG00000174123","783.1.1","N/A","N/A",1,23
+"N/A","MDP1",453,"ENSG00000213920","453.1.1","N/A","N/A",1,23
+"N/A","FOXP1",266,"ENSG00000285708","266.2.1","N/A","N/A",2,23
+"N/A","TP53I3",798,"ENSG00000115129","798.1.1","N/A","N/A",1,23
+"N/A","UBE2C",818,"ENSG00000175063","818.1.1","N/A","N/A",1,23
+"N/A","ZFX",860,"ENSG00000005889","860.1.1","N/A","N/A",1,23
+"N/A","CXCL1",167,"ENSG00000163739","167.1.1","N/A","N/A",1,23
+"N/A","FXN",270,"ENSG00000285130","270.2.1","N/A","N/A",2,23
+"N/A","DUSP3",199,"ENSG00000108861","199.1.1","N/A","N/A",1,23
+"N/A","PTEN",619,"ENSG00000171862","619.1.1","N/A","N/A",1,23
+"N/A","MAGOHB",422,"ENSG00000111196","422.1.1","N/A","N/A",1,23
+"N/A","PINX1",580,"ENSG00000258724","580.2.1","N/A","N/A",2,23
+"N/A","HNRNPC",321,"ENSG00000092199","321.1.1","N/A","N/A",1,23
+"N/A","SELENOH",681,"ENSG00000211450","681.1.1","N/A","N/A",1,23
+"N/A","PSMA2",614,"ENSG00000256646","614.2.1","N/A","N/A",2,23
+"N/A","MT1G",480,"ENSG00000125144","480.1.1","N/A","N/A",1,23
+"N/A","PRKCH",604,"ENSG00000310561","604.2.1","N/A","N/A",2,23
+"N/A","CEACAM1",134,"ENSG00000079385","134.1.1","N/A","N/A",1,23
+"N/A","VENTX",833,"ENSG00000151650","833.1.1","N/A","N/A",1,23
+"Nacc1","NACC1",495,"ENSG00000160877","495.1.1","ENSMUSG00000001910","nucleus accumbens associated 1, BEN and BTB (POZ) domain containing [Source:MGI Symbol;Acc:MGI:1914080]",1,1
+"Nadk","NADK",496,"ENSG00000008130","496.1.1","ENSMUSG00000029063","NAD kinase [Source:MGI Symbol;Acc:MGI:2183149]",1,1
+"Nampt","NAMPT",497,"ENSG00000105835","497.1.1","ENSMUSG00000020572","nicotinamide phosphoribosyltransferase [Source:MGI Symbol;Acc:MGI:1929865]",1,1
+"Nanog","NANOG",498,"ENSG00000111704","498.1.1","ENSMUSG00000012396","Nanog homeobox [Source:MGI Symbol;Acc:MGI:1919200]",1,1
+"Nbn","NBN",499,"ENSG00000104320","499.1.1","ENSMUSG00000028224","nibrin [Source:MGI Symbol;Acc:MGI:1351625]",1,1
+"Nbr1","NBR1",500,"ENSG00000188554","500.1.1","ENSMUSG00000017119","NBR1, autophagy cargo receptor [Source:MGI Symbol;Acc:MGI:108498]",1,1
+"Ncapg2","NCAPG2",501,"ENSG00000146918","501.1.1","ENSMUSG00000042029","non-SMC condensin II complex, subunit G2 [Source:MGI Symbol;Acc:MGI:1923294]",1,1
+"Ncaph2","NCAPH2",502,"ENSG00000025770","502.1.1","ENSMUSG00000008690","non-SMC condensin II complex, subunit H2 [Source:MGI Symbol;Acc:MGI:1289164]",1,1
+"Ndrg1","NDRG1",503,"ENSG00000104419","503.1.1","ENSMUSG00000005125","N-myc downstream regulated gene 1 [Source:MGI Symbol;Acc:MGI:1341799]",1,1
+"Ndst2","NDST2",504,"ENSG00000166507","504.1.1","ENSMUSG00000039308","N-deacetylase/N-sulfotransferase (heparan glucosaminyl) 2 [Source:MGI Symbol;Acc:MGI:97040]",1,1
+"Nedd4","NEDD4",505,"ENSG00000069869","505.1.1","ENSMUSG00000032216","neural precursor cell expressed, developmentally down-regulated 4 [Source:MGI Symbol;Acc:MGI:97297]",1,1
+"Nek1","NEK1",506,"ENSG00000137601","506.1.1","ENSMUSG00000031644","NIMA (never in mitosis gene a)-related expressed kinase 1 [Source:MGI Symbol;Acc:MGI:97303]",1,1
+"Nek2","NEK2",507,"ENSG00000117650","507.1.1","ENSMUSG00000026622","NIMA (never in mitosis gene a)-related expressed kinase 2 [Source:MGI Symbol;Acc:MGI:109359]",1,1
+"Nek4","NEK4",508,"ENSG00000114904","508.1.1","ENSMUSG00000021918","NIMA (never in mitosis gene a)-related expressed kinase 4 [Source:MGI Symbol;Acc:MGI:1344404]",1,1
+"Nek6","NEK6",509,"ENSG00000119408","509.1.1","ENSMUSG00000026749","NIMA (never in mitosis gene a)-related expressed kinase 6 [Source:MGI Symbol;Acc:MGI:1891638]",1,1
+"Nek9","NEK9",510,"ENSG00000119638","510.1.1","ENSMUSG00000034290","NIMA (never in mitosis gene a)-related expressed kinase 9 [Source:MGI Symbol;Acc:MGI:2387995]",1,1
+"Nf1","NF1",511,"ENSG00000196712","511.1.1","ENSMUSG00000020716","neurofibromin 1 [Source:MGI Symbol;Acc:MGI:97306]",1,1
+"Nf2","NF2",512,"ENSG00000186575","512.1.1","ENSMUSG00000009073","neurofibromin 2 [Source:MGI Symbol;Acc:MGI:97307]",1,1
+"Nfe2l2","NFE2L2",513,"ENSG00000116044","513.1.1","ENSMUSG00000015839","nuclear factor, erythroid derived 2, like 2 [Source:MGI Symbol;Acc:MGI:108420]",1,1
+"Nfkb2","NFKB2",514,"ENSG00000077150","514.1.1","ENSMUSG00000025225","nuclear factor of kappa light polypeptide gene enhancer in B cells 2, p49/p100 [Source:MGI Symbol;Acc:MGI:1099800]",1,1
+"Nfkbia","NFKBIA",515,"ENSG00000100906","515.1.1","ENSMUSG00000021025","nuclear factor of kappa light polypeptide gene enhancer in B cells inhibitor, alpha [Source:MGI Symbol;Acc:MGI:104741]",1,1
+"Nhej1","NHEJ1",516,"ENSG00000187736","516.1.1","ENSMUSG00000026162","non-homologous end joining factor 1 [Source:MGI Symbol;Acc:MGI:1922820]",1,1
+"Ninj1","NINJ1",517,"ENSG00000131669","517.1.1","ENSMUSG00000037966","ninjurin 1 [Source:MGI Symbol;Acc:MGI:1196617]",1,1
+"Nipa2","NIPA2",518,"ENSG00000140157","518.1.1","ENSMUSG00000030452","non imprinted in Prader-Willi/Angelman syndrome 2 homolog (human) [Source:MGI Symbol;Acc:MGI:1913918]",1,1
+"Nlk","NLK",519,"ENSG00000087095","519.1.1","ENSMUSG00000017376","nemo like kinase [Source:MGI Symbol;Acc:MGI:1201387]",1,1
+"Nlrx1","NLRX1",520,"ENSG00000160703","520.1.1","ENSMUSG00000032109","NLR family member X1 [Source:MGI Symbol;Acc:MGI:2429611]",1,1
+"Nolc1","NOLC1",521,"ENSG00000166197","521.1.1","ENSMUSG00000015176","nucleolar and coiled-body phosphoprotein 1 [Source:MGI Symbol;Acc:MGI:1918019]",1,1
+"Notch1","NOTCH1",522,"ENSG00000148400","522.1.1","ENSMUSG00000026923","notch 1 [Source:MGI Symbol;Acc:MGI:97363]",1,1
+"Notch3","NOTCH3",523,"ENSG00000074181","523.1.1","ENSMUSG00000038146","notch 3 [Source:MGI Symbol;Acc:MGI:99460]",1,1
+"Nox1","NOX1",524,"ENSG00000007952","524.1.1","ENSMUSG00000031257","NADPH oxidase 1 [Source:MGI Symbol;Acc:MGI:2450016]",1,1
+"Nox4","NOX4",525,"ENSG00000086991","525.1.1","ENSMUSG00000030562","NADPH oxidase 4 [Source:MGI Symbol;Acc:MGI:1354184]",1,1
+"Npm1","NPM1",526,"ENSG00000181163","526.1.1","ENSMUSG00000057113","nucleophosmin 1 [Source:MGI Symbol;Acc:MGI:106184]",1,1
+"Nqo1","NQO1",527,"ENSG00000181019","527.1.1","ENSMUSG00000003849","NAD(P)H dehydrogenase, quinone 1 [Source:MGI Symbol;Acc:MGI:103187]",1,1
+"Nr1h2","NR1H2",528,"ENSG00000131408","528.1.1","ENSMUSG00000060601","nuclear receptor subfamily 1, group H, member 2 [Source:MGI Symbol;Acc:MGI:1352463]",1,1
+"Nr2e1","NR2E1",529,"ENSG00000112333","529.1.1","ENSMUSG00000019803","nuclear receptor subfamily 2, group E, member 1 [Source:MGI Symbol;Acc:MGI:1100526]",1,1
+"Nras","NRAS",530,"ENSG00000213281","530.1.1","ENSMUSG00000027852","neuroblastoma ras oncogene [Source:MGI Symbol;Acc:MGI:97376]",1,1
+"Nrf1","NRF1",531,"ENSG00000106459","531.1.1","ENSMUSG00000058440","nuclear respiratory factor 1 [Source:MGI Symbol;Acc:MGI:1332235]",1,1
+"Nrsn2","NRSN2",532,"ENSG00000125841","532.1.1","ENSMUSG00000059361","neurensin 2 [Source:MGI Symbol;Acc:MGI:2684969]",1,1
+"Nsun2","NSUN2",533,"ENSG00000037474","533.1.1","ENSMUSG00000021595","NOL1/NOP2/Sun domain family member 2 [Source:MGI Symbol;Acc:MGI:107252]",1,1
+"Ntn4","NTN4",534,"ENSG00000074527","534.1.1","ENSMUSG00000020019","netrin 4 [Source:MGI Symbol;Acc:MGI:1888978]",1,1
+"Nuak1","NUAK1",535,"ENSG00000074590","535.1.1","ENSMUSG00000020032","NUAK family, SNF1-like kinase, 1 [Source:MGI Symbol;Acc:MGI:1925226]",1,1
+"Nuak2","NUAK2",536,"ENSG00000163545","536.1.1","ENSMUSG00000009772","NUAK family, SNF1-like kinase, 2 [Source:MGI Symbol;Acc:MGI:1921387]",1,1
+"Nudt5","NUDT5",537,"ENSG00000165609","537.1.1","ENSMUSG00000025817","nudix hydrolase 5 [Source:MGI Symbol;Acc:MGI:1858232]",1,1
+"Nutf2","NUTF2",538,"ENSG00000102898","538.1.1","ENSMUSG00000008450","nuclear transport factor 2 [Source:MGI Symbol;Acc:MGI:1915301]",2,1
+"Nutf2-ps1","NUTF2",538,"ENSG00000102898","538.1.2","ENSMUSG00000071497","nuclear transport factor 2, pseudogene 1 [Source:MGI Symbol;Acc:MGI:108008]",2,1
+"Ogg1","OGG1",539,"ENSG00000114026","539.1.1","ENSMUSG00000030271","8-oxoguanine DNA-glycosylase 1 [Source:MGI Symbol;Acc:MGI:1097693]",1,1
+"Ogt","OGT",540,"ENSG00000147162","540.1.1","ENSMUSG00000034160","O-linked N-acetylglucosamine (GlcNAc) transferase (UDP-N-acetylglucosamine:polypeptide-N-acetylglucosaminyl transferase) [Source:MGI Symbol;Acc:MGI:1339639]",1,1
+"Opa1","OPA1",541,"ENSG00000198836","541.1.1","ENSMUSG00000038084","OPA1, mitochondrial dynamin like GTPase [Source:MGI Symbol;Acc:MGI:1921393]",1,1
+"Orai1","ORAI1",542,"ENSG00000276045","542.1.1","ENSMUSG00000049686","ORAI calcium release-activated calcium modulator 1 [Source:MGI Symbol;Acc:MGI:1925542]",1,1
+"Orc1","ORC1",543,"ENSG00000085840","543.1.1","ENSMUSG00000028587","origin recognition complex, subunit 1 [Source:MGI Symbol;Acc:MGI:1328337]",1,1
+"Otx2","OTX2",544,"ENSG00000165588","544.1.1","ENSMUSG00000021848","orthodenticle homeobox 2 [Source:MGI Symbol;Acc:MGI:97451]",1,1
+"Oxtr","OXTR",545,"ENSG00000180914","545.1.1","ENSMUSG00000049112","oxytocin receptor [Source:MGI Symbol;Acc:MGI:109147]",1,1
+"P2ry14","P2RY14",546,"ENSG00000174944","546.1.1","ENSMUSG00000036381","purinergic receptor P2Y, G-protein coupled, 14 [Source:MGI Symbol;Acc:MGI:2155705]",1,1
+"P3h1","P3H1",547,"ENSG00000117385","547.1.1","ENSMUSG00000028641","prolyl 3-hydroxylase 1 [Source:MGI Symbol;Acc:MGI:1888921]",1,1
+"Pak2","PAK2",548,"ENSG00000180370","548.1.1","ENSMUSG00000022781","p21 (RAC1) activated kinase 2 [Source:MGI Symbol;Acc:MGI:1339984]",1,1
+"Pak4","PAK4",549,"ENSG00000130669","549.1.1","ENSMUSG00000030602","p21 (RAC1) activated kinase 4 [Source:MGI Symbol;Acc:MGI:1917834]",1,1
+"Papss2","PAPSS2",550,"ENSG00000198682","550.1.1","ENSMUSG00000024899","3'-phosphoadenosine 5'-phosphosulfate synthase 2 [Source:MGI Symbol;Acc:MGI:1330223]",1,1
+"Park7","PARK7",551,"ENSG00000116288","551.1.1","ENSMUSG00000028964","Parkinson disease (autosomal recessive, early onset) 7 [Source:MGI Symbol;Acc:MGI:2135637]",1,1
+"Parp1","PARP1",552,"ENSG00000143799","552.1.1","ENSMUSG00000026496","poly (ADP-ribose) polymerase family, member 1 [Source:MGI Symbol;Acc:MGI:1340806]",1,1
+"Patz1","PATZ1",553,"ENSG00000100105","553.1.1","ENSMUSG00000020453","POZ (BTB) and AT hook containing zinc finger 1 [Source:MGI Symbol;Acc:MGI:1891832]",1,1
+"Pax8","PAX8",554,"ENSG00000125618","554.1.1","ENSMUSG00000026976","paired box 8 [Source:MGI Symbol;Acc:MGI:97492]",1,1
+"Pbp2","PEBP1",565,"ENSG00000089220","565.1.1","ENSMUSG00000047104","phosphatidylethanolamine binding protein 2 [Source:MGI Symbol;Acc:MGI:1923650]",1,1
+"Pbrm1","PBRM1",555,"ENSG00000163939","555.1.1","ENSMUSG00000042323","polybromo 1 [Source:MGI Symbol;Acc:MGI:1923998]",1,1
+"Pcgf2","PCGF2",556,"ENSG00000277258","556.1.1","ENSMUSG00000018537","polycomb group ring finger 2 [Source:MGI Symbol;Acc:MGI:99161]",1,1
+"Pdcd10","PDCD10",557,"ENSG00000114209","557.1.1","ENSMUSG00000027835","programmed cell death 10 [Source:MGI Symbol;Acc:MGI:1928396]",1,1
+"Pdcd11","PDCD11",558,"ENSG00000148843","558.1.1","ENSMUSG00000025047","programmed cell death 11 [Source:MGI Symbol;Acc:MGI:1341788]",1,1
+"Pdcd4","PDCD4",559,"ENSG00000150593","559.1.1","ENSMUSG00000024975","programmed cell death 4 [Source:MGI Symbol;Acc:MGI:107490]",1,1
+"Pdgfb","PDGFB",560,"ENSG00000100311","560.1.1","ENSMUSG00000000489","platelet derived growth factor, B polypeptide [Source:MGI Symbol;Acc:MGI:97528]",1,1
+"Pdik1l","PDIK1L",561,"ENSG00000175087","561.1.1","ENSMUSG00000050890","PDLIM1 interacting kinase 1 like [Source:MGI Symbol;Acc:MGI:2385213]",1,1
+"Pdpk1","PDPK1",562,"ENSG00000140992","562.1.1","ENSMUSG00000024122","3-phosphoinositide dependent protein kinase 1 [Source:MGI Symbol;Acc:MGI:1338068]",1,1
+"Pdzd2","PDZD2",563,"ENSG00000133401","563.1.1","ENSMUSG00000022197","PDZ domain containing 2 [Source:MGI Symbol;Acc:MGI:1922394]",1,1
+"Pea15a","PEA15",564,"ENSG00000162734","564.1.1","ENSMUSG00000013698","proliferation and apoptosis adaptor protein 15A [Source:MGI Symbol;Acc:MGI:104799]",1,1
+"Pelp1","PELP1",566,"ENSG00000141456","566.1.1","ENSMUSG00000018921","proline, glutamic acid and leucine rich protein 1 [Source:MGI Symbol;Acc:MGI:1922523]",1,1
+"Pes1","PES1",567,"ENSG00000100029","567.1.1","ENSMUSG00000020430","pescadillo ribosomal biogenesis factor 1 [Source:MGI Symbol;Acc:MGI:1890613]",1,1
+"Pex19","PEX19",568,"ENSG00000162735","568.1.1","ENSMUSG00000003464","peroxisomal biogenesis factor 19 [Source:MGI Symbol;Acc:MGI:1334458]",1,1
+"Pgr","PGR",569,"ENSG00000082175","569.1.1","ENSMUSG00000031870","progesterone receptor [Source:MGI Symbol;Acc:MGI:97567]",1,1
+"Phb1","PHB",570,"ENSG00000167085","570.1.1","ENSMUSG00000038845","prohibitin 1 [Source:MGI Symbol;Acc:MGI:97572]",1,1
+"Phb2","PHB2",571,"ENSG00000215021","571.1.1","ENSMUSG00000004264","prohibitin 2 [Source:MGI Symbol;Acc:MGI:102520]",1,1
+"Phgdh","PHGDH",572,"ENSG00000092621","572.1.1","ENSMUSG00000053398","3-phosphoglycerate dehydrogenase [Source:MGI Symbol;Acc:MGI:1355330]",1,1
+"Pi4kb","PI4KB",573,"ENSG00000143393","573.1.1","ENSMUSG00000038861","phosphatidylinositol 4-kinase beta [Source:MGI Symbol;Acc:MGI:1334433]",1,1
+"Pik3c2a","PIK3C2A",574,"ENSG00000011405","574.1.1","ENSMUSG00000030660","phosphatidylinositol-4-phosphate 3-kinase catalytic subunit type 2 alpha [Source:MGI Symbol;Acc:MGI:1203729]",1,1
+"Pik3ca","PIK3CA",575,"ENSG00000121879","575.1.1","ENSMUSG00000027665","phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit alpha [Source:MGI Symbol;Acc:MGI:1206581]",1,1
+"Pik3r5","PIK3R5",576,"ENSG00000141506","576.1.1","ENSMUSG00000020901","phosphoinositide-3-kinase regulatory subunit 5 [Source:MGI Symbol;Acc:MGI:2443588]",1,1
+"Pim1","PIM1",577,"ENSG00000137193","577.1.1","ENSMUSG00000024014","proviral integration site 1 [Source:MGI Symbol;Acc:MGI:97584]",1,1
+"Pin1","PIN1",578,"ENSG00000127445","578.1.1","ENSMUSG00000032171","peptidyl-prolyl cis/trans isomerase, NIMA-interacting 1 [Source:MGI Symbol;Acc:MGI:1346036]",2,1
+"Pin1rt1","PIN1",578,"ENSG00000127445","578.1.2","ENSMUSG00000074997","peptidyl-prolyl cis/trans isomerase, NIMA-interacting 1, retrogene 1 [Source:MGI Symbol;Acc:MGI:3649546]",2,1
+"Pink1","PINK1",579,"ENSG00000158828","579.1.1","ENSMUSG00000028756","PTEN induced putative kinase 1 [Source:MGI Symbol;Acc:MGI:1916193]",1,1
+"Pinx1","PINX1",580,"ENSG00000254093","580.1.1","ENSMUSG00000021958","PIN2/TERF1 interacting, telomerase inhibitor 1 [Source:MGI Symbol;Acc:MGI:1919650]",2,1
+"Pir","PIR",581,"ENSG00000087842","581.1.1","ENSMUSG00000031379","pirin [Source:MGI Symbol;Acc:MGI:1916906]",1,1
+"Pitx1","PITX1",582,"ENSG00000069011","582.1.1","ENSMUSG00000021506","paired-like homeodomain transcription factor 1 [Source:MGI Symbol;Acc:MGI:107374]",1,1
+"Pla2g2a","PLA2G2A",583,"ENSG00000188257","583.1.1","ENSMUSG00000058908","phospholipase A2, group IIA (platelets, synovial fluid) [Source:MGI Symbol;Acc:MGI:104642]",1,1
+"Pla2r1","PLA2R1",584,"ENSG00000153246","584.1.1","ENSMUSG00000054580","phospholipase A2 receptor 1 [Source:MGI Symbol;Acc:MGI:102468]",1,1
+"Pld2","PLD2",585,"ENSG00000129219","585.1.1","ENSMUSG00000020828","phospholipase D2 [Source:MGI Symbol;Acc:MGI:892877]",1,1
+"Plk1","PLK1",586,"ENSG00000166851","586.1.1","ENSMUSG00000030867","polo like kinase 1 [Source:MGI Symbol;Acc:MGI:97621]",1,1
+"Pml","PML",587,"ENSG00000140464","587.1.1","ENSMUSG00000036986","promyelocytic leukemia [Source:MGI Symbol;Acc:MGI:104662]",1,1
+"Pmvk","PMVK",588,"ENSG00000163344","588.1.1","ENSMUSG00000027952","phosphomevalonate kinase [Source:MGI Symbol;Acc:MGI:1915853]",1,1
+"Pnpt1","PNPT1",589,"ENSG00000138035","589.1.1","ENSMUSG00000020464","polyribonucleotide nucleotidyltransferase 1 [Source:MGI Symbol;Acc:MGI:1918951]",1,1
+"Pon1","PON1",590,"ENSG00000005421","590.1.1","ENSMUSG00000002588","paraoxonase 1 [Source:MGI Symbol;Acc:MGI:103295]",1,1
+"Pot1a","POT1",591,"ENSG00000128513","591.1.2","ENSMUSG00000029676","protection of telomeres 1A [Source:MGI Symbol;Acc:MGI:2141503]",2,1
+"Pot1b","POT1",591,"ENSG00000128513","591.1.1","ENSMUSG00000024174","protection of telomeres 1B [Source:MGI Symbol;Acc:MGI:1920086]",2,1
+"Pou3f1","POU3F1",592,"ENSG00000185668","592.1.1","ENSMUSG00000090125","POU domain, class 3, transcription factor 1 [Source:MGI Symbol;Acc:MGI:101896]",1,1
+"Pou5f1","POU5F1",593,"ENSG00000204531","593.1.1","ENSMUSG00000024406","POU domain, class 5, transcription factor 1 [Source:MGI Symbol;Acc:MGI:101893]",1,1
+"Pparg","PPARG",594,"ENSG00000132170","594.1.1","ENSMUSG00000000440","peroxisome proliferator activated receptor gamma [Source:MGI Symbol;Acc:MGI:97747]",1,1
+"Ppargc1a","PPARGC1A",595,"ENSG00000109819","595.1.1","ENSMUSG00000029167","peroxisome proliferative activated receptor, gamma, coactivator 1 alpha [Source:MGI Symbol;Acc:MGI:1342774]",1,1
+"Ppib","PPIB",596,"ENSG00000166794","596.1.1","ENSMUSG00000032383","peptidylprolyl isomerase B [Source:MGI Symbol;Acc:MGI:97750]",1,1
+"Ppm1b","PPM1B",597,"ENSG00000138032","597.1.1","ENSMUSG00000061130","protein phosphatase 1B, magnesium dependent, beta isoform [Source:MGI Symbol;Acc:MGI:101841]",1,1
+"Ppm1d","PPM1D",598,"ENSG00000170836","598.1.1","ENSMUSG00000020525","protein phosphatase 1D magnesium-dependent, delta isoform [Source:MGI Symbol;Acc:MGI:1858214]",1,1
+"Ppp1r13b","PPP1R13B",599,"ENSG00000088808","599.1.1","ENSMUSG00000021285","protein phosphatase 1, regulatory subunit 13B [Source:MGI Symbol;Acc:MGI:1336199]",1,1
+"Ppp2r1a","PPP2R1A",600,"ENSG00000105568","600.1.1","ENSMUSG00000007564","protein phosphatase 2, regulatory subunit A, alpha [Source:MGI Symbol;Acc:MGI:1926334]",1,1
+"Ppp2r5a","PPP2R5A",601,"ENSG00000066027","601.1.1","ENSMUSG00000026626","protein phosphatase 2, regulatory subunit B', alpha [Source:MGI Symbol;Acc:MGI:2388479]",1,1
+"Prkaa2","PRKAA2",602,"ENSG00000162409","602.1.1","ENSMUSG00000028518","protein kinase, AMP-activated, alpha 2 catalytic subunit [Source:MGI Symbol;Acc:MGI:1336173]",1,1
+"Prkcd","PRKCD",603,"ENSG00000163932","603.1.1","ENSMUSG00000021948","protein kinase C, delta [Source:MGI Symbol;Acc:MGI:97598]",1,1
+"Prkch","PRKCH",604,"ENSG00000027075","604.1.1","ENSMUSG00000021108","protein kinase C, eta [Source:MGI Symbol;Acc:MGI:97600]",2,1
+"Prkd1","PRKD1",605,"ENSG00000184304","605.1.1","ENSMUSG00000002688","protein kinase D1 [Source:MGI Symbol;Acc:MGI:99879]",1,1
+"Prkd2","PRKD2",606,"ENSG00000105287","606.1.1","ENSMUSG00000041187","protein kinase D2 [Source:MGI Symbol;Acc:MGI:2141917]",1,1
+"Prkdc","PRKDC",607,"ENSG00000253729","607.1.1","ENSMUSG00000022672","protein kinase, DNA activated, catalytic polypeptide [Source:MGI Symbol;Acc:MGI:104779]",1,1
+"Prkn","PRKN",608,"ENSG00000185345","608.1.1","ENSMUSG00000023826","parkin RBR E3 ubiquitin protein ligase [Source:MGI Symbol;Acc:MGI:1355296]",1,1
+"Prmt1","PRMT1",609,"ENSG00000126457","609.1.1","ENSMUSG00000109324","protein arginine N-methyltransferase 1 [Source:MGI Symbol;Acc:MGI:107846]",1,1
+"Prmt6","PRMT6",610,"ENSG00000198890","610.1.1","ENSMUSG00000049300","protein arginine N-methyltransferase 6 [Source:MGI Symbol;Acc:MGI:2139971]",1,1
+"Prodh","PRODH",611,"ENSG00000100033","611.1.1","ENSMUSG00000003526","proline dehydrogenase [Source:MGI Symbol;Acc:MGI:97770]",1,1
+"Prox1","PROX1",612,"ENSG00000117707","612.1.1","ENSMUSG00000010175","prospero homeobox 1 [Source:MGI Symbol;Acc:MGI:97772]",1,1
+"Prpf19","PRPF19",613,"ENSG00000110107","613.1.1","ENSMUSG00000024735","pre-mRNA processing factor 19 [Source:MGI Symbol;Acc:MGI:106247]",1,1
+"Psma2","PSMA2",614,"ENSG00000106588","614.1.1","ENSMUSG00000015671","proteasome subunit alpha 2 [Source:MGI Symbol;Acc:MGI:104885]",2,1
+"Psma5","PSMA5",615,"ENSG00000143106","615.1.1","ENSMUSG00000068749","proteasome subunit alpha 5 [Source:MGI Symbol;Acc:MGI:1347009]",1,1
+"Psmb1","PSMB1",616,"ENSG00000008018","616.1.1","ENSMUSG00000014769","proteasome (prosome, macropain) subunit, beta type 1 [Source:MGI Symbol;Acc:MGI:104884]",1,1
+"Psmb5","PSMB5",617,"ENSG00000100804","617.1.1","ENSMUSG00000022193","proteasome (prosome, macropain) subunit, beta type 5 [Source:MGI Symbol;Acc:MGI:1194513]",1,1
+"Psmd14","PSMD14",618,"ENSG00000115233","618.1.1","ENSMUSG00000026914","proteasome (prosome, macropain) 26S subunit, non-ATPase, 14 [Source:MGI Symbol;Acc:MGI:1913284]",1,1
+"Ptgs2","PTGS2",620,"ENSG00000073756","620.1.1","ENSMUSG00000032487","prostaglandin-endoperoxide synthase 2 [Source:MGI Symbol;Acc:MGI:97798]",1,1
+"Ptk2","PTK2",621,"ENSG00000169398","621.1.1","ENSMUSG00000022607","PTK2 protein tyrosine kinase 2 [Source:MGI Symbol;Acc:MGI:95481]",1,1
+"Ptpn1","PTPN1",622,"ENSG00000196396","622.1.1","ENSMUSG00000027540","protein tyrosine phosphatase, non-receptor type 1 [Source:MGI Symbol;Acc:MGI:97805]",1,1
+"Ptpn6","PTPN6",623,"ENSG00000111679","623.1.1","ENSMUSG00000004266","protein tyrosine phosphatase, non-receptor type 6 [Source:MGI Symbol;Acc:MGI:96055]",1,1
+"Pttg1","PTTG1",624,"ENSG00000164611","624.1.1","ENSMUSG00000020415","pituitary tumor-transforming gene 1 [Source:MGI Symbol;Acc:MGI:1353578]",1,1
+"Purb","PURB",625,"ENSG00000146676","625.1.1","ENSMUSG00000094483","purine rich element binding protein B [Source:MGI Symbol;Acc:MGI:1338779]",1,1
+"Pygl","PYGL",626,"ENSG00000100504","626.1.1","ENSMUSG00000021069","liver glycogen phosphorylase [Source:MGI Symbol;Acc:MGI:97829]",1,1
+"Racgap1","RACGAP1",627,"ENSG00000161800","627.1.1","ENSMUSG00000023015","Rac GTPase-activating protein 1 [Source:MGI Symbol;Acc:MGI:1349423]",1,1
+"Rack1","RACK1",628,"ENSG00000204628","628.1.1","ENSMUSG00000020372","receptor for activated C kinase 1 [Source:MGI Symbol;Acc:MGI:101849]",1,1
+"Rad21","RAD21",629,"ENSG00000164754","629.1.1","ENSMUSG00000022314","RAD21 cohesin complex component [Source:MGI Symbol;Acc:MGI:108016]",1,1
+"Rad23b","RAD23B",630,"ENSG00000119318","630.1.1","ENSMUSG00000028426","RAD23 homolog B, nucleotide excision repair protein [Source:MGI Symbol;Acc:MGI:105128]",1,1
+"Rad51c","RAD51C",631,"ENSG00000108384","631.1.1","ENSMUSG00000007646","RAD51 paralog C [Source:MGI Symbol;Acc:MGI:2150020]",1,1
+"Raf1","RAF1",632,"ENSG00000132155","632.1.1","ENSMUSG00000000441","v-raf-leukemia viral oncogene 1 [Source:MGI Symbol;Acc:MGI:97847]",1,1
+"Ran","RAN",633,"ENSG00000132341","633.1.1","ENSMUSG00000029430","RAN, member RAS oncogene family [Source:MGI Symbol;Acc:MGI:1333112]",1,1
+"Ranbp9","RANBP9",634,"ENSG00000010017","634.1.1","ENSMUSG00000038546","RAN binding protein 9 [Source:MGI Symbol;Acc:MGI:1928741]",1,1
+"Rap1gap","RAP1GAP",635,"ENSG00000076864","635.1.1","ENSMUSG00000041351","Rap1 GTPase-activating protein [Source:MGI Symbol;Acc:MGI:109338]",1,1
+"Rapgef4","RAPGEF4",636,"ENSG00000091428","636.1.1","ENSMUSG00000049044","Rap guanine nucleotide exchange factor (GEF) 4 [Source:MGI Symbol;Acc:MGI:1917723]",1,1
+"Rarb","RARB",637,"ENSG00000077092","637.1.1","ENSMUSG00000017491","retinoic acid receptor, beta [Source:MGI Symbol;Acc:MGI:97857]",1,1
+"Rassf1","RASSF1",638,"ENSG00000068028","638.1.1","ENSMUSG00000010067","Ras association (RalGDS/AF-6) domain family member 1 [Source:MGI Symbol;Acc:MGI:1928386]",1,1
+"Rassf4","RASSF4",639,"ENSG00000107551","639.1.1","ENSMUSG00000042129","Ras association (RalGDS/AF-6) domain family member 4 [Source:MGI Symbol;Acc:MGI:2386853]",1,1
+"Rassf5","RASSF5",640,"ENSG00000266094","640.1.1","ENSMUSG00000026430","Ras association (RalGDS/AF-6) domain family member 5 [Source:MGI Symbol;Acc:MGI:1926375]",1,1
+"Rb1","RB1",641,"ENSG00000139687","641.1.1","ENSMUSG00000022105","RB transcriptional corepressor 1 [Source:MGI Symbol;Acc:MGI:97874]",1,1
+"Rbbp4","RBBP4",642,"ENSG00000162521","642.1.1","ENSMUSG00000057236","retinoblastoma binding protein 4, chromatin remodeling factor [Source:MGI Symbol;Acc:MGI:1194912]",1,1
+"Rbl1","RBL1",643,"ENSG00000080839","643.1.1","ENSMUSG00000027641","RB transcriptional corepressor like 1 [Source:MGI Symbol;Acc:MGI:103300]",1,1
+"Rbl2","RBL2",644,"ENSG00000103479","644.1.1","ENSMUSG00000031666","RB transcriptional corepressor like 2 [Source:MGI Symbol;Acc:MGI:105085]",1,1
+"Rbm38","RBM38",645,"ENSG00000132819","645.1.1","ENSMUSG00000027510","RNA binding motif protein 38 [Source:MGI Symbol;Acc:MGI:1889294]",1,1
+"Rbm39","RBM39",646,"ENSG00000131051","646.1.1","ENSMUSG00000027620","RNA binding motif protein 39 [Source:MGI Symbol;Acc:MGI:2157953]",1,1
+"Rbp1","RBP1",647,"ENSG00000114115","647.1.1","ENSMUSG00000046402","retinol binding protein 1, cellular [Source:MGI Symbol;Acc:MGI:97876]",1,1
+"Rbp2","RBP2",648,"ENSG00000114113","648.1.1","ENSMUSG00000032454","retinol binding protein 2, cellular [Source:MGI Symbol;Acc:MGI:97877]",1,1
+"Rbpj","RBPJ",649,"ENSG00000168214","649.1.1","ENSMUSG00000039191","recombination signal binding protein for immunoglobulin kappa J region [Source:MGI Symbol;Acc:MGI:96522]",1,1
+"Rbx1","RBX1",650,"ENSG00000100387","650.1.1","ENSMUSG00000022400","ring-box 1 [Source:MGI Symbol;Acc:MGI:1891829]",1,1
+"Rcc1","RCC1",651,"ENSG00000180198","651.1.1","ENSMUSG00000028896","regulator of chromosome condensation 1 [Source:MGI Symbol;Acc:MGI:1913989]",1,1
+"Reck","RECK",652,"ENSG00000122707","652.1.1","ENSMUSG00000028476","reversion-inducing-cysteine-rich protein with kazal motifs [Source:MGI Symbol;Acc:MGI:1855698]",1,1
+"Recql4","RECQL4",653,"ENSG00000160957","653.1.1","ENSMUSG00000033762","RecQ protein-like 4 [Source:MGI Symbol;Acc:MGI:1931028]",1,1
+"Rela","RELA",654,"ENSG00000173039","654.1.1","ENSMUSG00000024927","v-rel reticuloendotheliosis viral oncogene homolog A (avian) [Source:MGI Symbol;Acc:MGI:103290]",1,1
+"Relb","RELB",655,"ENSG00000104856","655.1.1","ENSMUSG00000002983","avian reticuloendotheliosis viral (v-rel) oncogene related B [Source:MGI Symbol;Acc:MGI:103289]",1,1
+"Rhoa","RHOA",656,"ENSG00000067560","656.1.1","ENSMUSG00000007815","ras homolog family member A [Source:MGI Symbol;Acc:MGI:1096342]",1,1
+"Rnaseh2a","RNASEH2A",657,"ENSG00000104889","657.1.1","ENSMUSG00000052926","ribonuclease H2, large subunit [Source:MGI Symbol;Acc:MGI:1916974]",1,1
+"Rnaseh2b","RNASEH2B",658,"ENSG00000136104","658.1.1","ENSMUSG00000021932","ribonuclease H2, subunit B [Source:MGI Symbol;Acc:MGI:1914403]",1,1
+"Rnasel","RNASEL",659,"ENSG00000135828","659.1.1","ENSMUSG00000066800","ribonuclease L (2', 5'-oligoisoadenylate synthetase-dependent) [Source:MGI Symbol;Acc:MGI:1098272]",1,1
+"Romo1","ROMO1",660,"ENSG00000125995","660.1.1","ENSMUSG00000067847","reactive oxygen species modulator 1 [Source:MGI Symbol;Acc:MGI:1914317]",1,1
+"Rpl11","RPL11",661,"ENSG00000142676","661.1.1","ENSMUSG00000059291","ribosomal protein L11 [Source:MGI Symbol;Acc:MGI:1914275]",1,1
+"Rps14","RPS14",662,"ENSG00000164587","662.1.1","ENSMUSG00000024608","ribosomal protein S14 [Source:MGI Symbol;Acc:MGI:98107]",1,1
+"Rps6kb1","RPS6KB1",663,"ENSG00000108443","663.1.1","ENSMUSG00000020516","ribosomal protein S6 kinase, polypeptide 1 [Source:MGI Symbol;Acc:MGI:1270849]",1,1
+"Rps9","RPS9",664,"ENSG00000170889","664.1.1","ENSMUSG00000006333","ribosomal protein S9 [Source:MGI Symbol;Acc:MGI:1924096]",1,1
+"Rptor","RPTOR",665,"ENSG00000141564","665.1.1","ENSMUSG00000025583","regulatory associated protein of MTOR, complex 1 [Source:MGI Symbol;Acc:MGI:1921620]",1,1
+"Rrad","RRAD",666,"ENSG00000166592","666.1.1","ENSMUSG00000031880","Ras-related associated with diabetes [Source:MGI Symbol;Acc:MGI:1930943]",1,1
+"Rras2","RRAS2",667,"ENSG00000133818","667.1.1","ENSMUSG00000055723","related RAS viral (r-ras) oncogene 2 [Source:MGI Symbol;Acc:MGI:1914172]",1,1
+"Rrm1","RRM1",668,"ENSG00000167325","668.1.1","ENSMUSG00000030978","ribonucleotide reductase M1 [Source:MGI Symbol;Acc:MGI:98180]",1,1
+"Rrm2","RRM2",669,"ENSG00000171848","669.1.1","ENSMUSG00000020649","ribonucleotide reductase M2 [Source:MGI Symbol;Acc:MGI:98181]",1,1
+"Rrm2b","RRM2B",670,"ENSG00000048392","670.1.1","ENSMUSG00000022292","ribonucleotide reductase M2 B (TP53 inducible) [Source:MGI Symbol;Acc:MGI:2155865]",1,1
+"Rrp8","RRP8",671,"ENSG00000132275","671.1.1","ENSMUSG00000030888","ribosomal RNA processing 8 [Source:MGI Symbol;Acc:MGI:1914251]",1,1
+"Rtn4","RTN4",672,"ENSG00000115310","672.1.1","ENSMUSG00000020458","reticulon 4 [Source:MGI Symbol;Acc:MGI:1915835]",1,1
+"Runx1","RUNX1",673,"ENSG00000159216","673.1.1","ENSMUSG00000022952","runt related transcription factor 1 [Source:MGI Symbol;Acc:MGI:99852]",1,1
+"Ruvbl2","RUVBL2",674,"ENSG00000183207","674.1.1","ENSMUSG00000003868","RuvB-like AAA ATPase 2 [Source:MGI Symbol;Acc:MGI:1342299]",1,1
+"S100a6","S100A6",675,"ENSG00000197956","675.1.1","ENSMUSG00000001025","S100 calcium binding protein A6 (calcyclin) [Source:MGI Symbol;Acc:MGI:1339467]",1,1
+"Sall1","SALL1",676,"ENSG00000103449","676.1.1","ENSMUSG00000031665","spalt like transcription factor 1 [Source:MGI Symbol;Acc:MGI:1889585]",1,1
+"Samhd1","SAMHD1",677,"ENSG00000101347","677.1.1","ENSMUSG00000027639","SAM domain and HD domain, 1 [Source:MGI Symbol;Acc:MGI:1927468]",1,1
+"Sat2","SAT2",678,"ENSG00000141504","678.1.1","ENSMUSG00000069835","spermidine/spermine N1-acetyl transferase 2 [Source:MGI Symbol;Acc:MGI:1916465]",1,1
+"Sdc1","SDC1",679,"ENSG00000115884","679.1.1","ENSMUSG00000020592","syndecan 1 [Source:MGI Symbol;Acc:MGI:1349162]",1,1
+"Selenbp1","SELENBP1",680,"ENSG00000143416","680.1.1","ENSMUSG00000068874","selenium binding protein 1 [Source:MGI Symbol;Acc:MGI:96825]",2,1
+"Selenbp2","SELENBP1",680,"ENSG00000143416","680.1.2","ENSMUSG00000068877","selenium binding protein 2 [Source:MGI Symbol;Acc:MGI:104859]",2,1
+"Senp1","SENP1",682,"ENSG00000079387","682.1.1","ENSMUSG00000033075","SUMO1/sentrin specific peptidase 1 [Source:MGI Symbol;Acc:MGI:2445054]",1,1
+"Senp7","SENP7",683,"ENSG00000138468","683.1.1","ENSMUSG00000052917","SUMO1/sentrin specific peptidase 7 [Source:MGI Symbol;Acc:MGI:1913565]",1,1
+"Serpinb2","SERPINB2",684,"ENSG00000197632","684.1.1","ENSMUSG00000062345","serine (or cysteine) peptidase inhibitor, clade B, member 2 [Source:MGI Symbol;Acc:MGI:97609]",1,1
+"Serpine1","SERPINE1",685,"ENSG00000106366","685.1.1","ENSMUSG00000037411","serine (or cysteine) peptidase inhibitor, clade E, member 1 [Source:MGI Symbol;Acc:MGI:97608]",1,1
+"Sfn","SFN",687,"ENSG00000175793","687.1.1","ENSMUSG00000047281","stratifin [Source:MGI Symbol;Acc:MGI:1891831]",1,1
+"Sfrp1","SFRP1",688,"ENSG00000104332","688.1.1","ENSMUSG00000031548","secreted frizzled-related protein 1 [Source:MGI Symbol;Acc:MGI:892014]",1,1
+"Sgk1","SGK1",689,"ENSG00000118515","689.1.1","ENSMUSG00000019970","serum/glucocorticoid regulated kinase 1 [Source:MGI Symbol;Acc:MGI:1340062]",1,1
+"Siah1a","SIAH1",690,"ENSG00000196470","690.1.1","ENSMUSG00000036840","siah E3 ubiquitin protein ligase 1A [Source:MGI Symbol;Acc:MGI:108064]",2,1
+"Siah1b","SIAH1",690,"ENSG00000196470","690.1.2","ENSMUSG00000040749","siah E3 ubiquitin protein ligase 1B [Source:MGI Symbol;Acc:MGI:108063]",2,1
+"Sik1","SIK1",691,"ENSG00000142178","691.1.1","ENSMUSG00000024042","salt inducible kinase 1 [Source:MGI Symbol;Acc:MGI:104754]",1,1
+"Sin3b","SIN3B",692,"ENSG00000127511","692.1.1","ENSMUSG00000031622","transcriptional regulator, SIN3B (yeast) [Source:MGI Symbol;Acc:MGI:107158]",1,1
+"Sirt1","SIRT1",693,"ENSG00000096717","693.1.1","ENSMUSG00000020063","sirtuin 1 [Source:MGI Symbol;Acc:MGI:2135607]",1,1
+"Sirt2","SIRT2",694,"ENSG00000068903","694.1.1","ENSMUSG00000015149","sirtuin 2 [Source:MGI Symbol;Acc:MGI:1927664]",1,1
+"Sirt3","SIRT3",695,"ENSG00000142082","695.1.1","ENSMUSG00000025486","sirtuin 3 [Source:MGI Symbol;Acc:MGI:1927665]",1,1
+"Sirt6","SIRT6",696,"ENSG00000077463","696.1.1","ENSMUSG00000034748","sirtuin 6 [Source:MGI Symbol;Acc:MGI:1354161]",1,1
+"Sirt7","SIRT7",697,"ENSG00000187531","697.1.1","ENSMUSG00000025138","sirtuin 7 [Source:MGI Symbol;Acc:MGI:2385849]",1,1
+"Six1","SIX1",698,"ENSG00000126778","698.1.1","ENSMUSG00000051367","sine oculis-related homeobox 1 [Source:MGI Symbol;Acc:MGI:102780]",1,1
+"Six6","SIX6",699,"ENSG00000184302","699.1.1","ENSMUSG00000021099","sine oculis-related homeobox 6 [Source:MGI Symbol;Acc:MGI:1341840]",1,1
+"Skp2","SKP2",700,"ENSG00000145604","700.1.1","ENSMUSG00000054115","S-phase kinase-associated protein 2 [Source:MGI Symbol;Acc:MGI:1351663]",1,1
+"Slc13a3","SLC13A3",701,"ENSG00000158296","701.1.1","ENSMUSG00000018459","solute carrier family 13 (sodium-dependent dicarboxylate transporter), member 3 [Source:MGI Symbol;Acc:MGI:2149635]",1,1
+"Slc16a7","SLC16A7",702,"ENSG00000118596","702.1.1","ENSMUSG00000020102","solute carrier family 16 (monocarboxylic acid transporters), member 7 [Source:MGI Symbol;Acc:MGI:1330284]",1,1
+"Slc25a5","SLC25A5",703,"ENSG00000005022","703.1.1","ENSMUSG00000016319","solute carrier family 25 (mitochondrial carrier, adenine nucleotide translocator), member 5 [Source:MGI Symbol;Acc:MGI:1353496]",1,1
+"Slc31a2","SLC31A2",704,"ENSG00000136867","704.1.1","ENSMUSG00000066152","solute carrier family 31, member 2 [Source:MGI Symbol;Acc:MGI:1333844]",1,1
+"Slc52a2","SLC52A1",705,"ENSG00000132517","705.1.1","ENSMUSG00000022560","solute carrier protein 52, member 2 [Source:MGI Symbol;Acc:MGI:1289288]",1,1
+"Slc5a2","SLC5A2",706,"ENSG00000140675","706.1.1","ENSMUSG00000030781","solute carrier family 5 (sodium/glucose cotransporter), member 2 [Source:MGI Symbol;Acc:MGI:2181411]",1,1
+"Smad1","SMAD1",707,"ENSG00000170365","707.1.1","ENSMUSG00000031681","SMAD family member 1 [Source:MGI Symbol;Acc:MGI:109452]",1,1
+"Smad2","SMAD2",708,"ENSG00000175387","708.1.1","ENSMUSG00000024563","SMAD family member 2 [Source:MGI Symbol;Acc:MGI:108051]",1,1
+"Smad3","SMAD3",709,"ENSG00000166949","709.1.1","ENSMUSG00000032402","SMAD family member 3 [Source:MGI Symbol;Acc:MGI:1201674]",1,1
+"Smad5","SMAD5",710,"ENSG00000113658","710.1.1","ENSMUSG00000021540","SMAD family member 5 [Source:MGI Symbol;Acc:MGI:1328787]",1,1
+"Smad6","SMAD6",711,"ENSG00000137834","711.1.1","ENSMUSG00000036867","SMAD family member 6 [Source:MGI Symbol;Acc:MGI:1336883]",1,1
+"Smarca2","SMARCA2",712,"ENSG00000080503","712.1.1","ENSMUSG00000024921","SWI/SNF related, matrix associated, actin dependent regulator of chromatin, subfamily a, member 2 [Source:MGI Symbol;Acc:MGI:99603]",1,1
+"Smarca4","SMARCA4",713,"ENSG00000127616","713.1.1","ENSMUSG00000032187","SWI/SNF related, matrix associated, actin dependent regulator of chromatin, subfamily a, member 4 [Source:MGI Symbol;Acc:MGI:88192]",1,1
+"Smarcb1","SMARCB1",714,"ENSG00000099956","714.1.1","ENSMUSG00000000902","SWI/SNF related, matrix associated, actin dependent regulator of chromatin, subfamily b, member 1 [Source:MGI Symbol;Acc:MGI:1328366]",1,1
+"Smarcd1","SMARCD1",715,"ENSG00000066117","715.1.1","ENSMUSG00000023018","SWI/SNF related, matrix associated, actin dependent regulator of chromatin, subfamily d, member 1 [Source:MGI Symbol;Acc:MGI:1933623]",1,1
+"Smc1a","SMC1A",716,"ENSG00000072501","716.1.1","ENSMUSG00000041133","structural maintenance of chromosomes 1A [Source:MGI Symbol;Acc:MGI:1344345]",1,1
+"Smc2","SMC2",717,"ENSG00000136824","717.1.1","ENSMUSG00000028312","structural maintenance of chromosomes 2 [Source:MGI Symbol;Acc:MGI:106067]",1,1
+"Smg1","SMG1",718,"ENSG00000157106","718.1.1","ENSMUSG00000030655","SMG1 nonsense mediated mRNA decay associated PI3K related kinase [Source:MGI Symbol;Acc:MGI:1919742]",1,1
+"Smurf2","SMURF2",719,"ENSG00000108854","719.1.1","ENSMUSG00000018363","SMAD specific E3 ubiquitin protein ligase 2 [Source:MGI Symbol;Acc:MGI:1913563]",1,1
+"Snai1","SNAI1",720,"ENSG00000124216","720.1.1","ENSMUSG00000042821","snail family zinc finger 1 [Source:MGI Symbol;Acc:MGI:98330]",1,1
+"Socs1","SOCS1",721,"ENSG00000185338","721.1.1","ENSMUSG00000038037","suppressor of cytokine signaling 1 [Source:MGI Symbol;Acc:MGI:1354910]",1,1
+"Sod1","SOD1",722,"ENSG00000142168","722.1.1","ENSMUSG00000022982","superoxide dismutase 1, soluble [Source:MGI Symbol;Acc:MGI:98351]",1,1
+"Sod2","SOD2",723,"ENSG00000291237","723.1.1","ENSMUSG00000006818","superoxide dismutase 2, mitochondrial [Source:MGI Symbol;Acc:MGI:98352]",1,1
+"Sorbs2","SORBS2",724,"ENSG00000154556","724.1.1","ENSMUSG00000031626","sorbin and SH3 domain containing 2 [Source:MGI Symbol;Acc:MGI:1924574]",1,1
+"Sox1","SOX1",725,"ENSG00000182968","725.1.1","ENSMUSG00000096014","SRY (sex determining region Y)-box 1 [Source:MGI Symbol;Acc:MGI:98357]",1,1
+"Sox2","SOX2",726,"ENSG00000181449","726.1.1","ENSMUSG00000074637","SRY (sex determining region Y)-box 2 [Source:MGI Symbol;Acc:MGI:98364]",1,1
+"Sox4","SOX4",727,"ENSG00000124766","727.1.1","ENSMUSG00000076431","SRY (sex determining region Y)-box 4 [Source:MGI Symbol;Acc:MGI:98366]",1,1
+"Sox5","SOX5",728,"ENSG00000134532","728.1.1","ENSMUSG00000041540","SRY (sex determining region Y)-box 5 [Source:MGI Symbol;Acc:MGI:98367]",1,1
+"Sp1","SP1",729,"ENSG00000185591","729.1.1","ENSMUSG00000001280","trans-acting transcription factor 1 [Source:MGI Symbol;Acc:MGI:98372]",1,1
+"Spag9","SPAG9",730,"ENSG00000008294","730.1.1","ENSMUSG00000020859","sperm associated antigen 9 [Source:MGI Symbol;Acc:MGI:1918084]",1,1
+"Sparc","SPARC",731,"ENSG00000113140","731.1.1","ENSMUSG00000018593","secreted acidic cysteine rich glycoprotein [Source:MGI Symbol;Acc:MGI:98373]",1,1
+"Sphk1","SPHK1",732,"ENSG00000176170","732.1.1","ENSMUSG00000061878","sphingosine kinase 1 [Source:MGI Symbol;Acc:MGI:1316649]",1,1
+"Spi1","SPI1",733,"ENSG00000066336","733.1.1","ENSMUSG00000002111","Spi-1 proto-oncogene [Source:MGI Symbol;Acc:MGI:98282]",1,1
+"Spin1","SPIN1",734,"ENSG00000106723","734.1.1","ENSMUSG00000021395","spindlin 1 [Source:MGI Symbol;Acc:MGI:109242]",1,1
+"Spop","SPOP",735,"ENSG00000121067","735.1.1","ENSMUSG00000057522","speckle-type BTB/POZ protein [Source:MGI Symbol;Acc:MGI:1343085]",13,1
+"Spopfm2","SPOP",735,"ENSG00000121067","735.1.5","ENSMUSG00000074424","speckle-type BTB/POZ protein family member 2 [Source:MGI Symbol;Acc:MGI:3702972]",13,1
+"Spopfm3","SPOP",735,"ENSG00000121067","735.1.6","ENSMUSG00000090268","speckle-type BTB/POZ protein family member 3 [Source:MGI Symbol;Acc:MGI:3644284]",13,1
+"Src","SRC",736,"ENSG00000197122","736.1.1","ENSMUSG00000027646","Rous sarcoma oncogene [Source:MGI Symbol;Acc:MGI:98397]",1,1
+"Srebf1","SREBF1",737,"ENSG00000072310","737.1.1","ENSMUSG00000020538","sterol regulatory element binding transcription factor 1 [Source:MGI Symbol;Acc:MGI:107606]",1,1
+"Srf","SRF",738,"ENSG00000112658","738.1.1","ENSMUSG00000015605","serum response factor [Source:MGI Symbol;Acc:MGI:106658]",1,1
+"Srsf1","SRSF1",739,"ENSG00000136450","739.1.1","ENSMUSG00000018379","serine and arginine-rich splicing factor 1 [Source:MGI Symbol;Acc:MGI:98283]",1,1
+"Srsf2","SRSF2",740,"ENSG00000161547","740.1.1","ENSMUSG00000034120","serine and arginine-rich splicing factor 2 [Source:MGI Symbol;Acc:MGI:98284]",1,1
+"Srsf3","SRSF3",741,"ENSG00000112081","741.1.1","ENSMUSG00000071172","serine and arginine-rich splicing factor 3 [Source:MGI Symbol;Acc:MGI:98285]",1,1
+"Ssxa1","SSX2",742,"ENSG00000268447","742.2.3","ENSMUSG00000062814","SSX member A1 [Source:MGI Symbol;Acc:MGI:2446782]",13,1
+"Ssxa1","SSX2",742,"ENSG00000241476","742.1.3","ENSMUSG00000062814","SSX member A1 [Source:MGI Symbol;Acc:MGI:2446782]",13,1
+"Ssxb1","SSX2",742,"ENSG00000268447","742.2.13","ENSMUSG00000079705","SSX member B1 [Source:MGI Symbol;Acc:MGI:1915235]",13,1
+"Ssxb1","SSX2",742,"ENSG00000241476","742.1.13","ENSMUSG00000079705","SSX member B1 [Source:MGI Symbol;Acc:MGI:1915235]",13,1
+"Ssxb10","SSX2",742,"ENSG00000241476","742.1.5","ENSMUSG00000068219","SSX member B10 [Source:MGI Symbol;Acc:MGI:2446779]",13,1
+"Ssxb10","SSX2",742,"ENSG00000268447","742.2.5","ENSMUSG00000068219","SSX member B10 [Source:MGI Symbol;Acc:MGI:2446779]",13,1
+"Ssxb13","SSX2",742,"ENSG00000241476","742.1.2","ENSMUSG00000035371","SSX member B13 [Source:MGI Symbol;Acc:MGI:2446773]",13,1
+"Ssxb13","SSX2",742,"ENSG00000268447","742.2.2","ENSMUSG00000035371","SSX member B13 [Source:MGI Symbol;Acc:MGI:2446773]",13,1
+"Ssxb14","SSX2",742,"ENSG00000268447","742.2.8","ENSMUSG00000079699","SSX member B14 [Source:MGI Symbol;Acc:MGI:3647394]",13,1
+"Ssxb14","SSX2",742,"ENSG00000241476","742.1.8","ENSMUSG00000079699","SSX member B14 [Source:MGI Symbol;Acc:MGI:3647394]",13,1
+"Ssxb15","SSX2",742,"ENSG00000241476","742.1.12","ENSMUSG00000079704","SSX member B15 [Source:MGI Symbol;Acc:MGI:3650385]",13,1
+"Ssxb15","SSX2",742,"ENSG00000268447","742.2.12","ENSMUSG00000079704","SSX member B15 [Source:MGI Symbol;Acc:MGI:3650385]",13,1
+"Ssxb16","SSX2",742,"ENSG00000241476","742.1.7","ENSMUSG00000079697","SSX member B16 [Source:MGI Symbol;Acc:MGI:3642927]",13,1
+"Ssxb16","SSX2",742,"ENSG00000268447","742.2.7","ENSMUSG00000079697","SSX member B16 [Source:MGI Symbol;Acc:MGI:3642927]",13,1
+"Ssxb2","SSX2",742,"ENSG00000268447","742.2.1","ENSMUSG00000023165","SSX member B2 [Source:MGI Symbol;Acc:MGI:2446771]",13,1
+"Ssxb2","SSX2",742,"ENSG00000241476","742.1.1","ENSMUSG00000023165","SSX member B2 [Source:MGI Symbol;Acc:MGI:2446771]",13,1
+"Ssxb3","SSX2",742,"ENSG00000268447","742.2.9","ENSMUSG00000079701","SSX member B3 [Source:MGI Symbol;Acc:MGI:2446772]",13,1
+"Ssxb3","SSX2",742,"ENSG00000241476","742.1.9","ENSMUSG00000079701","SSX member B3 [Source:MGI Symbol;Acc:MGI:2446772]",13,1
+"Ssxb5","SSX2",742,"ENSG00000268447","742.2.6","ENSMUSG00000071816","SSX member B5 [Source:MGI Symbol;Acc:MGI:2446774]",13,1
+"Ssxb5","SSX2",742,"ENSG00000241476","742.1.6","ENSMUSG00000071816","SSX member B5 [Source:MGI Symbol;Acc:MGI:2446774]",13,1
+"Ssxb6","SSX2",742,"ENSG00000241476","742.1.10","ENSMUSG00000079702","SSX member B6 [Source:MGI Symbol;Acc:MGI:2446775]",13,1
+"Ssxb6","SSX2",742,"ENSG00000268447","742.2.10","ENSMUSG00000079702","SSX member B6 [Source:MGI Symbol;Acc:MGI:2446775]",13,1
+"Ssxb8","SSX2",742,"ENSG00000241476","742.1.11","ENSMUSG00000079703","SSX member B8 [Source:MGI Symbol;Acc:MGI:2446777]",13,1
+"Ssxb8","SSX2",742,"ENSG00000268447","742.2.11","ENSMUSG00000079703","SSX member B8 [Source:MGI Symbol;Acc:MGI:2446777]",13,1
+"Ssxb9","SSX2",742,"ENSG00000241476","742.1.4","ENSMUSG00000068218","SSX member B9 [Source:MGI Symbol;Acc:MGI:2446778]",13,1
+"Ssxb9","SSX2",742,"ENSG00000268447","742.2.4","ENSMUSG00000068218","SSX member B9 [Source:MGI Symbol;Acc:MGI:2446778]",13,1
+"Stag2","STAG2",743,"ENSG00000101972","743.1.1","ENSMUSG00000025862","STAG2 cohesin complex component [Source:MGI Symbol;Acc:MGI:1098583]",1,1
+"Stat1","STAT1",744,"ENSG00000115415","744.1.1","ENSMUSG00000026104","signal transducer and activator of transcription 1 [Source:MGI Symbol;Acc:MGI:103063]",1,1
+"Stat3","STAT3",745,"ENSG00000168610","745.1.1","ENSMUSG00000004040","signal transducer and activator of transcription 3 [Source:MGI Symbol;Acc:MGI:103038]",1,1
+"Stat5a","STAT5A",746,"ENSG00000126561","746.1.1","ENSMUSG00000004043","signal transducer and activator of transcription 5A [Source:MGI Symbol;Acc:MGI:103036]",1,1
+"Stat5b","STAT5B",747,"ENSG00000173757","747.1.1","ENSMUSG00000020919","signal transducer and activator of transcription 5B [Source:MGI Symbol;Acc:MGI:103035]",1,1
+"Stat6","STAT6",748,"ENSG00000166888","748.1.1","ENSMUSG00000002147","signal transducer and activator of transcription 6 [Source:MGI Symbol;Acc:MGI:103034]",1,1
+"Stim1","STIM1",749,"ENSG00000167323","749.1.1","ENSMUSG00000030987","stromal interaction molecule 1 [Source:MGI Symbol;Acc:MGI:107476]",1,1
+"Stk32c","STK32C",750,"ENSG00000165752","750.1.1","ENSMUSG00000015981","serine/threonine kinase 32C [Source:MGI Symbol;Acc:MGI:2385336]",1,1
+"Stk4","STK4",751,"ENSG00000101109","751.1.1","ENSMUSG00000018209","serine/threonine kinase 4 [Source:MGI Symbol;Acc:MGI:1929004]",1,1
+"Stk40","STK40",752,"ENSG00000196182","752.1.1","ENSMUSG00000042608","serine/threonine kinase 40 [Source:MGI Symbol;Acc:MGI:1921428]",1,1
+"Stn1","STN1",753,"ENSG00000107960","753.1.1","ENSMUSG00000042694","STN1, CST complex subunit [Source:MGI Symbol;Acc:MGI:1915581]",1,1
+"Stub1","STUB1",754,"ENSG00000103266","754.1.1","ENSMUSG00000039615","STIP1 homology and U-Box containing protein 1 [Source:MGI Symbol;Acc:MGI:1891731]",1,1
+"Sumo2","SUMO2",755,"ENSG00000188612","755.1.1","ENSMUSG00000020738","small ubiquitin-like modifier 2 [Source:MGI Symbol;Acc:MGI:2158813]",1,1
+"Sumo3","SUMO3",756,"ENSG00000184900","756.1.1","ENSMUSG00000020265","small ubiquitin-like modifier 3 [Source:MGI Symbol;Acc:MGI:1336201]",1,1
+"Supt5","SUPT5H",757,"ENSG00000196235","757.1.1","ENSMUSG00000003435","suppressor of Ty 5, DSIF elongation factor subunit [Source:MGI Symbol;Acc:MGI:1202400]",1,1
+"Suv39h1","SUV39H1",758,"ENSG00000101945","758.1.1","ENSMUSG00000039231","suppressor of variegation 3-9 1 [Source:MGI Symbol;Acc:MGI:1099440]",1,1
+"Suz12","SUZ12",759,"ENSG00000178691","759.1.1","ENSMUSG00000017548","SUZ12 polycomb repressive complex 2 subunit [Source:MGI Symbol;Acc:MGI:1261758]",1,1
+"Syk","SYK",760,"ENSG00000165025","760.1.1","ENSMUSG00000021457","spleen tyrosine kinase [Source:MGI Symbol;Acc:MGI:99515]",1,1
+"Syt1","SYT1",761,"ENSG00000067715","761.1.1","ENSMUSG00000035864","synaptotagmin I [Source:MGI Symbol;Acc:MGI:99667]",1,1
+"Syt7","SYT7",762,"ENSG00000011347","762.1.1","ENSMUSG00000024743","synaptotagmin VII [Source:MGI Symbol;Acc:MGI:1859545]",1,1
+"Tacc3","TACC3",763,"ENSG00000013810","763.1.1","ENSMUSG00000037313","transforming, acidic coiled-coil containing protein 3 [Source:MGI Symbol;Acc:MGI:1341163]",1,1
+"Tagln","TAGLN",764,"ENSG00000149591","764.1.1","ENSMUSG00000032085","transgelin [Source:MGI Symbol;Acc:MGI:106012]",1,1
+"Tbk1","TBK1",765,"ENSG00000183735","765.1.1","ENSMUSG00000020115","TANK-binding kinase 1 [Source:MGI Symbol;Acc:MGI:1929658]",1,1
+"Tbpl1","TBPL1",766,"ENSG00000028839","766.1.1","ENSMUSG00000071359","TATA box binding protein-like 1 [Source:MGI Symbol;Acc:MGI:1339946]",1,1
+"Tbx2","TBX2",767,"ENSG00000121068","767.1.1","ENSMUSG00000000093","T-box 2 [Source:MGI Symbol;Acc:MGI:98494]",1,1
+"Tbx3","TBX3",768,"ENSG00000135111","768.1.1","ENSMUSG00000018604","T-box 3 [Source:MGI Symbol;Acc:MGI:98495]",1,1
+"Tdpoz1","SPOP",735,"ENSG00000121067","735.1.7","ENSMUSG00000094084","TD and POZ domain containing 1 [Source:MGI Symbol;Acc:MGI:2449436]",13,1
+"Tdpoz2","SPOP",735,"ENSG00000121067","735.1.13","ENSMUSG00000103362","TD and POZ domain containing 2 [Source:MGI Symbol;Acc:MGI:3027902]",13,1
+"Tdpoz3","SPOP",735,"ENSG00000121067","735.1.2","ENSMUSG00000058005","TD and POZ domain containing 3 [Source:MGI Symbol;Acc:MGI:3027903]",13,1
+"Tdpoz4","SPOP",735,"ENSG00000121067","735.1.3","ENSMUSG00000060256","TD and POZ domain containing 4 [Source:MGI Symbol;Acc:MGI:3027904]",13,1
+"Tdpoz5","SPOP",735,"ENSG00000121067","735.1.8","ENSMUSG00000094163","TD and POZ domain containing 5 [Source:MGI Symbol;Acc:MGI:3027905]",13,1
+"Tdpoz7","SPOP",735,"ENSG00000121067","735.1.10","ENSMUSG00000095251","Td and POZ domain containing 7 [Source:MGI Symbol;Acc:MGI:3710527]",13,1
+"Tdpoz8","SPOP",735,"ENSG00000121067","735.1.12","ENSMUSG00000096879","TD and POZ domain containing 8 [Source:MGI Symbol;Acc:MGI:3645677]",13,1
+"Tdpoz9","SPOP",735,"ENSG00000121067","735.1.9","ENSMUSG00000094328","TD and POZ domain containing 9 [Source:MGI Symbol;Acc:MGI:3702970]",13,1
+"Tdpoz9-ps1","SPOP",735,"ENSG00000121067","735.1.11","ENSMUSG00000095822","TD and POZ domain containing 9, pseudogene 1 [Source:MGI Symbol;Acc:MGI:3704095]",13,1
+"Tead1","TEAD1",769,"ENSG00000187079","769.1.1","ENSMUSG00000055320","TEA domain family member 1 [Source:MGI Symbol;Acc:MGI:101876]",1,1
+"Tead4","TEAD4",770,"ENSG00000197905","770.1.1","ENSMUSG00000030353","TEA domain family member 4 [Source:MGI Symbol;Acc:MGI:106907]",1,1
+"Terf2","TERF2",771,"ENSG00000132604","771.1.1","ENSMUSG00000031921","telomeric repeat binding factor 2 [Source:MGI Symbol;Acc:MGI:1195972]",1,1
+"Tert","TERT",772,"ENSG00000164362","772.1.1","ENSMUSG00000021611","telomerase reverse transcriptase [Source:MGI Symbol;Acc:MGI:1202709]",1,1
+"Tfdp1","TFDP1",773,"ENSG00000198176","773.1.1","ENSMUSG00000038482","transcription factor Dp 1 [Source:MGI Symbol;Acc:MGI:101934]",1,1
+"Tfg","TFG",774,"ENSG00000114354","774.1.1","ENSMUSG00000022757","Trk-fused gene [Source:MGI Symbol;Acc:MGI:1338041]",1,1
+"Tgfb1i1","TGFB1I1",775,"ENSG00000140682","775.1.1","ENSMUSG00000030782","transforming growth factor beta 1 induced transcript 1 [Source:MGI Symbol;Acc:MGI:102784]",1,1
+"Tgfb2","TGFB2",776,"ENSG00000092969","776.1.1","ENSMUSG00000039239","transforming growth factor, beta 2 [Source:MGI Symbol;Acc:MGI:98726]",1,1
+"Tgfbi","TGFBI",777,"ENSG00000120708","777.1.1","ENSMUSG00000035493","transforming growth factor, beta induced [Source:MGI Symbol;Acc:MGI:99959]",1,1
+"Tgfbr1","TGFBR1",778,"ENSG00000106799","778.1.1","ENSMUSG00000007613","transforming growth factor, beta receptor I [Source:MGI Symbol;Acc:MGI:98728]",1,1
+"Tgfbr2","TGFBR2",779,"ENSG00000163513","779.1.1","ENSMUSG00000032440","transforming growth factor, beta receptor II [Source:MGI Symbol;Acc:MGI:98729]",1,1
+"Thrb","THRB",780,"ENSG00000151090","780.1.1","ENSMUSG00000021779","thyroid hormone receptor beta [Source:MGI Symbol;Acc:MGI:98743]",1,1
+"Tigar","TIGAR",781,"ENSG00000078237","781.1.1","ENSMUSG00000038028","Trp53 induced glycolysis regulatory phosphatase [Source:MGI Symbol;Acc:MGI:2442752]",1,1
+"Timeless","TIMELESS",782,"ENSG00000111602","782.1.1","ENSMUSG00000039994","timeless circadian clock 1 [Source:MGI Symbol;Acc:MGI:1321393]",1,1
+"Tlr2","TLR2",784,"ENSG00000137462","784.1.1","ENSMUSG00000027995","toll-like receptor 2 [Source:MGI Symbol;Acc:MGI:1346060]",1,1
+"Tlr3","TLR3",785,"ENSG00000164342","785.1.1","ENSMUSG00000031639","toll-like receptor 3 [Source:MGI Symbol;Acc:MGI:2156367]",1,1
+"Tlr4","TLR4",786,"ENSG00000136869","786.1.1","ENSMUSG00000039005","toll-like receptor 4 [Source:MGI Symbol;Acc:MGI:96824]",1,1
+"Tlr8","TLR8",787,"ENSG00000101916","787.1.1","ENSMUSG00000040522","toll-like receptor 8 [Source:MGI Symbol;Acc:MGI:2176887]",1,1
+"Tmem9b","TMEM9B",788,"ENSG00000175348","788.1.1","ENSMUSG00000031021","TMEM9 domain family, member B [Source:MGI Symbol;Acc:MGI:1915254]",1,1
+"Tnfsf13","TNFSF13",789,"ENSG00000161955","789.1.1","ENSMUSG00000089669","tumor necrosis factor (ligand) superfamily, member 13 [Source:MGI Symbol;Acc:MGI:1916833]",1,1
+"Tnfsf15","TNFSF15",790,"ENSG00000181634","790.1.1","ENSMUSG00000050395","tumor necrosis factor (ligand) superfamily, member 15 [Source:MGI Symbol;Acc:MGI:2180140]",1,1
+"Tom1","TOM1",791,"ENSG00000100284","791.1.1","ENSMUSG00000042870","target of myb1 trafficking protein [Source:MGI Symbol;Acc:MGI:1338026]",1,1
+"Top1","TOP1",792,"ENSG00000198900","792.1.1","ENSMUSG00000070544","topoisomerase (DNA) I [Source:MGI Symbol;Acc:MGI:98788]",1,1
+"Top3a","TOP3A",793,"ENSG00000177302","793.1.1","ENSMUSG00000002814","topoisomerase (DNA) III alpha [Source:MGI Symbol;Acc:MGI:1197527]",1,1
+"Topbp1","TOPBP1",794,"ENSG00000163781","794.1.1","ENSMUSG00000032555","topoisomerase (DNA) II binding protein 1 [Source:MGI Symbol;Acc:MGI:1920018]",1,1
+"Tpp1","TPP1",801,"ENSG00000166340","801.1.1","ENSMUSG00000030894","tripeptidyl peptidase I [Source:MGI Symbol;Acc:MGI:1336194]",1,1
+"Tpr","TPR",802,"ENSG00000047410","802.1.1","ENSMUSG00000006005","translocated promoter region, nuclear basket protein [Source:MGI Symbol;Acc:MGI:1922066]",1,1
+"Tpx2","TPX2",803,"ENSG00000088325","803.1.1","ENSMUSG00000027469","TPX2, microtubule-associated [Source:MGI Symbol;Acc:MGI:1919369]",1,1
+"Tra2b","TRA2B",804,"ENSG00000136527","804.1.1","ENSMUSG00000022858","transformer 2 beta [Source:MGI Symbol;Acc:MGI:106016]",1,1
+"Trdmt1","TRDMT1",805,"ENSG00000107614","805.1.1","ENSMUSG00000026723","tRNA aspartic acid methyltransferase 1 [Source:MGI Symbol;Acc:MGI:1274787]",1,1
+"Trim28","TRIM28",806,"ENSG00000130726","806.1.1","ENSMUSG00000005566","tripartite motif-containing 28 [Source:MGI Symbol;Acc:MGI:109274]",1,1
+"Trp53","TP53",795,"ENSG00000141510","795.1.1","ENSMUSG00000059552","transformation related protein 53 [Source:MGI Symbol;Acc:MGI:98834]",1,1
+"Trp53bp1","TP53BP1",796,"ENSG00000067369","796.1.1","ENSMUSG00000043909","transformation related protein 53 binding protein 1 [Source:MGI Symbol;Acc:MGI:1351320]",1,1
+"Trp53bp2","TP53BP2",797,"ENSG00000143514","797.1.1","ENSMUSG00000026510","transformation related protein 53 binding protein 2 [Source:MGI Symbol;Acc:MGI:2138319]",1,1
+"Trp53inp1","TP53INP1",799,"ENSG00000164938","799.1.1","ENSMUSG00000028211","transformation related protein 53 inducible nuclear protein 1 [Source:MGI Symbol;Acc:MGI:1926609]",1,1
+"Trp63","TP63",800,"ENSG00000073282","800.1.1","ENSMUSG00000022510","transformation related protein 63 [Source:MGI Symbol;Acc:MGI:1330810]",1,1
+"Trpm7","TRPM7",807,"ENSG00000092439","807.1.1","ENSMUSG00000027365","transient receptor potential cation channel, subfamily M, member 7 [Source:MGI Symbol;Acc:MGI:1929996]",1,1
+"Trpm8","TRPM8",808,"ENSG00000144481","808.1.1","ENSMUSG00000036251","transient receptor potential cation channel, subfamily M, member 8 [Source:MGI Symbol;Acc:MGI:2181435]",1,1
+"Trrap","TRRAP",809,"ENSG00000196367","809.1.1","ENSMUSG00000045482","transformation/transcription domain-associated protein [Source:MGI Symbol;Acc:MGI:2153272]",1,1
+"Tsc22d1","TSC22D1",810,"ENSG00000102804","810.1.1","ENSMUSG00000022010","TSC22 domain family, member 1 [Source:MGI Symbol;Acc:MGI:109127]",1,1
+"Ttk","TTK",811,"ENSG00000112742","811.1.1","ENSMUSG00000038379","Ttk protein kinase [Source:MGI Symbol;Acc:MGI:1194921]",1,1
+"Twist1","TWIST1",812,"ENSG00000122691","812.1.1","ENSMUSG00000035799","twist basic helix-loop-helix transcription factor 1 [Source:MGI Symbol;Acc:MGI:98872]",1,1
+"Twist2","TWIST2",813,"ENSG00000233608","813.1.1","ENSMUSG00000007805","twist basic helix-loop-helix transcription factor 2 [Source:MGI Symbol;Acc:MGI:104685]",1,1
+"Txn1","TXN",814,"ENSG00000136810","814.1.1","ENSMUSG00000028367","thioredoxin 1 [Source:MGI Symbol;Acc:MGI:98874]",1,1
+"Txnip","TXNIP",815,"ENSG00000265972","815.1.1","ENSMUSG00000038393","thioredoxin interacting protein [Source:MGI Symbol;Acc:MGI:1889549]",1,1
+"Tyk2","TYK2",816,"ENSG00000105397","816.1.1","ENSMUSG00000032175","tyrosine kinase 2 [Source:MGI Symbol;Acc:MGI:1929470]",1,1
+"Tyms","TYMS",817,"ENSG00000176890","817.1.1","ENSMUSG00000025747","thymidylate synthase [Source:MGI Symbol;Acc:MGI:98878]",1,1
+"Ube2i","UBE2I",819,"ENSG00000103275","819.1.1","ENSMUSG00000015120","ubiquitin-conjugating enzyme E2I [Source:MGI Symbol;Acc:MGI:107365]",1,1
+"Ube2n","UBE2N",820,"ENSG00000177889","820.1.1","ENSMUSG00000074781","ubiquitin-conjugating enzyme E2N [Source:MGI Symbol;Acc:MGI:1934835]",1,1
+"Ube2v1","UBE2V1",821,"ENSG00000244687","821.1.1","ENSMUSG00000078923","ubiquitin-conjugating enzyme E2 variant 1 [Source:MGI Symbol;Acc:MGI:1913839]",1,1
+"Ube2v2","UBE2V2",822,"ENSG00000169139","822.1.1","ENSMUSG00000022674","ubiquitin-conjugating enzyme E2 variant 2 [Source:MGI Symbol;Acc:MGI:1917870]",1,1
+"Ube3a","UBE3A",823,"ENSG00000114062","823.1.1","ENSMUSG00000025326","ubiquitin protein ligase E3A [Source:MGI Symbol;Acc:MGI:105098]",1,1
+"Ubtd1","UBTD1",824,"ENSG00000165886","824.1.1","ENSMUSG00000025171","ubiquitin domain containing 1 [Source:MGI Symbol;Acc:MGI:2385092]",1,1
+"Uhrf1","UHRF1",825,"ENSG00000276043","825.1.1","ENSMUSG00000001228","ubiquitin-like, containing PHD and RING finger domains, 1 [Source:MGI Symbol;Acc:MGI:1338889]",1,1
+"Ulk3","ULK3",826,"ENSG00000140474","826.1.1","ENSMUSG00000032308","unc-51-like kinase 3 [Source:MGI Symbol;Acc:MGI:1918992]",1,1
+"Usp1","USP1",827,"ENSG00000162607","827.1.1","ENSMUSG00000028560","ubiquitin specific peptidase 1 [Source:MGI Symbol;Acc:MGI:2385198]",1,1
+"Usp28","USP28",828,"ENSG00000048028","828.1.1","ENSMUSG00000032267","ubiquitin specific peptidase 28 [Source:MGI Symbol;Acc:MGI:2442293]",1,1
+"Utp6","UTP6",829,"ENSG00000108651","829.1.1","ENSMUSG00000035575","UTP6 small subunit processome component [Source:MGI Symbol;Acc:MGI:2445193]",1,1
+"Vcan","VCAN",830,"ENSG00000038427","830.1.1","ENSMUSG00000021614","versican [Source:MGI Symbol;Acc:MGI:102889]",1,1
+"Vdr","VDR",831,"ENSG00000111424","831.1.1","ENSMUSG00000022479","vitamin D (1,25-dihydroxyvitamin D3) receptor [Source:MGI Symbol;Acc:MGI:103076]",1,1
+"Vegfa","VEGFA",832,"ENSG00000112715","832.1.1","ENSMUSG00000023951","vascular endothelial growth factor A [Source:MGI Symbol;Acc:MGI:103178]",1,1
+"Wee1","WEE1",834,"ENSG00000166483","834.1.1","ENSMUSG00000031016","WEE 1 homolog 1 (S. pombe) [Source:MGI Symbol;Acc:MGI:103075]",1,1
+"Wif1","WIF1",835,"ENSG00000156076","835.1.1","ENSMUSG00000020218","Wnt inhibitory factor 1 [Source:MGI Symbol;Acc:MGI:1344332]",1,1
+"Wipi1","WIPI1",836,"ENSG00000070540","836.1.1","ENSMUSG00000041895","WD repeat domain, phosphoinositide interacting 1 [Source:MGI Symbol;Acc:MGI:1261864]",1,1
+"Wnt16","WNT16",837,"ENSG00000002745","837.1.1","ENSMUSG00000029671","wingless-type MMTV integration site family, member 16 [Source:MGI Symbol;Acc:MGI:2136018]",1,1
+"Wnt2","WNT2",838,"ENSG00000105989","838.1.1","ENSMUSG00000010797","wingless-type MMTV integration site family, member 2 [Source:MGI Symbol;Acc:MGI:98954]",1,1
+"Wnt5a","WNT5A",839,"ENSG00000114251","839.1.1","ENSMUSG00000021994","wingless-type MMTV integration site family, member 5A [Source:MGI Symbol;Acc:MGI:98958]",1,1
+"Wnt7b","WNT7B",840,"ENSG00000188064","840.1.1","ENSMUSG00000022382","wingless-type MMTV integration site family, member 7B [Source:MGI Symbol;Acc:MGI:98962]",1,1
+"Wrn","WRN",841,"ENSG00000165392","841.1.1","ENSMUSG00000031583","Werner syndrome RecQ like helicase [Source:MGI Symbol;Acc:MGI:109635]",1,1
+"Wsb1","WSB1",842,"ENSG00000109046","842.1.1","ENSMUSG00000017677","WD repeat and SOCS box-containing 1 [Source:MGI Symbol;Acc:MGI:1926139]",1,1
+"Wt1","WT1",843,"ENSG00000184937","843.1.1","ENSMUSG00000016458","WT1 transcription factor [Source:MGI Symbol;Acc:MGI:98968]",1,1
+"Wwp1","WWP1",844,"ENSG00000123124","844.1.1","ENSMUSG00000041058","WW domain containing E3 ubiquitin protein ligase 1 [Source:MGI Symbol;Acc:MGI:1861728]",1,1
+"Xaf1","XAF1",845,"ENSG00000132530","845.1.1","ENSMUSG00000040483","XIAP associated factor 1 [Source:MGI Symbol;Acc:MGI:3772572]",1,1
+"Xiap","XIAP",846,"ENSG00000101966","846.1.1","ENSMUSG00000025860","X-linked inhibitor of apoptosis [Source:MGI Symbol;Acc:MGI:107572]",1,1
+"Xpc","XPC",847,"ENSG00000154767","847.1.1","ENSMUSG00000030094","xeroderma pigmentosum, complementation group C [Source:MGI Symbol;Acc:MGI:103557]",1,1
+"Xpo1","XPO1",848,"ENSG00000082898","848.1.1","ENSMUSG00000020290","exportin 1 [Source:MGI Symbol;Acc:MGI:2144013]",1,1
+"Yap1","YAP1",849,"ENSG00000137693","849.1.1","ENSMUSG00000053110","yes-associated protein 1 [Source:MGI Symbol;Acc:MGI:103262]",1,1
+"Ybx1","YBX1",850,"ENSG00000065978","850.1.1","ENSMUSG00000028639","Y box protein 1 [Source:MGI Symbol;Acc:MGI:99146]",1,1
+"Yeats4","YEATS4",851,"ENSG00000127337","851.1.1","ENSMUSG00000020171","YEATS domain containing 4 [Source:MGI Symbol;Acc:MGI:1927224]",1,1
+"Ypel3","YPEL3",852,"ENSG00000090238","852.1.1","ENSMUSG00000042675","yippee like 3 [Source:MGI Symbol;Acc:MGI:1913340]",1,1
+"Ywhab","YWHAB",853,"ENSG00000166913","853.1.1","ENSMUSG00000018326","tyrosine 3-monooxygenase/tryptophan 5-monooxygenase activation protein, beta polypeptide [Source:MGI Symbol;Acc:MGI:1891917]",1,1
+"Ywhaz","YWHAZ",854,"ENSG00000164924","854.1.1","ENSMUSG00000022285","tyrosine 3-monooxygenase/tryptophan 5-monooxygenase activation protein, zeta polypeptide [Source:MGI Symbol;Acc:MGI:109484]",1,1
+"Yy1","YY1",855,"ENSG00000100811","855.1.1","ENSMUSG00000021264","YY1 transcription factor [Source:MGI Symbol;Acc:MGI:99150]",1,1
+"Zcchc10","ZCCHC10",856,"ENSG00000155329","856.1.1","ENSMUSG00000018239","zinc finger, CCHC domain containing 10 [Source:MGI Symbol;Acc:MGI:1196228]",1,1
+"Zdhhc3","ZDHHC3",857,"ENSG00000163812","857.1.1","ENSMUSG00000025786","zinc finger, DHHC domain containing 3 [Source:MGI Symbol;Acc:MGI:1926134]",1,1
+"Zeb1","ZEB1",858,"ENSG00000148516","858.1.1","ENSMUSG00000024238","zinc finger E-box binding homeobox 1 [Source:MGI Symbol;Acc:MGI:1344313]",1,1
+"Zfp148","ZNF148",864,"ENSG00000163848","864.1.1","ENSMUSG00000022811","zinc finger protein 148 [Source:MGI Symbol;Acc:MGI:1332234]",1,1
+"Zfp207","ZNF207",865,"ENSG00000010244","865.1.1","ENSMUSG00000017421","zinc finger protein 207 [Source:MGI Symbol;Acc:MGI:1340045]",1,1
+"Zfp217","ZNF217",866,"ENSG00000171940","866.1.1","ENSMUSG00000052056","zinc finger protein 217 [Source:MGI Symbol;Acc:MGI:2685408]",1,1
+"Zfp36","ZFP36",859,"ENSG00000128016","859.1.1","ENSMUSG00000044786","zinc finger protein 36 [Source:MGI Symbol;Acc:MGI:99180]",1,1
+"Zmat3","ZMAT3",861,"ENSG00000172667","861.1.1","ENSMUSG00000027663","zinc finger matrin type 3 [Source:MGI Symbol;Acc:MGI:1195270]",1,1
+"Zmpste24","ZMPSTE24",862,"ENSG00000084073","862.1.1","ENSMUSG00000043207","zinc metallopeptidase, STE24 [Source:MGI Symbol;Acc:MGI:1890508]",1,1
+"Zmynd11","ZMYND11",863,"ENSG00000015171","863.1.1","ENSMUSG00000021156","zinc finger, MYND domain containing 11 [Source:MGI Symbol;Acc:MGI:1913755]",1,1

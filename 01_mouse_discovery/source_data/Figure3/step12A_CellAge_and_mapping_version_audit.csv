@@ -1,0 +1,16 @@
+item,value
+CellAge_raw_file_path,E:/R/ACLsenescence2/rebuild_submission/02_mouse_discovery/00_raw_data/cellAge/cellage3.tsv
+CellAge_raw_file_basename,cellage3.tsv
+CellAge_raw_file_inferred_version_from_filename,cellage3
+CellAge_raw_file_size_bytes,73627
+CellAge_raw_file_modified_time,2023-04-22 21:51:22 CEST
+CellAge_raw_file_md5,76c1805060c0e7ddac8398b33b5b4866
+gprofiler2_package_version,0.2.4
+gprofiler2_version_info,"$biomart | [1] ""Ensembl"" |  | $biomart_version | [1] ""114"" |  | $display_name | [1] ""Human"" |  | $genebuild | [1] ""GRCh38.p14"" |  | $gprofiler_version | [1] ""e114_eg62_p19_fa3a7d2c"" |  | $organism | [1] ""hsapiens"" |  | $sources | $sources$CORUM | $sources$CORUM$name | [1] ""CORUM protein complexes"" |  | $sources$CORUM$version | [1] ""28.11.2022 Corum 4.1"" |  |  | $sources$`GO:BP` | $sources$`GO:BP`$name | [1] ""biological process"" |  | $sources$`GO:BP`$version | [1] ""annotations: BioMart\nclasses: releases/2026-01-23"" |  |  | $sources$`GO:CC` | $sources$`GO:CC`$name | [1] ""cellular component"" |  | $sources$`GO:CC`$version | [1] ""annotations: BioMart\nclasses: releases/2026-01-23"" |  |  | $sources$`GO:MF` | $sources$`GO:MF`$name | [1] ""molecular function"" |  | $sources$`GO:MF`$version | [1] ""annotations: BioMart\nclasses: releases/2026-01-23"" |  |  | $sources$HP | $sources$HP$name | [1] ""Human Phenotype Ontology"" |  | $sources$HP$version | [1] ""annotations: 03.2026\nclasses: None"" |  |  | $sources$HPA | $sources$HPA$name | [1] ""Human Protein Atlas"" |  | $sources$HPA$version | [1] ""annotations: HPA website: 25-11-06\nclasses: script: 26-01-20"" |  |  | $sources$KEGG | $sources$KEGG$name | [1] ""Kyoto Encyclopedia of Genes and Genomes"" |  | $sources$KEGG$version | [1] ""KEGG FTP Release 2026-03-15"" |  |  | $sources$MIRNA | $sources$MIRNA$name | [1] ""miRTarBase"" |  | $sources$MIRNA$version | [1] ""Release 10.0"" |  |  | $sources$REAC | $sources$REAC$name | [1] ""Reactome"" |  | $sources$REAC$version | [1] ""annotations: BioMart\nclasses: 2026-3-20"" |  |  | $sources$TF | $sources$TF$name | [1] ""Transfac"" |  | $sources$TF$version | [1] ""annotations: TRANSFAC Release 2025.2\nclasses: v2"" |  |  | $sources$WP | $sources$WP$name | [1] ""WikiPathways"" |  | $sources$WP$version | [1] ""20260310"" |  |  |  | $taxonomy_id | [1] ""9606"" | "
+gorth_source_organism,hsapiens
+gorth_target_organism,mmusculus
+gorth_mthreshold,Inf
+gorth_filter_na,FALSE
+edgeR_package_version,4.8.2
+clusterProfiler_package_version,4.18.4
+org.Mm.eg.db_package_version,3.22.0

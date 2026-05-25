@@ -1,0 +1,13 @@
+"source","n_mapped_rows"
+"E:/R/ACLsenescence2/rebuild_submission/02_mouse_discovery/07_tables/step05_mouse_DE_volcano/step05_Figure1D_1W_volcano_source_data.csv",14264
+"E:/R/ACLsenescence2/rebuild_submission/02_mouse_discovery/07_tables/step05_mouse_DE_volcano/step05_Figure1E_4W_volcano_source_data.csv",14264
+"E:/R/ACLsenescence2/rebuild_submission/02_mouse_discovery/07_tables/step05_mouse_DE_volcano/step05_st_gene_id_entrez_symbol_map.csv",19188
+"E:/R/ACLsenescence2/rebuild_submission/02_mouse_discovery/07_tables/step07_strict_DEG_upset_persistent/step07_DE_1W_standardized.csv",14264
+"E:/R/ACLsenescence2/rebuild_submission/02_mouse_discovery/07_tables/step07_strict_DEG_upset_persistent/step07_DE_4W_standardized.csv",14264
+"E:/R/ACLsenescence2/rebuild_submission/02_mouse_discovery/07_tables/step07_strict_DEG_upset_persistent/step07_persistent_direction_consistent_genes.csv",1409
+"E:/R/ACLsenescence2/rebuild_submission/02_mouse_discovery/07_tables/step07_strict_DEG_upset_persistent/step07_persistent_down_genes.csv",443
+"E:/R/ACLsenescence2/rebuild_submission/02_mouse_discovery/07_tables/step07_strict_DEG_upset_persistent/step07_persistent_up_genes.csv",966
+"E:/R/ACLsenescence2/rebuild_submission/02_mouse_discovery/07_tables/step07_strict_DEG_upset_persistent/step07_strict_DEG_structure_gene_table.csv",3710
+"E:/R/ACLsenescence2/rebuild_submission/02_mouse_discovery/07_tables/step08_logFC_scatter/step08_Figure2B_shared_strict_logFC_scatter_source_data.csv",1414
+"E:/R/ACLsenescence2/rebuild_submission/02_mouse_discovery/00_raw_data/GSE271903/GSE271903_count_matrix.xlsx",19296
+"E:/R/ACLsenescence2/rebuild_submission/02_mouse_discovery/00_raw_data/GSE271903/GSE271903_fpkm_matrix.xlsx",19296

@@ -1,0 +1,41 @@
+===== STEP10 FIGURE2D COLOR/POSITION FIX =====
+Run time: 2026-05-23 17:26:01 CEST
+Base directory: E:/R/ACLsenescence2/rebuild_submission/02_mouse_discovery
+Counts source: locked_counts_fallback_from_confirmed_current_Figure2D
+
+Counts long used:
+    category    direction    n
+1 Persistent Down in ACLR  446
+2 Persistent   Up in ACLR  970
+3    1W-only Down in ACLR  929
+4    1W-only   Up in ACLR 1079
+5    4W-only Down in ACLR   84
+6    4W-only   Up in ACLR  211
+Saved: E:/R/ACLsenescence2/rebuild_submission/02_mouse_discovery/07_tables/step10_strict_gene_set_summary_color_position_fixed/step10_counts_long_used_for_color_position_fixed.csv
+Saved: E:/R/ACLsenescence2/rebuild_submission/02_mouse_discovery/07_tables/step10_strict_gene_set_summary_color_position_fixed/step10_counts_wide_used_for_color_position_fixed.csv
+Saved: E:/R/ACLsenescence2/rebuild_submission/02_mouse_discovery/07_tables/step10_strict_gene_set_summary_color_position_fixed/step10_manual_rectangles_down_lower_up_upper.csv
+Saved: E:/R/ACLsenescence2/rebuild_submission/02_mouse_discovery/07_tables/step10_strict_gene_set_summary_color_position_fixed/step10_total_labels.csv
+Saved: E:/R/ACLsenescence2/rebuild_submission/02_mouse_discovery/07_tables/step10_strict_gene_set_summary_color_position_fixed/step10_color_position_fixed_summary.csv
+Saved: E:/R/ACLsenescence2/rebuild_submission/02_mouse_discovery/07_tables/step10_strict_gene_set_summary_color_position_fixed/step10_color_position_fixed_software_versions.csv
+
+===== STEP10 COLOR/POSITION FIX SUMMARY =====
+             metric                                                  value
+1     counts_source locked_counts_fallback_from_confirmed_current_Figure2D
+2   Persistent_down                                                    446
+3     Persistent_up                                                    970
+4  Persistent_total                                                   1416
+5      1W_only_down                                                    929
+6        1W_only_up                                                   1079
+7     1W_only_total                                                   2008
+8      4W_only_down                                                     84
+9        4W_only_up                                                    211
+10    4W_only_total                                                    295
+11       plot_logic     manual geom_rect: Down lower blue, Up upper orange
+
+Output files:
+E:/R/ACLsenescence2/rebuild_submission/02_mouse_discovery/06_figures/Figure2/Figure2D_strict_gene_set_summary_color_position_fixed.png 
+E:/R/ACLsenescence2/rebuild_submission/02_mouse_discovery/06_figures/Figure2/Figure2D_strict_gene_set_summary_color_position_fixed.pdf 
+E:/R/ACLsenescence2/rebuild_submission/02_mouse_discovery/06_figures/Figure2/Figure2D_strict_gene_set_summary.png 
+E:/R/ACLsenescence2/rebuild_submission/02_mouse_discovery/06_figures/Figure2/Figure2D_strict_gene_set_summary.pdf 
+
+Step10 color/position fix completed successfully.

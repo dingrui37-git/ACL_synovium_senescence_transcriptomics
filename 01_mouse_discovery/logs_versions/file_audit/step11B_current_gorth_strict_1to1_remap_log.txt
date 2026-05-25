@@ -1,0 +1,351 @@
+===== STEP11B CURRENT GORTH STRICT 1:1 REMAPPING =====
+Run time: 2026-05-05 20:28:26 CEST
+Base directory: E:/R/ACLsenescence2/rebuild_submission/02_mouse_discovery
+Persistent input file:
+E:/R/ACLsenescence2/rebuild_submission/02_mouse_discovery/07_tables/step07_strict_DEG_upset_persistent/step07_persistent_direction_consistent_genes.csv
+
+Important: this script does NOT read the old Figure3C workspace.
+It reruns current online gprofiler2::gorth directly.
+
+Saved: E:/R/ACLsenescence2/rebuild_submission/02_mouse_discovery/07_tables/step11B_current_gorth_strict_1to1_remap/step11B_input_file_audit.csv
+
+Input file audit:
+                                         label
+1 Step07 persistent direction-consistent genes
+                                                                                                                                                     path
+1 E:/R/ACLsenescence2/rebuild_submission/02_mouse_discovery/07_tables/step07_strict_DEG_upset_persistent/step07_persistent_direction_consistent_genes.csv
+  exists size_bytes            modified_time                              md5
+1   TRUE     225480 2026-05-05 19:13:54 CEST 5a70d2192a7285df8497a12607f8f312
+Saved: E:/R/ACLsenescence2/rebuild_submission/02_mouse_discovery/07_tables/step11B_current_gorth_strict_1to1_remap/step11B_input_persistent_mouse_genes_all.csv
+Saved: E:/R/ACLsenescence2/rebuild_submission/02_mouse_discovery/07_tables/step11B_current_gorth_strict_1to1_remap/step11B_input_persistent_mouse_genes_with_SYMBOL_for_gorth.csv
+
+Persistent rows total: 1416
+Symbol column used: SYMBOL
+Unique mouse symbols submitted to current gorth: 1409
+
+Saved: E:/R/ACLsenescence2/rebuild_submission/02_mouse_discovery/07_tables/step11B_current_gorth_strict_1to1_remap/step11B_gorth_parameters.csv
+Saved: E:/R/ACLsenescence2/rebuild_submission/02_mouse_discovery/07_tables/step11B_current_gorth_strict_1to1_remap/step11B_current_gprofiler_basic_version_record.csv
+Saved: E:/R/ACLsenescence2/rebuild_submission/02_mouse_discovery/07_tables/step11B_current_gorth_strict_1to1_remap/step11B_current_gprofiler_version_info_mmusculus.csv
+Saved: E:/R/ACLsenescence2/rebuild_submission/02_mouse_discovery/07_tables/step11B_current_gorth_strict_1to1_remap/step11B_current_gprofiler_version_info_hsapiens.csv
+
+Basic version record:
+                item                          value
+1                  R                          4.5.2
+2           platform             x86_64-w64-mingw32
+3 gprofiler2_package                          0.2.4
+4 gprofiler_base_url http://biit.cs.ut.ee/gprofiler
+
+gorth parameters:
+         parameter                                                                                value
+1     mapping_tool                                                              gprofiler2 / g:Profiler
+2         function                                                                    gprofiler2::gorth
+3  source_organism                                                                            mmusculus
+4  target_organism                                                                             hsapiens
+5       mthreshold                                                                                  Inf
+6        filter_na                                                                                FALSE
+7       numeric_ns                                                                         empty string
+8 strict_1to1_rule n_human_orthologs == 1 and n_mouse_inputs == 1 within non-missing unique gorth pairs
+
+g:Profiler version info for mmusculus:
+$biomart
+[1] "Ensembl"
+
+$biomart_version
+[1] "114"
+
+$display_name
+[1] "Mouse"
+
+$genebuild
+[1] "GRCm39"
+
+$gprofiler_version
+[1] "e114_eg62_p19_fa3a7d2c"
+
+$organism
+[1] "mmusculus"
+
+$sources
+$sources$CORUM
+$sources$CORUM$name
+[1] "CORUM protein complexes"
+
+$sources$CORUM$version
+[1] "28.11.2022 Corum 4.1"
+
+
+$sources$`GO:BP`
+$sources$`GO:BP`$name
+[1] "biological process"
+
+$sources$`GO:BP`$version
+[1] "annotations: BioMart\nclasses: releases/2026-01-23"
+
+
+$sources$`GO:CC`
+$sources$`GO:CC`$name
+[1] "cellular component"
+
+$sources$`GO:CC`$version
+[1] "annotations: BioMart\nclasses: releases/2026-01-23"
+
+
+$sources$`GO:MF`
+$sources$`GO:MF`$name
+[1] "molecular function"
+
+$sources$`GO:MF`$version
+[1] "annotations: BioMart\nclasses: releases/2026-01-23"
+
+
+$sources$HP
+$sources$HP$name
+[1] "Human Phenotype Ontology"
+
+$sources$HP$version
+[1] "annotations: 03.2026\nclasses: None"
+
+
+$sources$KEGG
+$sources$KEGG$name
+[1] "Kyoto Encyclopedia of Genes and Genomes"
+
+$sources$KEGG$version
+[1] "KEGG FTP Release 2026-03-15"
+
+
+$sources$REAC
+$sources$REAC$name
+[1] "Reactome"
+
+$sources$REAC$version
+[1] "annotations: BioMart\nclasses: 2026-3-20"
+
+
+$sources$TF
+$sources$TF$name
+[1] "Transfac"
+
+$sources$TF$version
+[1] "annotations: TRANSFAC Release 2025.2\nclasses: v2"
+
+
+$sources$WP
+$sources$WP$name
+[1] "WikiPathways"
+
+$sources$WP$version
+[1] "20260310"
+
+
+
+$taxonomy_id
+[1] "10090"
+
+
+g:Profiler version info for hsapiens:
+$biomart
+[1] "Ensembl"
+
+$biomart_version
+[1] "114"
+
+$display_name
+[1] "Human"
+
+$genebuild
+[1] "GRCh38.p14"
+
+$gprofiler_version
+[1] "e114_eg62_p19_fa3a7d2c"
+
+$organism
+[1] "hsapiens"
+
+$sources
+$sources$CORUM
+$sources$CORUM$name
+[1] "CORUM protein complexes"
+
+$sources$CORUM$version
+[1] "28.11.2022 Corum 4.1"
+
+
+$sources$`GO:BP`
+$sources$`GO:BP`$name
+[1] "biological process"
+
+$sources$`GO:BP`$version
+[1] "annotations: BioMart\nclasses: releases/2026-01-23"
+
+
+$sources$`GO:CC`
+$sources$`GO:CC`$name
+[1] "cellular component"
+
+$sources$`GO:CC`$version
+[1] "annotations: BioMart\nclasses: releases/2026-01-23"
+
+
+$sources$`GO:MF`
+$sources$`GO:MF`$name
+[1] "molecular function"
+
+$sources$`GO:MF`$version
+[1] "annotations: BioMart\nclasses: releases/2026-01-23"
+
+
+$sources$HP
+$sources$HP$name
+[1] "Human Phenotype Ontology"
+
+$sources$HP$version
+[1] "annotations: 03.2026\nclasses: None"
+
+
+$sources$HPA
+$sources$HPA$name
+[1] "Human Protein Atlas"
+
+$sources$HPA$version
+[1] "annotations: HPA website: 25-11-06\nclasses: script: 26-01-20"
+
+
+$sources$KEGG
+$sources$KEGG$name
+[1] "Kyoto Encyclopedia of Genes and Genomes"
+
+$sources$KEGG$version
+[1] "KEGG FTP Release 2026-03-15"
+
+
+$sources$MIRNA
+$sources$MIRNA$name
+[1] "miRTarBase"
+
+$sources$MIRNA$version
+[1] "Release 10.0"
+
+
+$sources$REAC
+$sources$REAC$name
+[1] "Reactome"
+
+$sources$REAC$version
+[1] "annotations: BioMart\nclasses: 2026-3-20"
+
+
+$sources$TF
+$sources$TF$name
+[1] "Transfac"
+
+$sources$TF$version
+[1] "annotations: TRANSFAC Release 2025.2\nclasses: v2"
+
+
+$sources$WP
+$sources$WP$name
+[1] "WikiPathways"
+
+$sources$WP$version
+[1] "20260310"
+
+
+
+$taxonomy_id
+[1] "9606"
+
+
+Running current gprofiler2::gorth mouse -> human...
+Saved: E:/R/ACLsenescence2/rebuild_submission/02_mouse_discovery/07_tables/step11B_current_gorth_strict_1to1_remap/step11B_current_gorth_mouse_to_human_raw.csv
+Saved: E:/R/ACLsenescence2/rebuild_submission/02_mouse_discovery/07_tables/step11B_current_gorth_strict_1to1_remap/step11B_current_gorth_unmapped_mouse_inputs.csv
+Saved: E:/R/ACLsenescence2/rebuild_submission/02_mouse_discovery/07_tables/step11B_current_gorth_strict_1to1_remap/step11B_current_mouse_human_ortholog_mapping_all_unique_pairs.csv
+Saved: E:/R/ACLsenescence2/rebuild_submission/02_mouse_discovery/07_tables/step11B_current_gorth_strict_1to1_remap/step11B_current_mouse_human_ortholog_mapping_strict_1to1.csv
+Saved: E:/R/ACLsenescence2/rebuild_submission/02_mouse_discovery/07_tables/step11B_current_gorth_strict_1to1_remap/step11B_current_mouse_human_ortholog_mapping_strict_1to1_compact.csv
+Saved: E:/R/ACLsenescence2/rebuild_submission/02_mouse_discovery/07_tables/step11B_current_gorth_strict_1to1_remap/step11B_current_gorth_strict_1to1_remap_summary.csv
+Saved: E:/R/ACLsenescence2/rebuild_submission/02_mouse_discovery/07_tables/step11B_current_gorth_strict_1to1_remap/step11B_software_versions.csv
+Saved script archive placeholder/copy: E:/R/ACLsenescence2/rebuild_submission/02_mouse_discovery/09_scripts/step11B_current_gorth_strict_1to1_remap_no_frozen_workspace.R
+
+===== STEP11B SUMMARY =====
+                                        metric
+1                                analysis_role
+2                        frozen_workspace_used
+3                        persistent_input_file
+4                        persistent_rows_total
+5                           symbol_column_used
+6      unique_mouse_symbols_submitted_to_gorth
+7                       current_gorth_raw_rows
+8  current_unique_mouse_human_pairs_nonmissing
+9                    current_strict_1to1_pairs
+10          current_strict_unique_mouse_inputs
+11         current_strict_unique_human_symbols
+12                       unmapped_mouse_inputs
+13                                mapping_tool
+14                  gprofiler2_package_version
+15                          gprofiler_base_url
+                                                                                                                                                     value
+1                                                                                                 current remapping; no frozen Figure3C workspace was used
+2                                                                                                                                                    FALSE
+3  E:/R/ACLsenescence2/rebuild_submission/02_mouse_discovery/07_tables/step07_strict_DEG_upset_persistent/step07_persistent_direction_consistent_genes.csv
+4                                                                                                                                                     1416
+5                                                                                                                                                   SYMBOL
+6                                                                                                                                                     1409
+7                                                                                                                                                     1448
+8                                                                                                                                                     1437
+9                                                                                                                                                     1307
+10                                                                                                                                                    1307
+11                                                                                                                                                    1307
+12                                                                                                                                                       0
+13                                                                                                                                       gprofiler2::gorth
+14                                                                                                                                                   0.2.4
+15                                                                                                                          http://biit.cs.ut.ee/gprofiler
+
+First rows of strict 1:1 current mapping:
+     ortholog_name         input input_number         input_ensg ensg_number   ortholog_ensg
+847       C16orf74 1190005I06Rik          784 ENSMUSG00000043687     784.1.1 ENSG00000154102
+957       C15orf39 1700017B05Rik          900 ENSMUSG00000032300     900.1.1 ENSG00000167173
+1315      C12orf42 1700113H08Rik         1282 ENSMUSG00000047129    1282.1.1 ENSG00000179088
+747       C11orf86 2010003K11Rik          685 ENSMUSG00000042041     685.1.1 ENSG00000173237
+302        C3orf18 6430571L13Rik          228 ENSMUSG00000037977     228.1.1 ENSG00000088543
+1416      KIAA0408 9330159F19Rik         1388 ENSMUSG00000004360    1388.1.1 ENSG00000189367
+1272        A4GALT        A4galt         1234 ENSMUSG00000047878    1234.1.1 ENSG00000128274
+1420     C14orf180 A530016L24Rik         1392 ENSMUSG00000043122    1392.1.1 ENSG00000184601
+589       C15orf48      AA467197          518 ENSMUSG00000033213     518.1.1 ENSG00000166920
+1376         ABCC3         Abcc3         1345 ENSMUSG00000020865    1345.1.1 ENSG00000108846
+317          ABCD2         Abcd2          243 ENSMUSG00000055782     243.1.1 ENSG00000173208
+1060         ABHD2         Abhd2         1012 ENSMUSG00000039202    1012.1.1 ENSG00000140526
+1208        ABI3BP        Abi3bp         1166 ENSMUSG00000035258    1166.1.1 ENSG00000154175
+652            ABR           Abr          589 ENSMUSG00000017631     589.1.1 ENSG00000159842
+816           ABRA          Abra          754 ENSMUSG00000042895     754.1.1 ENSG00000174429
+303          ACAA1        Acaa1b          229 ENSMUSG00000010651     229.1.1 ENSG00000060971
+204          ACADM         Acadm          125 ENSMUSG00000062908     125.1.1 ENSG00000117054
+532           ACAN          Acan          462 ENSMUSG00000030607     462.1.1 ENSG00000157766
+83           ACOT4         Acot4            9 ENSMUSG00000052392       9.1.1 ENSG00000177465
+1212         ACSL1         Acsl1         1170 ENSMUSG00000018796    1170.1.1 ENSG00000151726
+                                                                                  description n_human_orthologs n_mouse_inputs
+847                   chromosome 16 open reading frame 74 [Source:HGNC Symbol;Acc:HGNC:23362]                 1              1
+957                   chromosome 15 open reading frame 39 [Source:HGNC Symbol;Acc:HGNC:24497]                 1              1
+1315                  chromosome 12 open reading frame 42 [Source:HGNC Symbol;Acc:HGNC:24729]                 1              1
+747                   chromosome 11 open reading frame 86 [Source:HGNC Symbol;Acc:HGNC:34442]                 1              1
+302                    chromosome 3 open reading frame 18 [Source:HGNC Symbol;Acc:HGNC:24837]                 1              1
+1416                                             KIAA0408 [Source:HGNC Symbol;Acc:HGNC:21636]                 1              1
+1272   alpha 1,4-galactosyltransferase (P1PK blood group) [Source:HGNC Symbol;Acc:HGNC:18149]                 1              1
+1420                 chromosome 14 open reading frame 180 [Source:HGNC Symbol;Acc:HGNC:33795]                 1              1
+589                   chromosome 15 open reading frame 48 [Source:HGNC Symbol;Acc:HGNC:29898]                 1              1
+1376               ATP binding cassette subfamily C member 3 [Source:HGNC Symbol;Acc:HGNC:54]                 1              1
+317                ATP binding cassette subfamily D member 2 [Source:HGNC Symbol;Acc:HGNC:66]                 1              1
+1060 abhydrolase domain containing 2, acylglycerol lipase [Source:HGNC Symbol;Acc:HGNC:18717]                 1              1
+1208                  ABI family member 3 binding protein [Source:HGNC Symbol;Acc:HGNC:17265]                 1              1
+652                       ABR activator of RhoGEF and GTPase [Source:HGNC Symbol;Acc:HGNC:81]                 1              1
+816                  actin binding Rho activating protein [Source:HGNC Symbol;Acc:HGNC:30655]                 1              1
+303                             acetyl-CoA acyltransferase 1 [Source:HGNC Symbol;Acc:HGNC:82]                 1              1
+204                      acyl-CoA dehydrogenase medium chain [Source:HGNC Symbol;Acc:HGNC:89]                 1              1
+532                                                aggrecan [Source:HGNC Symbol;Acc:HGNC:319]                 1              1
+83                                acyl-CoA thioesterase 4 [Source:HGNC Symbol;Acc:HGNC:19748]                 1              1
+1212        acyl-CoA synthetase long chain family member 1 [Source:HGNC Symbol;Acc:HGNC:3569]                 1              1
+
+Unmapped mouse inputs:
+[1] mouse_symbol
+<0 行> (或0-长度的row.names)
+
+Step11B current gorth strict 1:1 remapping completed successfully.

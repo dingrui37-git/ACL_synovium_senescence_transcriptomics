@@ -1,0 +1,16 @@
+===== STEP01 FIGURE1A OVERALL STUDY WORKFLOW (3-BLOCK) =====
+Output PNG: E:/R/ACLsenescence2/rebuild_submission/02_mouse_discovery/06_figures/Figure1/Figure1A_overall_study_workflow_3block.png
+Output PDF: E:/R/ACLsenescence2/rebuild_submission/02_mouse_discovery/06_figures/Figure1/Figure1A_overall_study_workflow_3block.pdf
+
+Block contents used:
+
+[1] Mouse discovery
+GSE271903 mouse synovium, paired ACLR vs Contra at 1W and 4W. Paired DE analysis at 1W and 4W. Shared strict DE genes at 1W & 4W: 1,421. Persistent same-directional DE genes: 1,416. Persistent same-directional DE genes ∩ CellAge: 78. Projected CellAge score. Hallmark GSEA: inflammatory response and EMT / ECM remodeling. 
+
+[2] Persistent program validation in early pig
+E-MTAB-6664 early pig synovium, Control vs ACLT at 1W and 4W. 78 human genes projected to pig ortholog space. 75 detected in pig; 47 direction-consistent. Persistent senescence-associated signature-score validation. Hallmark GSEA: inflammatory response and EMT / ECM remodeling. Early-defined strict core ortholog genes: 24. 
+
+[3] Pig chronic extension
+GSE228848 chronic pig synovium, Control_52W vs ACLT_alone_52W. Persistent senescence-associated signature-score validation. Hallmark GSEA: inflammatory response and EMT / ECM remodeling. Retention audit of early-defined core genes performed. No chronic-specific signature redefinition. 
+
+Script completed successfully.

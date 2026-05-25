@@ -162,7 +162,7 @@ The R scripts, processed source data, analysis outputs, figure source files, log
 After Zenodo archiving, replace the placeholder below with the final DOI:
 
 ```text
-Zenodo DOI: https://doi.org/10.5281/zenodo.XXXXXXX
+Zenodo DOI: https:// DOI: 10.5281/zenodo.20384122
 ```
 
 ## Citation

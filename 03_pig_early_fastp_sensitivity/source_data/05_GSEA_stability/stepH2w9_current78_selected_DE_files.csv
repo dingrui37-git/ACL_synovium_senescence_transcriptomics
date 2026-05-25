@@ -1,0 +1,5 @@
+"branch","contrast","timepoint","de_file"
+"untrimmed","ACLT_untreated_t7_vs_Control","t7","E:/R/ACLsenescence2/rebuild_submission/02_pig_early/tables/step17_pig_early_DE_t7_vs_CON_QLF.csv"
+"untrimmed","ACLT_untreated_t28_vs_Control","t28","E:/R/ACLsenescence2/rebuild_submission/02_pig_early/tables/step17_pig_early_DE_t28_vs_CON_QLF.csv"
+"trimmed","ACLT_untreated_t7_vs_Control","t7","E:/R/ACLsenescence2/rebuild_submission/02_pig_early_fastp_sensitivity/tables/stepH2w6_trimmed_DE_ACLT_t7_vs_Control_t0_QLF.csv"
+"trimmed","ACLT_untreated_t28_vs_Control","t28","E:/R/ACLsenescence2/rebuild_submission/02_pig_early_fastp_sensitivity/tables/stepH2w6_trimmed_DE_ACLT_t28_vs_Control_t0_QLF.csv"

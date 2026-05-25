@@ -1,0 +1,2 @@
+"source","species","collection","pathway_col","gene_col_used","n_full_hallmark_gene_sets_loaded","fgsea_minSize","fgsea_maxSize","fgsea_eps","fgsea_nproc","target_pathways","full_collection_FDR_used","gene_identifier_for_GSEA"
+"msigdbr","Sus scrofa","MSigDB Hallmark collection H","gs_name","gene_symbol",50,10,500,0,1,"HALLMARK_INFLAMMATORY_RESPONSE; HALLMARK_EPITHELIAL_MESENCHYMAL_TRANSITION",TRUE,"pig gene symbols; trimmed DE Ensembl IDs mapped to symbols using untrimmed DE annotation if needed"

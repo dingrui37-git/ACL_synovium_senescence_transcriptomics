@@ -1,0 +1,109 @@
+===== STEP19_CURRENT78 SUMMARY TO SEND =====
+Run time: 2026-05-15 15:29:35
+
+Main run summary:
+                                    metric
+1                     signature_input_file
+2                        count_matrix_file
+3                            manifest_file
+4                   n_signature_genes_used
+5                     n_up_signature_genes
+6                   n_down_signature_genes
+7                                n_samples
+8                                n_Control
+9                                n_ACLT_t7
+10                              n_ACLT_t28
+11                             score_scale
+12                    normalization_method
+13                  filtering_before_score
+14    primary_directional_score_definition
+15 audit_directional_score_sum_means_saved
+16                              group_test
+17             multiple_testing_correction
+18                        main_score_table
+19                  group_comparison_table
+20                       TMM_logCPM_matrix
+21          TMM_normalization_factor_table
+22                              output_dir
+                                                                                                                                                        value
+1         E:/R/ACLsenescence2/rebuild_submission/02_pig_early/tables/step18_current78_pig_early_signature_remap/step18_current78_pig_signature_gene_table.csv
+2                                                           E:/R/ACLsenescence2/rebuild_submission/02_pig_early/tables/step16_pig_early_gene_count_matrix.csv
+3                                                  E:/R/ACLsenescence2/rebuild_submission/02_pig_early/tables/step09_pig_early_core_sample_fastq_manifest.csv
+4                                                                                                                                                          75
+5                                                                                                                                                          65
+6                                                                                                                                                          10
+7                                                                                                                                                          18
+8                                                                                                                                                           6
+9                                                                                                                                                           6
+10                                                                                                                                                          6
+11                                                                                             TMM-normalized logCPM, then row-wise z-score across 18 samples
+12 edgeR::DGEList(full Step16 count matrix) -> edgeR::calcNormFactors(method = 'TMM') -> edgeR::cpm(log = TRUE, prior.count = 1, normalized.lib.sizes = TRUE)
+13                                                     No filterByExpr() filtering before signature scoring; all Step18-detected signature genes are retained
+14                                                                                                                     (sum up z + sum -down z)/(n_up+n_down)
+15                                                                                       TRUE; directional_score_sum_means = up_score + down_score_reoriented
+16                                                                         two-sided Wilcoxon rank-sum test for ACLT_t7 or ACLT_t28 vs Control; exact = FALSE
+17                                                                                     Benjamini-Hochberg FDR across all 12 generated score-level comparisons
+18        E:/R/ACLsenescence2/rebuild_submission/02_pig_early/tables/step19_current78_pig_signature_score/step19_current78_pig_signature_scores_by_sample.csv
+19 E:/R/ACLsenescence2/rebuild_submission/02_pig_early/tables/step19_current78_pig_signature_score/step19_current78_pig_signature_score_group_comparisons.csv
+20       E:/R/ACLsenescence2/rebuild_submission/02_pig_early/tables/step19_current78_pig_signature_score/step19_current78_pig_signature_TMM_logCPM_matrix.csv
+21             E:/R/ACLsenescence2/rebuild_submission/02_pig_early/tables/step19_current78_pig_signature_score/step19_current78_TMM_normalization_factors.csv
+22                                                            E:/R/ACLsenescence2/rebuild_submission/02_pig_early/tables/step19_current78_pig_signature_score
+
+Signature direction counts:
+
+Down_in_ACLR   Up_in_ACLR 
+          10           65 
+
+Group comparison statistics:
+            comparison                       score n_control n_case median_control median_case mean_control   mean_case median_difference_case_minus_control mean_difference_case_minus_control
+1   ACLT_t7_vs_Control           directional_score         6      6     -0.5653066  0.40506458   -0.5487231  0.40572568                            0.9703711                          0.9544487
+2  ACLT_t28_vs_Control           directional_score         6      6     -0.5653066  0.12616451   -0.5487231  0.14299737                            0.6914711                          0.6917204
+3   ACLT_t7_vs_Control directional_score_sum_means         6      6     -1.0539791  0.54089498   -1.1009023  0.54501955                            1.5948741                          1.6459219
+4  ACLT_t28_vs_Control directional_score_sum_means         6      6     -1.0539791  0.40538336   -1.1009023  0.55588279                            1.4593625                          1.6567851
+5   ACLT_t7_vs_Control                    up_score         6      6     -0.5584195  0.48082253   -0.5480946  0.45416783                            1.0392420                          1.0022625
+6  ACLT_t28_vs_Control                    up_score         6      6     -0.5584195  0.10027771   -0.5480946  0.09392681                            0.6586972                          0.6420215
+7   ACLT_t7_vs_Control       down_score_reoriented         6      6     -0.5850040  0.06113695   -0.5528077  0.09085172                            0.6461409                          0.6436594
+8  ACLT_t28_vs_Control       down_score_reoriented         6      6     -0.5850040  0.32699019   -0.5528077  0.46195598                            0.9119942                          1.0147637
+9   ACLT_t7_vs_Control              down_score_raw         6      6      0.5850040 -0.06113695    0.5528077 -0.09085172                           -0.6461409                         -0.6436594
+10 ACLT_t28_vs_Control              down_score_raw         6      6      0.5850040 -0.32699019    0.5528077 -0.46195598                           -0.9119942                         -1.0147637
+11  ACLT_t7_vs_Control      total_score_unoriented         6      6     -0.4077975  0.41430992   -0.4013077  0.38149856                            0.8221074                          0.7828062
+12 ACLT_t28_vs_Control      total_score_unoriented         6      6     -0.4077975  0.02340044   -0.4013077  0.01980911                            0.4311979                          0.4211168
+   wilcox_p_value BH_FDR_across_all_score_comparisons
+1     0.005074868                         0.005074868
+2     0.005074868                         0.005074868
+3     0.005074868                         0.005074868
+4     0.005074868                         0.005074868
+5     0.005074868                         0.005074868
+6     0.005074868                         0.005074868
+7     0.005074868                         0.005074868
+8     0.005074868                         0.005074868
+9     0.005074868                         0.005074868
+10    0.005074868                         0.005074868
+11    0.005074868                         0.005074868
+12    0.005074868                         0.005074868
+
+Primary output files:
+scores_by_sample: E:/R/ACLsenescence2/rebuild_submission/02_pig_early/tables/step19_current78_pig_signature_score/step19_current78_pig_signature_scores_by_sample.csv
+scores_long: E:/R/ACLsenescence2/rebuild_submission/02_pig_early/tables/step19_current78_pig_signature_score/step19_current78_pig_signature_scores_long.csv
+group_comparisons: E:/R/ACLsenescence2/rebuild_submission/02_pig_early/tables/step19_current78_pig_signature_score/step19_current78_pig_signature_score_group_comparisons.csv
+gene_metadata: E:/R/ACLsenescence2/rebuild_submission/02_pig_early/tables/step19_current78_pig_signature_score/step19_current78_pig_signature_gene_metadata.csv
+TMM_logCPM_matrix: E:/R/ACLsenescence2/rebuild_submission/02_pig_early/tables/step19_current78_pig_signature_score/step19_current78_pig_signature_TMM_logCPM_matrix.csv
+TMM_normalization_factors: E:/R/ACLsenescence2/rebuild_submission/02_pig_early/tables/step19_current78_pig_signature_score/step19_current78_TMM_normalization_factors.csv
+zscore_matrix: E:/R/ACLsenescence2/rebuild_submission/02_pig_early/tables/step19_current78_pig_signature_score/step19_current78_pig_signature_zscore_matrix.csv
+
+Plots:
+                                                  plot                                                                                                                                    file
+1      Figure4A_current78_signature_scores_mouse_style      E:/R/ACLsenescence2/rebuild_submission/02_pig_early/figures/Figure4A_current78/Figure4A_current78_signature_scores_mouse_style.png
+2      Figure4A_current78_signature_scores_mouse_style      E:/R/ACLsenescence2/rebuild_submission/02_pig_early/figures/Figure4A_current78/Figure4A_current78_signature_scores_mouse_style.pdf
+3     Figure4A_current78_directional_score_mouse_style     E:/R/ACLsenescence2/rebuild_submission/02_pig_early/figures/Figure4A_current78/Figure4A_current78_directional_score_mouse_style.png
+4     Figure4A_current78_directional_score_mouse_style     E:/R/ACLsenescence2/rebuild_submission/02_pig_early/figures/Figure4A_current78/Figure4A_current78_directional_score_mouse_style.pdf
+5              Figure4A_current78_up_score_mouse_style              E:/R/ACLsenescence2/rebuild_submission/02_pig_early/figures/Figure4A_current78/Figure4A_current78_up_score_mouse_style.png
+6              Figure4A_current78_up_score_mouse_style              E:/R/ACLsenescence2/rebuild_submission/02_pig_early/figures/Figure4A_current78/Figure4A_current78_up_score_mouse_style.pdf
+7 Figure4A_current78_down_score_reoriented_mouse_style E:/R/ACLsenescence2/rebuild_submission/02_pig_early/figures/Figure4A_current78/Figure4A_current78_down_score_reoriented_mouse_style.png
+8 Figure4A_current78_down_score_reoriented_mouse_style E:/R/ACLsenescence2/rebuild_submission/02_pig_early/figures/Figure4A_current78/Figure4A_current78_down_score_reoriented_mouse_style.pdf
+
+Interpretation checkpoint:
+Please verify that n_signature_genes_used = 75, n_up_signature_genes = 65, and n_down_signature_genes = 10.
+The expression input is TMM-normalized logCPM from the full Step16 count matrix, followed by row-wise z-score across the 18 samples.
+The primary directional_score follows the current methods formula: (sum up z + sum -down z)/(n_up+n_down).
+directional_score_sum_means is saved only as an audit/backward-comparison score.

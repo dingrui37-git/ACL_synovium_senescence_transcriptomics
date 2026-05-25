@@ -1,0 +1,257 @@
+project_root: E:/R/ACLsenescence2 
+branch_dir: E:/R/ACLsenescence2/rebuild_submission/02_pig_early_fastp_sensitivity 
+command_sheet_file: E:/R/ACLsenescence2/rebuild_submission/02_pig_early_fastp_sensitivity/tables/stepH1_fastp_command_sheet_18samples.csv 
+h2w2_status_file: E:/R/ACLsenescence2/rebuild_submission/02_pig_early_fastp_sensitivity/tables/stepH2w2_v3_fastp_batch_status_18samples.csv 
+
+n_samples_in_command_sheet: 18 
+checked1/18: CON1 | ok=TRUE | retained_reads=99.715% | after_Q30=94.584%
+checked2/18: CON2 | ok=TRUE | retained_reads=99.611% | after_Q30=91.49%
+checked3/18: CON3 | ok=TRUE | retained_reads=99.736% | after_Q30=92.888%
+checked4/18: CON4 | ok=TRUE | retained_reads=99.532% | after_Q30=96.329%
+checked5/18: CON5 | ok=TRUE | retained_reads=99.701% | after_Q30=95.099%
+checked6/18: CON6 | ok=TRUE | retained_reads=99.75% | after_Q30=92.165%
+checked7/18: INJS1 | ok=TRUE | retained_reads=99.799% | after_Q30=93.158%
+checked8/18: INJS2 | ok=TRUE | retained_reads=99.654% | after_Q30=96.504%
+checked9/18: INJS3 | ok=TRUE | retained_reads=99.844% | after_Q30=94.614%
+checked10/18: INJS4 | ok=TRUE | retained_reads=99.754% | after_Q30=91.526%
+checked11/18: INJS5 | ok=TRUE | retained_reads=99.824% | after_Q30=92.925%
+checked12/18: INJS6 | ok=TRUE | retained_reads=99.692% | after_Q30=96.334%
+checked13/18: INJL1 | ok=TRUE | retained_reads=99.793% | after_Q30=94.677%
+checked14/18: INJL2 | ok=TRUE | retained_reads=99.697% | after_Q30=91.703%
+checked15/18: INJL3 | ok=TRUE | retained_reads=99.891% | after_Q30=93.181%
+checked16/18: INJL4 | ok=TRUE | retained_reads=99.597% | after_Q30=96.503%
+checked17/18: INJL5 | ok=TRUE | retained_reads=99.725% | after_Q30=94.991%
+checked18/18: INJL6 | ok=TRUE | retained_reads=99.674% | after_Q30=92.072%
+
+===== Step H2w3 overall summary =====
+                             metric
+                       project_root
+                         branch_dir
+                 command_sheet_file
+                   h2w2_status_file
+                          n_samples
+                n_trimmed_R1_exists
+                n_trimmed_R2_exists
+                n_fastp_html_exists
+                n_fastp_json_exists
+             n_fastp_json_parsed_ok
+                   n_sample_ok_h2w3
+ n_sample_failed_or_incomplete_h2w3
+              min_retained_read_pct
+             mean_retained_read_pct
+              max_retained_read_pct
+                  min_after_q30_pct
+                 mean_after_q30_pct
+                  max_after_q30_pct
+      mean_adapter_trimmed_read_pct
+                      batch_ok_h2w3
+                    qc_summary_file
+            alignment_manifest_file
+               overall_summary_file
+                         config_rds
+                           log_file
+                             status
+                                                                                                                                    value
+                                                                                                                      E:/R/ACLsenescence2
+                                                                    E:/R/ACLsenescence2/rebuild_submission/02_pig_early_fastp_sensitivity
+                    E:/R/ACLsenescence2/rebuild_submission/02_pig_early_fastp_sensitivity/tables/stepH1_fastp_command_sheet_18samples.csv
+                E:/R/ACLsenescence2/rebuild_submission/02_pig_early_fastp_sensitivity/tables/stepH2w2_v3_fastp_batch_status_18samples.csv
+                                                                                                                                       18
+                                                                                                                                       18
+                                                                                                                                       18
+                                                                                                                                       18
+                                                                                                                                       18
+                                                                                                                                       18
+                                                                                                                                       18
+                                                                                                                                        0
+                                                                                                                                   99.532
+                                                                                                                                   99.722
+                                                                                                                                   99.891
+                                                                                                                                    91.49
+                                                                                                                                    93.93
+                                                                                                                                   96.504
+                                                                                                                                    0.407
+                                                                                                                                     TRUE
+      E:/R/ACLsenescence2/rebuild_submission/02_pig_early_fastp_sensitivity/tables/stepH2w3_fastp_trimmed_output_qc_summary_18samples.csv
+ E:/R/ACLsenescence2/rebuild_submission/02_pig_early_fastp_sensitivity/tables/stepH2w3_trimmed_fastq_manifest_for_alignment_18samples.csv
+                       E:/R/ACLsenescence2/rebuild_submission/02_pig_early_fastp_sensitivity/tables/stepH2w3_fastp_qc_overall_summary.csv
+        E:/R/ACLsenescence2/rebuild_submission/02_pig_early_fastp_sensitivity/objects/stepH2w3_fastp_qc_and_alignment_manifest_config.rds
+              E:/R/ACLsenescence2/rebuild_submission/02_pig_early_fastp_sensitivity/logs/stepH2w3_fastp_qc_and_alignment_manifest_log.txt
+                                                                                                         Step H2w3 completed successfully
+
+===== Step H2w3 per-sample compact QC =====
+ sample_id      group sample_ok_h2w3 before_total_reads after_total_reads retained_read_pct after_q30_pct
+      CON1 Control_t0           TRUE           30647962          30560640            99.715        94.584
+      CON2 Control_t0           TRUE           23326320          23235654            99.611        91.490
+      CON3 Control_t0           TRUE           37092712          36994728            99.736        92.888
+      CON4 Control_t0           TRUE           38953742          38771620            99.532        96.329
+      CON5 Control_t0           TRUE           50650948          50499722            99.701        95.099
+      CON6 Control_t0           TRUE           27897296          27827624            99.750        92.165
+     INJS1    ACLT_t7           TRUE           36565064          36491442            99.799        93.158
+     INJS2    ACLT_t7           TRUE           35188388          35066644            99.654        96.504
+     INJS3    ACLT_t7           TRUE           30959444          30911058            99.844        94.614
+     INJS4    ACLT_t7           TRUE           22790472          22734468            99.754        91.526
+     INJS5    ACLT_t7           TRUE           31890766          31834640            99.824        92.925
+     INJS6    ACLT_t7           TRUE           19428196          19368310            99.692        96.334
+     INJL1   ACLT_t28           TRUE           28142790          28084594            99.793        94.677
+     INJL2   ACLT_t28           TRUE           24574104          24499728            99.697        91.703
+     INJL3   ACLT_t28           TRUE           30820460          30786876            99.891        93.181
+     INJL4   ACLT_t28           TRUE           35806876          35662500            99.597        96.503
+     INJL5   ACLT_t28           TRUE           30982292          30896978            99.725        94.991
+     INJL6   ACLT_t28           TRUE           24447956          24368354            99.674        92.072
+ adapter_trimmed_read_pct
+                    0.382
+                    0.303
+                    0.336
+                    0.628
+                    0.514
+                    0.224
+                    0.455
+                    0.435
+                    0.452
+                    0.249
+                    0.415
+                    0.425
+                    0.338
+                    0.452
+                    0.382
+                    0.424
+                    0.472
+                    0.434
+
+输出文件：
+E:/R/ACLsenescence2/rebuild_submission/02_pig_early_fastp_sensitivity/tables/stepH2w3_fastp_trimmed_output_qc_summary_18samples.csv 
+E:/R/ACLsenescence2/rebuild_submission/02_pig_early_fastp_sensitivity/tables/stepH2w3_trimmed_fastq_manifest_for_alignment_18samples.csv 
+E:/R/ACLsenescence2/rebuild_submission/02_pig_early_fastp_sensitivity/tables/stepH2w3_fastp_qc_overall_summary.csv 
+E:/R/ACLsenescence2/rebuild_submission/02_pig_early_fastp_sensitivity/objects/stepH2w3_fastp_qc_and_alignment_manifest_config.rds 
+E:/R/ACLsenescence2/rebuild_submission/02_pig_early_fastp_sensitivity/logs/stepH2w3_fastp_qc_and_alignment_manifest_log.txt 
+
+结果：H2w3 成功。trimmed FASTQ 输出完整，fastp JSON 可解析，后续可以进入 trimmed FASTQ 比对步骤。
+
+===== End of Step H2w3 =====
+
+===== Step H2w4: trimmed FASTQ alignment with Rsubread =====
+
+
+===== Step H2w4 v2: trimmed FASTQ alignment with Rsubread =====
+
+H2w4 v2 读取 trimmed FASTQ 路径列：R1_fastq, R2_fastq
+正在项目目录中寻找 Rsubread index...
+使用 Rsubread index:
+E:/R/ACLsenescence2/reference/Sus_scrofa_Ensembl115/Rsubread_index/Sus_scrofa_Sscrofa11.1_gapped 
+
+开始 trimmed FASTQ 比对，共 18 个样本。
+主日志文件： E:/R/ACLsenescence2/rebuild_submission/02_pig_early_fastp_sensitivity/logs/stepH2w4_v2_trimmed_alignment_main_log.txt 
+
+开始样本 1/18: CON1
+样本 CON1 align exit status: 0
+开始样本 2/18: CON2
+样本 CON2 align exit status: 0
+开始样本 3/18: CON3
+样本 CON3 align exit status: 0
+开始样本 4/18: CON4
+样本 CON4 align exit status: 0
+开始样本 5/18: CON5
+样本 CON5 align exit status: 0
+开始样本 6/18: CON6
+样本 CON6 align exit status: 0
+开始样本 7/18: INJS1
+样本 INJS1 align exit status: 0
+开始样本 8/18: INJS2
+样本 INJS2 align exit status: 0
+开始样本 9/18: INJS3
+样本 INJS3 align exit status: 0
+开始样本 10/18: INJS4
+样本 INJS4 align exit status: 0
+开始样本 11/18: INJS5
+样本 INJS5 align exit status: 0
+开始样本 12/18: INJS6
+样本 INJS6 align exit status: 0
+开始样本 13/18: INJL1
+样本 INJL1 align exit status: 0
+开始样本 14/18: INJL2
+样本 INJL2 align exit status: 0
+开始样本 15/18: INJL3
+样本 INJL3 align exit status: 0
+开始样本 16/18: INJL4
+样本 INJL4 align exit status: 0
+开始样本 17/18: INJL5
+样本 INJL5 align exit status: 0
+开始样本 18/18: INJL6
+样本 INJL6 align exit status: 0
+
+===== Step H2w4 v2 summary =====
+                         metric
+                   project_root
+                     branch_dir
+                  manifest_file
+        manifest_R1_column_used
+        manifest_R2_column_used
+          chosen_rsubread_index
+                        threads
+          n_samples_in_manifest
+                   n_samples_ok
+ n_samples_failed_or_incomplete
+                    n_run_align
+    n_skipped_existing_complete
+                  batch_ok_h2w4
+                        bam_dir
+                    status_file
+                   summary_file
+          index_candidates_file
+                  main_log_file
+                     config_rds
+                         status
+                                                                                                                                    value
+                                                                                                                      E:/R/ACLsenescence2
+                                                                    E:/R/ACLsenescence2/rebuild_submission/02_pig_early_fastp_sensitivity
+ E:/R/ACLsenescence2/rebuild_submission/02_pig_early_fastp_sensitivity/tables/stepH2w3_trimmed_fastq_manifest_for_alignment_18samples.csv
+                                                                                                                                 R1_fastq
+                                                                                                                                 R2_fastq
+                                         E:/R/ACLsenescence2/reference/Sus_scrofa_Ensembl115/Rsubread_index/Sus_scrofa_Sscrofa11.1_gapped
+                                                                                                                                        4
+                                                                                                                                       18
+                                                                                                                                       18
+                                                                                                                                        0
+                                                                                                                                       18
+                                                                                                                                        0
+                                                                                                                                     TRUE
+                                                        E:/R/ACLsenescence2/rebuild_submission/02_pig_early_fastp_sensitivity/bam_trimmed
+          E:/R/ACLsenescence2/rebuild_submission/02_pig_early_fastp_sensitivity/tables/stepH2w4_v2_trimmed_alignment_status_18samples.csv
+                   E:/R/ACLsenescence2/rebuild_submission/02_pig_early_fastp_sensitivity/tables/stepH2w4_v2_trimmed_alignment_summary.csv
+                   E:/R/ACLsenescence2/rebuild_submission/02_pig_early_fastp_sensitivity/tables/stepH2w4_v2_rsubread_index_candidates.csv
+                    E:/R/ACLsenescence2/rebuild_submission/02_pig_early_fastp_sensitivity/logs/stepH2w4_v2_trimmed_alignment_main_log.txt
+                   E:/R/ACLsenescence2/rebuild_submission/02_pig_early_fastp_sensitivity/objects/stepH2w4_v2_trimmed_alignment_config.rds
+                                                                                                      Step H2w4 v2 completed successfully
+
+===== Step H2w4 v2 per-sample status =====
+ sample_id      group    action exit_status sample_ok_h2w4 bam_size_after
+      CON1 Control_t0 run_align           0           TRUE     1855973569
+      CON2 Control_t0 run_align           0           TRUE     1494480000
+      CON3 Control_t0 run_align           0           TRUE     2284069110
+      CON4 Control_t0 run_align           0           TRUE     2290795901
+      CON5 Control_t0 run_align           0           TRUE     3061820757
+      CON6 Control_t0 run_align           0           TRUE     1808467614
+     INJS1    ACLT_t7 run_align           0           TRUE     2279252133
+     INJS2    ACLT_t7 run_align           0           TRUE     2060421483
+     INJS3    ACLT_t7 run_align           0           TRUE     1905063067
+     INJS4    ACLT_t7 run_align           0           TRUE     1479896798
+     INJS5    ACLT_t7 run_align           0           TRUE     1996585410
+     INJS6    ACLT_t7 run_align           0           TRUE     1151976058
+     INJL1   ACLT_t28 run_align           0           TRUE     1700341195
+     INJL2   ACLT_t28 run_align           0           TRUE     1585413559
+     INJL3   ACLT_t28 run_align           0           TRUE     1933628351
+     INJL4   ACLT_t28 run_align           0           TRUE     2083862309
+     INJL5   ACLT_t28 run_align           0           TRUE     1874901709
+     INJL6   ACLT_t28 run_align           0           TRUE     1584454674
+
+输出文件：
+E:/R/ACLsenescence2/rebuild_submission/02_pig_early_fastp_sensitivity/tables/stepH2w4_v2_trimmed_alignment_status_18samples.csv 
+E:/R/ACLsenescence2/rebuild_submission/02_pig_early_fastp_sensitivity/tables/stepH2w4_v2_trimmed_alignment_summary.csv 
+E:/R/ACLsenescence2/rebuild_submission/02_pig_early_fastp_sensitivity/tables/stepH2w4_v2_rsubread_index_candidates.csv 
+E:/R/ACLsenescence2/rebuild_submission/02_pig_early_fastp_sensitivity/logs/stepH2w4_v2_trimmed_alignment_main_log.txt 
+E:/R/ACLsenescence2/rebuild_submission/02_pig_early_fastp_sensitivity/objects/stepH2w4_v2_trimmed_alignment_config.rds 
+
+结果：H2w4 v2 成功。18 个 trimmed FASTQ 样本已经完成 Rsubread 比对，下一步可以进入 featureCounts。
+
+===== End of Step H2w4 v2 =====

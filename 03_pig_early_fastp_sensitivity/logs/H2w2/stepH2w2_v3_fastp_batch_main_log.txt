@@ -1,0 +1,41 @@
+2026-04-28 11:12:51 | 读取 Step H1 command sheet：E:/R/ACLsenescence2/rebuild_submission/02_pig_early_fastp_sensitivity/tables/stepH1_fastp_command_sheet_18samples.csv
+2026-04-28 11:12:51 | 读取到样本数：18
+2026-04-28 11:12:51 | 检测到 WSL 调用程序：C:\WINDOWS\SYSTEM32\wsl.exe
+2026-04-28 11:12:51 | 开始 preflight：通过 .sh 文件检查 WSL 中的 fastp_env / fastp。
+2026-04-28 11:12:52 | preflight 成功。日志：E:/R/ACLsenescence2/rebuild_submission/02_pig_early_fastp_sensitivity/logs/stepH2w2_v3_preflight_wsl_fastp_check.log
+2026-04-28 11:12:52 | 开始样本 1/18：CON1
+2026-04-28 11:15:01 | 样本 CON1 fastp exit status：0
+2026-04-28 11:15:01 | 开始样本 2/18：CON2
+2026-04-28 11:17:03 | 样本 CON2 fastp exit status：0
+2026-04-28 11:17:04 | 开始样本 3/18：CON3
+2026-04-28 11:20:46 | 样本 CON3 fastp exit status：0
+2026-04-28 11:20:46 | 开始样本 4/18：CON4
+2026-04-28 11:24:33 | 样本 CON4 fastp exit status：0
+2026-04-28 11:24:33 | 开始样本 5/18：CON5
+2026-04-28 11:29:40 | 样本 CON5 fastp exit status：0
+2026-04-28 11:29:40 | 开始样本 6/18：CON6
+2026-04-28 11:32:49 | 样本 CON6 fastp exit status：0
+2026-04-28 11:32:49 | 开始样本 7/18：INJS1
+2026-04-28 11:36:34 | 样本 INJS1 fastp exit status：0
+2026-04-28 11:36:34 | 开始样本 8/18：INJS2
+2026-04-28 11:40:07 | 样本 INJS2 fastp exit status：0
+2026-04-28 11:40:07 | 开始样本 9/18：INJS3
+2026-04-28 11:43:26 | 样本 INJS3 fastp exit status：0
+2026-04-28 11:43:27 | 开始样本 10/18：INJS4
+2026-04-28 11:45:47 | 样本 INJS4 fastp exit status：0
+2026-04-28 11:45:47 | 开始样本 11/18：INJS5
+2026-04-28 11:48:31 | 样本 INJS5 fastp exit status：0
+2026-04-28 11:48:31 | 开始样本 12/18：INJS6
+2026-04-28 11:50:08 | 样本 INJS6 fastp exit status：0
+2026-04-28 11:50:08 | 开始样本 13/18：INJL1
+2026-04-28 11:52:28 | 样本 INJL1 fastp exit status：0
+2026-04-28 11:52:28 | 开始样本 14/18：INJL2
+2026-04-28 11:54:33 | 样本 INJL2 fastp exit status：0
+2026-04-28 11:54:33 | 开始样本 15/18：INJL3
+2026-04-28 11:57:03 | 样本 INJL3 fastp exit status：0
+2026-04-28 11:57:04 | 开始样本 16/18：INJL4
+2026-04-28 11:59:45 | 样本 INJL4 fastp exit status：0
+2026-04-28 11:59:45 | 开始样本 17/18：INJL5
+2026-04-28 12:02:15 | 样本 INJL5 fastp exit status：0
+2026-04-28 12:02:15 | 开始样本 18/18：INJL6
+2026-04-28 12:04:19 | 样本 INJL6 fastp exit status：0

@@ -1,0 +1,68 @@
+===== StepH2w12_current78 trimmed GSEA running-curve figure SUMMARY TO SEND ME =====
+Run time: 2026-05-17 07:48:30
+
+Main run summary:
+                       metric
+           stepH2w9_input_dir
+    ranked_symbols_trimmed_t7
+   ranked_symbols_trimmed_t28
+      target_pathways_plotted
+              n_target_panels
+  trimmed_inflammatory_t7_NES
+  trimmed_inflammatory_t7_FDR
+ trimmed_inflammatory_t28_NES
+ trimmed_inflammatory_t28_FDR
+           trimmed_EMT_t7_NES
+           trimmed_EMT_t7_FDR
+          trimmed_EMT_t28_NES
+          trimmed_EMT_t28_FDR
+                     plot_png
+                     plot_pdf
+          running_source_data
+   target_results_source_data
+               output_fig_dir
+             output_table_dir
+                                                                                                                                                                                                            value
+                                                                                                   E:/R/ACLsenescence2/rebuild_submission/02_pig_early_fastp_sensitivity/tables/stepH2w9_current78_GSEA_stability
+                                                                                                                                                                                                            14230
+                                                                                                                                                                                                            14032
+                                                                                                                                       HALLMARK_INFLAMMATORY_RESPONSE; HALLMARK_EPITHELIAL_MESENCHYMAL_TRANSITION
+                                                                                                                                                                                                                4
+                                                                                                                                                                                                 1.37164132051793
+                                                                                                                                                                                               0.0417180595996559
+                                                                                                                                                                                                0.996541421989804
+                                                                                                                                                                                                0.600328947368421
+                                                                                                                                                                                                 1.64407457363652
+                                                                                                                                                                                              0.00083371928738497
+                                                                                                                                                                                                 1.51751640059966
+                                                                                                                                                                                              0.00205488664075973
+ E:/R/ACLsenescence2/rebuild_submission/02_pig_early_fastp_sensitivity/figures/stepH2w12_current78_trimmed_GSEA_running_curves/Supplementary_fastp_trimmed_current78_Hallmark_GSEA_running_curves_mouse_style.png
+ E:/R/ACLsenescence2/rebuild_submission/02_pig_early_fastp_sensitivity/figures/stepH2w12_current78_trimmed_GSEA_running_curves/Supplementary_fastp_trimmed_current78_Hallmark_GSEA_running_curves_mouse_style.pdf
+                      E:/R/ACLsenescence2/rebuild_submission/02_pig_early_fastp_sensitivity/tables/stepH2w12_current78_trimmed_GSEA_running_curves/stepH2w12_current78_trimmed_GSEA_running_curve_source_data.csv
+                E:/R/ACLsenescence2/rebuild_submission/02_pig_early_fastp_sensitivity/tables/stepH2w12_current78_trimmed_GSEA_running_curves/stepH2w12_current78_trimmed_target_pathway_results_used_for_plot.csv
+                                                                                    E:/R/ACLsenescence2/rebuild_submission/02_pig_early_fastp_sensitivity/figures/stepH2w12_current78_trimmed_GSEA_running_curves
+                                                                                     E:/R/ACLsenescence2/rebuild_submission/02_pig_early_fastp_sensitivity/tables/stepH2w12_current78_trimmed_GSEA_running_curves
+
+Target pathway statistics used for plot:
+  branch                      contrast                                    pathway       NES         padj         pval
+ trimmed ACLT_untreated_t28_vs_Control HALLMARK_EPITHELIAL_MESENCHYMAL_TRANSITION 1.5175164 0.0020548866 0.0006575637
+ trimmed ACLT_untreated_t28_vs_Control             HALLMARK_INFLAMMATORY_RESPONSE 0.9965414 0.6003289474 0.4562500000
+ trimmed  ACLT_untreated_t7_vs_Control HALLMARK_EPITHELIAL_MESENCHYMAL_TRANSITION 1.6440746 0.0008337193 0.0001500695
+ trimmed  ACLT_untreated_t7_vs_Control             HALLMARK_INFLAMMATORY_RESPONSE 1.3716413 0.0417180596 0.0183559462
+
+Version and method records:
+                     item                                                                                                          value
+                R_version                                                                                                          4.5.2
+          ggplot2_version                                                                                                          4.0.2
+            dplyr_version                                                                                                          1.1.4
+              source_step E:/R/ACLsenescence2/rebuild_submission/02_pig_early_fastp_sensitivity/tables/stepH2w9_current78_GSEA_stability
+           branch_plotted                                                                               trimmed fastp sensitivity branch
+           rank_statistic                                                sign(logFC) * -log10(PValue), inherited from StepH2w9_current78
+ gene_identifier_for_GSEA                                                                                               pig gene symbols
+     target_pathways_note            fgsea was run on the full Hallmark collection in StepH2w9; target pathways were extracted afterward
+              figure_role                                         supplementary sensitivity figure, not replacement for primary Figure4B
+
+Interpretation checkpoint:
+This figure uses trimmed-branch target pathway statistics and ranked lists from StepH2w9_current78.
+It follows the same Step20 Figure4B green running-curve style.
+The fastp branch is a sensitivity analysis, not a replacement for the primary untrimmed pig early GSEA.

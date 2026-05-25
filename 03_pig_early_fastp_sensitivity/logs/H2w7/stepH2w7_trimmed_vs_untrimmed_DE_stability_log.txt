@@ -1,0 +1,17 @@
+2026-05-17 07:21:11 | ===== Step H2w7 started ===== 
+2026-05-17 07:21:11 | project_root: E:/R/ACLsenescence2 
+2026-05-17 07:21:11 | untrimmed_tables_dir: E:/R/ACLsenescence2/rebuild_submission/02_pig_early/tables 
+2026-05-17 07:21:11 | trimmed_tables_dir: E:/R/ACLsenescence2/rebuild_submission/02_pig_early_fastp_sensitivity/tables 
+2026-05-17 07:21:16 | Wrote candidate file: E:/R/ACLsenescence2/rebuild_submission/02_pig_early_fastp_sensitivity/tables/stepH2w7_DE_file_selection_candidates.csv 
+2026-05-17 07:21:16 | Wrote selected file: E:/R/ACLsenescence2/rebuild_submission/02_pig_early_fastp_sensitivity/tables/stepH2w7_DE_file_selection_selected_files.csv 
+2026-05-17 07:21:16 | Comparing contrast: ACLT_t7_vs_Control_t0 
+2026-05-17 07:21:16 |   untrimmed_file: E:/R/ACLsenescence2/rebuild_submission/02_pig_early/tables/step17_pig_early_DE_t7_vs_CON_QLF.csv 
+2026-05-17 07:21:16 |   trimmed_file: E:/R/ACLsenescence2/rebuild_submission/02_pig_early_fastp_sensitivity/tables/stepH2w6_trimmed_DE_ACLT_t7_vs_Control_t0_QLF.csv 
+2026-05-17 07:21:18 |   wrote gene comparison: E:/R/ACLsenescence2/rebuild_submission/02_pig_early_fastp_sensitivity/tables/stepH2w7_DE_stability_ACLT_t7_vs_Control_t0_gene_level_comparison.csv 
+2026-05-17 07:21:18 |   wrote strict membership: E:/R/ACLsenescence2/rebuild_submission/02_pig_early_fastp_sensitivity/tables/stepH2w7_DE_stability_ACLT_t7_vs_Control_t0_strict_membership.csv 
+2026-05-17 07:21:18 | Comparing contrast: ACLT_t28_vs_Control_t0 
+2026-05-17 07:21:18 |   untrimmed_file: E:/R/ACLsenescence2/rebuild_submission/02_pig_early/tables/step17_pig_early_DE_t28_vs_CON_QLF.csv 
+2026-05-17 07:21:18 |   trimmed_file: E:/R/ACLsenescence2/rebuild_submission/02_pig_early_fastp_sensitivity/tables/stepH2w6_trimmed_DE_ACLT_t28_vs_Control_t0_QLF.csv 
+2026-05-17 07:21:20 |   wrote gene comparison: E:/R/ACLsenescence2/rebuild_submission/02_pig_early_fastp_sensitivity/tables/stepH2w7_DE_stability_ACLT_t28_vs_Control_t0_gene_level_comparison.csv 
+2026-05-17 07:21:20 |   wrote strict membership: E:/R/ACLsenescence2/rebuild_submission/02_pig_early_fastp_sensitivity/tables/stepH2w7_DE_stability_ACLT_t28_vs_Control_t0_strict_membership.csv 
+2026-05-17 07:21:20 | ===== Step H2w7 finished ===== 

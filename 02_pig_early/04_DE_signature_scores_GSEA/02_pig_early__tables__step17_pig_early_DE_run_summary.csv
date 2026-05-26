@@ -1,3 +1,0 @@
-"contrast","target_group","reference_group","n_genes_before_filter","n_genes_after_filter","n_samples","n_target","n_reference","n_FDR05","n_strict","elapsed_minutes_total"
-"ACLT_untreated_t7_vs_CON_t0","ACLT_untreated_t7","CON_t0",35682,14233,12,6,6,5990,1990,0.141
-"ACLT_untreated_t28_vs_CON_t0","ACLT_untreated_t28","CON_t0",35682,14002,12,6,6,5899,1838,0.141

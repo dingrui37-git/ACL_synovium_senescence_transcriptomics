@@ -1,3 +1,0 @@
-"signature_direction","n_signature_genes","detected_in_trimmed_counts","direction_consistent_t7_trimmed","direction_consistent_t28_trimmed","direction_consistent_both_trimmed","stat_strict_t7_FDR_abslogFC_only_trimmed","stat_strict_t28_FDR_abslogFC_only_trimmed","stat_strict_both_FDR_abslogFC_only_trimmed","strict_t7_direction_consistent_trimmed","strict_t28_direction_consistent_trimmed","strict_both_direction_consistent_trimmed","core_like_trimmed"
-"Up_in_ACLR",65,65,49,43,43,35,27,26,31,23,22,22
-"Down_in_ACLR",10,10,5,5,4,3,3,3,3,3,3,3

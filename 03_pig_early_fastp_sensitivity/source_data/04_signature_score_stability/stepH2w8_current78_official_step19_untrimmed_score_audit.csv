@@ -1,5 +1,0 @@
-"metric","value"
-"official_step19_score_file_found",1
-"max_abs_delta_directional_score_recomputed_vs_official",4.71844785465692e-16
-"max_abs_delta_up_score_recomputed_vs_official",4.44089209850063e-16
-"max_abs_delta_down_score_reoriented_recomputed_vs_official",4.44089209850063e-16

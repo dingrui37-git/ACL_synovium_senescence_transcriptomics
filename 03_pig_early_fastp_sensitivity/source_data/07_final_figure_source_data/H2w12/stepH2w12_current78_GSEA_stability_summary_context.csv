@@ -1,3 +1,0 @@
-"timepoint","contrast","n_common_pathways","spearman_NES_all_common_pathways","pearson_NES_all_common_pathways","max_abs_delta_NES_all_common_pathways","mean_abs_delta_NES_all_common_pathways","n_target_pathways","max_abs_delta_NES_target_pathways","target_direction_agreement","target_pathways_all_found","stability_flag"
-"t28","ACLT_untreated_t28_vs_Control",50,0.99875150060024,0.999841720954624,0.0708077743194361,0.0220122366002837,2,0.0152638755142933,TRUE,TRUE,"highly_stable"
-"t7","ACLT_untreated_t7_vs_Control",50,0.999231692677071,0.985899515032948,1.65857441685827,0.0505599718483026,2,0.0111465625346077,TRUE,TRUE,"highly_stable"

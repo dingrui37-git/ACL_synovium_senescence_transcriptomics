@@ -1,0 +1,6 @@
+"gene_id","ENTREZID_1W","SYMBOL_1W","logFC_1W","FDR_1W","direction_1W","ENTREZID_4W","SYMBOL_4W","logFC_4W","FDR_4W","direction_4W","in_1W","in_4W","direction_relation","category","ENTREZID","SYMBOL","category_plot","direction_source","direction_plot"
+"G10090_12826",329252,"Lgr6",-1.15606171711665,0.0245467808455059,"Down",329252,"Lgr6",1.10057826035967,0.0309670125786119,"Up",TRUE,TRUE,"opposite_direction","shared_direction_discordant",329252,"Lgr6",NA,NA,NA
+"G10090_15527",17885,"Myh8",1.25305440262916,0.000490586534794557,"Up",17885,"Myh8",-1.61044384463741,0.00158901648775345,"Down",TRUE,TRUE,"opposite_direction","shared_direction_discordant",17885,"Myh8",NA,NA,NA
+"G10090_22677",66402,"Sln",2.1268268336782,0.0451237621819525,"Up",66402,"Sln",-2.28613404883026,0.0480489698103691,"Down",TRUE,TRUE,"opposite_direction","shared_direction_discordant",66402,"Sln",NA,NA,NA
+"G10090_25409",72310,"Nkg7",1.6599610211982,0.0248865808366589,"Up",72310,"Nkg7",-1.10070964368251,0.0311825044265809,"Down",TRUE,TRUE,"opposite_direction","shared_direction_discordant",72310,"Nkg7",NA,NA,NA
+"G10090_28380",20555,"Slfn1",1.23946285099878,0.00174940176744028,"Up",20555,"Slfn1",-1.08855065133956,0.0020585959821363,"Down",TRUE,TRUE,"opposite_direction","shared_direction_discordant",20555,"Slfn1",NA,NA,NA

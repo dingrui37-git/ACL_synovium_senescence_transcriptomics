@@ -1,0 +1,110 @@
+===== StepH2w13_current78 trimmed main-24 core heatmap SUMMARY TO SEND ME =====
+Run time: 2026-05-27 08:09:43
+
+Main run summary:
+                                      metric
+ primary_main_analysis_core_genes_visualized
+                  trimmed_samples_visualized
+                                   control_n
+                                   aclt_1w_n
+                                   aclt_4w_n
+                         heatmap_color_scale
+                                 zscore_clip
+                                 figure_role
+                official_core_interpretation
+                                    png_file
+                                    pdf_file
+                             core_table_file
+                               z_matrix_file
+                      sample_annotation_file
+                                  output_dir
+                                                                                                                                                                                                              value
+                                                                                                                                                                                                                 24
+                                                                                                                                                                                                                 18
+                                                                                                                                                                                                                  6
+                                                                                                                                                                                                                  6
+                                                                                                                                                                                                                  6
+                                                                                                                                                        rev(RColorBrewer::RdYlBu): deep blue -> lemon yellow -> red
+                                                                                                                                                                                                            [-2, 2]
+                                                                                                                                                                   supplementary fastp-trimming sensitivity heatmap
+                                                                            Official core genes remain defined by the primary untrimmed analysis; this figure visualizes those same 24 genes in the trimmed branch.
+ E:/R/ACLsenescence2/rebuild_submission/02_pig_early_fastp_sensitivity/figures/stepH2w13_current78_trimmed_main24_core_heatmap_sensitivity/Supplementary_fastp_trimmed_primary24_core_gene_heatmap_step09_style.png
+ E:/R/ACLsenescence2/rebuild_submission/02_pig_early_fastp_sensitivity/figures/stepH2w13_current78_trimmed_main24_core_heatmap_sensitivity/Supplementary_fastp_trimmed_primary24_core_gene_heatmap_step09_style.pdf
+               E:/R/ACLsenescence2/rebuild_submission/02_pig_early_fastp_sensitivity/tables/stepH2w13_current78_trimmed_main24_core_heatmap_sensitivity/stepH2w13_primary24_core_genes_used_for_trimmed_heatmap.csv
+           E:/R/ACLsenescence2/rebuild_submission/02_pig_early_fastp_sensitivity/tables/stepH2w13_current78_trimmed_main24_core_heatmap_sensitivity/stepH2w13_trimmed_primary24_core_gene_heatmap_zscore_matrix.csv
+                              E:/R/ACLsenescence2/rebuild_submission/02_pig_early_fastp_sensitivity/tables/stepH2w13_current78_trimmed_main24_core_heatmap_sensitivity/stepH2w13_trimmed_core_sample_annotation.csv
+                                                                           E:/R/ACLsenescence2/rebuild_submission/02_pig_early_fastp_sensitivity/tables/stepH2w13_current78_trimmed_main24_core_heatmap_sensitivity
+
+Core genes preview:
+# A tibble: 20 × 6
+   display_label human_gene pig_ensg           CellAgeEffect MouseDirection        signature_direction
+   <chr>         <chr>      <chr>              <chr>         <chr>                 <chr>              
+ 1 FASN          FASN       ENSSSCG00000029944 Induces       mouse_persistent_down Down_in_ACLR       
+ 2 PPARG         PPARG      ENSSSCG00000011579 Induces       mouse_persistent_down Down_in_ACLR       
+ 3 CBS           CBS        ENSSSCG00000040779 Inhibits      mouse_persistent_down Down_in_ACLR       
+ 4 ENTPD7        ENTPD7     ENSSSCG00000010540 Induces       mouse_persistent_up   Up_in_ACLR         
+ 5 HTRA1         HTRA1      ENSSSCG00000010703 Induces       mouse_persistent_up   Up_in_ACLR         
+ 6 RUNX1         RUNX1      ENSSSCG00000035537 Induces       mouse_persistent_up   Up_in_ACLR         
+ 7 SERPINE1      SERPINE1   ENSSSCG00000025698 Induces       mouse_persistent_up   Up_in_ACLR         
+ 8 SPARC         SPARC      ENSSSCG00000017082 Induces       mouse_persistent_up   Up_in_ACLR         
+ 9 TNFSF15       TNFSF15    ENSSSCG00000059646 Induces       mouse_persistent_up   Up_in_ACLR         
+10 BUB1          BUB1       ENSSSCG00000030469 Inhibits      mouse_persistent_up   Up_in_ACLR         
+11 CCNB1         CCNB1      ENSSSCG00000029326 Inhibits      mouse_persistent_up   Up_in_ACLR         
+12 CDK1          CDK1       ENSSSCG00000010214 Inhibits      mouse_persistent_up   Up_in_ACLR         
+13 CKAP2         CKAP2      ENSSSCG00000009378 Inhibits      mouse_persistent_up   Up_in_ACLR         
+14 ESPL1         ESPL1      ENSSSCG00000000265 Inhibits      mouse_persistent_up   Up_in_ACLR         
+15 FOXM1         FOXM1      ENSSSCG00000000739 Inhibits      mouse_persistent_up   Up_in_ACLR         
+16 HIF1A         HIF1A      ENSSSCG00000005096 Inhibits      mouse_persistent_up   Up_in_ACLR         
+17 KIF20A        KIF20A     ENSSSCG00000014326 Inhibits      mouse_persistent_up   Up_in_ACLR         
+18 KIF2C         KIF2C      ENSSSCG00000003931 Inhibits      mouse_persistent_up   Up_in_ACLR         
+19 KIFC1         KIFC1      ENSSSCG00000001510 Inhibits      mouse_persistent_up   Up_in_ACLR         
+20 LOXL2         LOXL2      ENSSSCG00000033608 Inhibits      mouse_persistent_up   Up_in_ACLR         
+
+Sample annotation:
+# A tibble: 18 × 3
+   sample_id group_raw  group            
+   <chr>     <chr>      <fct>            
+ 1 CON1      Control_t0 Control          
+ 2 CON2      Control_t0 Control          
+ 3 CON3      Control_t0 Control          
+ 4 CON4      Control_t0 Control          
+ 5 CON5      Control_t0 Control          
+ 6 CON6      Control_t0 Control          
+ 7 INJS1     ACLT_t7    ACLT-untreated-1W
+ 8 INJS2     ACLT_t7    ACLT-untreated-1W
+ 9 INJS3     ACLT_t7    ACLT-untreated-1W
+10 INJS4     ACLT_t7    ACLT-untreated-1W
+11 INJS5     ACLT_t7    ACLT-untreated-1W
+12 INJS6     ACLT_t7    ACLT-untreated-1W
+13 INJL1     ACLT_t28   ACLT-untreated-4W
+14 INJL2     ACLT_t28   ACLT-untreated-4W
+15 INJL3     ACLT_t28   ACLT-untreated-4W
+16 INJL4     ACLT_t28   ACLT-untreated-4W
+17 INJL5     ACLT_t28   ACLT-untreated-4W
+18 INJL6     ACLT_t28   ACLT-untreated-4W
+
+Version and method records:
+                      item
+                 R_version
+             edgeR_version
+          pheatmap_version
+      RColorBrewer_version
+     input_core_definition
+ trimmed_expression_source
+             normalization
+       row_standardization
+            interpretation
+                                                                                                                                                                                             value
+                                                                                                                                                                                             4.5.2
+                                                                                                                                                                                             4.8.2
+                                                                                                                                                                                            1.0.13
+                                                                                                                                                                                             1.1.3
+ E:/R/ACLsenescence2/rebuild_submission/02_pig_early_fastp_sensitivity/tables/stepH2w10_current78_core_gene_sensitivity_audit/stepH2w10_current78_main24_core_genes_trimmed_preservation_table.csv
+                                                                     E:/R/ACLsenescence2/rebuild_submission/02_pig_early_fastp_sensitivity/tables/stepH2w5_v2_trimmed_gene_level_counts_matrix.csv
+                                                                                                                                                                             TMM-normalized logCPM
+                                                                                                                                                               row-wise z-score clipped to [-2, 2]
+                                                                                                                      sensitivity visualization only; does not redefine the official core gene set
+
+Interpretation checkpoint:
+This is a sensitivity-audit heatmap of the primary main-analysis 24 core genes in the fastp-trimmed count matrix.
+It does not redefine the official core gene set and should not replace the main Figure4D heatmap.

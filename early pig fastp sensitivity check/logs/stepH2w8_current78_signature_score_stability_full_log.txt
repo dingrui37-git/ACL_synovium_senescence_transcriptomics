@@ -1,0 +1,119 @@
+===== StepH2w8_current78 signature score stability =====
+Run time: 2026-05-17 07:33:53 CEST
+Signature file: E:/R/ACLsenescence2/rebuild_submission/02_pig_early/tables/step18_current78_pig_early_signature_remap/step18_current78_pig_signature_gene_table.csv
+Untrimmed count matrix: E:/R/ACLsenescence2/rebuild_submission/02_pig_early/tables/step16_pig_early_gene_count_matrix.csv
+Trimmed count matrix: E:/R/ACLsenescence2/rebuild_submission/02_pig_early_fastp_sensitivity/tables/stepH2w5_v2_trimmed_gene_level_counts_matrix.csv
+Trimmed sample info: E:/R/ACLsenescence2/rebuild_submission/02_pig_early_fastp_sensitivity/tables/stepH2w5_v2_trimmed_sample_info_for_DE.csv
+Official untrimmed Step19 score file: E:/R/ACLsenescence2/rebuild_submission/02_pig_early/tables/step19_current78_pig_signature_score/step19_current78_pig_signature_scores_by_sample.csv
+
+Signature gene count: 75
+Up signature genes: 65
+Down signature genes: 10
+Sample counts by group:
+
+ Control  ACLT_t7 ACLT_t28 
+       6        6        6 
+null device 
+          1 
+null device 
+          1 
+Saved: E:/R/ACLsenescence2/rebuild_submission/02_pig_early_fastp_sensitivity/tables/stepH2w8_current78_signature_score_stability/stepH2w8_current78_signature_genes_used.csv
+Saved: E:/R/ACLsenescence2/rebuild_submission/02_pig_early_fastp_sensitivity/tables/stepH2w8_current78_signature_score_stability/stepH2w8_current78_signature_scores_long.csv
+Saved: E:/R/ACLsenescence2/rebuild_submission/02_pig_early_fastp_sensitivity/tables/stepH2w8_current78_signature_score_stability/stepH2w8_current78_signature_score_trimmed_vs_untrimmed_wide.csv
+Saved: E:/R/ACLsenescence2/rebuild_submission/02_pig_early_fastp_sensitivity/tables/stepH2w8_current78_signature_score_stability/stepH2w8_current78_signature_score_stability_metrics.csv
+Saved: E:/R/ACLsenescence2/rebuild_submission/02_pig_early_fastp_sensitivity/tables/stepH2w8_current78_signature_score_stability/stepH2w8_current78_signature_score_group_comparison_by_branch.csv
+Saved: E:/R/ACLsenescence2/rebuild_submission/02_pig_early_fastp_sensitivity/tables/stepH2w8_current78_signature_score_stability/stepH2w8_current78_official_step19_untrimmed_score_audit.csv
+Saved: E:/R/ACLsenescence2/rebuild_submission/02_pig_early_fastp_sensitivity/tables/stepH2w8_current78_signature_score_stability/stepH2w8_current78_untrimmed_TMM_normalization_factors.csv
+Saved: E:/R/ACLsenescence2/rebuild_submission/02_pig_early_fastp_sensitivity/tables/stepH2w8_current78_signature_score_stability/stepH2w8_current78_trimmed_TMM_normalization_factors.csv
+Saved: E:/R/ACLsenescence2/rebuild_submission/02_pig_early_fastp_sensitivity/tables/stepH2w8_current78_signature_score_stability/stepH2w8_current78_signature_score_stability_summary.csv
+
+===== StepH2w8_current78 summary =====
+                              metric
+                      signature_file
+               untrimmed_counts_file
+                 trimmed_counts_file
+            trimmed_sample_info_file
+              n_signature_genes_used
+           n_up_signature_genes_used
+         n_down_signature_genes_used
+                n_detected_untrimmed
+                  n_detected_trimmed
+                  n_samples_compared
+                      primary_scores
+         min_spearman_primary_scores
+        max_abs_delta_primary_scores
+              overall_stability_flag
+                            plot_png
+                            plot_pdf
+                    scores_wide_file
+                score_stability_file
+               group_comparison_file
+ official_untrimmed_score_audit_file
+                          output_dir
+                                                                                                                                                                                                 value
+                                                   E:/R/ACLsenescence2/rebuild_submission/02_pig_early/tables/step18_current78_pig_early_signature_remap/step18_current78_pig_signature_gene_table.csv
+                                                                                                     E:/R/ACLsenescence2/rebuild_submission/02_pig_early/tables/step16_pig_early_gene_count_matrix.csv
+                                                                         E:/R/ACLsenescence2/rebuild_submission/02_pig_early_fastp_sensitivity/tables/stepH2w5_v2_trimmed_gene_level_counts_matrix.csv
+                                                                               E:/R/ACLsenescence2/rebuild_submission/02_pig_early_fastp_sensitivity/tables/stepH2w5_v2_trimmed_sample_info_for_DE.csv
+                                                                                                                                                                                                    75
+                                                                                                                                                                                                    65
+                                                                                                                                                                                                    10
+                                                                                                                                                                                                    75
+                                                                                                                                                                                                    75
+                                                                                                                                                                                                    18
+                                                                                                                                                    directional_score; up_score; down_score_reoriented
+                                                                                                                                                                                               0.98968
+                                                                                                                                                                                              0.065865
+                                                                                                                                                                                                stable
+ E:/R/ACLsenescence2/rebuild_submission/02_pig_early_fastp_sensitivity/tables/stepH2w8_current78_signature_score_stability/figures/stepH2w8_current78_signature_score_trimmed_vs_untrimmed_scatter.png
+ E:/R/ACLsenescence2/rebuild_submission/02_pig_early_fastp_sensitivity/tables/stepH2w8_current78_signature_score_stability/figures/stepH2w8_current78_signature_score_trimmed_vs_untrimmed_scatter.pdf
+            E:/R/ACLsenescence2/rebuild_submission/02_pig_early_fastp_sensitivity/tables/stepH2w8_current78_signature_score_stability/stepH2w8_current78_signature_score_trimmed_vs_untrimmed_wide.csv
+                    E:/R/ACLsenescence2/rebuild_submission/02_pig_early_fastp_sensitivity/tables/stepH2w8_current78_signature_score_stability/stepH2w8_current78_signature_score_stability_metrics.csv
+           E:/R/ACLsenescence2/rebuild_submission/02_pig_early_fastp_sensitivity/tables/stepH2w8_current78_signature_score_stability/stepH2w8_current78_signature_score_group_comparison_by_branch.csv
+                E:/R/ACLsenescence2/rebuild_submission/02_pig_early_fastp_sensitivity/tables/stepH2w8_current78_signature_score_stability/stepH2w8_current78_official_step19_untrimmed_score_audit.csv
+                                                                             E:/R/ACLsenescence2/rebuild_submission/02_pig_early_fastp_sensitivity/tables/stepH2w8_current78_signature_score_stability
+
+===== Score stability metrics =====
+                  score_name n_samples  spearman   pearson mean_abs_delta median_abs_delta max_abs_delta stability_flag
+           directional_score        18 0.9958720 0.9993344    0.013543242      0.012221063    0.04069729  highly_stable
+ directional_score_sum_means        18 0.9979360 0.9999785    0.005067039      0.004283708    0.01123078  highly_stable
+                    up_score        18 0.9938080 0.9988488    0.018644598      0.015322741    0.05709142  highly_stable
+       down_score_reoriented        18 0.9896801 0.9987393    0.019615568      0.014715353    0.06586452         stable
+              down_score_raw        18 0.9896801 0.9987393    0.019615568      0.014715353    0.06586452         stable
+      total_score_unoriented        18 0.9938080 0.9980885    0.018774060      0.015072211    0.05826116  highly_stable
+
+===== Group comparison for manuscript-relevant scores =====
+    branch          comparison                 score n_control n_case median_control median_case mean_control  mean_case median_difference_case_minus_control mean_difference_case_minus_control
+ untrimmed  ACLT_t7_vs_Control     directional_score         6      6     -0.5653066  0.40506458   -0.5487231 0.40572568                            0.9703711                          0.9544487
+ untrimmed ACLT_t28_vs_Control     directional_score         6      6     -0.5653066  0.12616451   -0.5487231 0.14299737                            0.6914711                          0.6917204
+ untrimmed  ACLT_t7_vs_Control              up_score         6      6     -0.5584195  0.48082253   -0.5480946 0.45416783                            1.0392420                          1.0022625
+ untrimmed ACLT_t28_vs_Control              up_score         6      6     -0.5584195  0.10027771   -0.5480946 0.09392681                            0.6586972                          0.6420215
+ untrimmed  ACLT_t7_vs_Control down_score_reoriented         6      6     -0.5850040  0.06113695   -0.5528077 0.09085172                            0.6461409                          0.6436594
+ untrimmed ACLT_t28_vs_Control down_score_reoriented         6      6     -0.5850040  0.32699019   -0.5528077 0.46195598                            0.9119942                          1.0147637
+   trimmed  ACLT_t7_vs_Control     directional_score         6      6     -0.5890570  0.40375730   -0.5600758 0.41206531                            0.9928143                          0.9721411
+   trimmed ACLT_t28_vs_Control     directional_score         6      6     -0.5890570  0.12991454   -0.5600758 0.14801044                            0.7189716                          0.7080862
+   trimmed  ACLT_t7_vs_Control              up_score         6      6     -0.5995238  0.47084371   -0.5646068 0.46379446                            1.0703676                          1.0284012
+   trimmed ACLT_t28_vs_Control              up_score         6      6     -0.5995238  0.10847644   -0.5646068 0.10081230                            0.7080003                          0.6654191
+   trimmed  ACLT_t7_vs_Control down_score_reoriented         6      6     -0.5769782  0.03812743   -0.5306242 0.07582589                            0.6151056                          0.6064501
+   trimmed ACLT_t28_vs_Control down_score_reoriented         6      6     -0.5769782  0.31897886   -0.5306242 0.45479835                            0.8959571                          0.9854226
+ wilcox_p_value BH_FDR_within_step
+    0.005074868        0.005074868
+    0.005074868        0.005074868
+    0.005074868        0.005074868
+    0.005074868        0.005074868
+    0.005074868        0.005074868
+    0.005074868        0.005074868
+    0.005074868        0.005074868
+    0.005074868        0.005074868
+    0.005074868        0.005074868
+    0.005074868        0.005074868
+    0.005074868        0.005074868
+    0.005074868        0.005074868
+
+===== Official Step19 untrimmed score audit =====
+                                                     metric        value
+                           official_step19_score_file_found 1.000000e+00
+     max_abs_delta_directional_score_recomputed_vs_official 4.718448e-16
+              max_abs_delta_up_score_recomputed_vs_official 4.440892e-16
+ max_abs_delta_down_score_reoriented_recomputed_vs_official 4.440892e-16
+Saved: E:/R/ACLsenescence2/rebuild_submission/02_pig_early_fastp_sensitivity/tables/stepH2w8_current78_signature_score_stability/stepH2w8_current78_versions_and_method_records.csv

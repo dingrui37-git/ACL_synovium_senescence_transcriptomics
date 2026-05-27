@@ -1,0 +1,79 @@
+"input","input_ensg","ortholog_name","ortholog_ensg","Entrez ID","Gene symbol","Gene name","Cancer Cell","Type of senescence","Senescence Effect","Reference","n_human_orthologs","n_mouse_inputs"
+"Abi3bp","ENSMUSG00000035258","ABI3BP","ENSG00000154175",25890,"ABI3BP","ABI family member 3 binding protein","Yes","Unclear","Induces",18559958,1,1
+"Ahr","ENSMUSG00000019256","AHR","ENSG00000106546",196,"AHR","aryl hydrocarbon receptor","No","Stress-induced","Induces",15111621,1,1
+"Aldoa","ENSMUSG00000030695","ALDOA","ENSG00000149925",226,"ALDOA","aldolase, fructose-bisphosphate A","Yes","Oncogene-induced","Inhibits",28806777,1,1
+"Bcl3","ENSMUSG00000053175","BCL3","ENSG00000069399",602,"BCL3","BCL3 transcription coactivator","No","Unclear","Inhibits",25255445,1,1
+"Bub1","ENSMUSG00000027379","BUB1","ENSG00000169679",699,"BUB1","BUB1 mitotic checkpoint serine/threonine kinase","No","Oncogene-induced","Inhibits",17488820,1,1
+"Cbs","ENSMUSG00000024039","CBS","ENSG00000160200",875,"CBS","cystathionine beta-synthase","No","Replicative","Inhibits",23117410,1,1
+"Ccnb1","ENSMUSG00000041431","CCNB1","ENSG00000134057",891,"CCNB1","cyclin B1","Yes","Unclear","Inhibits",30069972,1,1
+"Cdk1","ENSMUSG00000019942","CDK1","ENSG00000170312",983,"CDK1","cyclin dependent kinase 1","Yes","Unclear","Inhibits",23324396,1,1
+"Cdk6","ENSMUSG00000040274","CDK6","ENSG00000105810",1021,"CDK6","cyclin dependent kinase 6","No","Replicative","Inhibits",12082615,1,1
+"Cdkn2a","ENSMUSG00000044303","CDKN2A","ENSG00000147889",1029,"CDKN2A","cyclin dependent kinase inhibitor 2A","No","Replicative","Induces",9607312,1,1
+"Chaf1b","ENSMUSG00000022945","CHAF1B","ENSG00000159259",8208,"CHAF1B","chromatin assembly factor 1 subunit B","Yes","Oncogene-induced","Inhibits",28806777,1,1
+"Ckap2","ENSMUSG00000037725","CKAP2","ENSG00000136108",26586,"CKAP2","cytoskeleton associated protein 2","No","Unclear","Inhibits",32264951,1,1
+"Cpt1c","ENSMUSG00000007783","CPT1C","ENSG00000169169",126129,"CPT1C","carnitine palmitoyltransferase 1C","Yes","Unclear","Inhibits",30070697,1,1
+"Crispld2","ENSMUSG00000031825","CRISPLD2","ENSG00000103196",83716,"CRISPLD2","cysteine rich secretory protein LCCL domain containing 2","No","Stress-induced","Inhibits",31219803,1,1
+"Ect2","ENSMUSG00000027699","ECT2","ENSG00000114346",1894,"ECT2","epithelial cell transforming 2","Yes","Oncogene-induced","Inhibits",28806777,1,1
+"Egfr","ENSMUSG00000020122","EGFR","ENSG00000146648",1956,"EGFR","epidermal growth factor receptor","Yes","Unclear","Inhibits",25504754,1,1
+"Entpd7","ENSMUSG00000025192","ENTPD7","ENSG00000198018",57089,"ENTPD7","ectonucleoside triphosphate diphosphohydrolase 7","No","Oncogene-induced","Induces",27737960,1,1
+"Epha3","ENSMUSG00000052504","EPHA3","ENSG00000044524",2042,"EPHA3","EPH receptor A3","Yes","Unclear","Inhibits",23324396,1,1
+"Espl1","ENSMUSG00000058290","ESPL1","ENSG00000135476",9700,"ESPL1","extra spindle pole bodies like 1, separase","Yes","Oncogene-induced","Inhibits",28806777,1,1
+"Esrrb","ENSMUSG00000021255","ESRRB","ENSG00000119715",2103,"ESRRB","estrogen related receptor beta","Yes","Stress-induced","Induces",25496115,1,1
+"Fasn","ENSMUSG00000025153","FASN","ENSG00000169710",2194,"FASN","fatty acid synthase","No","Oncogene-induced","Induces",30962418,1,1
+"Fos","ENSMUSG00000021250","FOS","ENSG00000170345",2353,"FOS","Fos proto-oncogene, AP-1 transcription factor subunit","No","Unclear","Inhibits",1560044,1,1
+"Foxd1","ENSMUSG00000078302","FOXD1","ENSG00000251493",2297,"FOXD1","forkhead box D1","No","Replicative","Unclear",30933975,1,1
+"Foxm1","ENSMUSG00000001517","FOXM1","ENSG00000111206",2305,"FOXM1","forkhead box M1","Yes","Unclear","Inhibits",25071344,1,1
+"Foxp1","ENSMUSG00000030067","FOXP1","ENSG00000114861",27086,"FOXP1","forkhead box P1","No","Replicative","Inhibits",28240601,1,1
+"Grn","ENSMUSG00000034708","GRN","ENSG00000030582",2896,"GRN","granulin precursor","Yes","Unclear","Inhibits",26600492,1,1
+"Gtse1","ENSMUSG00000022385","GTSE1","ENSG00000075218",51512,"GTSE1","G2 and S-phase expressed 1","Yes","Stress-induced","Inhibits",30961661,1,1
+"Has1","ENSMUSG00000003665","HAS1","ENSG00000105509",3036,"HAS1","hyaluronan synthase 1","No","Stress-induced","Inhibits",31219803,1,1
+"Hif1a","ENSMUSG00000021109","HIF1A","ENSG00000100644",3091,"HIF1A","hypoxia inducible factor 1 subunit alpha","Yes","Stress-induced","Inhibits",26057707,1,1
+"Htra1","ENSMUSG00000006205","HTRA1","ENSG00000166033",5654,"HTRA1","HtrA serine peptidase 1","Yes","Replicative","Induces",23623979,1,1
+"Il1rn","ENSMUSG00000026981","IL1RN","ENSG00000136689",3557,"IL1RN","interleukin 1 receptor antagonist","No","Replicative","Unclear",12764021,1,1
+"Itgb3","ENSMUSG00000020689","ITGB3","ENSG00000259207",3690,"ITGB3","integrin subunit beta 3","Yes","Oncogene-induced","Induces",28273461,1,1
+"Junb","ENSMUSG00000052837","JUNB","ENSG00000171223",3726,"JUNB","JunB proto-oncogene, AP-1 transcription factor subunit","Yes","Unclear","Induces",18628455,1,1
+"Kif20a","ENSMUSG00000003779","KIF20A","ENSG00000112984",10112,"KIF20A","kinesin family member 20A","Yes","Stress-induced","Inhibits",25961928,1,1
+"Kif2c","ENSMUSG00000028678","KIF2C","ENSG00000142945",11004,"KIF2C","kinesin family member 2C","Yes","Unclear","Inhibits",23098759,1,1
+"Kifc1","ENSMUSG00000079553","KIFC1","ENSG00000237649",3833,"KIFC1","kinesin family member C1","No","Unclear","Inhibits",23318213,1,1
+"Layn","ENSMUSG00000060594","LAYN","ENSG00000204381",143903,"LAYN","layilin","No","Unclear","Induces",21740549,1,1
+"Lgals3","ENSMUSG00000050335","LGALS3","ENSG00000131981",3958,"LGALS3","galectin 3","Yes","Unclear","Inhibits",24971481,1,1
+"Lima1","ENSMUSG00000023022","LIMA1","ENSG00000050405",51474,"LIMA1","LIM domain and actin binding 1","No","Replicative","Inhibits",26206181,1,1
+"Lmna","ENSMUSG00000028063","LMNA","ENSG00000160789",4000,"LMNA","lamin A/C","No","Unclear","Unclear",28483909,1,1
+"Loxl2","ENSMUSG00000034205","LOXL2","ENSG00000134013",4017,"LOXL2","lysyl oxidase like 2","No","Oncogene-induced","Inhibits",24113189,1,1
+"Lpar1","ENSMUSG00000038668","LPAR1","ENSG00000198121",1902,"LPAR1","lysophosphatidic acid receptor 1","Yes","Unclear","Induces",27641212,1,1
+"Lpar3","ENSMUSG00000036832","LPAR3","ENSG00000171517",23566,"LPAR3","lysophosphatidic acid receptor 3","No","Unclear","Inhibits",27641212,1,1
+"Mdk","ENSMUSG00000027239","MDK","ENSG00000110492",4192,"MDK","midkine","No","Stress-induced","Inhibits",31219803,1,1
+"Me1","ENSMUSG00000032418","ME1","ENSG00000065833",4199,"ME1","malic enzyme 1","Yes","Stress-induced","Inhibits",25994759,1,1
+"Msn","ENSMUSG00000031207","MSN","ENSG00000147065",4478,"MSN","moesin","No","Unclear","Inhibits",20376899,1,1
+"Nek2","ENSMUSG00000026622","NEK2","ENSG00000117650",4751,"NEK2","NIMA related kinase 2","No","Unclear","Inhibits",32264951,1,1
+"Nox4","ENSMUSG00000030562","NOX4","ENSG00000086991",50507,"NOX4","NADPH oxidase 4","No","Oncogene-induced","Induces",20523116,1,1
+"P3h1","ENSMUSG00000028641","P3H1","ENSG00000117385",64175,"P3H1","prolyl 3-hydroxylase 1","No","Replicative","Inhibits",26206181,1,1
+"Pik3r5","ENSMUSG00000020901","PIK3R5","ENSG00000141506",23533,"PIK3R5","phosphoinositide-3-kinase regulatory subunit 5","No","Unclear","Induces",26583757,1,1
+"Pitx1","ENSMUSG00000021506","PITX1","ENSG00000069011",5307,"PITX1","paired like homeodomain 1","Yes","Replicative","Induces",31404068,1,1
+"Plk1","ENSMUSG00000030867","PLK1","ENSG00000166851",5347,"PLK1","polo like kinase 1","No","Replicative","Inhibits",23525475,1,1
+"Pon1","ENSMUSG00000002588","PON1","ENSG00000005421",5444,"PON1","paraoxonase 1","No","Unclear","Inhibits",22897574,1,1
+"Pparg","ENSMUSG00000000440","PPARG","ENSG00000132170",5468,"PPARG","peroxisome proliferator activated receptor gamma","No","Replicative","Induces",18544633,1,1
+"Ppargc1a","ENSMUSG00000029167","PPARGC1A","ENSG00000109819",10891,"PPARGC1A","PPARG coactivator 1 alpha","Yes","Stress-induced","Inhibits",26244551,1,1
+"Prkaa2","ENSMUSG00000028518","PRKAA2","ENSG00000162409",5563,"PRKAA2","protein kinase AMP-activated catalytic subunit alpha 2","No","Stress-induced","Inhibits",26890602,1,1
+"Prodh","ENSMUSG00000003526","PRODH","ENSG00000100033",5625,"PRODH","proline dehydrogenase 1","Yes","Unclear","Induces",27545311,1,1
+"Racgap1","ENSMUSG00000023015","RACGAP1","ENSG00000161800",29127,"RACGAP1","Rac GTPase activating protein 1","Yes","Oncogene-induced","Inhibits",27216196,1,1
+"Rassf5","ENSMUSG00000026430","RASSF5","ENSG00000266094",83593,"RASSF5","Ras association domain family member 5","Yes","Oncogene-induced","Induces",25778922,1,1
+"Runx1","ENSMUSG00000022952","RUNX1","ENSG00000159216",861,"RUNX1","RUNX family transcription factor 1","No","Unclear","Induces",19448675,1,1
+"Sdc1","ENSMUSG00000020592","SDC1","ENSG00000115884",6382,"SDC1","syndecan 1","Yes","Unclear","Inhibits",25462564,1,1
+"Serpine1","ENSMUSG00000037411","SERPINE1","ENSG00000106366",5054,"SERPINE1","serpin family E member 1","No","Replicative","Induces",16862142,1,1
+"Sfrp1","ENSMUSG00000031548","SFRP1","ENSG00000104332",6422,"SFRP1","secreted frizzled related protein 1","No","Stress-induced","Induces",22927647,1,1
+"Snai1","ENSMUSG00000042821","SNAI1","ENSG00000124216",6615,"SNAI1","snail family transcriptional repressor 1","Yes","Unclear","Inhibits",20397042,1,1
+"Socs1","ENSMUSG00000038037","SOCS1","ENSG00000185338",8651,"SOCS1","suppressor of cytokine signaling 1","No","Replicative","Induces",20005840,1,1
+"Sox4","ENSMUSG00000076431","SOX4","ENSG00000124766",6659,"SOX4","SRY-box transcription factor 4","Yes","Stress-induced","Inhibits",27446439,1,1
+"Sparc","ENSMUSG00000018593","SPARC","ENSG00000113140",6678,"SPARC","secreted protein acidic and cysteine rich","Yes","Stress-induced","Induces",20164124,1,1
+"Sphk1","ENSMUSG00000061878","SPHK1","ENSG00000176170",8877,"SPHK1","sphingosine kinase 1","No","Replicative","Inhibits",30885289,1,1
+"Src","ENSMUSG00000027646","SRC","ENSG00000197122",6714,"SRC","SRC proto-oncogene, non-receptor tyrosine kinase","Yes","Stress-induced","Inhibits",16204065,1,1
+"Stk32c","ENSMUSG00000015981","STK32C","ENSG00000165752",282974,"STK32C","serine/threonine kinase 32C","No","Unclear","Induces",26583757,1,1
+"Tgfb1i1","ENSMUSG00000030782","TGFB1I1","ENSG00000140682",7041,"TGFB1I1","transforming growth factor beta 1 induced transcript 1","No","Unclear","Induces",9032249,1,1
+"Tgfbr2","ENSMUSG00000032440","TGFBR2","ENSG00000163513",7048,"TGFBR2","transforming growth factor beta receptor 2","Yes","Unclear","Unclear",28273461,1,1
+"Tlr2","ENSMUSG00000027995","TLR2","ENSG00000137462",7097,"TLR2","toll like receptor 2","No","Oncogene-induced","Induces",31183403,1,1
+"Tnfsf15","ENSMUSG00000050395","TNFSF15","ENSG00000181634",9966,"TNFSF15","TNF superfamily member 15","No","Replicative","Induces",20675618,1,1
+"Ttk","ENSMUSG00000038379","TTK","ENSG00000112742",7272,"TTK","TTK protein kinase","Yes","Unclear","Inhibits",27618777,1,1
+"Vcan","ENSMUSG00000021614","VCAN","ENSG00000038427",1462,"VCAN","versican","No","Stress-induced","Induces",30622695,1,1
+"Vdr","ENSMUSG00000022479","VDR","ENSG00000111424",7421,"VDR","vitamin D receptor","No","Oncogene-induced","Inhibits",27041576,1,1
+"Wnt16","ENSMUSG00000029671","WNT16","ENSG00000002745",51384,"WNT16","Wnt family member 16","No","Replicative","Induces",19951988,1,1

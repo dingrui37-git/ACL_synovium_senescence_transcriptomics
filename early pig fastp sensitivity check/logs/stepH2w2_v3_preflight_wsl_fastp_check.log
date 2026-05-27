@@ -1,0 +1,8 @@
+===== Step H2w2 v3 WSL / fastp preflight =====
+WSL user: rui
+WSL home: /home/rui
+Conda env: fastp_env
+fastp path:
+/home/rui/miniforge3/envs/fastp_env/bin/fastp
+fastp version:
+fastp 0.22.0

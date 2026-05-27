@@ -1,9 +1,0 @@
-"biomart","biomart_version","display_name","genebuild","gprofiler_version","organism","sources.CORUM.name","sources.CORUM.version","sources.GO.BP.name","sources.GO.BP.version","sources.GO.CC.name","sources.GO.CC.version","sources.GO.MF.name","sources.GO.MF.version","sources.HP.name","sources.HP.version","sources.HPA.name","sources.HPA.version","sources.KEGG.name","sources.KEGG.version","sources.MIRNA.name","sources.MIRNA.version","sources.REAC.name","sources.REAC.version","sources.TF.name","sources.TF.version","sources.WP.name","sources.WP.version","taxonomy_id"
-"Ensembl","114","Human","GRCh38.p14","e114_eg62_p19_fa3a7d2c","hsapiens","CORUM protein complexes","28.11.2022 Corum 4.1","biological process","annotations: BioMart
-classes: releases/2026-01-23","cellular component","annotations: BioMart
-classes: releases/2026-01-23","molecular function","annotations: BioMart
-classes: releases/2026-01-23","Human Phenotype Ontology","annotations: 03.2026
-classes: None","Human Protein Atlas","annotations: HPA website: 25-11-06
-classes: script: 26-01-20","Kyoto Encyclopedia of Genes and Genomes","KEGG FTP Release 2026-03-15","miRTarBase","Release 10.0","Reactome","annotations: BioMart
-classes: 2026-3-20","Transfac","annotations: TRANSFAC Release 2025.2
-classes: v2","WikiPathways","20260310","9606"

@@ -1,4 +1,0 @@
-"score_type","genes_in_set","genes_detected_in_expr_all","expression_scale","row_z_scope"
-"CellAge_all",822,817,"edgeR_TMM_logCPM_48_samples","all_48_mouse_discovery_samples"
-"CellAge_induces",350,348,"edgeR_TMM_logCPM_48_samples","all_48_mouse_discovery_samples"
-"CellAge_inhibits",451,448,"edgeR_TMM_logCPM_48_samples","all_48_mouse_discovery_samples"

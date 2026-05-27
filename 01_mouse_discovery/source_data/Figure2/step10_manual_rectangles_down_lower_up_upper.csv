@@ -1,7 +1,0 @@
-"category","direction","x","xmin","xmax","ymin","ymax","label_y","n","label_size"
-"Persistent","Down in ACLR",1,0.64,1.36,0,446,223,446,5.6
-"1W-only","Down in ACLR",2,1.64,2.36,0,929,464.5,929,5.6
-"4W-only","Down in ACLR",3,2.64,3.36,0,84,42,84,4.8
-"Persistent","Up in ACLR",1,0.64,1.36,446,1416,931,970,5.6
-"1W-only","Up in ACLR",2,1.64,2.36,929,2008,1468.5,1079,5.6
-"4W-only","Up in ACLR",3,2.64,3.36,84,295,189.5,211,5.6

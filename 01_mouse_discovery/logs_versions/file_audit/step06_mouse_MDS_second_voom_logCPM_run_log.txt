@@ -1,384 +1,0 @@
-===== step06_mouse_MDS_second_voom_logCPM =====
-Run time: 2026-05-12 10:04:28 CEST
-Project root: E:/R/ACLsenescence2/rebuild_submission/02_mouse_discovery
-
-Starting  step06_mouse_MDS_from_step05_voom_logCPM 
-1W voom file:  E:/R/ACLsenescence2/rebuild_submission/02_mouse_discovery/03_DE_analysis/step05_voom_logCPM_1W.csv 
-4W voom file:  E:/R/ACLsenescence2/rebuild_submission/02_mouse_discovery/03_DE_analysis/step05_voom_logCPM_4W.csv 
-Output root:  E:/R/ACLsenescence2/rebuild_submission/02_mouse_discovery/supplement/S1 
-1W metadata file:  E:/R/ACLsenescence2/rebuild_submission/02_mouse_discovery/01_metadata/step04_anno_1W.csv 
-4W metadata file:  E:/R/ACLsenescence2/rebuild_submission/02_mouse_discovery/01_metadata/step04_anno_4W.csv 
-Reading voom logCPM matrix:  E:/R/ACLsenescence2/rebuild_submission/02_mouse_discovery/03_DE_analysis/step05_voom_logCPM_1W.csv 
-Imported matrix dimensions:  14311  genes x  24  samples 
-Reading voom logCPM matrix:  E:/R/ACLsenescence2/rebuild_submission/02_mouse_discovery/03_DE_analysis/step05_voom_logCPM_4W.csv 
-Imported matrix dimensions:  14316  genes x  24  samples 
-Reading metadata for  1W :  E:/R/ACLsenescence2/rebuild_submission/02_mouse_discovery/01_metadata/step04_anno_1W.csv 
-Metadata rows after de-duplication for  1W :  24 
-Treatment counts for  1W :  Contra 12; ACLR 12 
-Reading metadata for  4W :  E:/R/ACLsenescence2/rebuild_submission/02_mouse_discovery/01_metadata/step04_anno_4W.csv 
-Metadata rows after de-duplication for  4W :  24 
-Treatment counts for  4W :  Contra 12; ACLR 12 
-Matched  1W :  24  samples and  14311  genes 
-Matched  4W :  24  samples and  14316  genes 
-Running limma::plotMDS for  1W  using second voom logCPM matrix 
-Saved  1W  MDS PDF:  E:/R/ACLsenescence2/rebuild_submission/02_mouse_discovery/supplement/S1/figures/step06_mouse_MDS_from_step05_voom_logCPM_1W_MDS.pdf 
-Saved  1W  MDS PNG:  E:/R/ACLsenescence2/rebuild_submission/02_mouse_discovery/supplement/S1/figures/step06_mouse_MDS_from_step05_voom_logCPM_1W_MDS.png 
-Saved  1W  MDS coordinates:  E:/R/ACLsenescence2/rebuild_submission/02_mouse_discovery/supplement/S1/source_data/step06_mouse_MDS_from_step05_voom_logCPM_1W_MDS_coordinates.csv 
-Running limma::plotMDS for  4W  using second voom logCPM matrix 
-Saved  4W  MDS PDF:  E:/R/ACLsenescence2/rebuild_submission/02_mouse_discovery/supplement/S1/figures/step06_mouse_MDS_from_step05_voom_logCPM_4W_MDS.pdf 
-Saved  4W  MDS PNG:  E:/R/ACLsenescence2/rebuild_submission/02_mouse_discovery/supplement/S1/figures/step06_mouse_MDS_from_step05_voom_logCPM_4W_MDS.png 
-Saved  4W  MDS coordinates:  E:/R/ACLsenescence2/rebuild_submission/02_mouse_discovery/supplement/S1/source_data/step06_mouse_MDS_from_step05_voom_logCPM_4W_MDS_coordinates.csv 
-DONE. Summary CSV:  E:/R/ACLsenescence2/rebuild_submission/02_mouse_discovery/supplement/S1/tables/step06_mouse_MDS_from_step05_voom_logCPM_summary.csv 
-DONE. Summary text to send me:  E:/R/ACLsenescence2/rebuild_submission/02_mouse_discovery/supplement/S1/logs/step06_mouse_MDS_from_step05_voom_logCPM_summary_to_send_me.txt 
-===== STEP13 FIGURE3B MOUSE HALLMARK GSEA =====
-Run time: 2026-05-12 11:29:15 CEST
-DE directory: E:/R/ACLsenescence2/rebuild_submission/02_mouse_discovery/03_DE_analysis
-Rank statistic: sign(logFC) * -log10(P.Value)
-fgsea parameters: minSize = 10, maxSize = 500, eps = 0, nproc = 1
-fgsea fixed seeds: 1W = 12345, 4W = 12346
-
-Selected 1W DE file:
-E:/R/ACLsenescence2/rebuild_submission/02_mouse_discovery/03_DE_analysis/step05_DE_1W_ACLR_vs_Contra_limma_voom.csv
-Selected 4W DE file:
-E:/R/ACLsenescence2/rebuild_submission/02_mouse_discovery/03_DE_analysis/step05_DE_4W_ACLR_vs_Contra_limma_voom.csv
-
-Saved: E:/R/ACLsenescence2/rebuild_submission/02_mouse_discovery/07_tables/step13_Figure3B_mouse_Hallmark_GSEA/step13_mouse_GSEA_rank_1W.csv
-Saved: E:/R/ACLsenescence2/rebuild_submission/02_mouse_discovery/07_tables/step13_Figure3B_mouse_Hallmark_GSEA/step13_mouse_GSEA_rank_4W.csv
-Saved: E:/R/ACLsenescence2/rebuild_submission/02_mouse_discovery/07_tables/step13_Figure3B_mouse_Hallmark_GSEA/step13_mouse_Hallmark_gene_sets_used.csv
-  |                                                                                                                                          |                                                                                                                                  |   0%  |                                                                                                                                          |=====                                                                                                                             |   4%  |                                                                                                                                          |=========                                                                                                                         |   7%  |                                                                                                                                          |==============                                                                                                                    |  11%  |                                                                                                                                          |===================                                                                                                               |  14%  |                                                                                                                                          |=======================                                                                                                           |  18%  |                                                                                                                                          |============================                                                                                                      |  21%  |                                                                                                                                          |================================                                                                                                  |  25%  |                                                                                                                                          |=====================================                                                                                             |  29%  |                                                                                                                                          |==========================================                                                                                        |  32%  |                                                                                                                                          |==============================================                                                                                    |  36%  |                                                                                                                                          |===================================================                                                                               |  39%  |                                                                                                                                          |========================================================                                                                          |  43%  |                                                                                                                                          |============================================================                                                                      |  46%  |                                                                                                                                          |=================================================================                                                                 |  50%  |                                                                                                                                          |======================================================================                                                            |  54%  |                                                                                                                                          |==========================================================================                                                        |  57%  |                                                                                                                                          |===============================================================================                                                   |  61%  |                                                                                                                                          |====================================================================================                                              |  64%  |                                                                                                                                          |========================================================================================                                          |  68%  |                                                                                                                                          |=============================================================================================                                     |  71%  |                                                                                                                                          |==================================================================================================                                |  75%  |                                                                                                                                          |======================================================================================================                            |  79%  |                                                                                                                                          |===========================================================================================================                       |  82%  |                                                                                                                                          |===============================================================================================================                   |  86%  |                                                                                                                                          |====================================================================================================================              |  89%  |                                                                                                                                          |=========================================================================================================================         |  93%  |                                                                                                                                          |=============================================================================================================================     |  96%  |                                                                                                                                          |==================================================================================================================================| 100%
-
-  |                                                                                                                                          |                                                                                                                                  |   0%  |                                                                                                                                          |====                                                                                                                              |   3%  |                                                                                                                                          |========                                                                                                                          |   6%  |                                                                                                                                          |=============                                                                                                                     |  10%  |                                                                                                                                          |=================                                                                                                                 |  13%  |                                                                                                                                          |=====================                                                                                                             |  16%  |                                                                                                                                          |=========================                                                                                                         |  19%  |                                                                                                                                          |=============================                                                                                                     |  23%  |                                                                                                                                          |==================================                                                                                                |  26%  |                                                                                                                                          |======================================                                                                                            |  29%  |                                                                                                                                          |==========================================                                                                                        |  32%  |                                                                                                                                          |==============================================                                                                                    |  35%  |                                                                                                                                          |==================================================                                                                                |  39%  |                                                                                                                                          |=======================================================                                                                           |  42%  |                                                                                                                                          |===========================================================                                                                       |  45%  |                                                                                                                                          |===============================================================                                                                   |  48%  |                                                                                                                                          |===================================================================                                                               |  52%  |                                                                                                                                          |=======================================================================                                                           |  55%  |                                                                                                                                          |===========================================================================                                                       |  58%  |                                                                                                                                          |================================================================================                                                  |  61%  |                                                                                                                                          |====================================================================================                                              |  65%  |                                                                                                                                          |========================================================================================                                          |  68%  |                                                                                                                                          |============================================================================================                                      |  71%  |                                                                                                                                          |================================================================================================                                  |  74%  |                                                                                                                                          |=====================================================================================================                             |  77%  |                                                                                                                                          |=========================================================================================================                         |  81%  |                                                                                                                                          |=============================================================================================================                     |  84%  |                                                                                                                                          |=================================================================================================================                 |  87%  |                                                                                                                                          |=====================================================================================================================             |  90%  |                                                                                                                                          |==========================================================================================================================        |  94%  |                                                                                                                                          |==============================================================================================================================    |  97%  |                                                                                                                                          |==================================================================================================================================| 100%
-
-Saved: E:/R/ACLsenescence2/rebuild_submission/02_mouse_discovery/07_tables/step13_Figure3B_mouse_Hallmark_GSEA/step13_fgsea_Hallmark_1W.csv
-Saved: E:/R/ACLsenescence2/rebuild_submission/02_mouse_discovery/07_tables/step13_Figure3B_mouse_Hallmark_GSEA/step13_fgsea_Hallmark_4W.csv
-Saved: E:/R/ACLsenescence2/rebuild_submission/02_mouse_discovery/07_tables/step13_Figure3B_mouse_Hallmark_GSEA/step13_fgsea_Hallmark_all.csv
-Saved: E:/R/ACLsenescence2/rebuild_submission/02_mouse_discovery/07_tables/step13_Figure3B_mouse_Hallmark_GSEA/step13_Figure3B_target_pathway_stats.csv
-Saved: E:/R/ACLsenescence2/rebuild_submission/02_mouse_discovery/07_tables/step13_Figure3B_mouse_Hallmark_GSEA/step13_Figure3B_running_curve_source_data.csv
-Saved: E:/R/ACLsenescence2/rebuild_submission/02_mouse_discovery/07_tables/step13_Figure3B_mouse_Hallmark_GSEA/step13_Figure3B_GSEA_summary.csv
-Saved: E:/R/ACLsenescence2/rebuild_submission/02_mouse_discovery/07_tables/step13_Figure3B_mouse_Hallmark_GSEA/step13_fgsea_reproducibility_settings.csv
-Saved: E:/R/ACLsenescence2/rebuild_submission/02_mouse_discovery/07_tables/step13_Figure3B_mouse_Hallmark_GSEA/step13_software_versions.csv
-
-===== STEP13 SUMMARY =====
-
-GSEA summary:
-                     metric
-1                DE_file_1W
-2                DE_file_4W
-3               rank_method
-4            rank_direction
-5         n_ranked_genes_1W
-6         n_ranked_genes_4W
-7          Hallmark_species
-8       Hallmark_collection
-9  Hallmark_pathways_tested
-10            fgsea_minSize
-11            fgsea_maxSize
-12                fgsea_eps
-13              fgsea_nproc
-14            fgsea_seed_1W
-15            fgsea_seed_4W
-16  target_pathways_plotted
-17   multiple_testing_scope
-                                                                                                                 value
-1  E:/R/ACLsenescence2/rebuild_submission/02_mouse_discovery/03_DE_analysis/step05_DE_1W_ACLR_vs_Contra_limma_voom.csv
-2  E:/R/ACLsenescence2/rebuild_submission/02_mouse_discovery/03_DE_analysis/step05_DE_4W_ACLR_vs_Contra_limma_voom.csv
-3                                                                                        sign(logFC) * -log10(P.Value)
-4                                                                                    logFC > 0 indicates ACLR > Contra
-5                                                                                                                14264
-6                                                                                                                14264
-7                                                                                                         Mus musculus
-8                                                                                         MSigDB Hallmark collection H
-9                                                                                                                   50
-10                                                                                                                  10
-11                                                                                                                 500
-12                                                                                                                   0
-13                                                                                                                   1
-14                                                                                                               12345
-15                                                                                                               12346
-16                                          HALLMARK_INFLAMMATORY_RESPONSE; HALLMARK_EPITHELIAL_MESENCHYMAL_TRANSITION
-17                                   adjusted P values from full Hallmark collection, not only the two target pathways
-
-Target pathway statistics:
-   timepoint                                    pathway         pval         padj        ES      NES size
-14        1W HALLMARK_EPITHELIAL_MESENCHYMAL_TRANSITION 4.705106e-33 7.841844e-32 0.6528918 3.127764  187
-64        4W HALLMARK_EPITHELIAL_MESENCHYMAL_TRANSITION 4.425615e-37 7.376025e-36 0.6731411 3.126476  185
-25        1W             HALLMARK_INFLAMMATORY_RESPONSE 3.495963e-14 2.913303e-13 0.5213746 2.480959  170
-75        4W             HALLMARK_INFLAMMATORY_RESPONSE 1.433956e-14 1.433956e-13 0.5214304 2.407885  169
-
-Figure3B saved to:
-E:/R/ACLsenescence2/rebuild_submission/02_mouse_discovery/06_figures/Figure3/Figure3B_mouse_Hallmark_GSEA_running_curves.png 
-E:/R/ACLsenescence2/rebuild_submission/02_mouse_discovery/06_figures/Figure3/Figure3B_mouse_Hallmark_GSEA_running_curves.pdf 
-
-Step13 completed successfully.
-
-Step13 completed. Please open:
-E:/R/ACLsenescence2/rebuild_submission/02_mouse_discovery/06_figures/Figure3/Figure3B_mouse_Hallmark_GSEA_running_curves.png 
-E:/R/ACLsenescence2/rebuild_submission/02_mouse_discovery/06_figures/Figure3/Figure3B_mouse_Hallmark_GSEA_running_curves.pdf 
-===== STEP20_CURRENT78 PIG EARLY HALLMARK GSEA =====
-Run time: 2026-05-12 13:28:20 
-Base directory: E:/R/ACLsenescence2/rebuild_submission/02_pig_early 
-Method: full Sus scrofa Hallmark collection fgsea; target pathways extracted after full run.
-
-Input DE tables:
-t7 : E:/R/ACLsenescence2/rebuild_submission/02_pig_early/tables/step17_pig_early_DE_t7_vs_CON_QLF.csv 
-t28: E:/R/ACLsenescence2/rebuild_submission/02_pig_early/tables/step17_pig_early_DE_t28_vs_CON_QLF.csv 
-
-Ranked symbols:
-t7 : 14229 
-t28: 13998 
-
-Hallmark gene sets loaded: 50 
-fgsea parameters: minSize=10, maxSize=500, eps=0, nproc=1
-fgsea seeds: t7=1, t28=1
-
-fgsea reproducibility settings:
-t7 seed: 1 
-t28 seed: 1 
-nproc: 1 
-  |                                                                                                                                          |                                                                                                                                  |   0%  |                                                                                                                                          |=====                                                                                                                             |   4%  |                                                                                                                                          |==========                                                                                                                        |   8%  |                                                                                                                                          |===============                                                                                                                   |  12%  |                                                                                                                                          |====================                                                                                                              |  15%  |                                                                                                                                          |=========================                                                                                                         |  19%  |                                                                                                                                          |==============================                                                                                                    |  23%  |                                                                                                                                          |===================================                                                                                               |  27%  |                                                                                                                                          |========================================                                                                                          |  31%  |                                                                                                                                          |=============================================                                                                                     |  35%  |                                                                                                                                          |==================================================                                                                                |  38%  |                                                                                                                                          |=======================================================                                                                           |  42%  |                                                                                                                                          |============================================================                                                                      |  46%  |                                                                                                                                          |=================================================================                                                                 |  50%  |                                                                                                                                          |======================================================================                                                            |  54%  |                                                                                                                                          |===========================================================================                                                       |  58%  |                                                                                                                                          |================================================================================                                                  |  62%  |                                                                                                                                          |=====================================================================================                                             |  65%  |                                                                                                                                          |==========================================================================================                                        |  69%  |                                                                                                                                          |===============================================================================================                                   |  73%  |                                                                                                                                          |====================================================================================================                              |  77%  |                                                                                                                                          |=========================================================================================================                         |  81%  |                                                                                                                                          |==============================================================================================================                    |  85%  |                                                                                                                                          |===================================================================================================================               |  88%  |                                                                                                                                          |========================================================================================================================          |  92%  |                                                                                                                                          |=============================================================================================================================     |  96%  |                                                                                                                                          |==================================================================================================================================| 100%
-
-  |                                                                                                                                          |                                                                                                                                  |   0%  |                                                                                                                                          |======                                                                                                                            |   5%  |                                                                                                                                          |=============                                                                                                                     |  10%  |                                                                                                                                          |====================                                                                                                              |  15%  |                                                                                                                                          |==========================                                                                                                        |  20%  |                                                                                                                                          |================================                                                                                                  |  25%  |                                                                                                                                          |=======================================                                                                                           |  30%  |                                                                                                                                          |==============================================                                                                                    |  35%  |                                                                                                                                          |====================================================                                                                              |  40%  |                                                                                                                                          |==========================================================                                                                        |  45%  |                                                                                                                                          |=================================================================                                                                 |  50%  |                                                                                                                                          |========================================================================                                                          |  55%  |                                                                                                                                          |==============================================================================                                                    |  60%  |                                                                                                                                          |====================================================================================                                              |  65%  |                                                                                                                                          |===========================================================================================                                       |  70%  |                                                                                                                                          |==================================================================================================                                |  75%  |                                                                                                                                          |========================================================================================================                          |  80%  |                                                                                                                                          |==============================================================================================================                    |  85%  |                                                                                                                                          |=====================================================================================================================             |  90%  |                                                                                                                                          |============================================================================================================================      |  95%  |                                                                                                                                          |==================================================================================================================================| 100%
-
-
-===== STEP20_CURRENT78 SUMMARY =====
-                                 metric                                                                                               value
-1                      t7_DE_input_file    E:/R/ACLsenescence2/rebuild_submission/02_pig_early/tables/step17_pig_early_DE_t7_vs_CON_QLF.csv
-2                     t28_DE_input_file   E:/R/ACLsenescence2/rebuild_submission/02_pig_early/tables/step17_pig_early_DE_t28_vs_CON_QLF.csv
-3                   n_ranked_symbols_t7                                                                                               14229
-4                  n_ranked_symbols_t28                                                                                               13998
-5      n_full_hallmark_gene_sets_loaded                                                                                                  50
-6   n_full_hallmark_gene_sets_tested_t7                                                                                                  50
-7  n_full_hallmark_gene_sets_tested_t28                                                                                                  50
-8                         fgsea_minSize                                                                                                  10
-9                         fgsea_maxSize                                                                                                 500
-10                            fgsea_eps                                                                                                   0
-11                          fgsea_nproc                                                                                                   1
-12                        fgsea_seed_t7                                                                                                   1
-13                       fgsea_seed_t28                                                                                                   1
-14                       rank_statistic                                                                        sign(logFC) * -log10(PValue)
-15                      target_pathways                          HALLMARK_INFLAMMATORY_RESPONSE; HALLMARK_EPITHELIAL_MESENCHYMAL_TRANSITION
-16             full_collection_FDR_used                                                                                                TRUE
-17                           output_dir E:/R/ACLsenescence2/rebuild_submission/02_pig_early/tables/step20_current78_pig_early_hallmark_gsea
-
-Target pathway results from full Hallmark fgsea:
-                        contrast                                    pathway         pval        padj   log2err        ES      NES size
-64 ACLT_untreated_t28_vs_Control HALLMARK_EPITHELIAL_MESENCHYMAL_TRANSITION 0.0011148691 0.003483966 0.4550599 0.3475899 1.513431  170
-14  ACLT_untreated_t7_vs_Control HALLMARK_EPITHELIAL_MESENCHYMAL_TRANSITION 0.0002022184 0.001123435 0.5188481 0.4031573 1.632928  173
-75 ACLT_untreated_t28_vs_Control             HALLMARK_INFLAMMATORY_RESPONSE 0.3800623053 0.527864313 0.1226792 0.2366566 1.011805  146
-25  ACLT_untreated_t7_vs_Control             HALLMARK_INFLAMMATORY_RESPONSE 0.0127916729 0.030456364 0.3807304 0.3430753 1.362350  150
-   leadingEdge_size
-64               49
-14               57
-75               23
-25               52
-                                                                                                                                                                                                                                                                                                                                             leadingEdge_genes
-64                                                    TNC;COPA;SPP1;ADAM12;FBN2;HTRA1;CTHRC1;FAP;SNAI2;GPX7;POSTN;CALU;BMP1;MMP2;ITGAV;MMP14;CDH11;PLOD2;COL6A3;ITGB1;BDNF;MMP1;THBS2;COL1A1;COL1A2;COL5A2;SPARC;COL5A1;LOXL2;CALD1;COL3A1;SERPINE1;IGFBP4;PMEPA1;MEST;RGS4;ITGA5;IL6;ECM2;SERPINH1;GJA1;COL4A2;TNFRSF12A;ANPEP;COL16A1;CD44;CRLF1;FSTL1;PRRX1
-14 FBN2;SPP1;TNC;IL6;ADAM12;COPA;HTRA1;IGFBP4;P3H1;BMP1;ANPEP;GPX7;COL6A3;COL1A1;SNAI2;MMP1;SERPINH1;MMP14;MCM7;CTHRC1;MMP2;COL16A1;COL5A1;COL4A2;ITGA5;CALU;CDH11;SPOCK1;LOXL2;COL5A2;FAP;MMP3;TNFRSF12A;GJA1;THBS2;PLOD2;PLOD3;COL1A2;ITGB1;TGFBI;COL3A1;CRLF1;INHBA;POSTN;PPIB;COL5A3;SPARC;SERPINE1;TPM1;GADD45A;BGN;PRRX1;VCAN;GADD45B;AMCF-II;SDC1;CALD1
-75                                                                                                                                                                                                          KIF1B;ATP2C1;SLC31A1;OSMR;KCNJ2;MARCO;MMP14;ATP2A2;SGMS2;TNFAIP6;NFKB1;HIF1A;CHST2;APLNR;SERPINE1;RGS16;IL1R1;DCBLD2;IFNAR1;ITGA5;IL6;IL4R;TNFSF15
-25                                   IL6;IL4R;KCNJ2;MARCO;OSMR;SLC31A1;MMP14;APLNR;HIF1A;NFKB1;KIF1B;TNFAIP6;ITGA5;IL1R1;ATP2C1;IL7R;ATP2A2;PDPN;CHST2;LDLR;ICAM1;TNFSF15;IFNAR1;CSF3R;SLC1A2;LCK;INHBA;SLC11A2;DCBLD2;CMKLR1;SERPINE1;IL2RB;MYC;SHAS2;SLC7A1;FZD5;AMCF-II;SPHK1;BST2;TIMP1;NOD2;RGS16;LYN;AQP9;TLR2;PCDH7;PDE4B;CDKN1A;CD55;P2RY2;ACVR1B;CCL2
-
-Step20 current78 pig early Hallmark GSEA completed successfully.
-Summary-to-send log: E:/R/ACLsenescence2/rebuild_submission/02_pig_early/tables/step20_current78_pig_early_hallmark_gsea/logs/step20_current78_pig_early_hallmark_gsea_summary_to_send_me.txt
-
-Step20 current78 pig early Hallmark GSEA completed.
-Summary-to-send log: E:/R/ACLsenescence2/rebuild_submission/02_pig_early/tables/step20_current78_pig_early_hallmark_gsea/logs/step20_current78_pig_early_hallmark_gsea_summary_to_send_me.txt
-===== CHRONIC STEP4 CURRENT78 DE + FULL HALLMARK GSEA =====
-Run time: 2026-05-12 13:59:14 CEST
-Comparison: ACLT_alone_52W vs Control_52W.
-Method: edgeR QL with tximport effective-length offset; full Sus scrofa Hallmark fgsea.
-
-Manifest file: E:/R/ACLsenescence2/rebuild_submission/03_pig_chronic/tables/step25v3_pig_chronic_main_comparison_manifest.csv
-Count matrix file: E:/R/ACLsenescence2/rebuild_submission/03_pig_chronic/tables/step25v3_pig_chronic_main_comparison_gene_level_counts_matrix.csv
-Effective length matrix file: E:/R/ACLsenescence2/rebuild_submission/03_pig_chronic/tables/step25v3_pig_chronic_main_comparison_gene_level_length_matrix.csv
-
-Main comparison samples:
-
-   Control_52W ACLT_alone_52W 
-            12             12 
-
-Count/length common genes before filtering: 22438
-
-Saved: E:/R/ACLsenescence2/rebuild_submission/03_pig_chronic/tables/chronic_step4_current78_DE_GSEA/chronic_step4_gene_id_to_symbol_map_used_for_GSEA.csv
-Gene symbol map rows: 35682
-Gene symbol map source preview:
-[1] "annotation_file:E:/R/ACLsenescence2/rebuild_submission/03_pig_chronic/tables/chronic_step4_current78_DE_GSEA/chronic_step4_gene_id_to_symbol_map_used_for_GSEA.csv"
-
-Saved: E:/R/ACLsenescence2/rebuild_submission/03_pig_chronic/tables/chronic_step4_current78_DE_GSEA/chronic_step4_DE_ACLT_alone_52W_vs_Control_52W_edgeR_QLF_tximport_offset.csv
-Saved: E:/R/ACLsenescence2/rebuild_submission/03_pig_chronic/tables/chronic_step4_current78_DE_GSEA/chronic_step4_DE_ACLT_alone_52W_vs_Control_52W_edgeR_QLF_tximport_offset_sorted_by_PValue.csv
-Saved: E:/R/ACLsenescence2/rebuild_submission/03_pig_chronic/tables/chronic_step4_current78_DE_GSEA/chronic_step4_strict_DEGs_FDR0.05_abslogFC1.csv
-null device 
-          1 
-null device 
-          1 
-Saved: E:/R/ACLsenescence2/rebuild_submission/03_pig_chronic/tables/chronic_step4_current78_DE_GSEA/chronic_step4_ranked_genes_ACLT_alone_52W_vs_Control_52W.csv
-  |                                                                                                                                          |                                                                                                                                  |   0%  |                                                                                                                                          |=====                                                                                                                             |   4%  |                                                                                                                                          |==========                                                                                                                        |   8%  |                                                                                                                                          |================                                                                                                                  |  12%  |                                                                                                                                          |=====================                                                                                                             |  16%  |                                                                                                                                          |==========================                                                                                                        |  20%  |                                                                                                                                          |===============================                                                                                                   |  24%  |                                                                                                                                          |====================================                                                                                              |  28%  |                                                                                                                                          |==========================================                                                                                        |  32%  |                                                                                                                                          |===============================================                                                                                   |  36%  |                                                                                                                                          |====================================================                                                                              |  40%  |                                                                                                                                          |=========================================================                                                                         |  44%  |                                                                                                                                          |==============================================================                                                                    |  48%  |                                                                                                                                          |====================================================================                                                              |  52%  |                                                                                                                                          |=========================================================================                                                         |  56%  |                                                                                                                                          |==============================================================================                                                    |  60%  |                                                                                                                                          |===================================================================================                                               |  64%  |                                                                                                                                          |========================================================================================                                          |  68%  |                                                                                                                                          |==============================================================================================                                    |  72%  |                                                                                                                                          |===================================================================================================                               |  76%  |                                                                                                                                          |========================================================================================================                          |  80%  |                                                                                                                                          |=============================================================================================================                     |  84%  |                                                                                                                                          |==================================================================================================================                |  88%  |                                                                                                                                          |========================================================================================================================          |  92%  |                                                                                                                                          |=============================================================================================================================     |  96%  |                                                                                                                                          |==================================================================================================================================| 100%
-
-Saved: E:/R/ACLsenescence2/rebuild_submission/03_pig_chronic/tables/chronic_step4_current78_DE_GSEA/chronic_step4_sus_scrofa_hallmark_membership.csv
-Saved: E:/R/ACLsenescence2/rebuild_submission/03_pig_chronic/tables/chronic_step4_current78_DE_GSEA/chronic_step4_hallmark_gene_set_coverage.csv
-Saved: E:/R/ACLsenescence2/rebuild_submission/03_pig_chronic/tables/chronic_step4_current78_DE_GSEA/chronic_step4_fgsea_full_hallmark_ACLT_alone_52W_vs_Control_52W.csv
-Saved: E:/R/ACLsenescence2/rebuild_submission/03_pig_chronic/tables/chronic_step4_current78_DE_GSEA/chronic_step4_target_pathway_results_from_full_hallmark.csv
-Saved: E:/R/ACLsenescence2/rebuild_submission/03_pig_chronic/tables/chronic_step4_current78_DE_GSEA/chronic_step4_target_pathway_running_curve_source_data.csv
-Saved: E:/R/ACLsenescence2/rebuild_submission/03_pig_chronic/tables/chronic_step4_current78_DE_GSEA/chronic_step4_DE_run_summary.csv
-Saved: E:/R/ACLsenescence2/rebuild_submission/03_pig_chronic/tables/chronic_step4_current78_DE_GSEA/chronic_step4_GSEA_run_summary.csv
-Saved: E:/R/ACLsenescence2/rebuild_submission/03_pig_chronic/tables/chronic_step4_current78_DE_GSEA/chronic_step4_versions_and_method_records.csv
-Saved: E:/R/ACLsenescence2/rebuild_submission/03_pig_chronic/tables/chronic_step4_current78_DE_GSEA/chronic_step4_fgsea_reproducibility_settings.csv
-Saved: E:/R/ACLsenescence2/rebuild_submission/03_pig_chronic/tables/chronic_step4_current78_DE_GSEA/chronic_step4_input_file_audit.csv
-Saved: E:/R/ACLsenescence2/rebuild_submission/03_pig_chronic/tables/chronic_step4_current78_DE_GSEA/chronic_step4_sample_metadata_used.csv
-Saved: E:/R/ACLsenescence2/rebuild_submission/03_pig_chronic/tables/chronic_step4_current78_DE_GSEA/chronic_step4_plot_files.csv
-Saved: E:/R/ACLsenescence2/rebuild_submission/03_pig_chronic/tables/chronic_step4_current78_DE_GSEA/chronic_step4_current78_DE_GSEA_overall_summary.csv
-
-===== Chronic Step4 overall summary =====
-                     metric
-              manifest_file
-                 count_file
-                length_file
-              n_Control_52W
-           n_ACLT_alone_52W
-            genes_tested_DE
-           strict_DEG_total
-              strict_DEG_up
-            strict_DEG_down
-          ranked_genes_GSEA
-   hallmark_pathways_tested
-                 fgsea_seed
-                fgsea_nproc
-  inflammatory_response_NES
-  inflammatory_response_FDR
-                    EMT_NES
-                    EMT_FDR
-             DE_output_file
-      GSEA_full_output_file
- target_pathway_output_file
-               Figure5B_png
-               Figure5B_pdf
-                 output_dir
-                                                                                                                                                                          value
-                                                                 E:/R/ACLsenescence2/rebuild_submission/03_pig_chronic/tables/step25v3_pig_chronic_main_comparison_manifest.csv
-                                                 E:/R/ACLsenescence2/rebuild_submission/03_pig_chronic/tables/step25v3_pig_chronic_main_comparison_gene_level_counts_matrix.csv
-                                                 E:/R/ACLsenescence2/rebuild_submission/03_pig_chronic/tables/step25v3_pig_chronic_main_comparison_gene_level_length_matrix.csv
-                                                                                                                                                                             12
-                                                                                                                                                                             12
-                                                                                                                                                                          14403
-                                                                                                                                                                            545
-                                                                                                                                                                            316
-                                                                                                                                                                            229
-                                                                                                                                                                          14402
-                                                                                                                                                                             50
-                                                                                                                                                                              1
-                                                                                                                                                                              1
-                                                                                                                                                              -1.02599937589292
-                                                                                                                                                              0.415415415415415
-                                                                                                                                                               2.14764222806787
-                                                                                                                                                           3.36437709505716e-09
-      E:/R/ACLsenescence2/rebuild_submission/03_pig_chronic/tables/chronic_step4_current78_DE_GSEA/chronic_step4_DE_ACLT_alone_52W_vs_Control_52W_edgeR_QLF_tximport_offset.csv
-               E:/R/ACLsenescence2/rebuild_submission/03_pig_chronic/tables/chronic_step4_current78_DE_GSEA/chronic_step4_fgsea_full_hallmark_ACLT_alone_52W_vs_Control_52W.csv
-                       E:/R/ACLsenescence2/rebuild_submission/03_pig_chronic/tables/chronic_step4_current78_DE_GSEA/chronic_step4_target_pathway_results_from_full_hallmark.csv
- E:/R/ACLsenescence2/rebuild_submission/03_pig_chronic/figures/Figure5B_current78_chronic_Hallmark_GSEA/Figure5B_current78_chronic_Hallmark_GSEA_running_curves_mouse_style.png
- E:/R/ACLsenescence2/rebuild_submission/03_pig_chronic/figures/Figure5B_current78_chronic_Hallmark_GSEA/Figure5B_current78_chronic_Hallmark_GSEA_running_curves_mouse_style.pdf
-                                                                                   E:/R/ACLsenescence2/rebuild_submission/03_pig_chronic/tables/chronic_step4_current78_DE_GSEA
-
-DE summary:
-                                        metric
-                                    comparison
-               input_genes_common_count_length
-                      genes_after_filterByExpr
- genes_removed_due_to_invalid_effective_length
-              genes_tested_after_length_filter
-            strict_DEG_FDR0.05_abslogFC1_total
-                                 strict_DEG_up
-                               strict_DEG_down
-                                        design
-                                      contrast
-                                  edgeR_method
-                  effective_length_offset_used
-                                                                                                         value
-                                                                                 ACLT_alone_52W_vs_Control_52W
-                                                                                                         22438
-                                                                                                         14403
-                                                                                                             0
-                                                                                                         14403
-                                                                                                           545
-                                                                                                           316
-                                                                                                           229
-                                                                                   Control_52W; ACLT_alone_52W
-                                                                                  ACLT_alone_52W - Control_52W
- DGEList + filterByExpr + tximport effective-length offset + estimateDisp + glmQLFit(robust=TRUE) + glmQLFTest
-                                                                                                          TRUE
-
-Target pathway GSEA results:
-                                    pathway       NES         pval         padj size leadingEdge_size
-             HALLMARK_INFLAMMATORY_RESPONSE -1.025999 3.738739e-01 4.154154e-01  147               35
- HALLMARK_EPITHELIAL_MESENCHYMAL_TRANSITION  2.147642 6.728754e-11 3.364377e-09  172               71
-
-GSEA summary:
-                           metric
-  ranked_genes_after_symbol_dedup
-   duplicated_symbol_rows_removed
- n_full_hallmark_gene_sets_loaded
- n_full_hallmark_gene_sets_tested
-                    fgsea_minSize
-                    fgsea_maxSize
-                        fgsea_eps
-                      fgsea_nproc
-                       fgsea_seed
-                   rank_statistic
-         gene_identifier_for_GSEA
-         full_collection_FDR_used
-                  target_pathways
-        inflammatory_response_NES
-        inflammatory_response_FDR
-                          EMT_NES
-                          EMT_FDR
-                         gsea_png
-                         gsea_pdf
-                                                                                                                                                                          value
-                                                                                                                                                                          14402
-                                                                                                                                                                              1
-                                                                                                                                                                             50
-                                                                                                                                                                             50
-                                                                                                                                                                             10
-                                                                                                                                                                            500
-                                                                                                                                                                              0
-                                                                                                                                                                              1
-                                                                                                                                                                              1
-                                                                                                                                                   sign(logFC) * -log10(PValue)
-                                                                                                                                                               pig gene symbols
-                                                                                                                                                                           TRUE
-                                                                                                     HALLMARK_INFLAMMATORY_RESPONSE; HALLMARK_EPITHELIAL_MESENCHYMAL_TRANSITION
-                                                                                                                                                              -1.02599937589292
-                                                                                                                                                              0.415415415415415
-                                                                                                                                                               2.14764222806787
-                                                                                                                                                           3.36437709505716e-09
- E:/R/ACLsenescence2/rebuild_submission/03_pig_chronic/figures/Figure5B_current78_chronic_Hallmark_GSEA/Figure5B_current78_chronic_Hallmark_GSEA_running_curves_mouse_style.png
- E:/R/ACLsenescence2/rebuild_submission/03_pig_chronic/figures/Figure5B_current78_chronic_Hallmark_GSEA/Figure5B_current78_chronic_Hallmark_GSEA_running_curves_mouse_style.pdf
-
-Version and method records:
-              item
-         R_version
-     edgeR_version
-     limma_version
-     fgsea_version
-   msigdbr_version
-   ggplot2_version
-   DE_input_counts
-  DE_input_lengths
- DE_input_manifest
-   GSEA_collection
-   GSEA_parameters
-     analysis_role
-                                                                                                                          value
-                                                                                                                          4.5.2
-                                                                                                                          4.8.2
-                                                                                                                         3.66.0
-                                                                                                                         1.36.2
-                                                                                                                         26.1.0
-                                                                                                                          4.0.2
- E:/R/ACLsenescence2/rebuild_submission/03_pig_chronic/tables/step25v3_pig_chronic_main_comparison_gene_level_counts_matrix.csv
- E:/R/ACLsenescence2/rebuild_submission/03_pig_chronic/tables/step25v3_pig_chronic_main_comparison_gene_level_length_matrix.csv
-                 E:/R/ACLsenescence2/rebuild_submission/03_pig_chronic/tables/step25v3_pig_chronic_main_comparison_manifest.csv
-                                                                                   full Sus scrofa MSigDB Hallmark collection H
-                                                                                minSize=10; maxSize=500; eps=0; nproc=1; seed=1
-                                                                      chronic extension DE/GSEA; no signature/core redefinition
-
-Chronic Step4 current78 DE + full Hallmark GSEA completed.
-Summary to send me: E:/R/ACLsenescence2/rebuild_submission/03_pig_chronic/tables/chronic_step4_current78_DE_GSEA/logs/chronic_step4_current78_DE_GSEA_summary_to_send_me.txt

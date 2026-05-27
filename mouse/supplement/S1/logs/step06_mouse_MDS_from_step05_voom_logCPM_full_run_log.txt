@@ -1,0 +1,28 @@
+Starting  step06_mouse_MDS_from_step05_voom_logCPM
+1W voom file:  E:/R/ACLsenescence2/rebuild_submission/02_mouse_discovery/03_DE_analysis/step05_voom_logCPM_1W.csv
+4W voom file:  E:/R/ACLsenescence2/rebuild_submission/02_mouse_discovery/03_DE_analysis/step05_voom_logCPM_4W.csv
+Output root:  E:/R/ACLsenescence2/rebuild_submission/02_mouse_discovery/supplement/S1
+1W metadata file:  E:/R/ACLsenescence2/rebuild_submission/02_mouse_discovery/01_metadata/step04_anno_1W.csv
+4W metadata file:  E:/R/ACLsenescence2/rebuild_submission/02_mouse_discovery/01_metadata/step04_anno_4W.csv
+Reading voom logCPM matrix:  E:/R/ACLsenescence2/rebuild_submission/02_mouse_discovery/03_DE_analysis/step05_voom_logCPM_1W.csv
+Imported matrix dimensions:  14311  genes x  24  samples
+Reading voom logCPM matrix:  E:/R/ACLsenescence2/rebuild_submission/02_mouse_discovery/03_DE_analysis/step05_voom_logCPM_4W.csv
+Imported matrix dimensions:  14316  genes x  24  samples
+Reading metadata for  1W :  E:/R/ACLsenescence2/rebuild_submission/02_mouse_discovery/01_metadata/step04_anno_1W.csv
+Metadata rows after de-duplication for  1W :  24
+Treatment counts for  1W :  Contra 12; ACLR 12
+Reading metadata for  4W :  E:/R/ACLsenescence2/rebuild_submission/02_mouse_discovery/01_metadata/step04_anno_4W.csv
+Metadata rows after de-duplication for  4W :  24
+Treatment counts for  4W :  Contra 12; ACLR 12
+Matched  1W :  24  samples and  14311  genes
+Matched  4W :  24  samples and  14316  genes
+Running limma::plotMDS for  1W  using second voom logCPM matrix
+Saved  1W  MDS PDF:  E:/R/ACLsenescence2/rebuild_submission/02_mouse_discovery/supplement/S1/figures/step06_mouse_MDS_from_step05_voom_logCPM_1W_MDS.pdf
+Saved  1W  MDS PNG:  E:/R/ACLsenescence2/rebuild_submission/02_mouse_discovery/supplement/S1/figures/step06_mouse_MDS_from_step05_voom_logCPM_1W_MDS.png
+Saved  1W  MDS coordinates:  E:/R/ACLsenescence2/rebuild_submission/02_mouse_discovery/supplement/S1/source_data/step06_mouse_MDS_from_step05_voom_logCPM_1W_MDS_coordinates.csv
+Running limma::plotMDS for  4W  using second voom logCPM matrix
+Saved  4W  MDS PDF:  E:/R/ACLsenescence2/rebuild_submission/02_mouse_discovery/supplement/S1/figures/step06_mouse_MDS_from_step05_voom_logCPM_4W_MDS.pdf
+Saved  4W  MDS PNG:  E:/R/ACLsenescence2/rebuild_submission/02_mouse_discovery/supplement/S1/figures/step06_mouse_MDS_from_step05_voom_logCPM_4W_MDS.png
+Saved  4W  MDS coordinates:  E:/R/ACLsenescence2/rebuild_submission/02_mouse_discovery/supplement/S1/source_data/step06_mouse_MDS_from_step05_voom_logCPM_4W_MDS_coordinates.csv
+DONE. Summary CSV:  E:/R/ACLsenescence2/rebuild_submission/02_mouse_discovery/supplement/S1/tables/step06_mouse_MDS_from_step05_voom_logCPM_summary.csv
+DONE. Summary text to send me:  E:/R/ACLsenescence2/rebuild_submission/02_mouse_discovery/supplement/S1/logs/step06_mouse_MDS_from_step05_voom_logCPM_summary_to_send_me.txt

@@ -1,0 +1,58 @@
+===== step06_mouse_MDS_from_step05_voom_logCPM summary =====
+Status: SUCCESS
+Run time: 2026-05-12 10:41:57 CEST
+Project root: E:/R/ACLsenescence2/rebuild_submission/02_mouse_discovery
+Output root: E:/R/ACLsenescence2/rebuild_submission/02_mouse_discovery/supplement/S1
+
+Starting  step06_mouse_MDS_from_step05_voom_logCPM
+1W voom file:  E:/R/ACLsenescence2/rebuild_submission/02_mouse_discovery/03_DE_analysis/step05_voom_logCPM_1W.csv
+4W voom file:  E:/R/ACLsenescence2/rebuild_submission/02_mouse_discovery/03_DE_analysis/step05_voom_logCPM_4W.csv
+Output root:  E:/R/ACLsenescence2/rebuild_submission/02_mouse_discovery/supplement/S1
+1W metadata file:  E:/R/ACLsenescence2/rebuild_submission/02_mouse_discovery/01_metadata/step04_anno_1W.csv
+4W metadata file:  E:/R/ACLsenescence2/rebuild_submission/02_mouse_discovery/01_metadata/step04_anno_4W.csv
+Reading voom logCPM matrix:  E:/R/ACLsenescence2/rebuild_submission/02_mouse_discovery/03_DE_analysis/step05_voom_logCPM_1W.csv
+Imported matrix dimensions:  14311  genes x  24  samples
+Reading voom logCPM matrix:  E:/R/ACLsenescence2/rebuild_submission/02_mouse_discovery/03_DE_analysis/step05_voom_logCPM_4W.csv
+Imported matrix dimensions:  14316  genes x  24  samples
+Reading metadata for  1W :  E:/R/ACLsenescence2/rebuild_submission/02_mouse_discovery/01_metadata/step04_anno_1W.csv
+Metadata rows after de-duplication for  1W :  24
+Treatment counts for  1W :  Contra 12; ACLR 12
+Reading metadata for  4W :  E:/R/ACLsenescence2/rebuild_submission/02_mouse_discovery/01_metadata/step04_anno_4W.csv
+Metadata rows after de-duplication for  4W :  24
+Treatment counts for  4W :  Contra 12; ACLR 12
+Matched  1W :  24  samples and  14311  genes
+Matched  4W :  24  samples and  14316  genes
+Running limma::plotMDS for  1W  using second voom logCPM matrix
+Saved  1W  MDS PDF:  E:/R/ACLsenescence2/rebuild_submission/02_mouse_discovery/supplement/S1/figures/step06_mouse_MDS_from_step05_voom_logCPM_1W_MDS.pdf
+Saved  1W  MDS PNG:  E:/R/ACLsenescence2/rebuild_submission/02_mouse_discovery/supplement/S1/figures/step06_mouse_MDS_from_step05_voom_logCPM_1W_MDS.png
+Saved  1W  MDS coordinates:  E:/R/ACLsenescence2/rebuild_submission/02_mouse_discovery/supplement/S1/source_data/step06_mouse_MDS_from_step05_voom_logCPM_1W_MDS_coordinates.csv
+Running limma::plotMDS for  4W  using second voom logCPM matrix
+Saved  4W  MDS PDF:  E:/R/ACLsenescence2/rebuild_submission/02_mouse_discovery/supplement/S1/figures/step06_mouse_MDS_from_step05_voom_logCPM_4W_MDS.pdf
+Saved  4W  MDS PNG:  E:/R/ACLsenescence2/rebuild_submission/02_mouse_discovery/supplement/S1/figures/step06_mouse_MDS_from_step05_voom_logCPM_4W_MDS.png
+Saved  4W  MDS coordinates:  E:/R/ACLsenescence2/rebuild_submission/02_mouse_discovery/supplement/S1/source_data/step06_mouse_MDS_from_step05_voom_logCPM_4W_MDS_coordinates.csv
+
+Key output files:
+Summary CSV: E:/R/ACLsenescence2/rebuild_submission/02_mouse_discovery/supplement/S1/tables/step06_mouse_MDS_from_step05_voom_logCPM_summary.csv
+Combined coordinate source data: E:/R/ACLsenescence2/rebuild_submission/02_mouse_discovery/supplement/S1/source_data/step06_mouse_MDS_from_step05_voom_logCPM_all_MDS_coordinates.csv
+Input file record: E:/R/ACLsenescence2/rebuild_submission/02_mouse_discovery/supplement/S1/logs/step06_mouse_MDS_from_step05_voom_logCPM_input_file_record.csv
+Software versions: E:/R/ACLsenescence2/rebuild_submission/02_mouse_discovery/supplement/S1/logs/step06_mouse_MDS_from_step05_voom_logCPM_software_versions.csv
+
+Summary table preview:
+                                 step_name timepoint                                            input_matrix   mds_function top
+1 step06_mouse_MDS_from_step05_voom_logCPM        1W Step05 paired limma-voom second voom-transformed logCPM limma::plotMDS 500
+2 step06_mouse_MDS_from_step05_voom_logCPM        4W Step05 paired limma-voom second voom-transformed logCPM limma::plotMDS 500
+  gene_selection n_genes_input n_samples_input n_contra n_aclr n_pair_lines_drawn
+1         common         14311              24       12     12                 12
+2         common         14316              24       12     12                 12
+                                                                                                                                      coordinate_file
+1 E:/R/ACLsenescence2/rebuild_submission/02_mouse_discovery/supplement/S1/source_data/step06_mouse_MDS_from_step05_voom_logCPM_1W_MDS_coordinates.csv
+2 E:/R/ACLsenescence2/rebuild_submission/02_mouse_discovery/supplement/S1/source_data/step06_mouse_MDS_from_step05_voom_logCPM_4W_MDS_coordinates.csv
+                                                                                                                                     input_gene_file
+1 E:/R/ACLsenescence2/rebuild_submission/02_mouse_discovery/supplement/S1/source_data/step06_mouse_MDS_from_step05_voom_logCPM_1W_input_gene_ids.csv
+2 E:/R/ACLsenescence2/rebuild_submission/02_mouse_discovery/supplement/S1/source_data/step06_mouse_MDS_from_step05_voom_logCPM_4W_input_gene_ids.csv
+                                                                                                                             pdf_file
+1 E:/R/ACLsenescence2/rebuild_submission/02_mouse_discovery/supplement/S1/figures/step06_mouse_MDS_from_step05_voom_logCPM_1W_MDS.pdf
+2 E:/R/ACLsenescence2/rebuild_submission/02_mouse_discovery/supplement/S1/figures/step06_mouse_MDS_from_step05_voom_logCPM_4W_MDS.pdf
+                                                                                                                             png_file
+1 E:/R/ACLsenescence2/rebuild_submission/02_mouse_discovery/supplement/S1/figures/step06_mouse_MDS_from_step05_voom_logCPM_1W_MDS.png
+2 E:/R/ACLsenescence2/rebuild_submission/02_mouse_discovery/supplement/S1/figures/step06_mouse_MDS_from_step05_voom_logCPM_4W_MDS.png

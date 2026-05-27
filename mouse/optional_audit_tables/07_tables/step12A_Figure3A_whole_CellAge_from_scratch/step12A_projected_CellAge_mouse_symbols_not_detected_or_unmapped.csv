@@ -1,0 +1,6 @@
+"mouse_symbol","human_symbol","CellAge_effect","ortholog_name","input_number","input_ensg","ensg_number","ortholog_ensg","description","n_mouse_orthologs","n_human_inputs","score_type","gene_id","source"
+"Akap4","AKAP4","Inhibits","Akap4",14,"ENSG00000147081","14.1.1","ENSMUSG00000050089","A kinase anchor protein 4 [Source:MGI Symbol;Acc:MGI:102794]",1,1,"CellAge_inhibits",NA,NA
+"Dusp21","DUSP21","Inhibits","Dusp21",198,"ENSG00000189037","198.1.1","ENSMUSG00000025043","dual specificity phosphatase 21 [Source:MGI Symbol;Acc:MGI:1920797]",1,1,"CellAge_inhibits",NA,NA
+"Il24","IL24","Inhibits","Il24",348,"ENSG00000162892","348.1.1","ENSMUSG00000026420","interleukin 24 [Source:MGI Symbol;Acc:MGI:2135548]",1,1,"CellAge_inhibits",NA,NA
+"Otx2","OTX2","Induces","Otx2",544,"ENSG00000165588","544.1.1","ENSMUSG00000021848","orthodenticle homeobox 2 [Source:MGI Symbol;Acc:MGI:97451]",1,1,"CellAge_induces",NA,NA
+"Pla2g2a","PLA2G2A","Induces","Pla2g2a",583,"ENSG00000188257","583.1.1","ENSMUSG00000058908","phospholipase A2, group IIA (platelets, synovial fluid) [Source:MGI Symbol;Acc:MGI:104642]",1,1,"CellAge_induces",NA,NA

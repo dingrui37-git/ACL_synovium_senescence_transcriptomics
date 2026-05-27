@@ -1,0 +1,29 @@
+Early pig fastp sensitivity check - minimal submission package
+============================================================
+Created: 2026-05-27 13:26:50 CEST
+Package root: E:/R/ACLsenescence2/rebuild_submission/submission/early pig fastp sensitivity check
+
+Purpose:
+This package collects the minimum explicitly listed scripts, source tables, result tables, figure source data, figures, method records, and logs needed to document the early pig fastp trimming sensitivity branch.
+
+Copy policy:
+- Files were copied by exact relative path or exact basename only.
+- No fuzzy matching was used.
+- No whole folders were copied.
+- Existing submission-package folders were excluded from source search.
+- If the same exact basename appeared under both source roots, E:/R/ACLsenescence2 was prioritized over E:/R/ACLsenescence2 LD.
+
+What is intentionally not included:
+- Raw FASTQ files, trimmed FASTQ files, BAM files, and RDS objects are intentionally not copied in this minimal package.
+- Those large/intermediate files can be regenerated using the included A-M scripts and the original data sources.
+
+Key interpretation:
+- This package documents a fastp trimming sensitivity analysis only.
+- It does not replace the primary untrimmed pig early analysis.
+- The official core genes remain defined by the primary untrimmed current78 analysis.
+
+Important manifest files:
+- manifest/copy_manifest_exact_files.csv
+- manifest/MISSING_REQUIRED_FILES.csv
+- manifest/MISSING_OPTIONAL_FILES.csv
+- manifest/PACKAGE_SUMMARY.csv

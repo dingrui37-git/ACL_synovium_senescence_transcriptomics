@@ -1,0 +1,93 @@
+===== STEP11C INTERSECT CURRENT GORTH MAPPING WITH CELLAGE CLEAN =====
+Run time: 2026-05-23 17:50:00 CEST
+CellAge clean input:
+E:/R/ACLsenescence2/rebuild_submission/02_mouse_discovery/07_tables/step11A_CellAge_raw_to_clean/step11A_CellAge_clean_271903.csv
+Current remapped mapping input:
+E:/R/ACLsenescence2/rebuild_submission/02_mouse_discovery/07_tables/step11B_current_gorth_strict_1to1_remap/step11B_current_mouse_human_ortholog_mapping_strict_1to1.csv
+Overlap will be recomputed directly from current Step11B mapping and Step11A cleaned CellAge symbols.
+
+Saved: E:/R/ACLsenescence2/rebuild_submission/02_mouse_discovery/07_tables/step11C_intersect_current_gorth_mapping_with_CellAge_clean/step11C_input_CellAge_clean_271903.csv
+Saved: E:/R/ACLsenescence2/rebuild_submission/02_mouse_discovery/07_tables/step11C_intersect_current_gorth_mapping_with_CellAge_clean/step11C_input_current_mouse_human_ortholog_mapping_strict_1to1.csv
+Saved: E:/R/ACLsenescence2/rebuild_submission/02_mouse_discovery/07_tables/step11C_intersect_current_gorth_mapping_with_CellAge_clean/step11C_persistent_CellAge_overlap_genes.csv
+Saved: E:/R/ACLsenescence2/rebuild_submission/02_mouse_discovery/07_tables/step11C_intersect_current_gorth_mapping_with_CellAge_clean/step11C_persistent_CellAge_overlap_genes_compact.csv
+Saved: E:/R/ACLsenescence2/rebuild_submission/02_mouse_discovery/07_tables/step11C_intersect_current_gorth_mapping_with_CellAge_clean/step11C_overlap_Senescence_Effect_counts.csv
+Saved: E:/R/ACLsenescence2/rebuild_submission/02_mouse_discovery/07_tables/step11C_intersect_current_gorth_mapping_with_CellAge_clean/step11C_intersection_summary.csv
+Saved: E:/R/ACLsenescence2/rebuild_submission/02_mouse_discovery/07_tables/step11C_intersect_current_gorth_mapping_with_CellAge_clean/step11C_software_versions.csv
+
+===== STEP11C SUMMARY =====
+                                        metric
+1                     CellAge_clean_input_file
+2                   current_mapping_input_file
+3                 CellAge_clean_unique_symbols
+4             current_strict_1to1_mapping_rows
+5          current_mapping_unique_mouse_inputs
+6       current_mapping_unique_human_orthologs
+7  recomputed_persistent_CellAge_overlap_genes
+8                          main_overlap_output
+9                       compact_overlap_output
+10                                 method_note
+                                                                                                                                                                                 value
+1                                                    E:/R/ACLsenescence2/rebuild_submission/02_mouse_discovery/07_tables/step11A_CellAge_raw_to_clean/step11A_CellAge_clean_271903.csv
+2             E:/R/ACLsenescence2/rebuild_submission/02_mouse_discovery/07_tables/step11B_current_gorth_strict_1to1_remap/step11B_current_mouse_human_ortholog_mapping_strict_1to1.csv
+3                                                                                                                                                                                  866
+4                                                                                                                                                                                 1307
+5                                                                                                                                                                                 1307
+6                                                                                                                                                                                 1307
+7                                                                                                                                                                                   78
+8          E:/R/ACLsenescence2/rebuild_submission/02_mouse_discovery/07_tables/step11C_intersect_current_gorth_mapping_with_CellAge_clean/step11C_persistent_CellAge_overlap_genes.csv
+9  E:/R/ACLsenescence2/rebuild_submission/02_mouse_discovery/07_tables/step11C_intersect_current_gorth_mapping_with_CellAge_clean/step11C_persistent_CellAge_overlap_genes_compact.csv
+10           recomputed by intersecting Step11B current remapped strict 1:1 human ortholog symbols with Step11A cleaned CellAge symbols; no hard-coded expected overlap count was used
+
+Senescence Effect counts among recomputed overlap genes:
+  Senescence_Effect  n
+1           Induces 28
+2          Inhibits 46
+3           Unclear  4
+
+First 20 recomputed overlap genes:
+      input         input_ensg ortholog_name   ortholog_ensg Entrez ID Gene symbol                                                Gene name Cancer Cell Type of senescence Senescence Effect Reference
+1    Abi3bp ENSMUSG00000035258        ABI3BP ENSG00000154175     25890      ABI3BP                      ABI family member 3 binding protein         Yes            Unclear           Induces  18559958
+2       Ahr ENSMUSG00000019256           AHR ENSG00000106546       196         AHR                                aryl hydrocarbon receptor          No     Stress-induced           Induces  15111621
+3     Aldoa ENSMUSG00000030695         ALDOA ENSG00000149925       226       ALDOA                        aldolase, fructose-bisphosphate A         Yes   Oncogene-induced          Inhibits  28806777
+4      Bcl3 ENSMUSG00000053175          BCL3 ENSG00000069399       602        BCL3                           BCL3 transcription coactivator          No            Unclear          Inhibits  25255445
+5      Bub1 ENSMUSG00000027379          BUB1 ENSG00000169679       699        BUB1          BUB1 mitotic checkpoint serine/threonine kinase          No   Oncogene-induced          Inhibits  17488820
+6       Cbs ENSMUSG00000024039           CBS ENSG00000160200       875         CBS                              cystathionine beta-synthase          No        Replicative          Inhibits  23117410
+7     Ccnb1 ENSMUSG00000041431         CCNB1 ENSG00000134057       891       CCNB1                                                cyclin B1         Yes            Unclear          Inhibits  30069972
+8      Cdk1 ENSMUSG00000019942          CDK1 ENSG00000170312       983        CDK1                                cyclin dependent kinase 1         Yes            Unclear          Inhibits  23324396
+9      Cdk6 ENSMUSG00000040274          CDK6 ENSG00000105810      1021        CDK6                                cyclin dependent kinase 6          No        Replicative          Inhibits  12082615
+10   Cdkn2a ENSMUSG00000044303        CDKN2A ENSG00000147889      1029      CDKN2A                     cyclin dependent kinase inhibitor 2A          No        Replicative           Induces   9607312
+11   Chaf1b ENSMUSG00000022945        CHAF1B ENSG00000159259      8208      CHAF1B                    chromatin assembly factor 1 subunit B         Yes   Oncogene-induced          Inhibits  28806777
+12    Ckap2 ENSMUSG00000037725         CKAP2 ENSG00000136108     26586       CKAP2                        cytoskeleton associated protein 2          No            Unclear          Inhibits  32264951
+13    Cpt1c ENSMUSG00000007783         CPT1C ENSG00000169169    126129       CPT1C                        carnitine palmitoyltransferase 1C         Yes            Unclear          Inhibits  30070697
+14 Crispld2 ENSMUSG00000031825      CRISPLD2 ENSG00000103196     83716    CRISPLD2 cysteine rich secretory protein LCCL domain containing 2          No     Stress-induced          Inhibits  31219803
+15     Ect2 ENSMUSG00000027699          ECT2 ENSG00000114346      1894        ECT2                           epithelial cell transforming 2         Yes   Oncogene-induced          Inhibits  28806777
+16     Egfr ENSMUSG00000020122          EGFR ENSG00000146648      1956        EGFR                         epidermal growth factor receptor         Yes            Unclear          Inhibits  25504754
+17   Entpd7 ENSMUSG00000025192        ENTPD7 ENSG00000198018     57089      ENTPD7         ectonucleoside triphosphate diphosphohydrolase 7          No   Oncogene-induced           Induces  27737960
+18    Epha3 ENSMUSG00000052504         EPHA3 ENSG00000044524      2042       EPHA3                                          EPH receptor A3         Yes            Unclear          Inhibits  23324396
+19    Espl1 ENSMUSG00000058290         ESPL1 ENSG00000135476      9700       ESPL1               extra spindle pole bodies like 1, separase         Yes   Oncogene-induced          Inhibits  28806777
+20    Esrrb ENSMUSG00000021255         ESRRB ENSG00000119715      2103       ESRRB                           estrogen related receptor beta         Yes     Stress-induced           Induces  25496115
+   n_human_orthologs n_mouse_inputs
+1                  1              1
+2                  1              1
+3                  1              1
+4                  1              1
+5                  1              1
+6                  1              1
+7                  1              1
+8                  1              1
+9                  1              1
+10                 1              1
+11                 1              1
+12                 1              1
+13                 1              1
+14                 1              1
+15                 1              1
+16                 1              1
+17                 1              1
+18                 1              1
+19                 1              1
+20                 1              1
+
+Step11C completed successfully.
+Main overlap output:
+E:/R/ACLsenescence2/rebuild_submission/02_mouse_discovery/07_tables/step11C_intersect_current_gorth_mapping_with_CellAge_clean/step11C_persistent_CellAge_overlap_genes.csv

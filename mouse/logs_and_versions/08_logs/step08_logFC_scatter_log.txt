@@ -1,0 +1,50 @@
+===== STEP08 FIGURE2B LOGFC SCATTER REDRAW =====
+Run time: 2026-05-05 19:15:20 CEST
+Input table: E:/R/ACLsenescence2/rebuild_submission/02_mouse_discovery/07_tables/step07_strict_DEG_upset_persistent/step07_strict_DEG_structure_gene_table.csv
+
+Saved: E:/R/ACLsenescence2/rebuild_submission/02_mouse_discovery/07_tables/step08_logFC_scatter/step08_Figure2B_shared_strict_logFC_scatter_source_data.csv
+Saved: E:/R/ACLsenescence2/rebuild_submission/02_mouse_discovery/07_tables/step08_logFC_scatter/step08_Figure2B_logFC_scatter_summary.csv
+Saved: E:/R/ACLsenescence2/rebuild_submission/02_mouse_discovery/07_tables/step08_logFC_scatter/step08_Figure2B_selected_labels.csv
+Saved: E:/R/ACLsenescence2/rebuild_submission/02_mouse_discovery/07_tables/step08_logFC_scatter/step08_software_versions.csv
+
+===== STEP08 SUMMARY =====
+                     metric     value
+1       shared_strict_genes 1421.0000
+2 persistent_same_direction 1416.0000
+3        opposite_direction    5.0000
+4             persistent_up  970.0000
+5           persistent_down  446.0000
+6                 pearson_r    0.9300
+7              spearman_rho    0.8046
+
+Selected labels:
+          gene_id  SYMBOL label_name  logFC_1W  logFC_4W         plot_class combined_score
+1301 G10090_19936  Cthrc1     Cthrc1  6.209435  3.927288      Persistent_up     103.558766
+589  G10090_14199     Tnn        Tnn  7.783342  5.942219      Persistent_up      92.839853
+204  G10090_11470 C1qtnf3    C1qtnf3  5.738244  3.170056      Persistent_up      76.068257
+2558 G10090_31856  Lrrc15     Lrrc15  5.281122  3.710564      Persistent_up      66.808407
+1299 G10090_19925   P4ha3      P4ha3  4.655028  3.637325      Persistent_up      66.079965
+3606  G10090_9256   Myo16      Myo16  4.233433  4.612793      Persistent_up      66.072739
+2367 G10090_29954    Fbn2       Fbn2  5.634932  3.257731      Persistent_up      65.844940
+7    G10090_10033    Mest       Mest  4.910607  1.310037      Persistent_up      63.283025
+754  G10090_15395   Postn      Postn  4.970927  2.220237      Persistent_up      61.969983
+2232 G10090_28430  Nt5dc2     Nt5dc2  3.964842  3.690575      Persistent_up      58.668453
+2724 G10090_33778   Cidea      Cidea -4.537485 -2.468517    Persistent_down      39.965546
+2689 G10090_33420  H2-Q10     H2-Q10 -3.741149 -2.835187    Persistent_down      37.999557
+2631 G10090_32740    Inmt       Inmt -3.588514 -1.546586    Persistent_down      37.272616
+1148 G10090_18579   Crhr2      Crhr2 -2.951475 -1.176999    Persistent_down      30.042259
+2361 G10090_29872    Gys2       Gys2 -3.052455 -2.111338    Persistent_down      29.627575
+1785 G10090_23994    Cmbl       Cmbl -1.943587 -1.414319    Persistent_down      28.652713
+615  G10090_14376   Ces1d      Ces1d -2.601722 -1.625614    Persistent_down      28.157637
+2650  G10090_3298  Prxl2a     Prxl2a -2.016090 -1.591865    Persistent_down      28.085176
+401  G10090_12826    Lgr6       Lgr6 -1.156062  1.100578 Opposite_direction       3.522149
+778  G10090_15527    Myh8       Myh8  1.253054 -1.610444 Opposite_direction       8.654139
+1648 G10090_22677     Sln        Sln  2.126827 -2.286134 Opposite_direction       5.875694
+1935 G10090_25409    Nkg7       Nkg7  1.659961 -1.100710 Opposite_direction       4.320402
+2227 G10090_28380   Slfn1      Slfn1  1.239463 -1.088551 Opposite_direction       6.341650
+
+Figure2B saved to:
+E:/R/ACLsenescence2/rebuild_submission/02_mouse_discovery/06_figures/Figure2/Figure2B_mouse_shared_strict_logFC_scatter.png 
+E:/R/ACLsenescence2/rebuild_submission/02_mouse_discovery/06_figures/Figure2/Figure2B_mouse_shared_strict_logFC_scatter.pdf 
+
+Step08 completed successfully.

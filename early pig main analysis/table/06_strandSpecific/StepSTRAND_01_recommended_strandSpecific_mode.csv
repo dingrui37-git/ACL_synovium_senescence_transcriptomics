@@ -1,0 +1,2 @@
+"recommended_strandSpecific","recommendation_rule","method_note"
+0,"Mode with the highest mean assignment_rate_pct across the 18 core samples.","All modes were run using the same BAM files, GTF annotation and featureCounts parameters except for strandSpecific."

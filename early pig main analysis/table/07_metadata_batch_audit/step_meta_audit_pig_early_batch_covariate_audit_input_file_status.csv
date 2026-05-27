@@ -1,0 +1,8 @@
+"label","path","exists","size_bytes"
+"idf","E:/R/ACLsenescence2/rebuild_submission/raw data/E-MTAB-6664/E-MTAB-6664.idf.txt",TRUE,7479
+"sdrf","E:/R/ACLsenescence2/rebuild_submission/raw data/E-MTAB-6664/E-MTAB-6664.sdrf.txt",TRUE,53118
+"analysis_ready_metadata","E:/R/ACLsenescence2/rebuild_submission/raw data/E-MTAB-6664/E-MTAB-6664_analysis_ready_metadata.csv",TRUE,9657
+"core_manifest_wide","E:/R/ACLsenescence2/rebuild_submission/raw data/E-MTAB-6664/E-MTAB-6664_core_validation_manifest_wide.csv",TRUE,4630
+"core_manifest_long","E:/R/ACLsenescence2/rebuild_submission/raw data/E-MTAB-6664/E-MTAB-6664_core_validation_manifest_long.csv",TRUE,5910
+"core_validation_metadata","E:/R/ACLsenescence2/rebuild_submission/raw data/E-MTAB-6664/E-MTAB-6664_core_validation_metadata.csv",TRUE,2212
+"sample_level_metadata","E:/R/ACLsenescence2/rebuild_submission/raw data/E-MTAB-6664/E-MTAB-6664_sample_level_metadata.csv",TRUE,11822

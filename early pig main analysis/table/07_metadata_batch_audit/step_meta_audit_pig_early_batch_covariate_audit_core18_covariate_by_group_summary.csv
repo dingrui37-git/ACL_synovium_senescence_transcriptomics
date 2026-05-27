@@ -1,0 +1,664 @@
+"column_name","core_group","value","Freq"
+"coremeta__ENA_EXPERIMENT","CON_t0","ERX2528285",1
+"coremeta__ENA_EXPERIMENT","CON_t0","ERX2528286",1
+"coremeta__ENA_EXPERIMENT","CON_t0","ERX2528287",1
+"coremeta__ENA_EXPERIMENT","CON_t0","ERX2528288",1
+"coremeta__ENA_EXPERIMENT","CON_t0","ERX2528289",1
+"coremeta__ENA_EXPERIMENT","CON_t0","ERX2528290",1
+"coremeta__ENA_EXPERIMENT","ACLT_untreated_t28","ERX2528291",1
+"coremeta__ENA_EXPERIMENT","ACLT_untreated_t28","ERX2528292",1
+"coremeta__ENA_EXPERIMENT","ACLT_untreated_t28","ERX2528293",1
+"coremeta__ENA_EXPERIMENT","ACLT_untreated_t28","ERX2528294",1
+"coremeta__ENA_EXPERIMENT","ACLT_untreated_t28","ERX2528295",1
+"coremeta__ENA_EXPERIMENT","ACLT_untreated_t28","ERX2528296",1
+"coremeta__ENA_EXPERIMENT","ACLT_untreated_t7","ERX2528297",1
+"coremeta__ENA_EXPERIMENT","ACLT_untreated_t7","ERX2528298",1
+"coremeta__ENA_EXPERIMENT","ACLT_untreated_t7","ERX2528299",1
+"coremeta__ENA_EXPERIMENT","ACLT_untreated_t7","ERX2528300",1
+"coremeta__ENA_EXPERIMENT","ACLT_untreated_t7","ERX2528301",1
+"coremeta__ENA_EXPERIMENT","ACLT_untreated_t7","ERX2528302",1
+"coremeta__ENA_RUN","CON_t0","ERR2508834",1
+"coremeta__ENA_RUN","CON_t0","ERR2508835",1
+"coremeta__ENA_RUN","CON_t0","ERR2508836",1
+"coremeta__ENA_RUN","CON_t0","ERR2508837",1
+"coremeta__ENA_RUN","CON_t0","ERR2508838",1
+"coremeta__ENA_RUN","CON_t0","ERR2508839",1
+"coremeta__ENA_RUN","ACLT_untreated_t28","ERR2508840",1
+"coremeta__ENA_RUN","ACLT_untreated_t28","ERR2508841",1
+"coremeta__ENA_RUN","ACLT_untreated_t28","ERR2508842",1
+"coremeta__ENA_RUN","ACLT_untreated_t28","ERR2508843",1
+"coremeta__ENA_RUN","ACLT_untreated_t28","ERR2508844",1
+"coremeta__ENA_RUN","ACLT_untreated_t28","ERR2508845",1
+"coremeta__ENA_RUN","ACLT_untreated_t7","ERR2508846",1
+"coremeta__ENA_RUN","ACLT_untreated_t7","ERR2508847",1
+"coremeta__ENA_RUN","ACLT_untreated_t7","ERR2508848",1
+"coremeta__ENA_RUN","ACLT_untreated_t7","ERR2508849",1
+"coremeta__ENA_RUN","ACLT_untreated_t7","ERR2508850",1
+"coremeta__ENA_RUN","ACLT_untreated_t7","ERR2508851",1
+"manifest__ENA_RUN","CON_t0","ERR2508834",1
+"manifest__ENA_RUN","CON_t0","ERR2508835",1
+"manifest__ENA_RUN","CON_t0","ERR2508836",1
+"manifest__ENA_RUN","CON_t0","ERR2508837",1
+"manifest__ENA_RUN","CON_t0","ERR2508838",1
+"manifest__ENA_RUN","CON_t0","ERR2508839",1
+"manifest__ENA_RUN","ACLT_untreated_t28","ERR2508840",1
+"manifest__ENA_RUN","ACLT_untreated_t28","ERR2508841",1
+"manifest__ENA_RUN","ACLT_untreated_t28","ERR2508842",1
+"manifest__ENA_RUN","ACLT_untreated_t28","ERR2508843",1
+"manifest__ENA_RUN","ACLT_untreated_t28","ERR2508844",1
+"manifest__ENA_RUN","ACLT_untreated_t28","ERR2508845",1
+"manifest__ENA_RUN","ACLT_untreated_t7","ERR2508846",1
+"manifest__ENA_RUN","ACLT_untreated_t7","ERR2508847",1
+"manifest__ENA_RUN","ACLT_untreated_t7","ERR2508848",1
+"manifest__ENA_RUN","ACLT_untreated_t7","ERR2508849",1
+"manifest__ENA_RUN","ACLT_untreated_t7","ERR2508850",1
+"manifest__ENA_RUN","ACLT_untreated_t7","ERR2508851",1
+"manifest__R1_file","CON_t0","CON1_R1.fastq.gz",1
+"manifest__R1_file","CON_t0","CON2_R1.fastq.gz",1
+"manifest__R1_file","CON_t0","CON3_R1.fastq.gz",1
+"manifest__R1_file","CON_t0","CON4_R1.fastq.gz",1
+"manifest__R1_file","CON_t0","CON5_R1.fastq.gz",1
+"manifest__R1_file","CON_t0","CON6_R1.fastq.gz",1
+"manifest__R1_file","ACLT_untreated_t28","INJL1_R1.fastq.gz",1
+"manifest__R1_file","ACLT_untreated_t28","INJL2_R1.fastq.gz",1
+"manifest__R1_file","ACLT_untreated_t28","INJL3_R1.fastq.gz",1
+"manifest__R1_file","ACLT_untreated_t28","INJL4_R1.fastq.gz",1
+"manifest__R1_file","ACLT_untreated_t28","INJL5_R1.fastq.gz",1
+"manifest__R1_file","ACLT_untreated_t28","INJL6_R1.fastq.gz",1
+"manifest__R1_file","ACLT_untreated_t7","INJS1_R1.fastq.gz",1
+"manifest__R1_file","ACLT_untreated_t7","INJS2_R1.fastq.gz",1
+"manifest__R1_file","ACLT_untreated_t7","INJS3_R1.fastq.gz",1
+"manifest__R1_file","ACLT_untreated_t7","INJS4_R1.fastq.gz",1
+"manifest__R1_file","ACLT_untreated_t7","INJS5_R1.fastq.gz",1
+"manifest__R1_file","ACLT_untreated_t7","INJS6_R1.fastq.gz",1
+"manifest__R1_URI","ACLT_untreated_t28","ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR250/000/ERR2508840/ERR2508840_1.fastq.gz",1
+"manifest__R1_URI","ACLT_untreated_t7","ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR250/000/ERR2508850/ERR2508850_1.fastq.gz",1
+"manifest__R1_URI","ACLT_untreated_t28","ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR250/001/ERR2508841/ERR2508841_1.fastq.gz",1
+"manifest__R1_URI","ACLT_untreated_t7","ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR250/001/ERR2508851/ERR2508851_1.fastq.gz",1
+"manifest__R1_URI","ACLT_untreated_t28","ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR250/002/ERR2508842/ERR2508842_1.fastq.gz",1
+"manifest__R1_URI","ACLT_untreated_t28","ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR250/003/ERR2508843/ERR2508843_1.fastq.gz",1
+"manifest__R1_URI","CON_t0","ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR250/004/ERR2508834/ERR2508834_1.fastq.gz",1
+"manifest__R1_URI","ACLT_untreated_t28","ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR250/004/ERR2508844/ERR2508844_1.fastq.gz",1
+"manifest__R1_URI","CON_t0","ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR250/005/ERR2508835/ERR2508835_1.fastq.gz",1
+"manifest__R1_URI","ACLT_untreated_t28","ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR250/005/ERR2508845/ERR2508845_1.fastq.gz",1
+"manifest__R1_URI","CON_t0","ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR250/006/ERR2508836/ERR2508836_1.fastq.gz",1
+"manifest__R1_URI","ACLT_untreated_t7","ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR250/006/ERR2508846/ERR2508846_1.fastq.gz",1
+"manifest__R1_URI","CON_t0","ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR250/007/ERR2508837/ERR2508837_1.fastq.gz",1
+"manifest__R1_URI","ACLT_untreated_t7","ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR250/007/ERR2508847/ERR2508847_1.fastq.gz",1
+"manifest__R1_URI","CON_t0","ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR250/008/ERR2508838/ERR2508838_1.fastq.gz",1
+"manifest__R1_URI","ACLT_untreated_t7","ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR250/008/ERR2508848/ERR2508848_1.fastq.gz",1
+"manifest__R1_URI","CON_t0","ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR250/009/ERR2508839/ERR2508839_1.fastq.gz",1
+"manifest__R1_URI","ACLT_untreated_t7","ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR250/009/ERR2508849/ERR2508849_1.fastq.gz",1
+"manifest__R2_file","CON_t0","CON1_R2.fastq.gz",1
+"manifest__R2_file","CON_t0","CON2_R2.fastq.gz",1
+"manifest__R2_file","CON_t0","CON3_R2.fastq.gz",1
+"manifest__R2_file","CON_t0","CON4_R2.fastq.gz",1
+"manifest__R2_file","CON_t0","CON5_R2.fastq.gz",1
+"manifest__R2_file","CON_t0","CON6_R2.fastq.gz",1
+"manifest__R2_file","ACLT_untreated_t28","INJL1_R2.fastq.gz",1
+"manifest__R2_file","ACLT_untreated_t28","INJL2_R2.fastq.gz",1
+"manifest__R2_file","ACLT_untreated_t28","INJL3_R2.fastq.gz",1
+"manifest__R2_file","ACLT_untreated_t28","INJL4_R2.fastq.gz",1
+"manifest__R2_file","ACLT_untreated_t28","INJL5_R2.fastq.gz",1
+"manifest__R2_file","ACLT_untreated_t28","INJL6_R2.fastq.gz",1
+"manifest__R2_file","ACLT_untreated_t7","INJS1_R2.fastq.gz",1
+"manifest__R2_file","ACLT_untreated_t7","INJS2_R2.fastq.gz",1
+"manifest__R2_file","ACLT_untreated_t7","INJS3_R2.fastq.gz",1
+"manifest__R2_file","ACLT_untreated_t7","INJS4_R2.fastq.gz",1
+"manifest__R2_file","ACLT_untreated_t7","INJS5_R2.fastq.gz",1
+"manifest__R2_file","ACLT_untreated_t7","INJS6_R2.fastq.gz",1
+"manifest__R2_URI","ACLT_untreated_t28","ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR250/000/ERR2508840/ERR2508840_2.fastq.gz",1
+"manifest__R2_URI","ACLT_untreated_t7","ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR250/000/ERR2508850/ERR2508850_2.fastq.gz",1
+"manifest__R2_URI","ACLT_untreated_t28","ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR250/001/ERR2508841/ERR2508841_2.fastq.gz",1
+"manifest__R2_URI","ACLT_untreated_t7","ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR250/001/ERR2508851/ERR2508851_2.fastq.gz",1
+"manifest__R2_URI","ACLT_untreated_t28","ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR250/002/ERR2508842/ERR2508842_2.fastq.gz",1
+"manifest__R2_URI","ACLT_untreated_t28","ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR250/003/ERR2508843/ERR2508843_2.fastq.gz",1
+"manifest__R2_URI","CON_t0","ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR250/004/ERR2508834/ERR2508834_2.fastq.gz",1
+"manifest__R2_URI","ACLT_untreated_t28","ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR250/004/ERR2508844/ERR2508844_2.fastq.gz",1
+"manifest__R2_URI","CON_t0","ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR250/005/ERR2508835/ERR2508835_2.fastq.gz",1
+"manifest__R2_URI","ACLT_untreated_t28","ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR250/005/ERR2508845/ERR2508845_2.fastq.gz",1
+"manifest__R2_URI","CON_t0","ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR250/006/ERR2508836/ERR2508836_2.fastq.gz",1
+"manifest__R2_URI","ACLT_untreated_t7","ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR250/006/ERR2508846/ERR2508846_2.fastq.gz",1
+"manifest__R2_URI","CON_t0","ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR250/007/ERR2508837/ERR2508837_2.fastq.gz",1
+"manifest__R2_URI","ACLT_untreated_t7","ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR250/007/ERR2508847/ERR2508847_2.fastq.gz",1
+"manifest__R2_URI","CON_t0","ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR250/008/ERR2508838/ERR2508838_2.fastq.gz",1
+"manifest__R2_URI","ACLT_untreated_t7","ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR250/008/ERR2508848/ERR2508848_2.fastq.gz",1
+"manifest__R2_URI","CON_t0","ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR250/009/ERR2508839/ERR2508839_2.fastq.gz",1
+"manifest__R2_URI","ACLT_untreated_t7","ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR250/009/ERR2508849/ERR2508849_2.fastq.gz",1
+"samplelevel__Assay Name","CON_t0","CON1",1
+"samplelevel__Assay Name","CON_t0","CON2",1
+"samplelevel__Assay Name","CON_t0","CON3",1
+"samplelevel__Assay Name","CON_t0","CON4",1
+"samplelevel__Assay Name","CON_t0","CON5",1
+"samplelevel__Assay Name","CON_t0","CON6",1
+"samplelevel__Assay Name","ACLT_untreated_t28","INJL1",1
+"samplelevel__Assay Name","ACLT_untreated_t28","INJL2",1
+"samplelevel__Assay Name","ACLT_untreated_t28","INJL3",1
+"samplelevel__Assay Name","ACLT_untreated_t28","INJL4",1
+"samplelevel__Assay Name","ACLT_untreated_t28","INJL5",1
+"samplelevel__Assay Name","ACLT_untreated_t28","INJL6",1
+"samplelevel__Assay Name","ACLT_untreated_t7","INJS1",1
+"samplelevel__Assay Name","ACLT_untreated_t7","INJS2",1
+"samplelevel__Assay Name","ACLT_untreated_t7","INJS3",1
+"samplelevel__Assay Name","ACLT_untreated_t7","INJS4",1
+"samplelevel__Assay Name","ACLT_untreated_t7","INJS5",1
+"samplelevel__Assay Name","ACLT_untreated_t7","INJS6",1
+"samplelevel__Comment[ENA_EXPERIMENT]","CON_t0","ERX2528285",1
+"samplelevel__Comment[ENA_EXPERIMENT]","CON_t0","ERX2528286",1
+"samplelevel__Comment[ENA_EXPERIMENT]","CON_t0","ERX2528287",1
+"samplelevel__Comment[ENA_EXPERIMENT]","CON_t0","ERX2528288",1
+"samplelevel__Comment[ENA_EXPERIMENT]","CON_t0","ERX2528289",1
+"samplelevel__Comment[ENA_EXPERIMENT]","CON_t0","ERX2528290",1
+"samplelevel__Comment[ENA_EXPERIMENT]","ACLT_untreated_t28","ERX2528291",1
+"samplelevel__Comment[ENA_EXPERIMENT]","ACLT_untreated_t28","ERX2528292",1
+"samplelevel__Comment[ENA_EXPERIMENT]","ACLT_untreated_t28","ERX2528293",1
+"samplelevel__Comment[ENA_EXPERIMENT]","ACLT_untreated_t28","ERX2528294",1
+"samplelevel__Comment[ENA_EXPERIMENT]","ACLT_untreated_t28","ERX2528295",1
+"samplelevel__Comment[ENA_EXPERIMENT]","ACLT_untreated_t28","ERX2528296",1
+"samplelevel__Comment[ENA_EXPERIMENT]","ACLT_untreated_t7","ERX2528297",1
+"samplelevel__Comment[ENA_EXPERIMENT]","ACLT_untreated_t7","ERX2528298",1
+"samplelevel__Comment[ENA_EXPERIMENT]","ACLT_untreated_t7","ERX2528299",1
+"samplelevel__Comment[ENA_EXPERIMENT]","ACLT_untreated_t7","ERX2528300",1
+"samplelevel__Comment[ENA_EXPERIMENT]","ACLT_untreated_t7","ERX2528301",1
+"samplelevel__Comment[ENA_EXPERIMENT]","ACLT_untreated_t7","ERX2528302",1
+"samplelevel__Comment[ENA_RUN]","CON_t0","ERR2508834",1
+"samplelevel__Comment[ENA_RUN]","CON_t0","ERR2508835",1
+"samplelevel__Comment[ENA_RUN]","CON_t0","ERR2508836",1
+"samplelevel__Comment[ENA_RUN]","CON_t0","ERR2508837",1
+"samplelevel__Comment[ENA_RUN]","CON_t0","ERR2508838",1
+"samplelevel__Comment[ENA_RUN]","CON_t0","ERR2508839",1
+"samplelevel__Comment[ENA_RUN]","ACLT_untreated_t28","ERR2508840",1
+"samplelevel__Comment[ENA_RUN]","ACLT_untreated_t28","ERR2508841",1
+"samplelevel__Comment[ENA_RUN]","ACLT_untreated_t28","ERR2508842",1
+"samplelevel__Comment[ENA_RUN]","ACLT_untreated_t28","ERR2508843",1
+"samplelevel__Comment[ENA_RUN]","ACLT_untreated_t28","ERR2508844",1
+"samplelevel__Comment[ENA_RUN]","ACLT_untreated_t28","ERR2508845",1
+"samplelevel__Comment[ENA_RUN]","ACLT_untreated_t7","ERR2508846",1
+"samplelevel__Comment[ENA_RUN]","ACLT_untreated_t7","ERR2508847",1
+"samplelevel__Comment[ENA_RUN]","ACLT_untreated_t7","ERR2508848",1
+"samplelevel__Comment[ENA_RUN]","ACLT_untreated_t7","ERR2508849",1
+"samplelevel__Comment[ENA_RUN]","ACLT_untreated_t7","ERR2508850",1
+"samplelevel__Comment[ENA_RUN]","ACLT_untreated_t7","ERR2508851",1
+"sdrf__Assay Name","CON_t0","CON1",1
+"sdrf__Assay Name","CON_t0","CON2",1
+"sdrf__Assay Name","CON_t0","CON3",1
+"sdrf__Assay Name","CON_t0","CON4",1
+"sdrf__Assay Name","CON_t0","CON5",1
+"sdrf__Assay Name","CON_t0","CON6",1
+"sdrf__Assay Name","ACLT_untreated_t28","INJL1",1
+"sdrf__Assay Name","ACLT_untreated_t28","INJL2",1
+"sdrf__Assay Name","ACLT_untreated_t28","INJL3",1
+"sdrf__Assay Name","ACLT_untreated_t28","INJL4",1
+"sdrf__Assay Name","ACLT_untreated_t28","INJL5",1
+"sdrf__Assay Name","ACLT_untreated_t28","INJL6",1
+"sdrf__Assay Name","ACLT_untreated_t7","INJS1",1
+"sdrf__Assay Name","ACLT_untreated_t7","INJS2",1
+"sdrf__Assay Name","ACLT_untreated_t7","INJS3",1
+"sdrf__Assay Name","ACLT_untreated_t7","INJS4",1
+"sdrf__Assay Name","ACLT_untreated_t7","INJS5",1
+"sdrf__Assay Name","ACLT_untreated_t7","INJS6",1
+"sdrf__Comment[ENA_EXPERIMENT]","CON_t0","ERX2528285",1
+"sdrf__Comment[ENA_EXPERIMENT]","CON_t0","ERX2528286",1
+"sdrf__Comment[ENA_EXPERIMENT]","CON_t0","ERX2528287",1
+"sdrf__Comment[ENA_EXPERIMENT]","CON_t0","ERX2528288",1
+"sdrf__Comment[ENA_EXPERIMENT]","CON_t0","ERX2528289",1
+"sdrf__Comment[ENA_EXPERIMENT]","CON_t0","ERX2528290",1
+"sdrf__Comment[ENA_EXPERIMENT]","ACLT_untreated_t28","ERX2528291",1
+"sdrf__Comment[ENA_EXPERIMENT]","ACLT_untreated_t28","ERX2528292",1
+"sdrf__Comment[ENA_EXPERIMENT]","ACLT_untreated_t28","ERX2528293",1
+"sdrf__Comment[ENA_EXPERIMENT]","ACLT_untreated_t28","ERX2528294",1
+"sdrf__Comment[ENA_EXPERIMENT]","ACLT_untreated_t28","ERX2528295",1
+"sdrf__Comment[ENA_EXPERIMENT]","ACLT_untreated_t28","ERX2528296",1
+"sdrf__Comment[ENA_EXPERIMENT]","ACLT_untreated_t7","ERX2528297",1
+"sdrf__Comment[ENA_EXPERIMENT]","ACLT_untreated_t7","ERX2528298",1
+"sdrf__Comment[ENA_EXPERIMENT]","ACLT_untreated_t7","ERX2528299",1
+"sdrf__Comment[ENA_EXPERIMENT]","ACLT_untreated_t7","ERX2528300",1
+"sdrf__Comment[ENA_EXPERIMENT]","ACLT_untreated_t7","ERX2528301",1
+"sdrf__Comment[ENA_EXPERIMENT]","ACLT_untreated_t7","ERX2528302",1
+"sdrf__Comment[ENA_RUN]","CON_t0","ERR2508834",1
+"sdrf__Comment[ENA_RUN]","CON_t0","ERR2508835",1
+"sdrf__Comment[ENA_RUN]","CON_t0","ERR2508836",1
+"sdrf__Comment[ENA_RUN]","CON_t0","ERR2508837",1
+"sdrf__Comment[ENA_RUN]","CON_t0","ERR2508838",1
+"sdrf__Comment[ENA_RUN]","CON_t0","ERR2508839",1
+"sdrf__Comment[ENA_RUN]","ACLT_untreated_t28","ERR2508840",1
+"sdrf__Comment[ENA_RUN]","ACLT_untreated_t28","ERR2508841",1
+"sdrf__Comment[ENA_RUN]","ACLT_untreated_t28","ERR2508842",1
+"sdrf__Comment[ENA_RUN]","ACLT_untreated_t28","ERR2508843",1
+"sdrf__Comment[ENA_RUN]","ACLT_untreated_t28","ERR2508844",1
+"sdrf__Comment[ENA_RUN]","ACLT_untreated_t28","ERR2508845",1
+"sdrf__Comment[ENA_RUN]","ACLT_untreated_t7","ERR2508846",1
+"sdrf__Comment[ENA_RUN]","ACLT_untreated_t7","ERR2508847",1
+"sdrf__Comment[ENA_RUN]","ACLT_untreated_t7","ERR2508848",1
+"sdrf__Comment[ENA_RUN]","ACLT_untreated_t7","ERR2508849",1
+"sdrf__Comment[ENA_RUN]","ACLT_untreated_t7","ERR2508850",1
+"sdrf__Comment[ENA_RUN]","ACLT_untreated_t7","ERR2508851",1
+"sdrf__Comment[FASTQ_URI]","ACLT_untreated_t28","ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR250/000/ERR2508840/ERR2508840_1.fastq.gz",1
+"sdrf__Comment[FASTQ_URI]","ACLT_untreated_t7","ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR250/000/ERR2508850/ERR2508850_1.fastq.gz",1
+"sdrf__Comment[FASTQ_URI]","ACLT_untreated_t28","ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR250/001/ERR2508841/ERR2508841_1.fastq.gz",1
+"sdrf__Comment[FASTQ_URI]","ACLT_untreated_t7","ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR250/001/ERR2508851/ERR2508851_1.fastq.gz",1
+"sdrf__Comment[FASTQ_URI]","ACLT_untreated_t28","ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR250/002/ERR2508842/ERR2508842_1.fastq.gz",1
+"sdrf__Comment[FASTQ_URI]","ACLT_untreated_t28","ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR250/003/ERR2508843/ERR2508843_1.fastq.gz",1
+"sdrf__Comment[FASTQ_URI]","CON_t0","ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR250/004/ERR2508834/ERR2508834_1.fastq.gz",1
+"sdrf__Comment[FASTQ_URI]","ACLT_untreated_t28","ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR250/004/ERR2508844/ERR2508844_1.fastq.gz",1
+"sdrf__Comment[FASTQ_URI]","CON_t0","ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR250/005/ERR2508835/ERR2508835_1.fastq.gz",1
+"sdrf__Comment[FASTQ_URI]","ACLT_untreated_t28","ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR250/005/ERR2508845/ERR2508845_1.fastq.gz",1
+"sdrf__Comment[FASTQ_URI]","CON_t0","ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR250/006/ERR2508836/ERR2508836_1.fastq.gz",1
+"sdrf__Comment[FASTQ_URI]","ACLT_untreated_t7","ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR250/006/ERR2508846/ERR2508846_1.fastq.gz",1
+"sdrf__Comment[FASTQ_URI]","CON_t0","ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR250/007/ERR2508837/ERR2508837_1.fastq.gz",1
+"sdrf__Comment[FASTQ_URI]","ACLT_untreated_t7","ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR250/007/ERR2508847/ERR2508847_1.fastq.gz",1
+"sdrf__Comment[FASTQ_URI]","CON_t0","ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR250/008/ERR2508838/ERR2508838_1.fastq.gz",1
+"sdrf__Comment[FASTQ_URI]","ACLT_untreated_t7","ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR250/008/ERR2508848/ERR2508848_1.fastq.gz",1
+"sdrf__Comment[FASTQ_URI]","CON_t0","ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR250/009/ERR2508839/ERR2508839_1.fastq.gz",1
+"sdrf__Comment[FASTQ_URI]","ACLT_untreated_t7","ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR250/009/ERR2508849/ERR2508849_1.fastq.gz",1
+"sdrf__Comment[LIBRARY_LAYOUT]","ACLT_untreated_t28","PAIRED",6
+"sdrf__Comment[LIBRARY_LAYOUT]","ACLT_untreated_t7","PAIRED",6
+"sdrf__Comment[LIBRARY_LAYOUT]","CON_t0","PAIRED",6
+"sdrf__Comment[LIBRARY_SELECTION]","ACLT_untreated_t28","PolyA",6
+"sdrf__Comment[LIBRARY_SELECTION]","ACLT_untreated_t7","PolyA",6
+"sdrf__Comment[LIBRARY_SELECTION]","CON_t0","PolyA",6
+"sdrf__Comment[LIBRARY_SOURCE]","ACLT_untreated_t28","TRANSCRIPTOMIC",6
+"sdrf__Comment[LIBRARY_SOURCE]","ACLT_untreated_t7","TRANSCRIPTOMIC",6
+"sdrf__Comment[LIBRARY_SOURCE]","CON_t0","TRANSCRIPTOMIC",6
+"sdrf__Comment[LIBRARY_STRATEGY]","ACLT_untreated_t28","RNA-Seq",6
+"sdrf__Comment[LIBRARY_STRATEGY]","ACLT_untreated_t7","RNA-Seq",6
+"sdrf__Comment[LIBRARY_STRATEGY]","CON_t0","RNA-Seq",6
+"sdrf__Comment[SUBMITTED_FILE_NAME]","CON_t0","CON1_R1.fastq.gz",1
+"sdrf__Comment[SUBMITTED_FILE_NAME]","CON_t0","CON2_R1.fastq.gz",1
+"sdrf__Comment[SUBMITTED_FILE_NAME]","CON_t0","CON3_R1.fastq.gz",1
+"sdrf__Comment[SUBMITTED_FILE_NAME]","CON_t0","CON4_R1.fastq.gz",1
+"sdrf__Comment[SUBMITTED_FILE_NAME]","CON_t0","CON5_R1.fastq.gz",1
+"sdrf__Comment[SUBMITTED_FILE_NAME]","CON_t0","CON6_R1.fastq.gz",1
+"sdrf__Comment[SUBMITTED_FILE_NAME]","ACLT_untreated_t28","INJL1_R1.fastq.gz",1
+"sdrf__Comment[SUBMITTED_FILE_NAME]","ACLT_untreated_t28","INJL2_R1.fastq.gz",1
+"sdrf__Comment[SUBMITTED_FILE_NAME]","ACLT_untreated_t28","INJL3_R1.fastq.gz",1
+"sdrf__Comment[SUBMITTED_FILE_NAME]","ACLT_untreated_t28","INJL4_R1.fastq.gz",1
+"sdrf__Comment[SUBMITTED_FILE_NAME]","ACLT_untreated_t28","INJL5_R1.fastq.gz",1
+"sdrf__Comment[SUBMITTED_FILE_NAME]","ACLT_untreated_t28","INJL6_R1.fastq.gz",1
+"sdrf__Comment[SUBMITTED_FILE_NAME]","ACLT_untreated_t7","INJS1_R1.fastq.gz",1
+"sdrf__Comment[SUBMITTED_FILE_NAME]","ACLT_untreated_t7","INJS2_R1.fastq.gz",1
+"sdrf__Comment[SUBMITTED_FILE_NAME]","ACLT_untreated_t7","INJS3_R1.fastq.gz",1
+"sdrf__Comment[SUBMITTED_FILE_NAME]","ACLT_untreated_t7","INJS4_R1.fastq.gz",1
+"sdrf__Comment[SUBMITTED_FILE_NAME]","ACLT_untreated_t7","INJS5_R1.fastq.gz",1
+"sdrf__Comment[SUBMITTED_FILE_NAME]","ACLT_untreated_t7","INJS6_R1.fastq.gz",1
+"sdrf__Protocol REF","ACLT_untreated_t28","P-MTAB-73625",6
+"sdrf__Protocol REF","ACLT_untreated_t7","P-MTAB-73625",6
+"sdrf__Protocol REF","CON_t0","P-MTAB-73625",6
+"sdrf__Protocol REF.1","ACLT_untreated_t28","P-MTAB-73629",6
+"sdrf__Protocol REF.1","ACLT_untreated_t7","P-MTAB-73629",6
+"sdrf__Protocol REF.1","CON_t0","P-MTAB-73629",6
+"sdrf__Protocol REF.2","ACLT_untreated_t28","P-MTAB-73626",6
+"sdrf__Protocol REF.2","ACLT_untreated_t7","P-MTAB-73626",6
+"sdrf__Protocol REF.2","CON_t0","P-MTAB-73626",6
+"sdrf__Protocol REF.3","ACLT_untreated_t28","P-MTAB-73627",6
+"sdrf__Protocol REF.3","ACLT_untreated_t7","P-MTAB-73627",6
+"sdrf__Protocol REF.3","CON_t0","P-MTAB-73627",6
+"sdrf__Protocol REF.4","ACLT_untreated_t28","P-MTAB-73628",6
+"sdrf__Protocol REF.4","ACLT_untreated_t7","P-MTAB-73628",6
+"sdrf__Protocol REF.4","CON_t0","P-MTAB-73628",6
+"age","ACLT_untreated_t28","15.3",1
+"age","ACLT_untreated_t7","16",1
+"age","CON_t0","16.1",1
+"age","CON_t0","16.4",1
+"age","ACLT_untreated_t28","16.9",1
+"age","ACLT_untreated_t28","17.1",1
+"age","CON_t0","17.1",1
+"age","ACLT_untreated_t7","17.3",1
+"age","ACLT_untreated_t28","17.4",1
+"age","ACLT_untreated_t28","17.7",1
+"age","CON_t0","17.8",1
+"age","ACLT_untreated_t7","17.9",1
+"age","CON_t0","18",1
+"age","ACLT_untreated_t7","18.1",1
+"age","ACLT_untreated_t28","18.2",1
+"age","CON_t0","18.4",1
+"age","ACLT_untreated_t7","18.7",1
+"age","ACLT_untreated_t7","19.2",1
+"analysis__age","ACLT_untreated_t28","15.3",1
+"analysis__age","ACLT_untreated_t7","16",1
+"analysis__age","CON_t0","16.1",1
+"analysis__age","CON_t0","16.4",1
+"analysis__age","ACLT_untreated_t28","16.9",1
+"analysis__age","ACLT_untreated_t28","17.1",1
+"analysis__age","CON_t0","17.1",1
+"analysis__age","ACLT_untreated_t7","17.3",1
+"analysis__age","ACLT_untreated_t28","17.4",1
+"analysis__age","ACLT_untreated_t28","17.7",1
+"analysis__age","CON_t0","17.8",1
+"analysis__age","ACLT_untreated_t7","17.9",1
+"analysis__age","CON_t0","18",1
+"analysis__age","ACLT_untreated_t7","18.1",1
+"analysis__age","ACLT_untreated_t28","18.2",1
+"analysis__age","CON_t0","18.4",1
+"analysis__age","ACLT_untreated_t7","18.7",1
+"analysis__age","ACLT_untreated_t7","19.2",1
+"analysis__core_group","ACLT_untreated_t28","ACLT_untreated_t28",6
+"analysis__core_group","ACLT_untreated_t7","ACLT_untreated_t7",6
+"analysis__core_group","CON_t0","CON_t0",6
+"analysis__injury_label","ACLT_untreated_t28","ACLT",6
+"analysis__injury_label","ACLT_untreated_t7","ACLT",6
+"analysis__injury_label","CON_t0","control",6
+"analysis__injury_raw","ACLT_untreated_t28","anterior cruciate ligament transection surgery",6
+"analysis__injury_raw","ACLT_untreated_t7","anterior cruciate ligament transection surgery",6
+"analysis__injury_raw","CON_t0",NA,6
+"analysis__organism_part","ACLT_untreated_t28","synovial membrane",6
+"analysis__organism_part","ACLT_untreated_t7","synovial membrane",6
+"analysis__organism_part","CON_t0","synovial membrane",6
+"analysis__sampling_site","ACLT_untreated_t28","perimeniscal medial femorotibial joint",6
+"analysis__sampling_site","ACLT_untreated_t7","perimeniscal medial femorotibial joint",6
+"analysis__sampling_site","CON_t0","perimeniscal medial femorotibial joint",6
+"analysis__sex","ACLT_untreated_t28","female",3
+"analysis__sex","ACLT_untreated_t7","female",3
+"analysis__sex","CON_t0","female",3
+"analysis__sex","ACLT_untreated_t28","male",3
+"analysis__sex","ACLT_untreated_t7","male",3
+"analysis__sex","CON_t0","male",3
+"analysis__source_name","CON_t0","CON1",1
+"analysis__source_name","CON_t0","CON2",1
+"analysis__source_name","CON_t0","CON3",1
+"analysis__source_name","CON_t0","CON4",1
+"analysis__source_name","CON_t0","CON5",1
+"analysis__source_name","CON_t0","CON6",1
+"analysis__source_name","ACLT_untreated_t28","INJL1",1
+"analysis__source_name","ACLT_untreated_t28","INJL2",1
+"analysis__source_name","ACLT_untreated_t28","INJL3",1
+"analysis__source_name","ACLT_untreated_t28","INJL4",1
+"analysis__source_name","ACLT_untreated_t28","INJL5",1
+"analysis__source_name","ACLT_untreated_t28","INJL6",1
+"analysis__source_name","ACLT_untreated_t7","INJS1",1
+"analysis__source_name","ACLT_untreated_t7","INJS2",1
+"analysis__source_name","ACLT_untreated_t7","INJS3",1
+"analysis__source_name","ACLT_untreated_t7","INJS4",1
+"analysis__source_name","ACLT_untreated_t7","INJS5",1
+"analysis__source_name","ACLT_untreated_t7","INJS6",1
+"analysis__study_group_raw","ACLT_untreated_t28","ACLT__untreated__t28",6
+"analysis__study_group_raw","ACLT_untreated_t7","ACLT__untreated__t7",6
+"analysis__study_group_raw","CON_t0","control__control__t0",6
+"analysis__time_raw","CON_t0","0",6
+"analysis__time_raw","ACLT_untreated_t28","28",6
+"analysis__time_raw","ACLT_untreated_t7","7",6
+"analysis__time_unit_raw","ACLT_untreated_t28","month",6
+"analysis__time_unit_raw","ACLT_untreated_t7","month",6
+"analysis__time_unit_raw","CON_t0","month",6
+"analysis__treatment_label","CON_t0","control",6
+"analysis__treatment_label","ACLT_untreated_t28","untreated",6
+"analysis__treatment_label","ACLT_untreated_t7","untreated",6
+"analysis__treatment_raw","ACLT_untreated_t28",NA,6
+"analysis__treatment_raw","ACLT_untreated_t7",NA,6
+"analysis__treatment_raw","CON_t0",NA,6
+"core_group","ACLT_untreated_t28","ACLT_untreated_t28",6
+"core_group","ACLT_untreated_t7","ACLT_untreated_t7",6
+"core_group","CON_t0","CON_t0",6
+"coremeta__age","ACLT_untreated_t28","15.3",1
+"coremeta__age","ACLT_untreated_t7","16",1
+"coremeta__age","CON_t0","16.1",1
+"coremeta__age","CON_t0","16.4",1
+"coremeta__age","ACLT_untreated_t28","16.9",1
+"coremeta__age","ACLT_untreated_t28","17.1",1
+"coremeta__age","CON_t0","17.1",1
+"coremeta__age","ACLT_untreated_t7","17.3",1
+"coremeta__age","ACLT_untreated_t28","17.4",1
+"coremeta__age","ACLT_untreated_t28","17.7",1
+"coremeta__age","CON_t0","17.8",1
+"coremeta__age","ACLT_untreated_t7","17.9",1
+"coremeta__age","CON_t0","18",1
+"coremeta__age","ACLT_untreated_t7","18.1",1
+"coremeta__age","ACLT_untreated_t28","18.2",1
+"coremeta__age","CON_t0","18.4",1
+"coremeta__age","ACLT_untreated_t7","18.7",1
+"coremeta__age","ACLT_untreated_t7","19.2",1
+"coremeta__core_group","ACLT_untreated_t28","ACLT_untreated_t28",6
+"coremeta__core_group","ACLT_untreated_t7","ACLT_untreated_t7",6
+"coremeta__core_group","CON_t0","CON_t0",6
+"coremeta__injury_label","ACLT_untreated_t28","ACLT",6
+"coremeta__injury_label","ACLT_untreated_t7","ACLT",6
+"coremeta__injury_label","CON_t0","control",6
+"coremeta__sex","ACLT_untreated_t28","female",3
+"coremeta__sex","ACLT_untreated_t7","female",3
+"coremeta__sex","CON_t0","female",3
+"coremeta__sex","ACLT_untreated_t28","male",3
+"coremeta__sex","ACLT_untreated_t7","male",3
+"coremeta__sex","CON_t0","male",3
+"coremeta__source_name","CON_t0","CON1",1
+"coremeta__source_name","CON_t0","CON2",1
+"coremeta__source_name","CON_t0","CON3",1
+"coremeta__source_name","CON_t0","CON4",1
+"coremeta__source_name","CON_t0","CON5",1
+"coremeta__source_name","CON_t0","CON6",1
+"coremeta__source_name","ACLT_untreated_t28","INJL1",1
+"coremeta__source_name","ACLT_untreated_t28","INJL2",1
+"coremeta__source_name","ACLT_untreated_t28","INJL3",1
+"coremeta__source_name","ACLT_untreated_t28","INJL4",1
+"coremeta__source_name","ACLT_untreated_t28","INJL5",1
+"coremeta__source_name","ACLT_untreated_t28","INJL6",1
+"coremeta__source_name","ACLT_untreated_t7","INJS1",1
+"coremeta__source_name","ACLT_untreated_t7","INJS2",1
+"coremeta__source_name","ACLT_untreated_t7","INJS3",1
+"coremeta__source_name","ACLT_untreated_t7","INJS4",1
+"coremeta__source_name","ACLT_untreated_t7","INJS5",1
+"coremeta__source_name","ACLT_untreated_t7","INJS6",1
+"coremeta__time_raw","CON_t0","0",6
+"coremeta__time_raw","ACLT_untreated_t28","28",6
+"coremeta__time_raw","ACLT_untreated_t7","7",6
+"coremeta__time_unit_raw","ACLT_untreated_t28","month",6
+"coremeta__time_unit_raw","ACLT_untreated_t7","month",6
+"coremeta__time_unit_raw","CON_t0","month",6
+"coremeta__treatment_label","CON_t0","control",6
+"coremeta__treatment_label","ACLT_untreated_t28","untreated",6
+"coremeta__treatment_label","ACLT_untreated_t7","untreated",6
+"injury_label","ACLT_untreated_t28","ACLT",6
+"injury_label","ACLT_untreated_t7","ACLT",6
+"injury_label","CON_t0","control",6
+"injury_raw","ACLT_untreated_t28","anterior cruciate ligament transection surgery",6
+"injury_raw","ACLT_untreated_t7","anterior cruciate ligament transection surgery",6
+"injury_raw","CON_t0",NA,6
+"manifest__age","ACLT_untreated_t28","15.3",1
+"manifest__age","ACLT_untreated_t7","16",1
+"manifest__age","CON_t0","16.1",1
+"manifest__age","CON_t0","16.4",1
+"manifest__age","ACLT_untreated_t28","16.9",1
+"manifest__age","ACLT_untreated_t28","17.1",1
+"manifest__age","CON_t0","17.1",1
+"manifest__age","ACLT_untreated_t7","17.3",1
+"manifest__age","ACLT_untreated_t28","17.4",1
+"manifest__age","ACLT_untreated_t28","17.7",1
+"manifest__age","CON_t0","17.8",1
+"manifest__age","ACLT_untreated_t7","17.9",1
+"manifest__age","CON_t0","18",1
+"manifest__age","ACLT_untreated_t7","18.1",1
+"manifest__age","ACLT_untreated_t28","18.2",1
+"manifest__age","CON_t0","18.4",1
+"manifest__age","ACLT_untreated_t7","18.7",1
+"manifest__age","ACLT_untreated_t7","19.2",1
+"manifest__core_group","ACLT_untreated_t28","ACLT_untreated_t28",6
+"manifest__core_group","ACLT_untreated_t7","ACLT_untreated_t7",6
+"manifest__core_group","CON_t0","CON_t0",6
+"manifest__sex","ACLT_untreated_t28","female",3
+"manifest__sex","ACLT_untreated_t7","female",3
+"manifest__sex","CON_t0","female",3
+"manifest__sex","ACLT_untreated_t28","male",3
+"manifest__sex","ACLT_untreated_t7","male",3
+"manifest__sex","CON_t0","male",3
+"organism_part","ACLT_untreated_t28","synovial membrane",6
+"organism_part","ACLT_untreated_t7","synovial membrane",6
+"organism_part","CON_t0","synovial membrane",6
+"samplelevel__Characteristics[age]","ACLT_untreated_t28","15.3",1
+"samplelevel__Characteristics[age]","ACLT_untreated_t7","16",1
+"samplelevel__Characteristics[age]","CON_t0","16.1",1
+"samplelevel__Characteristics[age]","CON_t0","16.4",1
+"samplelevel__Characteristics[age]","ACLT_untreated_t28","16.9",1
+"samplelevel__Characteristics[age]","ACLT_untreated_t28","17.1",1
+"samplelevel__Characteristics[age]","CON_t0","17.1",1
+"samplelevel__Characteristics[age]","ACLT_untreated_t7","17.3",1
+"samplelevel__Characteristics[age]","ACLT_untreated_t28","17.4",1
+"samplelevel__Characteristics[age]","ACLT_untreated_t28","17.7",1
+"samplelevel__Characteristics[age]","CON_t0","17.8",1
+"samplelevel__Characteristics[age]","ACLT_untreated_t7","17.9",1
+"samplelevel__Characteristics[age]","CON_t0","18",1
+"samplelevel__Characteristics[age]","ACLT_untreated_t7","18.1",1
+"samplelevel__Characteristics[age]","ACLT_untreated_t28","18.2",1
+"samplelevel__Characteristics[age]","CON_t0","18.4",1
+"samplelevel__Characteristics[age]","ACLT_untreated_t7","18.7",1
+"samplelevel__Characteristics[age]","ACLT_untreated_t7","19.2",1
+"samplelevel__Characteristics[injury]","ACLT_untreated_t28","anterior cruciate ligament transection surgery",6
+"samplelevel__Characteristics[injury]","ACLT_untreated_t7","anterior cruciate ligament transection surgery",6
+"samplelevel__Characteristics[injury]","CON_t0",NA,6
+"samplelevel__Characteristics[organism part]","ACLT_untreated_t28","synovial membrane",6
+"samplelevel__Characteristics[organism part]","ACLT_untreated_t7","synovial membrane",6
+"samplelevel__Characteristics[organism part]","CON_t0","synovial membrane",6
+"samplelevel__Characteristics[sampling site]","ACLT_untreated_t28","perimeniscal medial femorotibial joint",6
+"samplelevel__Characteristics[sampling site]","ACLT_untreated_t7","perimeniscal medial femorotibial joint",6
+"samplelevel__Characteristics[sampling site]","CON_t0","perimeniscal medial femorotibial joint",6
+"samplelevel__Characteristics[sex]","ACLT_untreated_t28","female",3
+"samplelevel__Characteristics[sex]","ACLT_untreated_t7","female",3
+"samplelevel__Characteristics[sex]","CON_t0","female",3
+"samplelevel__Characteristics[sex]","ACLT_untreated_t28","male",3
+"samplelevel__Characteristics[sex]","ACLT_untreated_t7","male",3
+"samplelevel__Characteristics[sex]","CON_t0","male",3
+"samplelevel__Characteristics[treatment]","ACLT_untreated_t28",NA,6
+"samplelevel__Characteristics[treatment]","ACLT_untreated_t7",NA,6
+"samplelevel__Characteristics[treatment]","CON_t0",NA,6
+"samplelevel__Factor Value[injury]","ACLT_untreated_t28","anterior cruciate ligament transection surgery",6
+"samplelevel__Factor Value[injury]","ACLT_untreated_t7","anterior cruciate ligament transection surgery",6
+"samplelevel__Factor Value[injury]","CON_t0",NA,6
+"samplelevel__Factor Value[time]","CON_t0","0",6
+"samplelevel__Factor Value[time]","ACLT_untreated_t28","28",6
+"samplelevel__Factor Value[time]","ACLT_untreated_t7","7",6
+"samplelevel__Factor Value[treatment]","ACLT_untreated_t28",NA,6
+"samplelevel__Factor Value[treatment]","ACLT_untreated_t7",NA,6
+"samplelevel__Factor Value[treatment]","CON_t0",NA,6
+"samplelevel__Source Name","CON_t0","CON1",1
+"samplelevel__Source Name","CON_t0","CON2",1
+"samplelevel__Source Name","CON_t0","CON3",1
+"samplelevel__Source Name","CON_t0","CON4",1
+"samplelevel__Source Name","CON_t0","CON5",1
+"samplelevel__Source Name","CON_t0","CON6",1
+"samplelevel__Source Name","ACLT_untreated_t28","INJL1",1
+"samplelevel__Source Name","ACLT_untreated_t28","INJL2",1
+"samplelevel__Source Name","ACLT_untreated_t28","INJL3",1
+"samplelevel__Source Name","ACLT_untreated_t28","INJL4",1
+"samplelevel__Source Name","ACLT_untreated_t28","INJL5",1
+"samplelevel__Source Name","ACLT_untreated_t28","INJL6",1
+"samplelevel__Source Name","ACLT_untreated_t7","INJS1",1
+"samplelevel__Source Name","ACLT_untreated_t7","INJS2",1
+"samplelevel__Source Name","ACLT_untreated_t7","INJS3",1
+"samplelevel__Source Name","ACLT_untreated_t7","INJS4",1
+"samplelevel__Source Name","ACLT_untreated_t7","INJS5",1
+"samplelevel__Source Name","ACLT_untreated_t7","INJS6",1
+"samplelevel__Unit[time unit]","ACLT_untreated_t28","month",6
+"samplelevel__Unit[time unit]","ACLT_untreated_t7","month",6
+"samplelevel__Unit[time unit]","CON_t0","month",6
+"sampling_site","ACLT_untreated_t28","perimeniscal medial femorotibial joint",6
+"sampling_site","ACLT_untreated_t7","perimeniscal medial femorotibial joint",6
+"sampling_site","CON_t0","perimeniscal medial femorotibial joint",6
+"sdrf__Characteristics[age]","ACLT_untreated_t28","15.3",1
+"sdrf__Characteristics[age]","ACLT_untreated_t7","16",1
+"sdrf__Characteristics[age]","CON_t0","16.1",1
+"sdrf__Characteristics[age]","CON_t0","16.4",1
+"sdrf__Characteristics[age]","ACLT_untreated_t28","16.9",1
+"sdrf__Characteristics[age]","ACLT_untreated_t28","17.1",1
+"sdrf__Characteristics[age]","CON_t0","17.1",1
+"sdrf__Characteristics[age]","ACLT_untreated_t7","17.3",1
+"sdrf__Characteristics[age]","ACLT_untreated_t28","17.4",1
+"sdrf__Characteristics[age]","ACLT_untreated_t28","17.7",1
+"sdrf__Characteristics[age]","CON_t0","17.8",1
+"sdrf__Characteristics[age]","ACLT_untreated_t7","17.9",1
+"sdrf__Characteristics[age]","CON_t0","18",1
+"sdrf__Characteristics[age]","ACLT_untreated_t7","18.1",1
+"sdrf__Characteristics[age]","ACLT_untreated_t28","18.2",1
+"sdrf__Characteristics[age]","CON_t0","18.4",1
+"sdrf__Characteristics[age]","ACLT_untreated_t7","18.7",1
+"sdrf__Characteristics[age]","ACLT_untreated_t7","19.2",1
+"sdrf__Characteristics[injury]","ACLT_untreated_t28","anterior cruciate ligament transection surgery",6
+"sdrf__Characteristics[injury]","ACLT_untreated_t7","anterior cruciate ligament transection surgery",6
+"sdrf__Characteristics[injury]","CON_t0",NA,6
+"sdrf__Characteristics[organism part]","ACLT_untreated_t28","synovial membrane",6
+"sdrf__Characteristics[organism part]","ACLT_untreated_t7","synovial membrane",6
+"sdrf__Characteristics[organism part]","CON_t0","synovial membrane",6
+"sdrf__Characteristics[organism]","ACLT_untreated_t28","Sus scrofa",6
+"sdrf__Characteristics[organism]","ACLT_untreated_t7","Sus scrofa",6
+"sdrf__Characteristics[organism]","CON_t0","Sus scrofa",6
+"sdrf__Characteristics[sampling site]","ACLT_untreated_t28","perimeniscal medial femorotibial joint",6
+"sdrf__Characteristics[sampling site]","ACLT_untreated_t7","perimeniscal medial femorotibial joint",6
+"sdrf__Characteristics[sampling site]","CON_t0","perimeniscal medial femorotibial joint",6
+"sdrf__Characteristics[sex]","ACLT_untreated_t28","female",3
+"sdrf__Characteristics[sex]","ACLT_untreated_t7","female",3
+"sdrf__Characteristics[sex]","CON_t0","female",3
+"sdrf__Characteristics[sex]","ACLT_untreated_t28","male",3
+"sdrf__Characteristics[sex]","ACLT_untreated_t7","male",3
+"sdrf__Characteristics[sex]","CON_t0","male",3
+"sdrf__Characteristics[treatment]","ACLT_untreated_t28",NA,6
+"sdrf__Characteristics[treatment]","ACLT_untreated_t7",NA,6
+"sdrf__Characteristics[treatment]","CON_t0",NA,6
+"sdrf__Factor Value[injury]","ACLT_untreated_t28","anterior cruciate ligament transection surgery",6
+"sdrf__Factor Value[injury]","ACLT_untreated_t7","anterior cruciate ligament transection surgery",6
+"sdrf__Factor Value[injury]","CON_t0",NA,6
+"sdrf__Factor Value[time]","CON_t0","0",6
+"sdrf__Factor Value[time]","ACLT_untreated_t28","28",6
+"sdrf__Factor Value[time]","ACLT_untreated_t7","7",6
+"sdrf__Factor Value[treatment]","ACLT_untreated_t28",NA,6
+"sdrf__Factor Value[treatment]","ACLT_untreated_t7",NA,6
+"sdrf__Factor Value[treatment]","CON_t0",NA,6
+"sdrf__Source Name","CON_t0","CON1",1
+"sdrf__Source Name","CON_t0","CON2",1
+"sdrf__Source Name","CON_t0","CON3",1
+"sdrf__Source Name","CON_t0","CON4",1
+"sdrf__Source Name","CON_t0","CON5",1
+"sdrf__Source Name","CON_t0","CON6",1
+"sdrf__Source Name","ACLT_untreated_t28","INJL1",1
+"sdrf__Source Name","ACLT_untreated_t28","INJL2",1
+"sdrf__Source Name","ACLT_untreated_t28","INJL3",1
+"sdrf__Source Name","ACLT_untreated_t28","INJL4",1
+"sdrf__Source Name","ACLT_untreated_t28","INJL5",1
+"sdrf__Source Name","ACLT_untreated_t28","INJL6",1
+"sdrf__Source Name","ACLT_untreated_t7","INJS1",1
+"sdrf__Source Name","ACLT_untreated_t7","INJS2",1
+"sdrf__Source Name","ACLT_untreated_t7","INJS3",1
+"sdrf__Source Name","ACLT_untreated_t7","INJS4",1
+"sdrf__Source Name","ACLT_untreated_t7","INJS5",1
+"sdrf__Source Name","ACLT_untreated_t7","INJS6",1
+"sdrf__Unit[time unit]","ACLT_untreated_t28","month",6
+"sdrf__Unit[time unit]","ACLT_untreated_t7","month",6
+"sdrf__Unit[time unit]","CON_t0","month",6
+"sdrf__Unit[time unit].1","ACLT_untreated_t28","day",6
+"sdrf__Unit[time unit].1","ACLT_untreated_t7","day",6
+"sdrf__Unit[time unit].1","CON_t0","day",6
+"sex","ACLT_untreated_t28","female",3
+"sex","ACLT_untreated_t7","female",3
+"sex","CON_t0","female",3
+"sex","ACLT_untreated_t28","male",3
+"sex","ACLT_untreated_t7","male",3
+"sex","CON_t0","male",3
+"source_name","CON_t0","CON1",1
+"source_name","CON_t0","CON2",1
+"source_name","CON_t0","CON3",1
+"source_name","CON_t0","CON4",1
+"source_name","CON_t0","CON5",1
+"source_name","CON_t0","CON6",1
+"source_name","ACLT_untreated_t28","INJL1",1
+"source_name","ACLT_untreated_t28","INJL2",1
+"source_name","ACLT_untreated_t28","INJL3",1
+"source_name","ACLT_untreated_t28","INJL4",1
+"source_name","ACLT_untreated_t28","INJL5",1
+"source_name","ACLT_untreated_t28","INJL6",1
+"source_name","ACLT_untreated_t7","INJS1",1
+"source_name","ACLT_untreated_t7","INJS2",1
+"source_name","ACLT_untreated_t7","INJS3",1
+"source_name","ACLT_untreated_t7","INJS4",1
+"source_name","ACLT_untreated_t7","INJS5",1
+"source_name","ACLT_untreated_t7","INJS6",1
+"study_group_raw","ACLT_untreated_t28","ACLT__untreated__t28",6
+"study_group_raw","ACLT_untreated_t7","ACLT__untreated__t7",6
+"study_group_raw","CON_t0","control__control__t0",6
+"time_raw","CON_t0","0",6
+"time_raw","ACLT_untreated_t28","28",6
+"time_raw","ACLT_untreated_t7","7",6
+"time_unit_raw","ACLT_untreated_t28","month",6
+"time_unit_raw","ACLT_untreated_t7","month",6
+"time_unit_raw","CON_t0","month",6
+"treatment_label","CON_t0","control",6
+"treatment_label","ACLT_untreated_t28","untreated",6
+"treatment_label","ACLT_untreated_t7","untreated",6
+"treatment_raw","ACLT_untreated_t28",NA,6
+"treatment_raw","ACLT_untreated_t7",NA,6
+"treatment_raw","CON_t0",NA,6

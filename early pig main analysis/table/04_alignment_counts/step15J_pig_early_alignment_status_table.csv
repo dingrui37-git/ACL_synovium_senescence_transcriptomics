@@ -1,0 +1,19 @@
+"sample_id","core_group","bam_exists","bam_size_mb","completed","run_attempts","last_attempt_time","last_success_time","last_error_message"
+"CON1","CON_t0",TRUE,1718.227,TRUE,1,"2026-04-25 16:19:42","2026-04-25 16:19:42",NA
+"CON2","CON_t0",FALSE,NA,FALSE,0,NA,NA,NA
+"CON3","CON_t0",FALSE,NA,FALSE,0,NA,NA,NA
+"CON4","CON_t0",FALSE,NA,FALSE,0,NA,NA,NA
+"CON5","CON_t0",FALSE,NA,FALSE,0,NA,NA,NA
+"CON6","CON_t0",FALSE,NA,FALSE,0,NA,NA,NA
+"INJS1","ACLT_untreated_t7",FALSE,NA,FALSE,0,NA,NA,NA
+"INJS2","ACLT_untreated_t7",FALSE,NA,FALSE,0,NA,NA,NA
+"INJS3","ACLT_untreated_t7",FALSE,NA,FALSE,0,NA,NA,NA
+"INJS4","ACLT_untreated_t7",FALSE,NA,FALSE,0,NA,NA,NA
+"INJS5","ACLT_untreated_t7",FALSE,NA,FALSE,0,NA,NA,NA
+"INJS6","ACLT_untreated_t7",FALSE,NA,FALSE,0,NA,NA,NA
+"INJL1","ACLT_untreated_t28",FALSE,NA,FALSE,0,NA,NA,NA
+"INJL2","ACLT_untreated_t28",FALSE,NA,FALSE,0,NA,NA,NA
+"INJL3","ACLT_untreated_t28",FALSE,NA,FALSE,0,NA,NA,NA
+"INJL4","ACLT_untreated_t28",FALSE,NA,FALSE,0,NA,NA,NA
+"INJL5","ACLT_untreated_t28",FALSE,NA,FALSE,0,NA,NA,NA
+"INJL6","ACLT_untreated_t28",FALSE,NA,FALSE,0,NA,NA,NA

@@ -1,0 +1,27 @@
+"column","is_numeric","overlap_with_full_logcpm_gene_ids","standardized_direction_nonNA"
+"ortholog_name",FALSE,0,0
+"input",FALSE,0,0
+"input_number",TRUE,0,0
+"input_ensg",FALSE,0,0
+"ensg_number",FALSE,0,0
+"ortholog_ensg",FALSE,0,0
+"description",FALSE,0,7
+"n_human_orthologs",TRUE,0,0
+"n_mouse_inputs",TRUE,0,0
+"Entrez ID",TRUE,0,0
+"Gene symbol",FALSE,0,0
+"Gene name",FALSE,0,7
+"Cancer Cell",FALSE,0,0
+"Type of senescence",FALSE,0,30
+"Senescence Effect",FALSE,0,27
+"Reference",TRUE,0,0
+"human_gene",FALSE,0,0
+"mouse_symbol",FALSE,0,0
+"signature_direction",FALSE,0,75
+"pig_ensg",FALSE,75,0
+"pig_symbol",FALSE,1,0
+"n_pig_orthologs",TRUE,0,0
+"n_human_inputs",TRUE,0,0
+"mapped_to_pig_strict_1to1",FALSE,0,0
+"present_in_step16_counts",FALSE,0,0
+"included_in_current78_pig_signature",FALSE,0,0

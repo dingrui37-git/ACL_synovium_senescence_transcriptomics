@@ -1,0 +1,4 @@
+"comparison","main_score_column","singscore_column","spearman_rho","n_samples"
+"main_zscore_directional_score_vs_directional_singscore","directional_score","directional_singscore",0.653250773993808,18
+"main_zscore_up_score_vs_up_singscore","up_score","up_singscore",0.898864809081527,18
+"main_zscore_down_reoriented_score_vs_down_reoriented_singscore","down_score_reoriented","down_reoriented_singscore",0.73374613003096,18

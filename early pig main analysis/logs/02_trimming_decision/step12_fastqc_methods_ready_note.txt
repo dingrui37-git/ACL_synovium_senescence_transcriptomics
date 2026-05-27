@@ -1,0 +1,5 @@
+Pig early raw-read quality control note (methods-ready draft):
+
+Raw FASTQ quality was assessed using FastQC on all 36 paired-end files from the 18 retained pig early core samples. Across these files, Adapter Content, Per base sequence quality, and Per sequence quality scores were PASS in all cases, providing no strong evidence for widespread adapter contamination or low-quality tailing that would mandate an additional trimming step. 
+Warnings/failures were observed mainly in modules such as Per base sequence content, Sequence Duplication Levels, Overrepresented sequences, and Per tile sequence quality, which can reflect library composition, expression structure, or lane-/tile-related characteristics rather than problems directly resolved by routine adapter/quality trimming. 
+Accordingly, the pig early analysis proceeded without a separate trimming step, while retaining the FastQC reports and structured summary tables as raw-read QC evidence for transparency and reproducibility.

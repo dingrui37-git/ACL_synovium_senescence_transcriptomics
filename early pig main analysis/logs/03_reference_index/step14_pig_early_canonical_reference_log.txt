@@ -1,0 +1,6 @@
+Step 14 completed: canonicalized pig-early reference choice and index reuse decision.
+Canonical FASTA: reference/Sus_scrofa_Ensembl115/Sus_scrofa.Sscrofa11.1.dna.toplevel.fa.gz
+Canonical GTF: reference/Sus_scrofa_Ensembl115/Sus_scrofa.Sscrofa11.1.115.gtf.gz
+Canonical index basename: reference/Sus_scrofa_Ensembl115/Rsubread_index/Sus_scrofa_Sscrofa11.1_gapped
+Index bundle file count: 6
+Reuse existing index: TRUE

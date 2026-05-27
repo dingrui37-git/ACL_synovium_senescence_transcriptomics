@@ -1,0 +1,24 @@
+Step 15K batch auto-continue run finished.
+Project root: E:/R/ACLsenescence2
+BAM dir: E:/R/ACLsenescence2/rebuild_submission/02_pig_early/bam/step15J_rsubread_align
+Completed total: 18
+Remaining total: 0
+Batch elapsed minutes: 423.135
+----- per-sample run log -----
+CON2 | SUCCESS | 23.289 min | BAM 1376.152 MB
+CON3 | SUCCESS | 35.613 min | BAM 2085.668 MB
+CON4 | SUCCESS | 32.924 min | BAM 2138.592 MB
+CON5 | SUCCESS | 43.421 min | BAM 2844.898 MB
+CON6 | SUCCESS | 21.568 min | BAM 1702.829 MB
+INJS1 | SUCCESS | 27.071 min | BAM 2156.582 MB
+INJS2 | SUCCESS | 27.79 min | BAM 1950.573 MB
+INJS3 | SUCCESS | 28.453 min | BAM 1803.827 MB
+INJS4 | SUCCESS | 18.226 min | BAM 1403.147 MB
+INJS5 | SUCCESS | 22.864 min | BAM 1889.334 MB
+INJS6 | SUCCESS | 14.625 min | BAM 1091.429 MB
+INJL1 | SUCCESS | 21.042 min | BAM 1591.696 MB
+INJL2 | SUCCESS | 18.066 min | BAM 1501.777 MB
+INJL3 | SUCCESS | 22.407 min | BAM 1828.455 MB
+INJL4 | SUCCESS | 26.2 min | BAM 1973.864 MB
+INJL5 | SUCCESS | 21.741 min | BAM 1775.022 MB
+INJL6 | SUCCESS | 17.722 min | BAM 1501.593 MB

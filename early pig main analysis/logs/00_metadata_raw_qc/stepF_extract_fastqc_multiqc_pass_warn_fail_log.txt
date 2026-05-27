@@ -1,0 +1,12 @@
+2026-04-27 20:32:01 | Step F started. 
+2026-04-27 20:32:01 | project_root = E:/R/ACLsenescence2 
+2026-04-27 20:32:01 | fastqc_dir = E:/R/ACLsenescence2/rebuild_submission/02_pig_early/qc/fastqc_raw 
+2026-04-27 20:32:01 | multiqc_dir = E:/R/ACLsenescence2/rebuild_submission/02_pig_early/qc/multiqc_raw 
+2026-04-27 20:32:01 | n_fastqc_zip = 36 
+2026-04-27 20:32:01 | n_fastqc_html = 36 
+2026-04-27 20:32:02 | Long table saved: E:/R/ACLsenescence2/rebuild_submission/02_pig_early/tables/stepF_fastqc_module_status_long.csv 
+2026-04-27 20:32:02 | Wide table saved: E:/R/ACLsenescence2/rebuild_submission/02_pig_early/tables/stepF_fastqc_module_status_wide.csv 
+2026-04-27 20:32:02 | Module summary saved: E:/R/ACLsenescence2/rebuild_submission/02_pig_early/tables/stepF_fastqc_module_status_summary.csv 
+2026-04-27 20:32:02 | File summary saved: E:/R/ACLsenescence2/rebuild_submission/02_pig_early/tables/stepF_fastqc_file_status_summary.csv 
+2026-04-27 20:32:02 | Summary saved: E:/R/ACLsenescence2/rebuild_submission/02_pig_early/tables/stepF_fastqc_multiqc_pass_warn_fail_summary.csv 
+2026-04-27 20:32:02 | Step F finished successfully. 

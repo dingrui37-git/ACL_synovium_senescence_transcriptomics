@@ -1,0 +1,6 @@
+Step 09 completed: froze pig early core FASTQ inputs for rebuild.
+Manifest file: D:/R/ACL ∩ senescence2/data_raw/E-MTAB-6664/E-MTAB-6664_core_validation_manifest_wide.csv
+Detected sample_id column: sample_id
+Core samples: 18
+Complete FASTQ pairs: 18
+Incomplete FASTQ pairs: 0

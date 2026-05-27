@@ -1,0 +1,51 @@
+2026-04-27 19:40:37 | Step E started. 
+2026-04-27 19:40:37 | project_root = E:/R/ACLsenescence2 
+2026-04-27 19:40:37 | raw_dir = E:/R/ACLsenescence2/data_raw/E-MTAB-6664 
+2026-04-27 19:40:37 | FASTQC_BAT exists = TRUE 
+2026-04-27 19:40:37 | CONDA_EXE exists = TRUE 
+2026-04-27 19:40:37 | FASTQ inventory saved: E:/R/ACLsenescence2/rebuild_submission/02_pig_early/tables/stepE_pig_early_fastq_inventory.csv 
+2026-04-27 19:40:37 | Pair check saved: E:/R/ACLsenescence2/rebuild_submission/02_pig_early/tables/stepE_pig_early_fastq_pair_check.csv 
+2026-04-27 19:40:37 | Removed old FastQC outputs: 2 
+2026-04-27 19:40:37 | FastQC [1/36] : CON1_R1.fastq.gz 
+2026-04-27 19:41:31 | FastQC [2/36] : CON1_R2.fastq.gz 
+2026-04-27 19:42:21 | FastQC [3/36] : CON2_R1.fastq.gz 
+2026-04-27 19:43:00 | FastQC [4/36] : CON2_R2.fastq.gz 
+2026-04-27 19:43:41 | FastQC [5/36] : CON3_R1.fastq.gz 
+2026-04-27 19:44:43 | FastQC [6/36] : CON3_R2.fastq.gz 
+2026-04-27 19:45:48 | FastQC [7/36] : CON4_R1.fastq.gz 
+2026-04-27 19:46:52 | FastQC [8/36] : CON4_R2.fastq.gz 
+2026-04-27 19:47:58 | FastQC [9/36] : CON5_R1.fastq.gz 
+2026-04-27 19:49:18 | FastQC [10/36] : CON5_R2.fastq.gz 
+2026-04-27 19:50:40 | FastQC [11/36] : CON6_R1.fastq.gz 
+2026-04-27 19:51:25 | FastQC [12/36] : CON6_R2.fastq.gz 
+2026-04-27 19:52:12 | FastQC [13/36] : INJS1_R1.fastq.gz 
+2026-04-27 19:53:11 | FastQC [14/36] : INJS1_R2.fastq.gz 
+2026-04-27 19:54:11 | FastQC [15/36] : INJS2_R1.fastq.gz 
+2026-04-27 19:55:05 | FastQC [16/36] : INJS2_R2.fastq.gz 
+2026-04-27 19:56:02 | FastQC [17/36] : INJS3_R1.fastq.gz 
+2026-04-27 19:56:50 | FastQC [18/36] : INJS3_R2.fastq.gz 
+2026-04-27 19:57:38 | FastQC [19/36] : INJS4_R1.fastq.gz 
+2026-04-27 19:58:21 | FastQC [20/36] : INJS4_R2.fastq.gz 
+2026-04-27 19:59:01 | FastQC [21/36] : INJS5_R1.fastq.gz 
+2026-04-27 19:59:58 | FastQC [22/36] : INJS5_R2.fastq.gz 
+2026-04-27 20:00:52 | FastQC [23/36] : INJS6_R1.fastq.gz 
+2026-04-27 20:01:26 | FastQC [24/36] : INJS6_R2.fastq.gz 
+2026-04-27 20:01:59 | FastQC [25/36] : INJL1_R1.fastq.gz 
+2026-04-27 20:02:47 | FastQC [26/36] : INJL1_R2.fastq.gz 
+2026-04-27 20:03:34 | FastQC [27/36] : INJL2_R1.fastq.gz 
+2026-04-27 20:04:16 | FastQC [28/36] : INJL2_R2.fastq.gz 
+2026-04-27 20:04:57 | FastQC [29/36] : INJL3_R1.fastq.gz 
+2026-04-27 20:05:48 | FastQC [30/36] : INJL3_R2.fastq.gz 
+2026-04-27 20:06:40 | FastQC [31/36] : INJL4_R1.fastq.gz 
+2026-04-27 20:07:38 | FastQC [32/36] : INJL4_R2.fastq.gz 
+2026-04-27 20:08:38 | FastQC [33/36] : INJL5_R1.fastq.gz 
+2026-04-27 20:09:30 | FastQC [34/36] : INJL5_R2.fastq.gz 
+2026-04-27 20:10:22 | FastQC [35/36] : INJL6_R1.fastq.gz 
+2026-04-27 20:11:04 | FastQC [36/36] : INJL6_R2.fastq.gz 
+2026-04-27 20:11:46 | FastQC detail saved: E:/R/ACLsenescence2/rebuild_submission/02_pig_early/tables/stepE_pig_early_fastqc_detail.csv 
+2026-04-27 20:11:46 | FastQC output inventory saved: E:/R/ACLsenescence2/rebuild_submission/02_pig_early/tables/stepE_pig_early_fastqc_output_inventory.csv 
+2026-04-27 20:11:46 | Running MultiQC by conda run... 
+2026-04-27 20:12:07 | MultiQC output inventory saved: E:/R/ACLsenescence2/rebuild_submission/02_pig_early/tables/stepE_pig_early_multiqc_output_inventory.csv 
+2026-04-27 20:12:08 | Summary saved: E:/R/ACLsenescence2/rebuild_submission/02_pig_early/tables/stepE_pig_early_fastqc_multiqc_summary.csv 
+2026-04-27 20:12:08 | Workspace saved. 
+2026-04-27 20:12:08 | Step E finished successfully. 

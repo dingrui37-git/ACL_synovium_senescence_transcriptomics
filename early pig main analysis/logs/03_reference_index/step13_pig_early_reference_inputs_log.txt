@@ -1,0 +1,7 @@
+Step 13 completed: froze pig-early alignment/counting reference inputs.
+FASTA candidates found: 1
+GTF candidates found: 2
+Subread index candidates found: 1
+Selected FASTA: reference/Sus_scrofa_Ensembl115/Sus_scrofa.Sscrofa11.1.dna.toplevel.fa.gz
+Selected GTF: Final_submit/Figure5/Sus_scrofa.Sscrofa11.1.115.gtf.gz
+Selected Subread index basename: reference/Sus_scrofa_Ensembl115/Rsubread_index/Sus_scrofa_Sscrofa11.1_gapped

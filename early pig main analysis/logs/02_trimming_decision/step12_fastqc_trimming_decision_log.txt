@@ -1,0 +1,5 @@
+Step 12 completed: formalized FastQC-based trimming decision.
+Recommended branch: no_trimming
+Adapter warn/fail: 0
+Per base quality warn/fail: 0
+Per sequence quality warn/fail: 0

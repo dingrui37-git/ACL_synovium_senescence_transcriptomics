@@ -1,0 +1,148 @@
+============================================================
+StepALNQC_01_pig_early_alignment_level_QC 
+Started at: 2026-05-10 14:34:05 
+Method version: 2026-05-10_output_to_02_pig_early_supplement_alignment_level_QC 
+============================================================
+
+Cleaning previous StepALNQC_01 outputs from output_root subfolders...
+Number of previous StepALNQC_01 files removed: 0 
+
+Required packages loaded.
+dplyr version: 1.1.4 
+
+Input BAM directory:
+E:/R/ACLsenescence2/rebuild_submission/02_pig_early/bam/step15J_rsubread_align 
+
+Output root:
+E:/R/ACLsenescence2/rebuild_submission/02_pig_early/supplement/alignment_level_QC 
+
+Expected 18 core samples:
+      sample_id   group time_point sample_number
+CON1       CON1 Control         t0             1
+CON2       CON2 Control         t0             2
+CON3       CON3 Control         t0             3
+CON4       CON4 Control         t0             4
+CON5       CON5 Control         t0             5
+CON6       CON6 Control         t0             6
+INJS1     INJS1 ACLT_1W         t7             1
+INJS2     INJS2 ACLT_1W         t7             2
+INJS3     INJS3 ACLT_1W         t7             3
+INJS4     INJS4 ACLT_1W         t7             4
+INJS5     INJS5 ACLT_1W         t7             5
+INJS6     INJS6 ACLT_1W         t7             6
+INJL1     INJL1 ACLT_4W        t28             1
+INJL2     INJL2 ACLT_4W        t28             2
+INJL3     INJL3 ACLT_4W        t28             3
+INJL4     INJL4 ACLT_4W        t28             4
+INJL5     INJL5 ACLT_4W        t28             5
+INJL6     INJL6 ACLT_4W        t28             6
+
+Group counts:
+
+Control ACLT_1W ACLT_4W 
+      6       6       6 
+
+File discovery summary:
+BAM files found: 18 
+BAM.summary files found: 18 
+BAM.indel.vcf files found but not used: 18 
+
+No extra BAM sample IDs outside the 18 core samples were detected.
+No extra BAM.summary sample IDs outside the 18 core samples were detected.
+
+Alignment-level QC table preview:
+ sample_id   group time_point bam_exists bam_size_mb bam_summary_exists total_fragments mapped_fragments unmapped_fragments mapping_rate_pct parse_status
+      CON1 Control         t0       TRUE    1718.227               TRUE        15323981         12597665            2726316           82.209         PASS
+      CON2 Control         t0       TRUE    1376.152               TRUE        11663160          9278449            2384711           79.553         PASS
+      CON3 Control         t0       TRUE    2085.668               TRUE        18546356         13992561            4553795           75.446         PASS
+      CON4 Control         t0       TRUE    2138.592               TRUE        19476871         16563961            2912910           85.044         PASS
+      CON5 Control         t0       TRUE    2844.898               TRUE        25325474         21110617            4214857           83.357         PASS
+      CON6 Control         t0       TRUE    1702.829               TRUE        13948648         12645532            1303116           90.658         PASS
+     INJS1 ACLT_1W         t7       TRUE    2156.582               TRUE        18282532         16444261            1838271           89.945         PASS
+     INJS2 ACLT_1W         t7       TRUE    1950.573               TRUE        17594194         15513728            2080466           88.175         PASS
+     INJS3 ACLT_1W         t7       TRUE    1803.827               TRUE        15479722         14442702            1037020           93.301         PASS
+     INJS4 ACLT_1W         t7       TRUE    1403.147               TRUE        11395236         10542180             853056           92.514         PASS
+     INJS5 ACLT_1W         t7       TRUE    1889.334               TRUE        15945383         14307936            1637447           89.731         PASS
+     INJS6 ACLT_1W         t7       TRUE    1091.429               TRUE         9714098          8869267             844831           91.303         PASS
+     INJL1 ACLT_4W        t28       TRUE    1591.696               TRUE        14071395         11878872            2192523           84.419         PASS
+     INJL2 ACLT_4W        t28       TRUE    1501.777               TRUE        12287052         11092135            1194917           90.275         PASS
+     INJL3 ACLT_4W        t28       TRUE    1828.455               TRUE        15410230         14240686            1169544           92.411         PASS
+     INJL4 ACLT_4W        t28       TRUE    1973.864               TRUE        17903438         15722520            2180918           87.818         PASS
+     INJL5 ACLT_4W        t28       TRUE    1775.022               TRUE        15491146         13779557            1711589           88.951         PASS
+     INJL6 ACLT_4W        t28       TRUE    1501.593               TRUE        12223978         11424608             799370           93.461         PASS
+
+Group-level alignment QC summary:
+# A tibble: 3 × 14
+  group   n_samples bam_exists_n bam_summary_exists_n parsed_pass_n mean_bam_size_mb min_bam_size_mb max_bam_size_mb mean_total_fragments mean_mapped_fragments mean_unmapped_fragments
+  <fct>       <int>        <int>                <int>         <int>            <dbl>           <dbl>           <dbl>                <dbl>                 <dbl>                   <dbl>
+1 Control         6            6                    6             6            1978.           1376.           2845.             17380748              14364798                 3015951
+2 ACLT_1W         6            6                    6             6            1716.           1091.           2157.             14735194              13353346                 1381848
+3 ACLT_4W         6            6                    6             6            1695.           1502.           1974.             14564540              13023063                 1541477
+# ℹ 3 more variables: mean_mapping_rate_pct <dbl>, min_mapping_rate_pct <dbl>, max_mapping_rate_pct <dbl>
+
+Final summary for review:
+                             metric                                                                             value
+                     method_version                   2026-05-10_output_to_02_pig_early_supplement_alignment_level_QC
+                      input_bam_dir    E:/R/ACLsenescence2/rebuild_submission/02_pig_early/bam/step15J_rsubread_align
+                        output_root E:/R/ACLsenescence2/rebuild_submission/02_pig_early/supplement/alignment_level_QC
+              expected_core_samples                                                                                18
+                bam_files_found_all                                                                                18
+        bam_summary_files_found_all                                                                                18
+             core_bam_files_present                                                                                18
+     core_bam_summary_files_present                                                                                18
+ core_bam_summary_files_parsed_PASS                                                                                18
+                   mean_bam_size_mb                                                                          1796.315
+                    min_bam_size_mb                                                                          1091.429
+                    max_bam_size_mb                                                                          2844.898
+               mean_total_fragments                                                                          15560161
+              mean_mapped_fragments                                                                          13580402
+            mean_unmapped_fragments                                                                           1979759
+              mean_mapping_rate_pct                                                                            87.698
+               min_mapping_rate_pct                                                                            75.446
+               max_mapping_rate_pct                                                                            93.461
+       failed_or_incomplete_samples                                                                              none
+
+Key output files:
+1) Supplementary Table S3-style QC table:
+E:/R/ACLsenescence2/rebuild_submission/02_pig_early/supplement/alignment_level_QC/tables/StepALNQC_01_Supplementary_Table_S3_alignment_level_QC.csv
+2) Full QC table with file paths:
+E:/R/ACLsenescence2/rebuild_submission/02_pig_early/supplement/alignment_level_QC/tables/StepALNQC_01_pig_early_alignment_level_QC_table.csv
+3) Group-level QC summary:
+E:/R/ACLsenescence2/rebuild_submission/02_pig_early/supplement/alignment_level_QC/tables/StepALNQC_01_group_alignment_level_QC_summary.csv
+4) Raw BAM.summary lines for audit:
+E:/R/ACLsenescence2/rebuild_submission/02_pig_early/supplement/alignment_level_QC/source_data/StepALNQC_01_raw_bam_summary_lines_for_audit.csv
+5) Method parameters:
+E:/R/ACLsenescence2/rebuild_submission/02_pig_early/supplement/alignment_level_QC/tables/StepALNQC_01_method_parameters.csv
+6) Methods text:
+E:/R/ACLsenescence2/rebuild_submission/02_pig_early/supplement/alignment_level_QC/tables/StepALNQC_01_methods_text_alignment_level_QC.txt
+7) Final summary table:
+E:/R/ACLsenescence2/rebuild_submission/02_pig_early/supplement/alignment_level_QC/tables/StepALNQC_01_final_summary_for_review.csv
+
+Session information:
+R version 4.5.2 (2025-10-31 ucrt)
+Platform: x86_64-w64-mingw32/x64
+Running under: Windows 10 x64 (build 19045)
+
+Matrix products: default
+  LAPACK version 3.12.1
+
+locale:
+[1] LC_COLLATE=Chinese (Simplified)_China.utf8  LC_CTYPE=Chinese (Simplified)_China.utf8    LC_MONETARY=Chinese (Simplified)_China.utf8 LC_NUMERIC=C                               
+[5] LC_TIME=Chinese (Simplified)_China.utf8    
+
+time zone: Europe/Berlin
+tzcode source: internal
+
+attached base packages:
+[1] stats     graphics  grDevices utils     datasets  methods   base     
+
+loaded via a namespace (and not attached):
+ [1] tidyselect_1.2.1 compiler_4.5.2   magrittr_2.0.4   R6_2.6.1         generics_0.1.4   cli_3.6.5        tools_4.5.2      pillar_1.11.1    glue_1.8.0       dplyr_1.1.4     
+[11] tibble_3.3.1     utf8_1.2.6       vctrs_0.7.2      lifecycle_1.0.5  pkgconfig_2.0.3  rlang_1.1.7     
+
+============================================================
+StepALNQC_01_pig_early_alignment_level_QC finished with status: SUCCESS 
+Finished at: 2026-05-10 14:34:08 
+Summary log saved to:
+E:/R/ACLsenescence2/rebuild_submission/02_pig_early/supplement/alignment_level_QC/logs/StepALNQC_01_pig_early_alignment_level_QC_summary_log.txt 
+============================================================

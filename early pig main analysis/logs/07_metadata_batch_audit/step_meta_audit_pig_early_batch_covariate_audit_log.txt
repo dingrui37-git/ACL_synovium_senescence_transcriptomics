@@ -1,0 +1,8 @@
+2026-05-15 14:13:41 | Input directory: E:/R/ACLsenescence2/rebuild_submission/raw data/E-MTAB-6664
+2026-05-15 14:13:41 | Output directory: E:/R/ACLsenescence2/rebuild_submission/02_pig_early/early pig metadata batch covariate audit
+2026-05-15 14:13:42 | Core samples audited: 18
+2026-05-15 14:13:42 | Core group distribution: ACLT_untreated_t28=6; ACLT_untreated_t7=6; CON_t0=6
+2026-05-15 14:13:42 | Batch-like fields detected: 24
+2026-05-15 14:13:42 | Modelable batch-like fields: NONE
+2026-05-15 14:13:42 | Main decision: No batch-like metadata field was consistently defined and suitable for stable inclusion in the core-18 group-based DE design matrix.
+2026-05-15 14:13:42 | Main output table: E:/R/ACLsenescence2/rebuild_submission/02_pig_early/early pig metadata batch covariate audit/tables/step_meta_audit_pig_early_batch_covariate_audit_modeling_decision_summary.csv

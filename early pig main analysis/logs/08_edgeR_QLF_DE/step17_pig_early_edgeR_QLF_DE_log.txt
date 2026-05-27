@@ -1,0 +1,9 @@
+Step 17 completed successfully.
+Project root: E:/R/ACLsenescence2
+Input count matrix: E:/R/ACLsenescence2/rebuild_submission/02_pig_early/tables/step16_pig_early_gene_count_matrix.csv
+GTF: E:/R/ACLsenescence2/reference/Sus_scrofa_Ensembl115/Sus_scrofa.Sscrofa11.1.115.gtf.gz
+Total genes in Step 16 count matrix: 35682
+Total samples: 18
+t7 genes after filter: 14233
+t28 genes after filter: 14002
+Elapsed minutes total: 0.141

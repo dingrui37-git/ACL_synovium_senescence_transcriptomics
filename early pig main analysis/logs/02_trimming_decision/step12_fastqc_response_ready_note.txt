@@ -1,0 +1,7 @@
+Pig early raw-read QC interpretation note (response-ready draft):
+
+To address the concern that the original workflow lacked raw-read-level QC evidence, we performed FastQC on all 36 FASTQ files corresponding to the 18 retained pig early core samples. 
+The key trimming-related modules showed uniformly acceptable results: Adapter Content = PASS in 36/36 files, Per base sequence quality = PASS in 36/36 files, and Per sequence quality scores = PASS in 36/36 files. 
+Therefore, the FastQC results did not support widespread adapter contamination or systematic low-quality tailing as major issues requiring mandatory preprocessing trimming. 
+Observed warnings/failures in modules such as Per base sequence content and Sequence Duplication Levels were interpreted with caution, as these modules are often influenced by RNA-seq library composition and expression structure and are not, by themselves, sufficient evidence that trimming is necessary. 
+On this basis, the pig early analysis was carried forward without an additional trimming step, and the full raw-read QC evidence was retained in the rebuilt submission structure.

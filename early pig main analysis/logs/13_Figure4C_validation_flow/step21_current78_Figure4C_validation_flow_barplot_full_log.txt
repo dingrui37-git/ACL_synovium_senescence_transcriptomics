@@ -1,0 +1,49 @@
+===== STEP21 CURRENT78 FIGURE4C VALIDATION FLOW BARPLOT =====
+Summary file: E:/R/ACLsenescence2/rebuild_submission/02_pig_early/tables/step18_current78_pig_early_signature_remap/step18_current78_pig_early_signature_remap_summary.csv
+gorth raw file: E:/R/ACLsenescence2/rebuild_submission/02_pig_early/tables/step18_current78_pig_early_signature_remap/step18_current78_human_to_pig_gorth_raw.csv
+Validation file: E:/R/ACLsenescence2/rebuild_submission/02_pig_early/tables/step18_current78_pig_early_signature_remap/step18_current78_pig_signature_validation_table.csv
+indexing step18_current78_pig_early_signature_remap_summary.csv [=================================================================================] 35.15MB/s, eta:  0s                                                                                                                                                                       indexing step18_current78_human_to_pig_gorth_raw.csv [===========================================================================================] 918.22MB/s, eta:  0s                                                                                                                                                                       indexing step18_current78_pig_signature_validation_table.csv [=====================================================================================] 1.52GB/s, eta:  0s                                                                                                                                                                       Saved: E:/R/ACLsenescence2/rebuild_submission/02_pig_early/tables/step21_current78_Figure4C_validation_flow_barplot/step21_current78_Figure4C_validation_flow_source_data.csv
+null device 
+          1 
+null device 
+          1 
+[1] TRUE
+[1] TRUE
+Saved: E:/R/ACLsenescence2/rebuild_submission/02_pig_early/tables/step21_current78_Figure4C_validation_flow_barplot/step21_current78_Figure4C_validation_flow_barplot_summary.csv
+
+===== STEP21 CURRENT78 FIGURE4C VALIDATION FLOW SUMMARY =====
+                                          metric
+1      current_human_CellAge_overlap_input_genes
+2               human_genes_with_raw_pig_mapping
+3  current_human_genes_strict_1to1_mapped_to_pig
+4           current_pig_signature_genes_detected
+5           direction_consistent_both_timepoints
+6                        core_strict_both_t7_t28
+7                                       plot_png
+8                                       plot_pdf
+9                             canonical_plot_png
+10                            canonical_plot_pdf
+11                                    output_dir
+                                                                                                                    value
+1                                                                                                                      78
+2                                                                                                                      78
+3                                                                                                                      75
+4                                                                                                                      75
+5                                                                                                                      47
+6                                                                                                                      24
+7  E:/R/ACLsenescence2/rebuild_submission/02_pig_early/figures/Figure4/Figure4C_current78_pig_validation_flow_barplot.png
+8  E:/R/ACLsenescence2/rebuild_submission/02_pig_early/figures/Figure4/Figure4C_current78_pig_validation_flow_barplot.pdf
+9            E:/R/ACLsenescence2/rebuild_submission/02_pig_early/figures/Figure4/Figure4C_pig_validation_flow_barplot.png
+10           E:/R/ACLsenescence2/rebuild_submission/02_pig_early/figures/Figure4/Figure4C_pig_validation_flow_barplot.pdf
+11           E:/R/ACLsenescence2/rebuild_submission/02_pig_early/tables/step21_current78_Figure4C_validation_flow_barplot
+
+Plot source data:
+  step_order                                                           category  n
+1          6   24 strict core ortholog genes\n(t7 + t28 + direction-consistent) 24
+2          5 47 direction-consistent in pig\n(t7 and t28 direction match mouse) 47
+3          4                               75 detected in pig expression matrix 75
+4          3                                        75 strict 1:1 pig orthologs 75
+5          2                                  78 human→pig raw ortholog mapping 78
+6          1                       78 human genes\n(mouse persistent ∩ CellAge) 78
+
+Step21 current78 Figure4C validation flow barplot completed successfully.

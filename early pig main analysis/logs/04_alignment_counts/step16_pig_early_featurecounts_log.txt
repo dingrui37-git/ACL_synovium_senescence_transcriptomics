@@ -1,0 +1,9 @@
+Step 16 v3 completed successfully.
+Project root: E:/R/ACLsenescence2
+BAM dir: E:/R/ACLsenescence2/rebuild_submission/02_pig_early/bam/step15J_rsubread_align
+GTF: E:/R/ACLsenescence2/reference/Sus_scrofa_Ensembl115/Sus_scrofa.Sscrofa11.1.115.gtf.gz
+n BAM input: 18
+n genes counted: 35682
+Elapsed minutes: 17.467
+Assigned row identified uniquely: TRUE
+Assigned row match count: 1

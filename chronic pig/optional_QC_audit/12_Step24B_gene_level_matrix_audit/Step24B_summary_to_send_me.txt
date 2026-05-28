@@ -1,0 +1,24 @@
+===== Step24B clean tximport gene-level matrix audit summary =====
+Run status: SUCCESS
+Overall matrix audit pass: TRUE
+Counts matrix: 22438 genes x 96 samples
+TPM abundance matrix: 22438 genes x 96 samples
+Effective-length matrix: 22438 genes x 96 samples
+Gene IDs identical counts vs abundance: TRUE
+Gene IDs identical counts vs length: TRUE
+Sample columns identical counts vs abundance: TRUE
+Sample columns identical counts vs length: TRUE
+Inferred synovium samples in 96-sample matrix: 48
+Inferred cartilage samples in 96-sample matrix: 48
+Max effective-length NA count per sample: 0
+Max effective-length nonpositive count per sample: 0
+Matrix samples matched to Step23 inventory by GSM: 96
+Representative tx2gene match rate after stripping version (%): 99.028
+
+Key output files:
+E:/R/ACLsenescence2/rebuild_submission/03_pig_chronic/supplement/Step24B_clean_tximport_gene_level_matrix_audit/tables/Step24B_final_summary_for_review.csv
+E:/R/ACLsenescence2/rebuild_submission/03_pig_chronic/supplement/Step24B_clean_tximport_gene_level_matrix_audit/tables/Step24B_formal_matrix_audit_checks.csv
+E:/R/ACLsenescence2/rebuild_submission/03_pig_chronic/supplement/Step24B_clean_tximport_gene_level_matrix_audit/tables/Step24B_gene_level_matrix_dimensions.csv
+E:/R/ACLsenescence2/rebuild_submission/03_pig_chronic/supplement/Step24B_clean_tximport_gene_level_matrix_audit/tables/Step24B_sample_column_consistency.csv
+E:/R/ACLsenescence2/rebuild_submission/03_pig_chronic/supplement/Step24B_clean_tximport_gene_level_matrix_audit/tables/Step24B_gene_level_matrix_sample_QC_summary.csv
+E:/R/ACLsenescence2/rebuild_submission/03_pig_chronic/supplement/Step24B_clean_tximport_gene_level_matrix_audit/tables/Step24B_methods_text_for_12_3_matrix_audit.txt

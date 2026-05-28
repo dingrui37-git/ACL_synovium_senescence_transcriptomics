@@ -1,0 +1,13 @@
+"check","pass"
+"counts_matrix_has_96_samples",TRUE
+"abundance_matrix_has_96_samples",TRUE
+"length_matrix_has_96_samples",TRUE
+"counts_vs_abundance_gene_ids_identical",TRUE
+"counts_vs_length_gene_ids_identical",TRUE
+"counts_vs_abundance_sample_columns_identical",TRUE
+"counts_vs_length_sample_columns_identical",TRUE
+"no_duplicate_gene_ids_in_counts",TRUE
+"tissue_counts_are_48_cartilage_48_synovium",TRUE
+"each_tissue_group_has_12_samples",TRUE
+"max_effective_length_NA_is_zero",TRUE
+"max_effective_length_nonpositive_is_zero",TRUE

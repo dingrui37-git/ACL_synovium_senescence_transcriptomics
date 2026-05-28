@@ -1,0 +1,13 @@
+"metric","value"
+"n_samples",96
+"mean_total_estimated_counts",13777276.9772604
+"min_total_estimated_counts",7108677.116
+"max_total_estimated_counts",21575315.985
+"mean_detected_genes_count_gt0",16476.5208333333
+"min_detected_genes_count_gt0",15555
+"max_detected_genes_count_gt0",17390
+"mean_gene_level_TPM_sum",986368.266305625
+"min_gene_level_TPM_sum",973187.293597
+"max_gene_level_TPM_sum",994784.80705
+"max_effective_length_NA_n",0
+"max_effective_length_nonpositive_n",0

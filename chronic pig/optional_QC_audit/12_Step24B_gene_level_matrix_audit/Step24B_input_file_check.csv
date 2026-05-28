@@ -1,0 +1,10 @@
+"label","path","exists"
+"counts_file","E:/R/ACLsenescence2/rebuild_submission/03_pig_chronic/tables/step24_pig_chronic_gene_level_estimated_counts_matrix.csv",TRUE
+"abundance_file","E:/R/ACLsenescence2/rebuild_submission/03_pig_chronic/tables/step24_pig_chronic_gene_level_abundance_tpm_matrix.csv",TRUE
+"effective_length_file","E:/R/ACLsenescence2/rebuild_submission/03_pig_chronic/tables/step24_pig_chronic_gene_level_length_matrix.csv",TRUE
+"gene_annotation_file","E:/R/ACLsenescence2/rebuild_submission/03_pig_chronic/tables/step24_pig_chronic_gene_annotation_from_gtf.csv",TRUE
+"tx2gene_file","E:/R/ACLsenescence2/rebuild_submission/03_pig_chronic/tables/step24_pig_chronic_tx2gene.csv",TRUE
+"tximport_run_summary_file","E:/R/ACLsenescence2/rebuild_submission/03_pig_chronic/tables/step24_pig_chronic_tximport_run_summary.csv",TRUE
+"optional_step23_quant_inventory","E:/R/ACLsenescence2/rebuild_submission/03_pig_chronic/tables/step23_pig_chronic_quant_file_inventory_FIXED.csv",TRUE
+"optional_step25v3_synovium_manifest","E:/R/ACLsenescence2/rebuild_submission/03_pig_chronic/tables/step25v3_pig_chronic_synovium_manifest.csv",TRUE
+"optional_step25v3_main_comparison_manifest","E:/R/ACLsenescence2/rebuild_submission/03_pig_chronic/tables/step25v3_pig_chronic_main_comparison_manifest.csv",TRUE

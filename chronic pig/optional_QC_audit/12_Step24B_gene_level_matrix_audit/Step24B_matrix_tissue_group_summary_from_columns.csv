@@ -1,0 +1,9 @@
+"tissue_inferred","group_inferred","n_samples"
+"cartilage","ACLT_alone_52W",12
+"synovium","ACLT_alone_52W",12
+"cartilage","Control_52W",12
+"synovium","Control_52W",12
+"cartilage","Reconstruction_52W",12
+"synovium","Reconstruction_52W",12
+"cartilage","Repair_52W",12
+"synovium","Repair_52W",12

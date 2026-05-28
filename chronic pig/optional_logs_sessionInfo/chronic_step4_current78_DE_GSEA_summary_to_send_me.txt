@@ -1,0 +1,105 @@
+===== Chronic Step4 current78 DE + full Hallmark GSEA SUMMARY TO SEND ME =====
+Run time: 2026-05-27 21:13:43
+
+Overall summary:
+                       metric                                                                                                                                                                          value
+                manifest_file                                                                 E:/R/ACLsenescence2/rebuild_submission/03_pig_chronic/tables/step25v3_pig_chronic_main_comparison_manifest.csv
+                   count_file                                                 E:/R/ACLsenescence2/rebuild_submission/03_pig_chronic/tables/step25v3_pig_chronic_main_comparison_gene_level_counts_matrix.csv
+                  length_file                                                 E:/R/ACLsenescence2/rebuild_submission/03_pig_chronic/tables/step25v3_pig_chronic_main_comparison_gene_level_length_matrix.csv
+                n_Control_52W                                                                                                                                                                             12
+             n_ACLT_alone_52W                                                                                                                                                                             12
+              genes_tested_DE                                                                                                                                                                          14403
+             strict_DEG_total                                                                                                                                                                            545
+                strict_DEG_up                                                                                                                                                                            316
+              strict_DEG_down                                                                                                                                                                            229
+            ranked_genes_GSEA                                                                                                                                                                          14402
+     hallmark_pathways_tested                                                                                                                                                                             50
+                   fgsea_seed                                                                                                                                                                              1
+                  fgsea_nproc                                                                                                                                                                              1
+    inflammatory_response_NES                                                                                                                                                              -1.02599937589292
+    inflammatory_response_FDR                                                                                                                                                              0.415415415415415
+                      EMT_NES                                                                                                                                                               2.14764222806787
+                      EMT_FDR                                                                                                                                                           3.36437709505716e-09
+               DE_output_file      E:/R/ACLsenescence2/rebuild_submission/03_pig_chronic/tables/chronic_step4_current78_DE_GSEA/chronic_step4_DE_ACLT_alone_52W_vs_Control_52W_edgeR_QLF_tximport_offset.csv
+        GSEA_full_output_file               E:/R/ACLsenescence2/rebuild_submission/03_pig_chronic/tables/chronic_step4_current78_DE_GSEA/chronic_step4_fgsea_full_hallmark_ACLT_alone_52W_vs_Control_52W.csv
+   target_pathway_output_file                       E:/R/ACLsenescence2/rebuild_submission/03_pig_chronic/tables/chronic_step4_current78_DE_GSEA/chronic_step4_target_pathway_results_from_full_hallmark.csv
+                 Figure5B_png E:/R/ACLsenescence2/rebuild_submission/03_pig_chronic/figures/Figure5B_current78_chronic_Hallmark_GSEA/Figure5B_current78_chronic_Hallmark_GSEA_running_curves_mouse_style.png
+                 Figure5B_pdf E:/R/ACLsenescence2/rebuild_submission/03_pig_chronic/figures/Figure5B_current78_chronic_Hallmark_GSEA/Figure5B_current78_chronic_Hallmark_GSEA_running_curves_mouse_style.pdf
+             Step4_QC_MDS_png                                      E:/R/ACLsenescence2/rebuild_submission/03_pig_chronic/figures/chronic_step4_current78_QC/chronic_step4_MDS_Control52W_vs_ACLTalone52W.png
+             Step4_QC_MDS_pdf                                      E:/R/ACLsenescence2/rebuild_submission/03_pig_chronic/figures/chronic_step4_current78_QC/chronic_step4_MDS_Control52W_vs_ACLTalone52W.pdf
+ Step4_QC_MDS_coordinate_file       E:/R/ACLsenescence2/rebuild_submission/03_pig_chronic/tables/chronic_step4_current78_DE_GSEA/chronic_step4_MDS_Control52W_vs_ACLTalone52W_colored_points_coordinates.csv
+                   output_dir                                                                                   E:/R/ACLsenescence2/rebuild_submission/03_pig_chronic/tables/chronic_step4_current78_DE_GSEA
+
+DE summary:
+                                        metric                                                                                                         value
+                                    comparison                                                                                 ACLT_alone_52W_vs_Control_52W
+               input_genes_common_count_length                                                                                                         22438
+                      genes_after_filterByExpr                                                                                                         14403
+ genes_removed_due_to_invalid_effective_length                                                                                                             0
+              genes_tested_after_length_filter                                                                                                         14403
+            strict_DEG_FDR0.05_abslogFC1_total                                                                                                           545
+                                 strict_DEG_up                                                                                                           316
+                               strict_DEG_down                                                                                                           229
+                                        design                                                                                   Control_52W; ACLT_alone_52W
+                                      contrast                                                                                  ACLT_alone_52W - Control_52W
+                                  edgeR_method DGEList + filterByExpr + tximport effective-length offset + estimateDisp + glmQLFit(robust=TRUE) + glmQLFTest
+                  effective_length_offset_used                                                                                                          TRUE
+
+Target pathway GSEA results:
+                                    pathway       NES         pval         padj size leadingEdge_size
+             HALLMARK_INFLAMMATORY_RESPONSE -1.025999 3.738739e-01 4.154154e-01  147               35
+ HALLMARK_EPITHELIAL_MESENCHYMAL_TRANSITION  2.147642 6.728754e-11 3.364377e-09  172               71
+
+GSEA summary:
+                           metric                                                                                                                                                                          value
+  ranked_genes_after_symbol_dedup                                                                                                                                                                          14402
+   duplicated_symbol_rows_removed                                                                                                                                                                              1
+ n_full_hallmark_gene_sets_loaded                                                                                                                                                                             50
+ n_full_hallmark_gene_sets_tested                                                                                                                                                                             50
+                    fgsea_minSize                                                                                                                                                                             10
+                    fgsea_maxSize                                                                                                                                                                            500
+                        fgsea_eps                                                                                                                                                                              0
+                      fgsea_nproc                                                                                                                                                                              1
+                       fgsea_seed                                                                                                                                                                              1
+                   rank_statistic                                                                                                                                                   sign(logFC) * -log10(PValue)
+         gene_identifier_for_GSEA                                                                                                                                                               pig gene symbols
+         full_collection_FDR_used                                                                                                                                                                           TRUE
+                  target_pathways                                                                                                     HALLMARK_INFLAMMATORY_RESPONSE; HALLMARK_EPITHELIAL_MESENCHYMAL_TRANSITION
+        inflammatory_response_NES                                                                                                                                                              -1.02599937589292
+        inflammatory_response_FDR                                                                                                                                                              0.415415415415415
+                          EMT_NES                                                                                                                                                               2.14764222806787
+                          EMT_FDR                                                                                                                                                           3.36437709505716e-09
+                         gsea_png E:/R/ACLsenescence2/rebuild_submission/03_pig_chronic/figures/Figure5B_current78_chronic_Hallmark_GSEA/Figure5B_current78_chronic_Hallmark_GSEA_running_curves_mouse_style.png
+                         gsea_pdf E:/R/ACLsenescence2/rebuild_submission/03_pig_chronic/figures/Figure5B_current78_chronic_Hallmark_GSEA/Figure5B_current78_chronic_Hallmark_GSEA_running_curves_mouse_style.pdf
+
+fgsea reproducibility settings:
+                      contrast seed nproc minSize maxSize eps                                              fgsea_implementation full_collection_FDR_used
+ ACLT_alone_52W_vs_Control_52W    1     1      10     500   0 fgsea default multilevel implementation; no fixed nperm specified                     TRUE
+
+Step4 QC MDS visualization:
+MDS coordinates were generated with limma::plotMDS from the same Step4 DGEList object; the plotted figure uses colored points without overlapping group text labels.
+MDS coordinate file: E:/R/ACLsenescence2/rebuild_submission/03_pig_chronic/tables/chronic_step4_current78_DE_GSEA/chronic_step4_MDS_Control52W_vs_ACLTalone52W_colored_points_coordinates.csv
+MDS PNG: E:/R/ACLsenescence2/rebuild_submission/03_pig_chronic/figures/chronic_step4_current78_QC/chronic_step4_MDS_Control52W_vs_ACLTalone52W.png
+MDS PDF: E:/R/ACLsenescence2/rebuild_submission/03_pig_chronic/figures/chronic_step4_current78_QC/chronic_step4_MDS_Control52W_vs_ACLTalone52W.pdf
+
+Version and method records:
+                 item                                                                                                                          value
+       method_version                                                2026-05-27_chronic_step4_current78_DE_GSEA_with_integrated_colored_point_MDS_v1
+            R_version                                                                                                                          4.5.2
+        edgeR_version                                                                                                                          4.8.2
+        limma_version                                                                                                                         3.66.0
+        fgsea_version                                                                                                                         1.36.2
+      msigdbr_version                                                                                                                         26.1.0
+      ggplot2_version                                                                                                                          4.0.2
+      DE_input_counts E:/R/ACLsenescence2/rebuild_submission/03_pig_chronic/tables/step25v3_pig_chronic_main_comparison_gene_level_counts_matrix.csv
+     DE_input_lengths E:/R/ACLsenescence2/rebuild_submission/03_pig_chronic/tables/step25v3_pig_chronic_main_comparison_gene_level_length_matrix.csv
+    DE_input_manifest                 E:/R/ACLsenescence2/rebuild_submission/03_pig_chronic/tables/step25v3_pig_chronic_main_comparison_manifest.csv
+      GSEA_collection                                                                                   full Sus scrofa MSigDB Hallmark collection H
+      GSEA_parameters                                                                                minSize=10; maxSize=500; eps=0; nproc=1; seed=1
+ QC_MDS_visualization                        limma::plotMDS coordinates from the same Step4 DGEList, displayed as colored points without text labels
+        analysis_role                                                                      chronic extension DE/GSEA; no signature/core redefinition
+
+Interpretation checkpoint:
+DE/GSEA is genome-wide and independent of signature/core definition.
+GSEA is run on the full Sus scrofa Hallmark collection with minSize=10, maxSize=500, eps=0, nproc=1, seed=1.
+Target pathway FDR values are retained from the full Hallmark-level analysis.

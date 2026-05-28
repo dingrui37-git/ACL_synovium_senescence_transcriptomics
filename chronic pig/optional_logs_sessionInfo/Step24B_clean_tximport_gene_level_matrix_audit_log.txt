@@ -1,0 +1,386 @@
+============================================================
+Step24B_clean_tximport_gene_level_matrix_audit
+Started at: 2026-05-24 10:19:46
+Method version: 2026-05-16_step24B_clean_tximport_gene_level_matrix_audit_v1
+============================================================
+
+Script archive note: --file argument was not detected. If running interactively, manually save this script in:
+E:/R/ACLsenescence2/rebuild_submission/03_pig_chronic/supplement/Step24B_clean_tximport_gene_level_matrix_audit/scripts
+
+Input file check:
+                                       label                                                                                                                   path exists
+1                                counts_file E:/R/ACLsenescence2/rebuild_submission/03_pig_chronic/tables/step24_pig_chronic_gene_level_estimated_counts_matrix.csv   TRUE
+2                             abundance_file    E:/R/ACLsenescence2/rebuild_submission/03_pig_chronic/tables/step24_pig_chronic_gene_level_abundance_tpm_matrix.csv   TRUE
+3                      effective_length_file           E:/R/ACLsenescence2/rebuild_submission/03_pig_chronic/tables/step24_pig_chronic_gene_level_length_matrix.csv   TRUE
+4                       gene_annotation_file           E:/R/ACLsenescence2/rebuild_submission/03_pig_chronic/tables/step24_pig_chronic_gene_annotation_from_gtf.csv   TRUE
+5                               tx2gene_file                            E:/R/ACLsenescence2/rebuild_submission/03_pig_chronic/tables/step24_pig_chronic_tx2gene.csv   TRUE
+6                  tximport_run_summary_file               E:/R/ACLsenescence2/rebuild_submission/03_pig_chronic/tables/step24_pig_chronic_tximport_run_summary.csv   TRUE
+7            optional_step23_quant_inventory         E:/R/ACLsenescence2/rebuild_submission/03_pig_chronic/tables/step23_pig_chronic_quant_file_inventory_FIXED.csv   TRUE
+8        optional_step25v3_synovium_manifest                E:/R/ACLsenescence2/rebuild_submission/03_pig_chronic/tables/step25v3_pig_chronic_synovium_manifest.csv   TRUE
+9 optional_step25v3_main_comparison_manifest         E:/R/ACLsenescence2/rebuild_submission/03_pig_chronic/tables/step25v3_pig_chronic_main_comparison_manifest.csv   TRUE
+
+Matrix dimensions:
+            matrix                                                                                                                   file n_gene_rows n_sample_columns first_column
+1 estimated_counts E:/R/ACLsenescence2/rebuild_submission/03_pig_chronic/tables/step24_pig_chronic_gene_level_estimated_counts_matrix.csv       22438               96      gene_id
+2    TPM_abundance    E:/R/ACLsenescence2/rebuild_submission/03_pig_chronic/tables/step24_pig_chronic_gene_level_abundance_tpm_matrix.csv       22438               96      gene_id
+3 effective_length           E:/R/ACLsenescence2/rebuild_submission/03_pig_chronic/tables/step24_pig_chronic_gene_level_length_matrix.csv       22438               96      gene_id
+
+Gene ID consistency:
+                  comparison identical_gene_id_order counts_n_genes other_n_genes
+1        counts_vs_abundance                    TRUE          22438         22438
+2 counts_vs_effective_length                    TRUE          22438         22438
+
+Sample-column consistency:
+                  comparison identical_sample_columns counts_n_samples other_n_samples
+1        counts_vs_abundance                     TRUE               96              96
+2 counts_vs_effective_length                     TRUE               96              96
+
+Tissue/group summary inferred from Step24 matrix sample IDs:
+  tissue_inferred     group_inferred n_samples
+1       cartilage     ACLT_alone_52W        12
+2        synovium     ACLT_alone_52W        12
+3       cartilage        Control_52W        12
+4        synovium        Control_52W        12
+5       cartilage Reconstruction_52W        12
+6        synovium Reconstruction_52W        12
+7       cartilage         Repair_52W        12
+8        synovium         Repair_52W        12
+
+Sample-level tximport matrix QC summary:
+                               metric       value
+1                           n_samples       96.00
+2         mean_total_estimated_counts 13777276.98
+3          min_total_estimated_counts  7108677.12
+4          max_total_estimated_counts 21575315.98
+5       mean_detected_genes_count_gt0    16476.52
+6        min_detected_genes_count_gt0    15555.00
+7        max_detected_genes_count_gt0    17390.00
+8             mean_gene_level_TPM_sum   986368.27
+9              min_gene_level_TPM_sum   973187.29
+10             max_gene_level_TPM_sum   994784.81
+11          max_effective_length_NA_n        0.00
+12 max_effective_length_nonpositive_n        0.00
+
+Matrix vs Step23 quant-file inventory summary:
+                                                                                            quant_inventory_file quant_inventory_exists n_inventory_rows matrix_samples_matched_by_GSM
+1 E:/R/ACLsenescence2/rebuild_submission/03_pig_chronic/tables/step23_pig_chronic_quant_file_inventory_FIXED.csv                   TRUE               96                            96
+  matrix_samples_unmatched_by_GSM
+1                               0
+
+Representative tx2gene transcript-ID matching audit:
+                                                                                 tx2gene_file tx2gene_exists
+1 E:/R/ACLsenescence2/rebuild_submission/03_pig_chronic/tables/step24_pig_chronic_tx2gene.csv           TRUE
+                                                                                           representative_quant_file quant_n_transcripts tx2gene_n_transcripts matched_with_version
+1 E:/R/ACLsenescence2/rebuild_submission/raw data/GSE228848_synovium_quant/GSM7140438_CON1_cartilage_quant.sf.txt.gz               46295                 60440                    0
+  matched_after_stripping_version match_rate_with_version_pct match_rate_after_stripping_version_pct status
+1                           45845                           0                                 99.028   PASS
+
+Step25v3 downstream subset availability audit:
+                         file_label                                                                                                           file exists n_rows n_control_52w n_aclt_alone_52w
+1        step25v3_synovium_manifest        E:/R/ACLsenescence2/rebuild_submission/03_pig_chronic/tables/step25v3_pig_chronic_synovium_manifest.csv   TRUE     48            12               12
+2 step25v3_main_comparison_manifest E:/R/ACLsenescence2/rebuild_submission/03_pig_chronic/tables/step25v3_pig_chronic_main_comparison_manifest.csv   TRUE     24            12               12
+  n_reconstruction_52w n_repair_52w
+1                   12           12
+2                    0            0
+
+Formal checks for Methods 12.3 matrix audit:
+                                          check pass
+1                  counts_matrix_has_96_samples TRUE
+2               abundance_matrix_has_96_samples TRUE
+3                  length_matrix_has_96_samples TRUE
+4        counts_vs_abundance_gene_ids_identical TRUE
+5           counts_vs_length_gene_ids_identical TRUE
+6  counts_vs_abundance_sample_columns_identical TRUE
+7     counts_vs_length_sample_columns_identical TRUE
+8               no_duplicate_gene_ids_in_counts TRUE
+9    tissue_counts_are_48_cartilage_48_synovium TRUE
+10             each_tissue_group_has_12_samples TRUE
+11              max_effective_length_NA_is_zero TRUE
+12     max_effective_length_nonpositive_is_zero TRUE
+
+Overall Step24B matrix-audit pass: TRUE
+
+===== Step24B clean tximport gene-level matrix audit summary =====
+Run status: SUCCESS
+Overall matrix audit pass: TRUE
+Counts matrix: 22438 genes x 96 samples
+TPM abundance matrix: 22438 genes x 96 samples
+Effective-length matrix: 22438 genes x 96 samples
+Gene IDs identical counts vs abundance: TRUE
+Gene IDs identical counts vs length: TRUE
+Sample columns identical counts vs abundance: TRUE
+Sample columns identical counts vs length: TRUE
+Inferred synovium samples in 96-sample matrix: 48
+Inferred cartilage samples in 96-sample matrix: 48
+Max effective-length NA count per sample: 0
+Max effective-length nonpositive count per sample: 0
+Matrix samples matched to Step23 inventory by GSM: 96
+Representative tx2gene match rate after stripping version (%): 99.028
+
+Key output files:
+E:/R/ACLsenescence2/rebuild_submission/03_pig_chronic/supplement/Step24B_clean_tximport_gene_level_matrix_audit/tables/Step24B_final_summary_for_review.csv
+E:/R/ACLsenescence2/rebuild_submission/03_pig_chronic/supplement/Step24B_clean_tximport_gene_level_matrix_audit/tables/Step24B_formal_matrix_audit_checks.csv
+E:/R/ACLsenescence2/rebuild_submission/03_pig_chronic/supplement/Step24B_clean_tximport_gene_level_matrix_audit/tables/Step24B_gene_level_matrix_dimensions.csv
+E:/R/ACLsenescence2/rebuild_submission/03_pig_chronic/supplement/Step24B_clean_tximport_gene_level_matrix_audit/tables/Step24B_sample_column_consistency.csv
+E:/R/ACLsenescence2/rebuild_submission/03_pig_chronic/supplement/Step24B_clean_tximport_gene_level_matrix_audit/tables/Step24B_gene_level_matrix_sample_QC_summary.csv
+E:/R/ACLsenescence2/rebuild_submission/03_pig_chronic/supplement/Step24B_clean_tximport_gene_level_matrix_audit/tables/Step24B_methods_text_for_12_3_matrix_audit.txt
+
+Session information:
+R version 4.5.2 (2025-10-31 ucrt)
+Platform: x86_64-w64-mingw32/x64
+Running under: Windows 10 x64 (build 19045)
+
+Matrix products: default
+  LAPACK version 3.12.1
+
+locale:
+[1] LC_COLLATE=Chinese (Simplified)_China.utf8  LC_CTYPE=Chinese (Simplified)_China.utf8    LC_MONETARY=Chinese (Simplified)_China.utf8 LC_NUMERIC=C                               
+[5] LC_TIME=Chinese (Simplified)_China.utf8    
+
+time zone: Europe/Berlin
+tzcode source: internal
+
+attached base packages:
+[1] grid      stats     graphics  grDevices utils     datasets  methods   base     
+
+other attached packages:
+[1] ggplot2_4.0.2
+
+loaded via a namespace (and not attached):
+ [1] RColorBrewer_1.1-3 R6_2.6.1           tidyselect_1.2.1   farver_2.1.2       magrittr_2.0.4     gtable_0.3.6       glue_1.8.0         tibble_3.3.1       pkgconfig_2.0.3    dplyr_1.1.4       
+[11] generics_0.1.4     lifecycle_1.0.5    cli_3.6.5          S7_0.2.1           zip_2.3.3          scales_1.4.0       vctrs_0.7.2        withr_3.0.2        compiler_4.5.2     tools_4.5.2       
+[21] pillar_1.11.1      rlang_1.1.7       
+===== Step 22 Methods 12.1 archive summary =====
+Project root: E:/R/ACLsenescence2
+Quantification directory: E:/R/ACLsenescence2/rebuild_submission/raw data/GSE228848_synovium_quant
+Quant.sf-like files found by rescan: 96
+Step23 fixed QC rows: 96
+Readable files in Step23 fixed QC: 96 / 96
+Files with Salmon standard columns: NA / 96
+Inferred synovium quant files: 48
+Inferred cartilage quant files: 48
+Step25v3 synovium manifest samples: 48
+Step25v3 main-comparison samples: 24
+Main Control_52W: 12
+Main ACLT_alone_52W: 12
+All evidence checks passed: NA
+
+Evidence outputs:
+E:/R/ACLsenescence2/rebuild_submission/03_pig_chronic/tables/step22_methods_12_1_data_source_sample_annotation_evidence.csv
+E:/R/ACLsenescence2/rebuild_submission/03_pig_chronic/tables/step22_methods_12_1_quant_directory_rescan.csv
+E:/R/ACLsenescence2/rebuild_submission/03_pig_chronic/tables/step22_methods_12_1_synovium_group_summary.csv
+E:/R/ACLsenescence2/rebuild_submission/03_pig_chronic/tables/step22_methods_12_1_main_comparison_group_summary.csv
+E:/R/ACLsenescence2/rebuild_submission/03_pig_chronic/tables/step22_methods_12_1_source_file_audit.csv
+E:/R/ACLsenescence2/rebuild_submission/03_pig_chronic/logs/step22_methods_12_1_text_archived.txt 
+G3;Step 22 Methods 12.1 archive finished successfully.
+g共有13个警告 (用warnings()来显示)
+
+============================================================
+Minimal chronic Figure 5 submission package created
+Package root:
+E:/R/ACLsenescence2/rebuild_submission/UPLOAD_minimal_chronic_figure5_submission_20260524_102725
+Manifest:
+E:/R/ACLsenescence2/rebuild_submission/UPLOAD_minimal_chronic_figure5_submission_20260524_102725/copy_manifest_exact.csv
+README:
+E:/R/ACLsenescence2/rebuild_submission/UPLOAD_minimal_chronic_figure5_submission_20260524_102725/README_minimal_chronic_figure5_submission_package.txt
+Zip archive:
+E:/R/ACLsenescence2/rebuild_submission/UPLOAD_minimal_chronic_figure5_submission_20260524_102725.zip
+Copied files: 102
+Missing required files: 0
+Missing optional files: 20
+Summary to send me:
+E:/R/ACLsenescence2/rebuild_submission/UPLOAD_minimal_chronic_figure5_submission_20260524_102725/summary_to_send_me.txt
+============================================================
+
+============================================================ 
+Minimal pig-early upload package created: 
+E:/R/ACLsenescence2/rebuild_submission/UPLOAD_minimal_pig_early_submission_20260524 
+Copied files: 149 
+Missing required items: 2 
+Missing optional items: 11 
+Scripts needing manual check: 0 
+ZIP created: 
+E:/R/ACLsenescence2/rebuild_submission/UPLOAD_minimal_pig_early_submission_20260524.zip 
+ 
+Check these files before uploading: 
+E:/R/ACLsenescence2/rebuild_submission/UPLOAD_minimal_pig_early_submission_20260524/07_logs_versions_and_manifest/missing_required_or_optional_files.csv 
+E:/R/ACLsenescence2/rebuild_submission/UPLOAD_minimal_pig_early_submission_20260524/07_logs_versions_and_manifest/script_qc_report.csv 
+E:/R/ACLsenescence2/rebuild_submission/UPLOAD_minimal_pig_early_submission_20260524/00_README/README_minimal_pig_early_upload.md 
+============================================================ 
+============================================================ 
+Minimal pig-early upload package created: 
+E:/R/ACLsenescence2/rebuild_submission/UPLOAD_minimal_pig_early_submission_20260524 
+Copied files: 149 
+Missing required items: 2 
+Missing optional items: 11 
+Scripts needing manual check: 0 
+ZIP created: 
+E:/R/ACLsenescence2/rebuild_submission/UPLOAD_minimal_pig_early_submission_20260524.zip 
+ 
+Check these files before uploading: 
+E:/R/ACLsenescence2/rebuild_submission/UPLOAD_minimal_pig_early_submission_20260524/07_logs_versions_and_manifest/missing_required_or_optional_files.csv 
+E:/R/ACLsenescence2/rebuild_submission/UPLOAD_minimal_pig_early_submission_20260524/07_logs_versions_and_manifest/script_qc_report.csv 
+E:/R/ACLsenescence2/rebuild_submission/UPLOAD_minimal_pig_early_submission_20260524/00_README/README_minimal_pig_early_upload.md 
+============================================================ 
+============================================================ 
+Minimal pig-early upload package created: 
+E:/R/ACLsenescence2/rebuild_submission/UPLOAD_minimal_pig_early_submission_20260524 
+Copied files: 189 
+Missing required items: 0 
+Missing optional items: 11 
+Scripts needing manual check: 0 
+ZIP created: 
+E:/R/ACLsenescence2/rebuild_submission/UPLOAD_minimal_pig_early_submission_20260524.zip 
+ 
+Check these files before uploading: 
+E:/R/ACLsenescence2/rebuild_submission/UPLOAD_minimal_pig_early_submission_20260524/07_logs_versions_and_manifest/missing_required_or_optional_files.csv 
+E:/R/ACLsenescence2/rebuild_submission/UPLOAD_minimal_pig_early_submission_20260524/07_logs_versions_and_manifest/script_qc_report.csv 
+E:/R/ACLsenescence2/rebuild_submission/UPLOAD_minimal_pig_early_submission_20260524/00_README/README_minimal_pig_early_upload.md 
+============================================================ 
+共有37个警告 (用warnings()来显示)
+
+============================================================
+Minimal chronic Figure 5 submission package created
+Package root:
+E:/R/ACLsenescence2/rebuild_submission/UPLOAD_minimal_chronic_figure5_submission_with_PNOM_20260524_174545
+Manifest:
+E:/R/ACLsenescence2/rebuild_submission/UPLOAD_minimal_chronic_figure5_submission_with_PNOM_20260524_174545/copy_manifest_exact.csv
+README:
+E:/R/ACLsenescence2/rebuild_submission/UPLOAD_minimal_chronic_figure5_submission_with_PNOM_20260524_174545/README_minimal_chronic_figure5_submission_package.txt
+Zip archive:
+E:/R/ACLsenescence2/rebuild_submission/UPLOAD_minimal_chronic_figure5_submission_with_PNOM_20260524_174545.zip
+Copied files: 162
+Missing required files: 0
+Missing optional files: 24
+Summary to send me:
+E:/R/ACLsenescence2/rebuild_submission/UPLOAD_minimal_chronic_figure5_submission_with_PNOM_20260524_174545/summary_to_send_me.txt
+============================================================
+
+共有22个警告 (用warnings()来显示)
+
+===== Pig early fastp sensitivity minimal submission package summary =====
+                               metric
+                         package_root
+                       n_files_listed
+                    n_required_listed
+                    n_optional_listed
+                       n_files_copied
+                   n_required_missing
+                   n_optional_missing
+ step11C_overlap_alternative_group_ok
+ raw_FASTQ_trimmed_FASTQ_BAM_included
+                        copy_manifest
+                                                                                                                                                                                                                                           value
+                                                                                      E:/R/ACLsenescence2/rebuild_submission/02_pig_early_fastp_sensitivity/10_submission/pig_early_fastp_sensitivity_minimal_submission_package_20260524_210719
+                                                                                                                                                                                                                                             147
+                                                                                                                                                                                                                                             144
+                                                                                                                                                                                                                                               3
+                                                                                                                                                                                                                                             106
+                                                                                                                                                                                                                                              39
+                                                                                                                                                                                                                                               2
+                                                                                                                                                                                                                                           FALSE
+                                                                                                                                                                                                                                           FALSE
+ E:/R/ACLsenescence2/rebuild_submission/02_pig_early_fastp_sensitivity/10_submission/pig_early_fastp_sensitivity_minimal_submission_package_20260524_210719/00_package_manifest/pig_early_fastp_sensitivity_minimal_submission_copy_manifest.csv
+
+Package root:
+E:/R/ACLsenescence2/rebuild_submission/02_pig_early_fastp_sensitivity/10_submission/pig_early_fastp_sensitivity_minimal_submission_package_20260524_210719
+
+Copy manifest:
+E:/R/ACLsenescence2/rebuild_submission/02_pig_early_fastp_sensitivity/10_submission/pig_early_fastp_sensitivity_minimal_submission_package_20260524_210719/00_package_manifest/pig_early_fastp_sensitivity_minimal_submission_copy_manifest.csv
+
+Missing required items: 39
+Missing optional items: 2
+
+WARNING: Neither exact Step11C CellAge overlap table was copied. StepH2w13 annotation input is missing.
+
+Done.
+共有25个警告 (用warnings()来显示)
+
+===== Pig early fastp sensitivity minimal submission package v2 summary =====
+                               metric
+                         package_root
+                       n_files_listed
+                    n_required_listed
+                    n_optional_listed
+                       n_files_copied
+                   n_required_missing
+                   n_optional_missing
+ raw_FASTQ_trimmed_FASTQ_BAM_included
+                        copy_manifest
+                                                                                                                                                                                                                                                 value
+                                                                                         E:/R/ACLsenescence2/rebuild_submission/02_pig_early_fastp_sensitivity/10_submission/pig_early_fastp_sensitivity_minimal_submission_package_v2_20260524_215952
+                                                                                                                                                                                                                                                   146
+                                                                                                                                                                                                                                                   112
+                                                                                                                                                                                                                                                    34
+                                                                                                                                                                                                                                                   116
+                                                                                                                                                                                                                                                    24
+                                                                                                                                                                                                                                                     6
+                                                                                                                                                                                                                                                 FALSE
+ E:/R/ACLsenescence2/rebuild_submission/02_pig_early_fastp_sensitivity/10_submission/pig_early_fastp_sensitivity_minimal_submission_package_v2_20260524_215952/00_package_manifest/pig_early_fastp_sensitivity_minimal_submission_copy_manifest_v2.csv
+
+Package root:
+E:/R/ACLsenescence2/rebuild_submission/02_pig_early_fastp_sensitivity/10_submission/pig_early_fastp_sensitivity_minimal_submission_package_v2_20260524_215952
+
+Copy manifest:
+E:/R/ACLsenescence2/rebuild_submission/02_pig_early_fastp_sensitivity/10_submission/pig_early_fastp_sensitivity_minimal_submission_package_v2_20260524_215952/00_package_manifest/pig_early_fastp_sensitivity_minimal_submission_copy_manifest_v2.csv
+
+Missing required items: 24
+Missing optional items: 6
+
+First missing required roles/source paths:
+                                                 role
+ primary_step11C_CellAge_overlap_for_H2w13_annotation
+                       H2w5_sample_assignment_summary
+                                     H2w8_scores_wide
+                                H2w8_group_comparison
+                       H2w10_trimmed_validation_table
+                              H2w10_direction_summary
+                            H2w10_main24_preservation
+                           H2w10_main24_not_preserved
+                    H2w11_trimmed_signature_score_png
+                    H2w11_trimmed_signature_score_pdf
+                               H2w11_plot_source_data
+                                H2w11_plot_statistics
+                              H2w11_stability_context
+                                        H2w11_summary
+                H2w12_trimmed_GSEA_running_curves_png
+                H2w12_trimmed_GSEA_running_curves_pdf
+                      H2w12_running_curve_source_data
+                    H2w12_target_pathway_results_used
+                                        H2w12_summary
+                  H2w13_trimmed_primary24_heatmap_png
+                  H2w13_trimmed_primary24_heatmap_pdf
+                                H2w13_core_genes_used
+                                  H2w13_zscore_matrix
+                                        H2w13_summary
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                source
+ E:/R/ACLsenescence2/rebuild_submission/02_mouse_discovery/07_tables/step11C_intersect_current_gorth_mapping_with_CellAge_clean/step11C_persistent_CellAge_overlap_78_genes.csv | E:/R/ACLsenescence2/rebuild_submission/02_mouse_discovery/07_tables/step11C_intersect_current_gorth_mapping_with_CellAge_clean/step11C_persistent_CellAge_overlap_78_genes_compact.csv | E:/R/ACLsenescence2/rebuild_submission/02_mouse_discovery/tables/step11C_intersect_current_gorth_mapping_with_CellAge_clean/step11C_persistent_CellAge_overlap_78_genes.csv | E:/R/ACLsenescence2/rebuild_submission/02_mouse_discovery/tables/step11C_intersect_current_gorth_mapping_with_CellAge_clean/step11C_persistent_CellAge_overlap_78_genes_compact.csv | E:/R/ACLsenescence2/rebuild_submission/02_mouse_discovery/07_tables/step11C_intersect_current_gorth_mapping_with_CellAge_clean/step11C_persistent_CellAge_overlap_78_genes.csv | E:/R/ACLsenescence2/rebuild_submission/02_mouse_discovery/07_tables/step11C_intersect_current_gorth_mapping_with_CellAge_clean/step11C_persistent_CellAge_overlap_78_genes_compact.csv
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          E:/R/ACLsenescence2/rebuild_submission/02_pig_early_fastp_sensitivity/tables/stepH2w5_v2_trimmed_featureCounts_sample_assignment_summary.csv
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            E:/R/ACLsenescence2/rebuild_submission/02_pig_early_fastp_sensitivity/tables/stepH2w8_current78_signature_score_stability/stepH2w8_current78_signature_score_trimmed_vs_untrimmed_wide.csv
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           E:/R/ACLsenescence2/rebuild_submission/02_pig_early_fastp_sensitivity/tables/stepH2w8_current78_signature_score_stability/stepH2w8_current78_signature_score_group_comparison_by_branch.csv
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    E:/R/ACLsenescence2/rebuild_submission/02_pig_early_fastp_sensitivity/tables/stepH2w10_current78_core_gene_sensitivity_audit/stepH2w10_current78_trimmed_signature_gene_level_validation_table.csv
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                E:/R/ACLsenescence2/rebuild_submission/02_pig_early_fastp_sensitivity/tables/stepH2w10_current78_core_gene_sensitivity_audit/stepH2w10_current78_trimmed_gene_level_summary_by_signature_direction.csv
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     E:/R/ACLsenescence2/rebuild_submission/02_pig_early_fastp_sensitivity/tables/stepH2w10_current78_core_gene_sensitivity_audit/stepH2w10_current78_main24_core_genes_trimmed_preservation_table.csv
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          E:/R/ACLsenescence2/rebuild_submission/02_pig_early_fastp_sensitivity/tables/stepH2w10_current78_core_gene_sensitivity_audit/stepH2w10_current78_main24_core_genes_not_preserved_as_core_like_in_trimmed.csv
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               E:/R/ACLsenescence2/rebuild_submission/02_pig_early_fastp_sensitivity/figures/stepH2w11_current78_trimmed_signature_score_figure/Supplementary_fastp_trimmed_current78_signature_scores_mouse_style.png
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               E:/R/ACLsenescence2/rebuild_submission/02_pig_early_fastp_sensitivity/figures/stepH2w11_current78_trimmed_signature_score_figure/Supplementary_fastp_trimmed_current78_signature_scores_mouse_style.pdf
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      E:/R/ACLsenescence2/rebuild_submission/02_pig_early_fastp_sensitivity/tables/stepH2w11_current78_trimmed_signature_score_figure/stepH2w11_current78_trimmed_signature_score_plot_source_data.csv
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       E:/R/ACLsenescence2/rebuild_submission/02_pig_early_fastp_sensitivity/tables/stepH2w11_current78_trimmed_signature_score_figure/stepH2w11_current78_trimmed_signature_score_plot_statistics.csv
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            E:/R/ACLsenescence2/rebuild_submission/02_pig_early_fastp_sensitivity/tables/stepH2w11_current78_trimmed_signature_score_figure/stepH2w11_current78_signature_score_stability_metrics_used_for_context.csv
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        E:/R/ACLsenescence2/rebuild_submission/02_pig_early_fastp_sensitivity/tables/stepH2w11_current78_trimmed_signature_score_figure/stepH2w11_current78_trimmed_signature_score_figure_summary.csv
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      E:/R/ACLsenescence2/rebuild_submission/02_pig_early_fastp_sensitivity/figures/stepH2w12_current78_trimmed_GSEA_running_curves/Supplementary_fastp_trimmed_current78_Hallmark_GSEA_running_curves_mouse_style.png
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      E:/R/ACLsenescence2/rebuild_submission/02_pig_early_fastp_sensitivity/figures/stepH2w12_current78_trimmed_GSEA_running_curves/Supplementary_fastp_trimmed_current78_Hallmark_GSEA_running_curves_mouse_style.pdf
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           E:/R/ACLsenescence2/rebuild_submission/02_pig_early_fastp_sensitivity/tables/stepH2w12_current78_trimmed_GSEA_running_curves/stepH2w12_current78_trimmed_GSEA_running_curve_source_data.csv
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     E:/R/ACLsenescence2/rebuild_submission/02_pig_early_fastp_sensitivity/tables/stepH2w12_current78_trimmed_GSEA_running_curves/stepH2w12_current78_trimmed_target_pathway_results_used_for_plot.csv
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              E:/R/ACLsenescence2/rebuild_submission/02_pig_early_fastp_sensitivity/tables/stepH2w12_current78_trimmed_GSEA_running_curves/stepH2w12_current78_trimmed_GSEA_running_curves_summary.csv
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    E:/R/ACLsenescence2/rebuild_submission/02_pig_early_fastp_sensitivity/figures/stepH2w13_current78_trimmed_main24_core_heatmap_sensitivity/Supplementary_fastp_trimmed_primary24_core_gene_heatmap_step09_style.png
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    E:/R/ACLsenescence2/rebuild_submission/02_pig_early_fastp_sensitivity/figures/stepH2w13_current78_trimmed_main24_core_heatmap_sensitivity/Supplementary_fastp_trimmed_primary24_core_gene_heatmap_step09_style.pdf
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  E:/R/ACLsenescence2/rebuild_submission/02_pig_early_fastp_sensitivity/tables/stepH2w13_current78_trimmed_main24_core_heatmap_sensitivity/stepH2w13_primary24_core_genes_used_for_trimmed_heatmap.csv
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              E:/R/ACLsenescence2/rebuild_submission/02_pig_early_fastp_sensitivity/tables/stepH2w13_current78_trimmed_main24_core_heatmap_sensitivity/stepH2w13_trimmed_primary24_core_gene_heatmap_zscore_matrix.csv
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      E:/R/ACLsenescence2/rebuild_submission/02_pig_early_fastp_sensitivity/tables/stepH2w13_current78_trimmed_main24_core_heatmap_sensitivity/stepH2w13_current78_trimmed_main24_core_heatmap_sensitivity_summary.csv
+
+Missing required list saved to:
+E:/R/ACLsenescence2/rebuild_submission/02_pig_early_fastp_sensitivity/10_submission/pig_early_fastp_sensitivity_minimal_submission_package_v2_20260524_215952/00_package_manifest/MISSING_REQUIRED_FILES_v2.csv
+
+Done.
+错误于rbind(deparse.level, ...): 变量的列数不正确

@@ -1,0 +1,92 @@
+===== Chronic Step6 current78 Figure5D early vs chronic summary TO SEND ME =====
+Run time: 2026-05-26 18:59:05
+
+Main run summary:
+                       metric
+   early_signature_stats_file
+      early_gsea_targets_file
+    early_step18_summary_file
+ chronic_signature_stats_file
+    chronic_gsea_targets_file
+  chronic_step5B_summary_file
+                   figure_png
+                   figure_pdf
+        plot_source_data_file
+        extracted_values_file
+        interpretation_policy
+                   output_dir
+                                                                                                                                                                                                     value
+                                                E:/R/ACLsenescence2/rebuild_submission/02_pig_early/tables/step19_current78_pig_signature_score/step19_current78_pig_signature_score_group_comparisons.csv
+                                        E:/R/ACLsenescence2/rebuild_submission/02_pig_early/tables/step20_current78_pig_early_hallmark_gsea/step20_current78_target_pathway_results_from_full_hallmark.csv
+                                              E:/R/ACLsenescence2/rebuild_submission/02_pig_early/tables/step18_current78_pig_early_signature_remap/step18_current78_pig_early_signature_remap_summary.csv
+                E:/R/ACLsenescence2/rebuild_submission/03_pig_chronic/tables/chronic_step2_current78_signature_score_TMM_aligned/chronic_step2_current78_TMM_aligned_signature_score_group_comparisons.csv
+                                                  E:/R/ACLsenescence2/rebuild_submission/03_pig_chronic/tables/chronic_step4_current78_DE_GSEA/chronic_step4_target_pathway_results_from_full_hallmark.csv
+                        E:/R/ACLsenescence2/rebuild_submission/03_pig_chronic/tables/chronic_step5B_current78_core_DE_audit_Step4_locked/chronic_step5B_early_defined_24_core_chronic_DE_audit_summary.csv
+                                        E:/R/ACLsenescence2/rebuild_submission/03_pig_chronic/figures/Figure5D_current78_early_vs_chronic_summary/Figure5D_current78_early_vs_chronic_summary_tileplot.png
+                                        E:/R/ACLsenescence2/rebuild_submission/03_pig_chronic/figures/Figure5D_current78_early_vs_chronic_summary/Figure5D_current78_early_vs_chronic_summary_tileplot.pdf
+                              E:/R/ACLsenescence2/rebuild_submission/03_pig_chronic/tables/chronic_step6_current78_figure5D_early_vs_chronic_summary/chronic_step6_current78_figure5D_plot_source_data.csv
+                      E:/R/ACLsenescence2/rebuild_submission/03_pig_chronic/tables/chronic_step6_current78_figure5D_early_vs_chronic_summary/chronic_step6_current78_early_vs_chronic_extracted_values.csv
+ Figure5D is a summary-comparison panel integrating completed early and chronic outputs under the fixed current78 / 75-gene / 24-core framework. It does not redefine a chronic signature or chronic core.
+                                                                                    E:/R/ACLsenescence2/rebuild_submission/03_pig_chronic/tables/chronic_step6_current78_figure5D_early_vs_chronic_summary
+
+Extracted comparison values:
+                                 category      value
+     early_signature_directional_score_t7  0.9703711
+    early_signature_directional_score_t28  0.6914711
+      chronic_signature_directional_score  0.3018832
+                early_inflammatory_NES_t7  1.3623498
+               early_inflammatory_NES_t28  1.0118053
+                 chronic_inflammatory_NES -1.0259994
+                         early_EMT_NES_t7  1.6329280
+                        early_EMT_NES_t28  1.5134305
+                          chronic_EMT_NES  2.1476422
+           early_signature_detected_genes 75.0000000
+                          early_strict_t7 34.0000000
+                         early_strict_t28 25.0000000
+                         early_core_genes 24.0000000
+                chronic_core_genes_tested 20.0000000
+        chronic_core_direction_consistent 19.0000000
+ chronic_core_strict_direction_consistent  4.0000000
+
+Tile plot source data:
+       stage                               metric                                      label fill_color numeric_value    fdr_value
+    Early 1W         Signature\ndirectional score                 Δscore = 0.97\nFDR = 0.005    #E49A4A     0.9703711 5.074868e-03
+    Early 1W Hallmark NES:\nInflammatory response                    NES = 1.36\nFDR = 0.030    #E49A4A     1.3623498 3.045636e-02
+    Early 1W  Hallmark NES:\nEMT / ECM remodeling                    NES = 1.63\nFDR = 0.001    #E49A4A     1.6329280 1.123435e-03
+    Early 1W                    Core-gene\nstatus                      Strict at 1W\n34 / 75    #E49A4A     0.4533333           NA
+    Early 4W         Signature\ndirectional score                 Δscore = 0.69\nFDR = 0.005    #E49A4A     0.6914711 5.074868e-03
+    Early 4W Hallmark NES:\nInflammatory response                    NES = 1.01\nFDR = 0.528    #F7E3CC     1.0118053 5.278643e-01
+    Early 4W  Hallmark NES:\nEMT / ECM remodeling                    NES = 1.51\nFDR = 0.003    #E49A4A     1.5134305 3.483966e-03
+    Early 4W                    Core-gene\nstatus                      Strict at 4W\n25 / 75    #F2BF84     0.3333333           NA
+ Chronic 52W         Signature\ndirectional score                 Δscore = 0.30\nFDR = 0.004    #E49A4A     0.3018832 4.019010e-03
+ Chronic 52W Hallmark NES:\nInflammatory response                   NES = -1.03\nFDR = 0.415    #DCEAF7    -1.0259994 4.154154e-01
+ Chronic 52W  Hallmark NES:\nEMT / ECM remodeling                    NES = 2.15\nFDR < 0.001    #E49A4A     2.1476422 3.364377e-09
+ Chronic 52W                    Core-gene\nstatus Strict retained\n4 / 24\n(19/20 dir-cons.)    #F7E3CC     0.1666667           NA
+                                                                                     note
+                                                    Early 1W directional score vs Control
+                                                           Hallmark inflammatory response
+                                                            Hallmark EMT / ECM remodeling
+                         Among the fixed 75 pig signature genes, genes strict at early 1W
+                                                    Early 4W directional score vs Control
+                                                           Hallmark inflammatory response
+                                                            Hallmark EMT / ECM remodeling
+                         Among the fixed 75 pig signature genes, genes strict at early 4W
+                                                 Chronic 52W directional score vs Control
+                                                           Hallmark inflammatory response
+                                                            Hallmark EMT / ECM remodeling
+ Among the fixed early-defined 24 core genes, strict + direction-consistent in chronic DE
+
+Version and method records:
+                          item                                                                                                                                                                        value
+                     R_version                                                                                                                                                                        4.5.2
+               ggplot2_version                                                                                                                                                                        4.0.2
+   early_signature_source_step                                                                                                                                   Step19 current78 pig early signature score
+        early_GSEA_source_step                                                                                                                                Step20 current78 pig early full-Hallmark GSEA
+ chronic_signature_source_step                                                                                                                          Chronic Step2 current78 TMM-aligned signature score
+      chronic_GSEA_source_step                                                                                                                    Chronic Step4 current78 edgeR QLF DE + full-Hallmark GSEA
+        core_comparison_policy Compare early strict counts among the fixed 75-gene signature with chronic strict retained counts among the fixed early-defined 24 core genes; no chronic core redefinition.
+
+Interpretation checkpoint:
+This figure summarizes completed early and chronic analyses under the fixed current78 / 75-gene / 24-core framework.
+The chronic cohort remains an extension-validation dataset.
+No chronic-specific signature or chronic core set is redefined in this figure.

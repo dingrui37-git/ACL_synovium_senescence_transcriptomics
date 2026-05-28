@@ -1,0 +1,25 @@
+"pig_ensg","pig_symbol","human_gene","mouse_symbol","signature_direction","display_label","MouseDirection","dir_order","display_label_priority","used_for_chronic_step5_TMM_aligned_pig_early_style"
+"ENSSSCG00000040779","CBS","CBS","Cbs","Down_in_ACLR","CBS","mouse_persistent_down",1,"pig_symbol > human_gene > pig_ensg, matching pig early Figure4D visual convention",TRUE
+"ENSSSCG00000029944","FASN","FASN","Fasn","Down_in_ACLR","FASN","mouse_persistent_down",1,"pig_symbol > human_gene > pig_ensg, matching pig early Figure4D visual convention",TRUE
+"ENSSSCG00000011579","PPARG","PPARG","Pparg","Down_in_ACLR","PPARG","mouse_persistent_down",1,"pig_symbol > human_gene > pig_ensg, matching pig early Figure4D visual convention",TRUE
+"ENSSSCG00000030469","BUB1","BUB1","Bub1","Up_in_ACLR","BUB1","mouse_persistent_up",2,"pig_symbol > human_gene > pig_ensg, matching pig early Figure4D visual convention",TRUE
+"ENSSSCG00000029326","CCNB1","CCNB1","Ccnb1","Up_in_ACLR","CCNB1","mouse_persistent_up",2,"pig_symbol > human_gene > pig_ensg, matching pig early Figure4D visual convention",TRUE
+"ENSSSCG00000010214","CDK1","CDK1","Cdk1","Up_in_ACLR","CDK1","mouse_persistent_up",2,"pig_symbol > human_gene > pig_ensg, matching pig early Figure4D visual convention",TRUE
+"ENSSSCG00000009378","CKAP2","CKAP2","Ckap2","Up_in_ACLR","CKAP2","mouse_persistent_up",2,"pig_symbol > human_gene > pig_ensg, matching pig early Figure4D visual convention",TRUE
+"ENSSSCG00000010540","ENTPD7","ENTPD7","Entpd7","Up_in_ACLR","ENTPD7","mouse_persistent_up",2,"pig_symbol > human_gene > pig_ensg, matching pig early Figure4D visual convention",TRUE
+"ENSSSCG00000000265","ESPL1","ESPL1","Espl1","Up_in_ACLR","ESPL1","mouse_persistent_up",2,"pig_symbol > human_gene > pig_ensg, matching pig early Figure4D visual convention",TRUE
+"ENSSSCG00000000739","FOXM1","FOXM1","Foxm1","Up_in_ACLR","FOXM1","mouse_persistent_up",2,"pig_symbol > human_gene > pig_ensg, matching pig early Figure4D visual convention",TRUE
+"ENSSSCG00000005096","HIF1A","HIF1A","Hif1a","Up_in_ACLR","HIF1A","mouse_persistent_up",2,"pig_symbol > human_gene > pig_ensg, matching pig early Figure4D visual convention",TRUE
+"ENSSSCG00000010703","HTRA1","HTRA1","Htra1","Up_in_ACLR","HTRA1","mouse_persistent_up",2,"pig_symbol > human_gene > pig_ensg, matching pig early Figure4D visual convention",TRUE
+"ENSSSCG00000014326","KIF20A","KIF20A","Kif20a","Up_in_ACLR","KIF20A","mouse_persistent_up",2,"pig_symbol > human_gene > pig_ensg, matching pig early Figure4D visual convention",TRUE
+"ENSSSCG00000003931","KIF2C","KIF2C","Kif2c","Up_in_ACLR","KIF2C","mouse_persistent_up",2,"pig_symbol > human_gene > pig_ensg, matching pig early Figure4D visual convention",TRUE
+"ENSSSCG00000001510","KIFC1","KIFC1","Kifc1","Up_in_ACLR","KIFC1","mouse_persistent_up",2,"pig_symbol > human_gene > pig_ensg, matching pig early Figure4D visual convention",TRUE
+"ENSSSCG00000033608","LOXL2","LOXL2","Loxl2","Up_in_ACLR","LOXL2","mouse_persistent_up",2,"pig_symbol > human_gene > pig_ensg, matching pig early Figure4D visual convention",TRUE
+"ENSSSCG00000015604","NEK2","NEK2","Nek2","Up_in_ACLR","NEK2","mouse_persistent_up",2,"pig_symbol > human_gene > pig_ensg, matching pig early Figure4D visual convention",TRUE
+"ENSSSCG00000000217","RACGAP1","RACGAP1","Racgap1","Up_in_ACLR","RACGAP1","mouse_persistent_up",2,"pig_symbol > human_gene > pig_ensg, matching pig early Figure4D visual convention",TRUE
+"ENSSSCG00000035537","RUNX1","RUNX1","Runx1","Up_in_ACLR","RUNX1","mouse_persistent_up",2,"pig_symbol > human_gene > pig_ensg, matching pig early Figure4D visual convention",TRUE
+"ENSSSCG00000008601","SDC1","SDC1","Sdc1","Up_in_ACLR","SDC1","mouse_persistent_up",2,"pig_symbol > human_gene > pig_ensg, matching pig early Figure4D visual convention",TRUE
+"ENSSSCG00000025698","SERPINE1","SERPINE1","Serpine1","Up_in_ACLR","SERPINE1","mouse_persistent_up",2,"pig_symbol > human_gene > pig_ensg, matching pig early Figure4D visual convention",TRUE
+"ENSSSCG00000017082","SPARC","SPARC","Sparc","Up_in_ACLR","SPARC","mouse_persistent_up",2,"pig_symbol > human_gene > pig_ensg, matching pig early Figure4D visual convention",TRUE
+"ENSSSCG00000059646","TNFSF15","TNFSF15","Tnfsf15","Up_in_ACLR","TNFSF15","mouse_persistent_up",2,"pig_symbol > human_gene > pig_ensg, matching pig early Figure4D visual convention",TRUE
+"ENSSSCG00000004466","TTK","TTK","Ttk","Up_in_ACLR","TTK","mouse_persistent_up",2,"pig_symbol > human_gene > pig_ensg, matching pig early Figure4D visual convention",TRUE

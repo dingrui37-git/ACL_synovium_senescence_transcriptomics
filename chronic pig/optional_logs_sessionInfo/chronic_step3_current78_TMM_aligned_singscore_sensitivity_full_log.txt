@@ -1,0 +1,185 @@
+===== CHRONIC STEP3 CURRENT78 TMM-ALIGNED SINGSCORE SENSITIVITY =====
+Run time: 2026-05-25 22:19:46 CEST
+Interpretation: singscore sensitivity analysis using fixed pig early current78 75-gene signature.
+Input transformation: edgeR TMM-normalized logCPM; no filterByExpr before ranking/scoring.
+
+Signature file: E:/R/ACLsenescence2/rebuild_submission/02_pig_early/tables/step18_current78_pig_early_signature_remap/step18_current78_pig_signature_gene_table.csv
+Chronic main manifest: E:/R/ACLsenescence2/rebuild_submission/03_pig_chronic/tables/step25v3_pig_chronic_main_comparison_manifest.csv
+Chronic main count matrix: E:/R/ACLsenescence2/rebuild_submission/03_pig_chronic/tables/step25v3_pig_chronic_main_comparison_gene_level_counts_matrix.csv
+Updated TMM-aligned Step2 z-score scores: E:/R/ACLsenescence2/rebuild_submission/03_pig_chronic/tables/chronic_step2_current78_signature_score_TMM_aligned/chronic_step2_current78_TMM_aligned_signature_scores_by_sample.csv
+
+Normalization summary:
+                                    metric                                  value
+1                 input_count_matrix_genes                                  22438
+2               input_count_matrix_samples                                     24
+3    filterByExpr_applied_before_singscore                                  FALSE
+4                       edgeR_DGEList_used                                   TRUE
+5                        TMM_normalization edgeR::calcNormFactors(method = 'TMM')
+6                          logCPM_function                 edgeR::cpm(log = TRUE)
+7                              prior_count                                      1
+8                     normalized_lib_sizes                                   TRUE
+9                 estimated_counts_rounded                                  FALSE
+10 n_signature_genes_available_for_scoring                                     75
+11                    n_up_signature_genes                                     65
+12                  n_down_signature_genes                                     10
+
+TMM library summary:
+                                            sample_id          group raw_estimated_count_sum TMM_norm_factor effective_library_size detected_genes_count_gt0
+GSM7140486_CON1_synovium     GSM7140486_CON1_synovium    Control_52W                 7108677       1.1173152                7942633                    16731
+GSM7140491_CON2_synovium     GSM7140491_CON2_synovium    Control_52W                 8959039       1.0410712                9326997                    16672
+GSM7140495_CON3_synovium     GSM7140495_CON3_synovium    Control_52W                 9719015       1.1126848               10814201                    16993
+GSM7140500_CON4_synovium     GSM7140500_CON4_synovium    Control_52W                 8391254       1.0728326                9002412                    16672
+GSM7140502_CON5_synovium     GSM7140502_CON5_synovium    Control_52W                12170231       0.9537912               11607859                    16538
+GSM7140507_CON6_synovium     GSM7140507_CON6_synovium    Control_52W                16132991       1.1147778               17984701                    17390
+GSM7140511_CON7_synovium     GSM7140511_CON7_synovium    Control_52W                11920148       1.1091978               13221802                    17215
+GSM7140516_CON8_synovium     GSM7140516_CON8_synovium    Control_52W                 9996314       1.1221556               11217420                    16810
+GSM7140518_CON9_synovium     GSM7140518_CON9_synovium    Control_52W                12285504       1.1005048               13520257                    17058
+GSM7140523_CON10_synovium   GSM7140523_CON10_synovium    Control_52W                13966921       1.0709385               14957713                    16999
+GSM7140527_CON11_synovium   GSM7140527_CON11_synovium    Control_52W                16354930       0.8895768               14548967                    16694
+GSM7140532_CON12_synovium   GSM7140532_CON12_synovium    Control_52W                11603076       1.0880467               12624688                    16604
+GSM7140487_ACLT1_synovium   GSM7140487_ACLT1_synovium ACLT_alone_52W                10334100       0.8887394                9184322                    16660
+GSM7140488_ACLT2_synovium   GSM7140488_ACLT2_synovium ACLT_alone_52W                10521457       1.0006256               10528039                    16880
+GSM7140489_ACLT3_synovium   GSM7140489_ACLT3_synovium ACLT_alone_52W                18669780       0.9213546               17201488                    16495
+GSM7140490_ACLT4_synovium   GSM7140490_ACLT4_synovium ACLT_alone_52W                 9298837       0.9904546                9210076                    16367
+GSM7140492_ACLT5_synovium   GSM7140492_ACLT5_synovium ACLT_alone_52W                 9066422       0.9958939                9029194                    16613
+GSM7140493_ACLT6_synovium   GSM7140493_ACLT6_synovium ACLT_alone_52W                10831988       0.9033712                9785306                    16291
+GSM7140494_ACLT7_synovium   GSM7140494_ACLT7_synovium ACLT_alone_52W                10627443       0.9275873                9857881                    16710
+GSM7140496_ACLT8_synovium   GSM7140496_ACLT8_synovium ACLT_alone_52W                12200497       1.0253431               12509695                    16912
+GSM7140497_ACLT9_synovium   GSM7140497_ACLT9_synovium ACLT_alone_52W                 7706256       1.0095390                7779765                    16517
+GSM7140498_ACLT10_synovium GSM7140498_ACLT10_synovium ACLT_alone_52W                 9007486       1.0418801                9384721                    16511
+GSM7140499_ACLT11_synovium GSM7140499_ACLT11_synovium ACLT_alone_52W                 8387249       0.7973198                6687320                    15741
+GSM7140501_ACLT12_synovium GSM7140501_ACLT12_synovium ACLT_alone_52W                10569945       0.8191519                8658390                    15555
+
+Saved: E:/R/ACLsenescence2/rebuild_submission/03_pig_chronic/tables/chronic_step3_current78_singscore_sensitivity_TMM_aligned/chronic_step3_current78_TMM_aligned_signature_gene_metadata_used.csv
+Saved: E:/R/ACLsenescence2/rebuild_submission/03_pig_chronic/tables/chronic_step3_current78_singscore_sensitivity_TMM_aligned/chronic_step3_TMM_aligned_genomewide_logCPM_matrix_for_singscore.csv
+Saved: E:/R/ACLsenescence2/rebuild_submission/03_pig_chronic/tables/chronic_step3_current78_singscore_sensitivity_TMM_aligned/chronic_step3_TMM_aligned_normalization_summary.csv
+Saved: E:/R/ACLsenescence2/rebuild_submission/03_pig_chronic/tables/chronic_step3_current78_singscore_sensitivity_TMM_aligned/chronic_step3_TMM_aligned_library_summary.csv
+Saved: E:/R/ACLsenescence2/rebuild_submission/03_pig_chronic/tables/chronic_step3_current78_singscore_sensitivity_TMM_aligned/chronic_step3_current78_TMM_aligned_singscore_scores_by_sample.csv
+Saved: E:/R/ACLsenescence2/rebuild_submission/03_pig_chronic/tables/chronic_step3_current78_singscore_sensitivity_TMM_aligned/chronic_step3_current78_TMM_aligned_singscore_scores_long.csv
+Saved: E:/R/ACLsenescence2/rebuild_submission/03_pig_chronic/tables/chronic_step3_current78_singscore_sensitivity_TMM_aligned/chronic_step3_current78_TMM_aligned_singscore_group_comparisons.csv
+Saved: E:/R/ACLsenescence2/rebuild_submission/03_pig_chronic/tables/chronic_step3_current78_singscore_sensitivity_TMM_aligned/chronic_step3_current78_TMM_aligned_singscore_vs_zscore_correlation.csv
+Saved: E:/R/ACLsenescence2/rebuild_submission/03_pig_chronic/tables/chronic_step3_current78_singscore_sensitivity_TMM_aligned/chronic_step3_TMM_aligned_sample_metadata_used.csv
+Saved: E:/R/ACLsenescence2/rebuild_submission/03_pig_chronic/tables/chronic_step3_current78_singscore_sensitivity_TMM_aligned/chronic_step3_TMM_aligned_plot_files.csv
+Saved: E:/R/ACLsenescence2/rebuild_submission/03_pig_chronic/tables/chronic_step3_current78_singscore_sensitivity_TMM_aligned/chronic_step3_TMM_aligned_input_file_audit.csv
+Saved: E:/R/ACLsenescence2/rebuild_submission/03_pig_chronic/tables/chronic_step3_current78_singscore_sensitivity_TMM_aligned/chronic_step3_current78_TMM_aligned_singscore_run_summary.csv
+Saved: E:/R/ACLsenescence2/rebuild_submission/03_pig_chronic/tables/chronic_step3_current78_singscore_sensitivity_TMM_aligned/chronic_step3_TMM_aligned_versions_and_method_records.csv
+
+===== Chronic Step3 current78 TMM-aligned singscore summary =====
+                                                        metric
+                                                method_version
+                                          signature_input_file
+                                    chronic_main_manifest_file
+                                      chronic_main_counts_file
+                         updated_TMM_aligned_step2_scores_file
+                                        n_signature_genes_used
+                                          n_up_signature_genes
+                                        n_down_signature_genes
+                                     n_genomewide_genes_ranked
+                                                     n_samples
+                                                 n_Control_52W
+                                              n_ACLT_alone_52W
+                                               singscore_scale
+                                 filterByExpr_before_singscore
+                                             TMM_normalization
+                                      estimated_counts_rounded
+                              directional_singscore_definition
+                                  down_singscore_reorientation
+                                                    group_test
+                      directional_singscore_median_Control_52W
+                   directional_singscore_median_ACLT_alone_52W
+    directional_singscore_median_difference_case_minus_control
+                          directional_singscore_wilcox_p_value
+ directional_singscore_BH_FDR_across_all_singscore_comparisons
+          TMM_aligned_directional_zscore_vs_singscore_spearman
+                                          main_singscore_table
+                                        group_comparison_table
+                            zscore_singscore_correlation_table
+                                                    figure_png
+                                                    figure_pdf
+                                                    output_dir
+                                                                                                                                                                                            value
+                                                                                                                          2026-05-16_chronic_step3_current78_TMM_aligned_singscore_sensitivity_v1
+                                              E:/R/ACLsenescence2/rebuild_submission/02_pig_early/tables/step18_current78_pig_early_signature_remap/step18_current78_pig_signature_gene_table.csv
+                                                                                   E:/R/ACLsenescence2/rebuild_submission/03_pig_chronic/tables/step25v3_pig_chronic_main_comparison_manifest.csv
+                                                                   E:/R/ACLsenescence2/rebuild_submission/03_pig_chronic/tables/step25v3_pig_chronic_main_comparison_gene_level_counts_matrix.csv
+              E:/R/ACLsenescence2/rebuild_submission/03_pig_chronic/tables/chronic_step2_current78_signature_score_TMM_aligned/chronic_step2_current78_TMM_aligned_signature_scores_by_sample.csv
+                                                                                                                                                                                               75
+                                                                                                                                                                                               65
+                                                                                                                                                                                               10
+                                                                                                                                                                                            22438
+                                                                                                                                                                                               24
+                                                                                                                                                                                               12
+                                                                                                                                                                                               12
+                                                                                                                       genome-wide sample-wise ranks from TMM-normalized logCPM; centerScore=TRUE
+                                                                                                                                                                                            FALSE
+                                                                                     edgeR::calcNormFactors(method = 'TMM'); edgeR::cpm(log = TRUE, prior.count = 1, normalized.lib.sizes = TRUE)
+                                                                                                                                                                                            FALSE
+                                                                                                   simpleScore(rankData, upSet=65 genes, downSet=10 genes, centerScore=TRUE, knownDirection=TRUE)
+                                                                                                                            down genes scored as upSet to obtain raw score, then multiplied by -1
+                                                                                                                two-sided Wilcoxon rank-sum test for ACLT_alone_52W vs Control_52W; exact = FALSE
+                                                                                                                                                                                 0.10422263662957
+                                                                                                                                                                                0.144578150066651
+                                                                                                                                                                               0.0403555134370819
+                                                                                                                                                                              0.00725995498819057
+                                                                                                                                                                               0.0145199099763811
+                                                                                                                                                                                0.732173913043478
+        E:/R/ACLsenescence2/rebuild_submission/03_pig_chronic/tables/chronic_step3_current78_singscore_sensitivity_TMM_aligned/chronic_step3_current78_TMM_aligned_singscore_scores_by_sample.csv
+       E:/R/ACLsenescence2/rebuild_submission/03_pig_chronic/tables/chronic_step3_current78_singscore_sensitivity_TMM_aligned/chronic_step3_current78_TMM_aligned_singscore_group_comparisons.csv
+   E:/R/ACLsenescence2/rebuild_submission/03_pig_chronic/tables/chronic_step3_current78_singscore_sensitivity_TMM_aligned/chronic_step3_current78_TMM_aligned_singscore_vs_zscore_correlation.csv
+ E:/R/ACLsenescence2/rebuild_submission/03_pig_chronic/figures/Supplementary_chronic_current78_singscore_TMM_aligned/Supplementary_chronic_current78_TMM_aligned_singscore_scores_mouse_style.png
+ E:/R/ACLsenescence2/rebuild_submission/03_pig_chronic/figures/Supplementary_chronic_current78_singscore_TMM_aligned/Supplementary_chronic_current78_TMM_aligned_singscore_scores_mouse_style.pdf
+                                                                           E:/R/ACLsenescence2/rebuild_submission/03_pig_chronic/tables/chronic_step3_current78_singscore_sensitivity_TMM_aligned
+
+Normalization summary:
+                                  metric                                  value
+                input_count_matrix_genes                                  22438
+              input_count_matrix_samples                                     24
+   filterByExpr_applied_before_singscore                                  FALSE
+                      edgeR_DGEList_used                                   TRUE
+                       TMM_normalization edgeR::calcNormFactors(method = 'TMM')
+                         logCPM_function                 edgeR::cpm(log = TRUE)
+                             prior_count                                      1
+                    normalized_lib_sizes                                   TRUE
+                estimated_counts_rounded                                  FALSE
+ n_signature_genes_available_for_scoring                                     75
+                    n_up_signature_genes                                     65
+                  n_down_signature_genes                                     10
+
+Signature direction counts:
+
+Down_in_ACLR   Up_in_ACLR 
+          10           65 
+
+Singscore group comparison statistics:
+                    comparison                     score n_control n_case median_control  median_case mean_control    mean_case median_difference_case_minus_control mean_difference_case_minus_control
+ ACLT_alone_52W_vs_Control_52W     directional_singscore        12     12     0.10422264  0.144578150   0.10184728  0.146780468                           0.04035551                         0.04493318
+ ACLT_alone_52W_vs_Control_52W              up_singscore        12     12     0.12671042  0.149780470   0.12614392  0.145571413                           0.02307005                         0.01942749
+ ACLT_alone_52W_vs_Control_52W down_singscore_reoriented        12     12    -0.02915998  0.003054218  -0.02429664  0.001209054                           0.03221420                         0.02550569
+ ACLT_alone_52W_vs_Control_52W        down_singscore_raw        12     12     0.02915998 -0.003054218   0.02429664 -0.001209054                          -0.03221420                        -0.02550569
+ wilcox_p_value BH_FDR_across_all_singscore_comparisons
+    0.007259955                             0.014519910
+    0.001353941                             0.005415766
+    0.099877403                             0.099877403
+    0.099877403                             0.099877403
+
+TMM-aligned z-score vs singscore correlation:
+                                      comparison n_samples  spearman   pearson
+     TMM_aligned_directional_zscore_vs_singscore        24 0.7321739 0.7014277
+              TMM_aligned_up_zscore_vs_singscore        24 0.9408696 0.9402832
+ TMM_aligned_down_reoriented_zscore_vs_singscore        24 0.8017391 0.8513580
+
+Version and method records:
+                     item                                                                                  value
+                R_version                                                                                  4.5.2
+            edgeR_version                                                                                  4.8.2
+        singscore_version                                                                                 1.30.0
+          ggplot2_version                                                                                  4.0.2
+     signature_definition       current78-derived pig early 75-gene signature; 65 Up_in_ACLR and 10 Down_in_ACLR
+              score_input                 GSE228848 chronic main-comparison tximport gene-level estimated counts
+               rank_input        genome-wide TMM-normalized logCPM matrix for 24 chronic main-comparison samples
+ filtering_before_ranking No filterByExpr before singscore ranking/scoring, to retain predefined signature genes
+              centerScore                                                                                   TRUE
+           knownDirection                                                                                   TRUE
+    chronic_analysis_role                      sensitivity analysis only; no chronic signature/core redefinition
+
+Chronic Step3 current78 TMM-aligned singscore sensitivity completed successfully.

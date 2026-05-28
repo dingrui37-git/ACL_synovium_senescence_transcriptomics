@@ -1,0 +1,4 @@
+"comparison","n_samples","spearman","pearson"
+"TMM_aligned_directional_zscore_vs_singscore",24,0.732173913043478,0.701427695826643
+"TMM_aligned_up_zscore_vs_singscore",24,0.940869565217391,0.940283235322034
+"TMM_aligned_down_reoriented_zscore_vs_singscore",24,0.801739130434783,0.851358046337817

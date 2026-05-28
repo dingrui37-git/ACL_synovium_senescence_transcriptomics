@@ -1,0 +1,4 @@
+"label","file","exists","size_bytes","mtime","md5"
+"chronic main comparison manifest","E:/R/ACLsenescence2/rebuild_submission/03_pig_chronic/tables/step25v3_pig_chronic_main_comparison_manifest.csv",TRUE,6306,"2026-04-26 16:26:22","0a4595c5b55198ad1b1252efe30dfbb4"
+"chronic main comparison gene-level estimated count matrix","E:/R/ACLsenescence2/rebuild_submission/03_pig_chronic/tables/step25v3_pig_chronic_main_comparison_gene_level_counts_matrix.csv",TRUE,2828723,"2026-04-26 16:26:46","60e137fc2cacdb0b03de01619dc38e85"
+"chronic main comparison effective-length matrix","E:/R/ACLsenescence2/rebuild_submission/03_pig_chronic/tables/step25v3_pig_chronic_main_comparison_gene_level_length_matrix.csv",TRUE,7373330,"2026-04-26 16:26:56","df37a1f6c2152d15734f53bb36d292fb"

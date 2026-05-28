@@ -1,0 +1,22 @@
+===== Step 22 Methods 12.1 archive summary =====
+Project root: E:/R/ACLsenescence2
+Quantification directory: E:/R/ACLsenescence2/rebuild_submission/raw data/GSE228848_synovium_quant
+Quant.sf-like files found by rescan: 96
+Step23 fixed QC rows: 96
+Readable files in Step23 fixed QC: 96 / 96
+Files with Salmon standard columns: NA / 96
+Inferred synovium quant files: 48
+Inferred cartilage quant files: 48
+Step25v3 synovium manifest samples: 48
+Step25v3 main-comparison samples: 24
+Main Control_52W: 12
+Main ACLT_alone_52W: 12
+All evidence checks passed: NA
+
+Evidence outputs:
+E:/R/ACLsenescence2/rebuild_submission/03_pig_chronic/tables/step22_methods_12_1_data_source_sample_annotation_evidence.csv
+E:/R/ACLsenescence2/rebuild_submission/03_pig_chronic/tables/step22_methods_12_1_quant_directory_rescan.csv
+E:/R/ACLsenescence2/rebuild_submission/03_pig_chronic/tables/step22_methods_12_1_synovium_group_summary.csv
+E:/R/ACLsenescence2/rebuild_submission/03_pig_chronic/tables/step22_methods_12_1_main_comparison_group_summary.csv
+E:/R/ACLsenescence2/rebuild_submission/03_pig_chronic/tables/step22_methods_12_1_source_file_audit.csv
+E:/R/ACLsenescence2/rebuild_submission/03_pig_chronic/logs/step22_methods_12_1_text_archived.txt

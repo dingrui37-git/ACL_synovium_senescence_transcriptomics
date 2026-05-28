@@ -1,0 +1,5 @@
+Step 25 v3 completed successfully.
+Synovium samples: 48
+Main comparison samples: 24
+Control_52W: 12
+ACLT_alone_52W: 12

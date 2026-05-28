@@ -1,0 +1,8 @@
+Step 25 v2 completed successfully.
+Preferred manifest file: E:/R/ACLsenescence2/results/GSE228848_chronic_validation/GSE228848_synovium_chronic_manifest_repaired.csv
+Synovium samples: 48
+Main comparison samples: 0
+Main Control_52W: 0
+Main ACLT_alone_52W: 0
+Synovium counts dim: 22438 x 48
+Main counts dim: 22438 x 0

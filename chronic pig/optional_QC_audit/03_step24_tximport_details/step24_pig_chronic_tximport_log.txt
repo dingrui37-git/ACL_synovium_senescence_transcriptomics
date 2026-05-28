@@ -1,0 +1,10 @@
+Step 24 v2 completed successfully.
+Project root: E:/R/ACLsenescence2
+Quant directory: E:/R/ACLsenescence2/data_raw/GSE228848_synovium_quant
+GTF file: E:/R/ACLsenescence2/reference/Sus_scrofa_Ensembl115/Sus_scrofa.Sscrofa11.1.115.gtf.gz
+Quant files: 96
+Unique samples: 96
+tx2gene rows: 60440
+Counts matrix dim: 22438 x 96
+Abundance matrix dim: 22438 x 96
+Length matrix dim: 22438 x 96

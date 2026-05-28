@@ -1,0 +1,29 @@
+===== Step 23 FIXED GSE228848 processed Salmon quant-level QC summary =====
+Quantification directory: E:/R/ACLsenescence2/rebuild_submission/raw data/GSE228848_synovium_quant
+
+Quant.sf-like files found: 96
+Readable files: 96 / 96
+Files with all Salmon standard columns [Name, Length, EffectiveLength, TPM, NumReads]: 96 / 96
+Files with expected transcript count 46295: 96 / 96
+Files with TPM sum close to 1,000,000: 96 / 96
+Unique transcript count values observed: 46295
+TPM sum range: 999999.999867 to 1000000.00015
+NumReads sum range: 7483048.956 to 21937198.002
+
+Inferred synovium files: 48
+Inferred cartilage files: 48
+Unknown tissue files: 0
+
+Tissue/group breakdown:
+ tissue_inferred ACLT_alone_52W Control_52W Reconstruction_52W Repair_52W
+       cartilage             12          12                 12         12
+        synovium             12          12                 12         12
+
+Overall QC pass: TRUE
+
+Key output files:
+E:/R/ACLsenescence2/rebuild_submission/03_pig_chronic/tables/step23_pig_chronic_quant_file_inventory_FIXED.csv
+E:/R/ACLsenescence2/rebuild_submission/03_pig_chronic/tables/step23_pig_chronic_quant_level_QC_table_FIXED.csv
+E:/R/ACLsenescence2/rebuild_submission/03_pig_chronic/tables/step23_pig_chronic_quant_level_QC_summary_FIXED.csv
+E:/R/ACLsenescence2/rebuild_submission/03_pig_chronic/tables/step23_pig_chronic_quant_level_QC_tissue_group_summary_FIXED.csv
+E:/R/ACLsenescence2/rebuild_submission/03_pig_chronic/tables/step23_pig_chronic_quant_level_QC_read_errors_FIXED.csv

@@ -1,0 +1,5 @@
+"label","file","exists","size_bytes","mtime","md5"
+"current78 pig early 75-gene signature table","E:/R/ACLsenescence2/rebuild_submission/02_pig_early/tables/step18_current78_pig_early_signature_remap/step18_current78_pig_signature_gene_table.csv",TRUE,22937,"2026-05-06 16:54:44","3cf730670f204973796af4ae76ca4d0f"
+"chronic main comparison manifest","E:/R/ACLsenescence2/rebuild_submission/03_pig_chronic/tables/step25v3_pig_chronic_main_comparison_manifest.csv",TRUE,6306,"2026-04-26 16:26:22","0a4595c5b55198ad1b1252efe30dfbb4"
+"chronic main comparison gene-level counts matrix","E:/R/ACLsenescence2/rebuild_submission/03_pig_chronic/tables/step25v3_pig_chronic_main_comparison_gene_level_counts_matrix.csv",TRUE,2828723,"2026-04-26 16:26:46","60e137fc2cacdb0b03de01619dc38e85"
+"chronic Step1 detectability summary","E:/R/ACLsenescence2/rebuild_submission/03_pig_chronic/tables/chronic_step1_current78_signature_core_detectability_audit/chronic_step1_current78_signature_core_detectability_summary.csv",TRUE,1660,"2026-05-08 12:46:18","0bd84f6dbd9892297744b11ab87c26f7"

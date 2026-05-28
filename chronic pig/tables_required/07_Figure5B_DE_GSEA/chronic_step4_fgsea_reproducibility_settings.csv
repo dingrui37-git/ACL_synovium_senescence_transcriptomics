@@ -1,0 +1,2 @@
+"contrast","seed","nproc","minSize","maxSize","eps","fgsea_implementation","full_collection_FDR_used"
+"ACLT_alone_52W_vs_Control_52W",1,1,10,500,0,"fgsea default multilevel implementation; no fixed nperm specified",TRUE

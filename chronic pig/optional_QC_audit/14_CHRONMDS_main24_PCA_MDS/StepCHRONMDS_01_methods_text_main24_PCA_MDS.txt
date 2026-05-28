@@ -1,0 +1,5 @@
+Sample-level PCA and MDS for the chronic pig main comparison were performed using the locked 24-sample synovium gene-level estimated counts matrix, including 12 Control_52W and 12 ACLT_alone_52W samples.
+Lowly expressed genes were filtered using edgeR::filterByExpr, followed by TMM normalization with edgeR::calcNormFactors.
+Filtered TMM-normalized logCPM values were generated using edgeR::cpm with prior.count = 1.
+PCA was performed using prcomp on the transposed logCPM matrix, and MDS was performed using limma::plotMDS with the top 500 genes and common gene selection.
+Salmon/tximport estimated counts were used as numeric estimated counts and were not rounded.

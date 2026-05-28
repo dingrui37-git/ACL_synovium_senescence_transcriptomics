@@ -1,0 +1,112 @@
+===== Chronic Step2 current78 TMM-aligned signature score SUMMARY TO SEND ME =====
+Run time: 2026-05-16 10:48:49
+
+Main run summary:
+                                                 metric
+                                         method_version
+                                   signature_input_file
+                             chronic_main_manifest_file
+                               chronic_main_counts_file
+                                 n_signature_genes_used
+                                   n_up_signature_genes
+                                 n_down_signature_genes
+                                              n_samples
+                                          n_Control_52W
+                                       n_ACLT_alone_52W
+                                            score_scale
+                            filterByExpr_before_scoring
+                                      TMM_normalization
+                               estimated_counts_rounded
+                   primary_directional_score_definition
+                audit_directional_score_sum_means_saved
+                                             group_test
+                   directional_score_median_Control_52W
+                directional_score_median_ACLT_alone_52W
+ directional_score_median_difference_case_minus_control
+                       directional_score_wilcox_p_value
+  directional_score_BH_FDR_across_all_score_comparisons
+                                       main_score_table
+                                 group_comparison_table
+                                             figure_png
+                                             figure_pdf
+                                             output_dir
+                                                                                                                                                                                      value
+                                                                                                                       2026-05-16_chronic_step2_current78_TMM_aligned_with_pig_early_Step19
+                                        E:/R/ACLsenescence2/rebuild_submission/02_pig_early/tables/step18_current78_pig_early_signature_remap/step18_current78_pig_signature_gene_table.csv
+                                                                             E:/R/ACLsenescence2/rebuild_submission/03_pig_chronic/tables/step25v3_pig_chronic_main_comparison_manifest.csv
+                                                             E:/R/ACLsenescence2/rebuild_submission/03_pig_chronic/tables/step25v3_pig_chronic_main_comparison_gene_level_counts_matrix.csv
+                                                                                                                                                                                         75
+                                                                                                                                                                                         65
+                                                                                                                                                                                         10
+                                                                                                                                                                                         24
+                                                                                                                                                                                         12
+                                                                                                                                                                                         12
+                                                                                                    edgeR TMM-normalized logCPM; row-wise z-score across 24 chronic main-comparison samples
+                                                                                                                                                                                      FALSE
+                                                                               edgeR::calcNormFactors(method = 'TMM'); edgeR::cpm(log = TRUE, prior.count = 1, normalized.lib.sizes = TRUE)
+                                                                                                                                                                                      FALSE
+                                                                                                                                                     (sum up z + sum -down z)/(n_up+n_down)
+                                                                                                                       TRUE; directional_score_sum_means = up_score + down_score_reoriented
+                                                                                                          two-sided Wilcoxon rank-sum test for ACLT_alone_52W vs Control_52W; exact = FALSE
+                                                                                                                                                                         -0.139433548042642
+                                                                                                                                                                          0.162449627277128
+                                                                                                                                                                           0.30188317531977
+                                                                                                                                                                       0.000900935596360016
+                                                                                                                                                                        0.00401900971132003
+        E:/R/ACLsenescence2/rebuild_submission/03_pig_chronic/tables/chronic_step2_current78_signature_score_TMM_aligned/chronic_step2_current78_TMM_aligned_signature_scores_by_sample.csv
+ E:/R/ACLsenescence2/rebuild_submission/03_pig_chronic/tables/chronic_step2_current78_signature_score_TMM_aligned/chronic_step2_current78_TMM_aligned_signature_score_group_comparisons.csv
+           E:/R/ACLsenescence2/rebuild_submission/03_pig_chronic/figures/Figure5A_current78_chronic_signature_score_TMM_aligned/Figure5A_current78_chronic_signature_scores_TMM_aligned.png
+           E:/R/ACLsenescence2/rebuild_submission/03_pig_chronic/figures/Figure5A_current78_chronic_signature_score_TMM_aligned/Figure5A_current78_chronic_signature_scores_TMM_aligned.pdf
+                                                                           E:/R/ACLsenescence2/rebuild_submission/03_pig_chronic/tables/chronic_step2_current78_signature_score_TMM_aligned
+
+Normalization summary:
+                              metric                                  value
+            input_count_matrix_genes                                  22438
+          input_count_matrix_samples                                     24
+ filterByExpr_applied_before_scoring                                  FALSE
+                  edgeR_DGEList_used                                   TRUE
+                   TMM_normalization edgeR::calcNormFactors(method = 'TMM')
+                     logCPM_function                 edgeR::cpm(log = TRUE)
+                         prior_count                                      1
+                normalized_lib_sizes                                   TRUE
+            estimated_counts_rounded                                  FALSE
+
+Signature direction counts:
+
+Down_in_ACLR   Up_in_ACLR 
+          10           65 
+
+Group comparison statistics:
+                    comparison                       score n_control n_case median_control median_case mean_control  mean_case median_difference_case_minus_control
+ ACLT_alone_52W_vs_Control_52W           directional_score        12     12    -0.13943355   0.1624496   -0.1677294  0.1677294                            0.3018832
+ ACLT_alone_52W_vs_Control_52W directional_score_sum_means        12     12    -0.30068253   0.3215883   -0.2964636  0.2964636                            0.6222708
+ ACLT_alone_52W_vs_Control_52W                    up_score        12     12    -0.12959273   0.1460881   -0.1748195  0.1748195                            0.2756808
+ ACLT_alone_52W_vs_Control_52W       down_score_reoriented        12     12    -0.05067284   0.1158261   -0.1216441  0.1216441                            0.1664990
+ ACLT_alone_52W_vs_Control_52W              down_score_raw        12     12     0.05067284  -0.1158261    0.1216441 -0.1216441                           -0.1664990
+ ACLT_alone_52W_vs_Control_52W      total_score_unoriented        12     12    -0.11677319   0.1151519   -0.1352910  0.1352910                            0.2319250
+ mean_difference_case_minus_control wilcox_p_value BH_FDR_across_all_score_comparisons
+                          0.3354589   0.0009009356                         0.004019010
+                          0.5929272   0.0020095049                         0.004019010
+                          0.3496390   0.0016520395                         0.004019010
+                          0.2432882   0.1748533069                         0.174853307
+                         -0.2432882   0.1748533069                         0.174853307
+                          0.2705820   0.0051079054                         0.007661858
+
+Version and method records:
+                     item                                                                                                                        value
+                R_version                                                                                                                        4.5.2
+            edgeR_version                                                                                                                        4.8.2
+          ggplot2_version                                                                                                                        4.0.2
+     signature_definition                                             current78-derived pig early 75-gene signature; 65 Up_in_ACLR and 10 Down_in_ACLR
+              score_input                                                       GSE228848 chronic main-comparison tximport gene-level estimated counts
+            normalization edgeR::DGEList; edgeR::calcNormFactors(method = 'TMM'); edgeR::cpm(log = TRUE, prior.count = 1, normalized.lib.sizes = TRUE)
+ filtering_before_scoring                                                   No filterByExpr before scoring, to avoid losing predefined signature genes
+      row_standardization                                                              row-wise z-score across 24 chronic main-comparison samples only
+    primary_score_formula                                                                   directional_score = (sum z_up + sum -z_down)/(n_up+n_down)
+    chronic_analysis_role                                                            extension validation only; no chronic signature/core redefinition
+
+Interpretation checkpoint:
+This step uses the fixed current78-derived pig early 75-gene signature in the chronic pig main comparison.
+It does not redefine a chronic signature or chronic core set.
+It uses edgeR TMM-normalized logCPM and no filterByExpr before scoring, aligned with pig early Step19.
+Primary manuscript-relevant score is directional_score = (sum z_up + sum -z_down)/(n_up+n_down).

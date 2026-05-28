@@ -1,0 +1,456 @@
+============================================================
+StepCHRONQC_01_chronic_pig_Salmon_tximport_QC
+Started at: 2026-05-27 21:33:03 
+Method version: 2026-05-27_chronic_pig_Salmon_tximport_quantification_audit_v1_TMM_aligned_metadata_path 
+============================================================
+
+Script archive note: --file argument was not detected. If running interactively, manually save this script in:
+E:/R/ACLsenescence2/rebuild_submission/03_pig_chronic/supplement/Salmon_tximport_QC/scripts
+
+警告信息:
+程序包‘ggplot2’是用R版本4.5.3 来建造的 
+Required packages loaded.
+dplyr version: 1.1.4 
+ggplot2 version: 4.0.2 
+
+Input paths:
+                      label                                                                                                                                                                          path exists
+1                 quant_dir                                                                                                      E:/R/ACLsenescence2/rebuild_submission/raw data/GSE228848_synovium_quant   TRUE
+2                tables_dir                                                                                                                  E:/R/ACLsenescence2/rebuild_submission/03_pig_chronic/tables   TRUE
+3             metadata_file E:/R/ACLsenescence2/rebuild_submission/03_pig_chronic/tables/chronic_step2_current78_signature_score_TMM_aligned/chronic_step2_current78_TMM_aligned_sample_metadata_used.csv   TRUE
+4 tximport_run_summary_file                                                                      E:/R/ACLsenescence2/rebuild_submission/03_pig_chronic/tables/step24_pig_chronic_tximport_run_summary.csv   TRUE
+5                  gtf_file                                                          E:/R/ACLsenescence2/rebuild_submission/02_pig_early_fastp_sensitivity/reference_cache/Sus_scrofa.Sscrofa11.1.115.gtf   TRUE
+
+Quant-like files found: 96 
+Tissue counts from filename:
+
+cartilage  synovium 
+       48        48 
+Group counts from filename:
+
+    ACLT_alone_52W        Control_52W Reconstruction_52W         Repair_52W 
+                24                 24                 24                 24 
+
+Synovium-candidate quant files: 48 
+
+    ACLT_alone_52W        Control_52W Reconstruction_52W         Repair_52W 
+                12                 12                 12                 12 
+Auditing quant file 1 of 48 : GSM7140486_CON1_synovium_quant.sf.txt.gz 
+Auditing quant file 2 of 48 : GSM7140487_ACLT1_synovium_quant.sf.txt.gz 
+Auditing quant file 3 of 48 : GSM7140488_ACLT2_synovium_quant.sf.txt.gz 
+Auditing quant file 4 of 48 : GSM7140489_ACLT3_synovium_quant.sf.txt.gz 
+Auditing quant file 5 of 48 : GSM7140490_ACLT4_synovium_quant.sf.txt.gz 
+Auditing quant file 6 of 48 : GSM7140491_CON2_synovium_quant.sf.txt.gz 
+Auditing quant file 7 of 48 : GSM7140492_ACLT5_synovium_quant.sf.txt.gz 
+Auditing quant file 8 of 48 : GSM7140493_ACLT6_synovium_quant.sf.txt.gz 
+Auditing quant file 9 of 48 : GSM7140494_ACLT7_synovium_quant.sf.txt.gz 
+Auditing quant file 10 of 48 : GSM7140495_CON3_synovium_quant.sf.txt.gz 
+Auditing quant file 11 of 48 : GSM7140496_ACLT8_synovium_quant.sf.txt.gz 
+Auditing quant file 12 of 48 : GSM7140497_ACLT9_synovium_quant.sf.txt.gz 
+Auditing quant file 13 of 48 : GSM7140498_ACLT10_synovium_quant.sf.txt.gz 
+Auditing quant file 14 of 48 : GSM7140499_ACLT11_synovium_quant.sf.txt.gz 
+Auditing quant file 15 of 48 : GSM7140500_CON4_synovium_quant.sf.txt.gz 
+Auditing quant file 16 of 48 : GSM7140501_ACLT12_synovium_quant.sf.txt.gz 
+Auditing quant file 17 of 48 : GSM7140502_CON5_synovium_quant.sf.txt.gz 
+Auditing quant file 18 of 48 : GSM7140503_RECON1_synovium_quant.sf.txt.gz 
+Auditing quant file 19 of 48 : GSM7140504_RECON2_synovium_quant.sf.txt.gz 
+Auditing quant file 20 of 48 : GSM7140505_RECON3_synovium_quant.sf.txt.gz 
+Auditing quant file 21 of 48 : GSM7140506_RECON4_synovium_quant.sf.txt.gz 
+Auditing quant file 22 of 48 : GSM7140507_CON6_synovium_quant.sf.txt.gz 
+Auditing quant file 23 of 48 : GSM7140508_RECON5_synovium_quant.sf.txt.gz 
+Auditing quant file 24 of 48 : GSM7140509_RECON6_synovium_quant.sf.txt.gz 
+Auditing quant file 25 of 48 : GSM7140510_RECON7_synovium_quant.sf.txt.gz 
+Auditing quant file 26 of 48 : GSM7140511_CON7_synovium_quant.sf.txt.gz 
+Auditing quant file 27 of 48 : GSM7140512_RECON8_synovium_quant.sf.txt.gz 
+Auditing quant file 28 of 48 : GSM7140513_RECON9_synovium_quant.sf.txt.gz 
+Auditing quant file 29 of 48 : GSM7140514_RECON10_synovium_quant.sf.txt.gz 
+Auditing quant file 30 of 48 : GSM7140515_RECON11_synovium_quant.sf.txt.gz 
+Auditing quant file 31 of 48 : GSM7140516_CON8_synovium_quant.sf.txt.gz 
+Auditing quant file 32 of 48 : GSM7140517_RECON12_synovium_quant.sf.txt.gz 
+Auditing quant file 33 of 48 : GSM7140518_CON9_synovium_quant.sf.txt.gz 
+Auditing quant file 34 of 48 : GSM7140519_REPAIR1_synovium_quant.sf.txt.gz 
+Auditing quant file 35 of 48 : GSM7140520_REPAIR2_synovium_quant.sf.txt.gz 
+Auditing quant file 36 of 48 : GSM7140521_REPAIR3_synovium_quant.sf.txt.gz 
+Auditing quant file 37 of 48 : GSM7140522_REPAIR4_synovium_quant.sf.txt.gz 
+Auditing quant file 38 of 48 : GSM7140523_CON10_synovium_quant.sf.txt.gz 
+Auditing quant file 39 of 48 : GSM7140524_REPAIR5_synovium_quant.sf.txt.gz 
+Auditing quant file 40 of 48 : GSM7140525_REPAIR6_synovium_quant.sf.txt.gz 
+Auditing quant file 41 of 48 : GSM7140526_REPAIR7_synovium_quant.sf.txt.gz 
+Auditing quant file 42 of 48 : GSM7140527_CON11_synovium_quant.sf.txt.gz 
+Auditing quant file 43 of 48 : GSM7140528_REPAIR8_synovium_quant.sf.txt.gz 
+Auditing quant file 44 of 48 : GSM7140529_REPAIR9_synovium_quant.sf.txt.gz 
+Auditing quant file 45 of 48 : GSM7140530_REPAIR10_synovium_quant.sf.txt.gz 
+Auditing quant file 46 of 48 : GSM7140531_REPAIR11_synovium_quant.sf.txt.gz 
+Auditing quant file 47 of 48 : GSM7140532_CON12_synovium_quant.sf.txt.gz 
+Auditing quant file 48 of 48 : GSM7140533_REPAIR12_synovium_quant.sf.txt.gz 
+
+Quant.sf integrity summary:
+                              metric    value
+1              quant_files_all_found       96
+2     synovium_candidate_quant_files       48
+3              quant_files_read_PASS       48
+4  quant_files_standard_columns_PASS       48
+5                  min_n_transcripts    46295
+6                  max_n_transcripts    46295
+7                 mean_n_transcripts    46295
+8                        min_tpm_sum  1000000
+9                        max_tpm_sum  1000000
+10                      mean_tpm_sum  1000000
+11                  min_numreads_sum  7483049
+12                  max_numreads_sum 19992966
+13                 mean_numreads_sum 13321649
+
+Detected tximport/gene-level files:
+                      label                                                                                                                   path exists
+1               counts_file E:/R/ACLsenescence2/rebuild_submission/03_pig_chronic/tables/step24_pig_chronic_gene_level_estimated_counts_matrix.csv   TRUE
+2            abundance_file    E:/R/ACLsenescence2/rebuild_submission/03_pig_chronic/tables/step24_pig_chronic_gene_level_abundance_tpm_matrix.csv   TRUE
+3     effective_length_file           E:/R/ACLsenescence2/rebuild_submission/03_pig_chronic/tables/step24_pig_chronic_gene_level_length_matrix.csv   TRUE
+4      gene_annotation_file           E:/R/ACLsenescence2/rebuild_submission/03_pig_chronic/tables/step24_pig_chronic_gene_annotation_from_gtf.csv   TRUE
+5              tx2gene_file                            E:/R/ACLsenescence2/rebuild_submission/03_pig_chronic/tables/step24_pig_chronic_tx2gene.csv   TRUE
+6 tximport_run_summary_file               E:/R/ACLsenescence2/rebuild_submission/03_pig_chronic/tables/step24_pig_chronic_tximport_run_summary.csv   TRUE
+
+Gene-level matrix dimensions:
+            matrix                                                                                                                   path n_genes_rows n_columns_total n_sample_columns first_column
+1           counts E:/R/ACLsenescence2/rebuild_submission/03_pig_chronic/tables/step24_pig_chronic_gene_level_estimated_counts_matrix.csv        22438              97               96      gene_id
+2    abundance_TPM    E:/R/ACLsenescence2/rebuild_submission/03_pig_chronic/tables/step24_pig_chronic_gene_level_abundance_tpm_matrix.csv        22438              97               96      gene_id
+3 effective_length           E:/R/ACLsenescence2/rebuild_submission/03_pig_chronic/tables/step24_pig_chronic_gene_level_length_matrix.csv        22438              97               96      gene_id
+
+Matrix sample-column consistency:
+                  comparison identical_sample_columns counts_n other_n
+1        counts_vs_abundance                     TRUE       96      96
+2 counts_vs_effective_length                     TRUE       96      96
+
+Gene-level matrix sample QC preview:
+                     sample_id geo_accession label_from_sample_id total_estimated_counts detected_genes_count_gt0 detected_genes_count_ge1 tissue_from_sample_id inferred_group_from_sample_id tpm_sum_gene_level
+1    GSM7140438_CON1_cartilage    GSM7140438       CON1_cartilage               14591099                    16445                    16443             cartilage                   Control_52W           993345.1
+2   GSM7140439_ACLT1_cartilage    GSM7140439      ACLT1_cartilage               15096743                    17006                    17000             cartilage                ACLT_alone_52W           991537.3
+3   GSM7140440_ACLT2_cartilage    GSM7140440      ACLT2_cartilage               16784162                    16406                    16403             cartilage                ACLT_alone_52W           992778.7
+4   GSM7140441_ACLT3_cartilage    GSM7140441      ACLT3_cartilage               21257502                    16094                    16092             cartilage                ACLT_alone_52W           992511.1
+5   GSM7140442_ACLT4_cartilage    GSM7140442      ACLT4_cartilage               11437664                    16523                    16517             cartilage                ACLT_alone_52W           991249.4
+6    GSM7140443_CON2_cartilage    GSM7140443       CON2_cartilage               13261603                    15686                    15685             cartilage                   Control_52W           993701.5
+7   GSM7140444_ACLT5_cartilage    GSM7140444      ACLT5_cartilage               12477842                    16035                    16033             cartilage                ACLT_alone_52W           992246.1
+8   GSM7140445_ACLT6_cartilage    GSM7140445      ACLT6_cartilage               14792199                    16188                    16186             cartilage                ACLT_alone_52W           993117.0
+9   GSM7140446_ACLT7_cartilage    GSM7140446      ACLT7_cartilage               15318184                    16155                    16150             cartilage                ACLT_alone_52W           993973.5
+10   GSM7140447_CON3_cartilage    GSM7140447       CON3_cartilage               16951157                    16604                    16600             cartilage                   Control_52W           992636.2
+11  GSM7140448_ACLT8_cartilage    GSM7140448      ACLT8_cartilage               15483878                    16303                    16297             cartilage                ACLT_alone_52W           993768.0
+12  GSM7140449_ACLT9_cartilage    GSM7140449      ACLT9_cartilage               16007927                    17038                    17035             cartilage                ACLT_alone_52W           991883.1
+13 GSM7140450_ACLT10_cartilage    GSM7140450     ACLT10_cartilage               15004740                    16171                    16166             cartilage                ACLT_alone_52W           993311.1
+14 GSM7140451_ACLT11_cartilage    GSM7140451     ACLT11_cartilage               16617065                    16502                    16499             cartilage                ACLT_alone_52W           992865.4
+15   GSM7140452_CON4_cartilage    GSM7140452       CON4_cartilage               16618734                    16438                    16437             cartilage                   Control_52W           992464.1
+16 GSM7140453_ACLT12_cartilage    GSM7140453     ACLT12_cartilage               14097209                    16048                    16044             cartilage                ACLT_alone_52W           992709.7
+17   GSM7140454_CON5_cartilage    GSM7140454       CON5_cartilage               16031334                    16661                    16654             cartilage                   Control_52W           990791.4
+18 GSM7140455_RECON1_cartilage    GSM7140455     RECON1_cartilage               13751988                    16436                    16432             cartilage            Reconstruction_52W           992738.1
+19 GSM7140456_RECON2_cartilage    GSM7140456     RECON2_cartilage                8845046                    16255                    16251             cartilage            Reconstruction_52W           991763.2
+20 GSM7140457_RECON3_cartilage    GSM7140457     RECON3_cartilage               19699395                    16461                    16456             cartilage            Reconstruction_52W           991486.9
+   genes_with_tpm_gt0 effective_length_na_n effective_length_nonpositive_n effective_length_median
+1               16445                     0                              0                1999.090
+2               17006                     0                              0                2045.647
+3               16406                     0                              0                2017.151
+4               16094                     0                              0                2032.960
+5               16523                     0                              0                1974.590
+6               15686                     0                              0                1988.202
+7               16035                     0                              0                2061.716
+8               16188                     0                              0                1907.822
+9               16155                     0                              0                1919.220
+10              16604                     0                              0                2040.076
+11              16303                     0                              0                2013.006
+12              17038                     0                              0                2092.524
+13              16171                     0                              0                2048.118
+14              16502                     0                              0                1970.960
+15              16438                     0                              0                2060.209
+16              16048                     0                              0                1805.490
+17              16661                     0                              0                1992.369
+18              16436                     0                              0                1972.800
+19              16255                     0                              0                1931.476
+20              16461                     0                              0                2002.846
+
+Group counts inferred from matrix sample IDs:
+  inferred_group_from_sample_id n_samples
+1                ACLT_alone_52W        24
+2                   Control_52W        24
+3            Reconstruction_52W        24
+4                    Repair_52W        24
+
+Matrix samples vs quant files audit preview:
+   matrix_geo_accession            matrix_sample_id quant_file basename label_from_filename tissue_from_filename inferred_group_from_filename has_matching_synovium_quant_file
+1            GSM7140438   GSM7140438_CON1_cartilage       <NA>     <NA>                <NA>                 <NA>                         <NA>                            FALSE
+2            GSM7140439  GSM7140439_ACLT1_cartilage       <NA>     <NA>                <NA>                 <NA>                         <NA>                            FALSE
+3            GSM7140440  GSM7140440_ACLT2_cartilage       <NA>     <NA>                <NA>                 <NA>                         <NA>                            FALSE
+4            GSM7140441  GSM7140441_ACLT3_cartilage       <NA>     <NA>                <NA>                 <NA>                         <NA>                            FALSE
+5            GSM7140442  GSM7140442_ACLT4_cartilage       <NA>     <NA>                <NA>                 <NA>                         <NA>                            FALSE
+6            GSM7140443   GSM7140443_CON2_cartilage       <NA>     <NA>                <NA>                 <NA>                         <NA>                            FALSE
+7            GSM7140444  GSM7140444_ACLT5_cartilage       <NA>     <NA>                <NA>                 <NA>                         <NA>                            FALSE
+8            GSM7140445  GSM7140445_ACLT6_cartilage       <NA>     <NA>                <NA>                 <NA>                         <NA>                            FALSE
+9            GSM7140446  GSM7140446_ACLT7_cartilage       <NA>     <NA>                <NA>                 <NA>                         <NA>                            FALSE
+10           GSM7140447   GSM7140447_CON3_cartilage       <NA>     <NA>                <NA>                 <NA>                         <NA>                            FALSE
+11           GSM7140448  GSM7140448_ACLT8_cartilage       <NA>     <NA>                <NA>                 <NA>                         <NA>                            FALSE
+12           GSM7140449  GSM7140449_ACLT9_cartilage       <NA>     <NA>                <NA>                 <NA>                         <NA>                            FALSE
+13           GSM7140450 GSM7140450_ACLT10_cartilage       <NA>     <NA>                <NA>                 <NA>                         <NA>                            FALSE
+14           GSM7140451 GSM7140451_ACLT11_cartilage       <NA>     <NA>                <NA>                 <NA>                         <NA>                            FALSE
+15           GSM7140452   GSM7140452_CON4_cartilage       <NA>     <NA>                <NA>                 <NA>                         <NA>                            FALSE
+16           GSM7140453 GSM7140453_ACLT12_cartilage       <NA>     <NA>                <NA>                 <NA>                         <NA>                            FALSE
+17           GSM7140454   GSM7140454_CON5_cartilage       <NA>     <NA>                <NA>                 <NA>                         <NA>                            FALSE
+18           GSM7140455 GSM7140455_RECON1_cartilage       <NA>     <NA>                <NA>                 <NA>                         <NA>                            FALSE
+19           GSM7140456 GSM7140456_RECON2_cartilage       <NA>     <NA>                <NA>                 <NA>                         <NA>                            FALSE
+20           GSM7140457 GSM7140457_RECON3_cartilage       <NA>     <NA>                <NA>                 <NA>                         <NA>                            FALSE
+
+Metadata file loaded. Columns:
+[1] "sample_id" "group_raw" "group"    
+                                                                                                                                                                  metadata_file exists n_rows n_cols inferred_sample_col
+1 E:/R/ACLsenescence2/rebuild_submission/03_pig_chronic/tables/chronic_step2_current78_signature_score_TMM_aligned/chronic_step2_current78_TMM_aligned_sample_metadata_used.csv   TRUE     24      3           sample_id
+  inferred_group_col
+1              group
+
+Metadata vs matrix sample audit summary:
+Metadata rows: 24 
+Matched by exact matrix column: 24 
+Matched by GEO accession: 24 
+
+tx2gene transcript matching audit:
+                                                                                 tx2gene_file tx2gene_exists
+1 E:/R/ACLsenescence2/rebuild_submission/03_pig_chronic/tables/step24_pig_chronic_tx2gene.csv           TRUE
+                                                                                                    quant_file_used quant_n_transcripts tx2gene_n_transcripts matched_with_version matched_after_stripping_version
+1 E:/R/ACLsenescence2/rebuild_submission/raw data/GSE228848_synovium_quant/GSM7140486_CON1_synovium_quant.sf.txt.gz               46295                 60440                    0                           45845
+  match_rate_with_version_pct match_rate_after_stripping_version_pct
+1                           0                                 99.028
+
+tximport run summary preview:
+                   metric                                                                                 value
+1            project_root                                                                   E:/R/ACLsenescence2
+2               quant_dir                                 E:/R/ACLsenescence2/data_raw/GSE228848_synovium_quant
+3                gtf_file E:/R/ACLsenescence2/reference/Sus_scrofa_Ensembl115/Sus_scrofa.Sscrofa11.1.115.gtf.gz
+4           tximport_type                                                                                salmon
+5         ignoreTxVersion                                                                                  TRUE
+6     countsFromAbundance                                                                                    no
+7           n_quant_files                                                                                    96
+8        n_unique_samples                                                                                    96
+9          n_tx2gene_rows                                                                                 60440
+10 n_gene_annotation_rows                                                                                 35682
+11         counts_n_genes                                                                                 22438
+12       counts_n_samples                                                                                    96
+13      abundance_n_genes                                                                                 22438
+14    abundance_n_samples                                                                                    96
+15         length_n_genes                                                                                 22438
+16       length_n_samples                                                                                    96
+
+Final summary for review:
+                                                metric                                                                                    value
+1                                           run_status                                                                                  SUCCESS
+2                                       method_version 2026-05-27_chronic_pig_Salmon_tximport_quantification_audit_v1_TMM_aligned_metadata_path
+3                                quant_files_all_found                                                                                       96
+4                       synovium_candidate_quant_files                                                                                       48
+5                                quant_files_read_PASS                                                                                       48
+6                    quant_files_standard_columns_PASS                                                                                       48
+7                                  counts_matrix_genes                                                                                    22438
+8                                counts_matrix_samples                                                                                       96
+9                            abundance_matrix_detected                                                                                     TRUE
+10                    effective_length_matrix_detected                                                                                     TRUE
+11        counts_vs_abundance_sample_columns_identical                                                                                     TRUE
+12 counts_vs_effective_length_sample_columns_identical                                                                                     TRUE
+13                         mean_total_estimated_counts                                                                             13777276.977
+14                          min_total_estimated_counts                                                                              7108677.116
+15                          max_total_estimated_counts                                                                             21575315.985
+16                       mean_detected_genes_count_gt0                                                                                16476.521
+17                        min_detected_genes_count_gt0                                                                                    15555
+18                        max_detected_genes_count_gt0                                                                                    17390
+19                             mean_gene_level_TPM_sum                                                                               986368.266
+20                              min_gene_level_TPM_sum                                                                               973187.294
+21                              max_gene_level_TPM_sum                                                                               994784.807
+22                                  metadata_file_rows                                                                                       24
+23      metadata_vs_matrix_matched_by_exact_sample_col                                                                                       24
+24         metadata_vs_matrix_matched_by_geo_accession                                                                                       24
+25      tx2gene_match_rate_after_stripping_version_pct                                                                                   99.028
+26                         tximport_run_summary_exists                                                                                     TRUE
+27                                         output_root      E:/R/ACLsenescence2/rebuild_submission/03_pig_chronic/supplement/Salmon_tximport_QC
+
+Key output files:
+1) E:/R/ACLsenescence2/rebuild_submission/03_pig_chronic/supplement/Salmon_tximport_QC/tables/StepCHRONQC_01_quant_file_manifest_all.csv
+2) E:/R/ACLsenescence2/rebuild_submission/03_pig_chronic/supplement/Salmon_tximport_QC/tables/StepCHRONQC_01_quant_file_manifest_synovium_candidate.csv
+3) E:/R/ACLsenescence2/rebuild_submission/03_pig_chronic/supplement/Salmon_tximport_QC/tables/StepCHRONQC_01_quant_sf_integrity_QC_by_file.csv
+4) E:/R/ACLsenescence2/rebuild_submission/03_pig_chronic/supplement/Salmon_tximport_QC/tables/StepCHRONQC_01_quant_sf_integrity_summary.csv
+5) E:/R/ACLsenescence2/rebuild_submission/03_pig_chronic/supplement/Salmon_tximport_QC/tables/StepCHRONQC_01_gene_level_matrix_dimensions.csv
+6) E:/R/ACLsenescence2/rebuild_submission/03_pig_chronic/supplement/Salmon_tximport_QC/tables/StepCHRONQC_01_matrix_sample_column_consistency.csv
+7) E:/R/ACLsenescence2/rebuild_submission/03_pig_chronic/supplement/Salmon_tximport_QC/tables/StepCHRONQC_01_gene_level_matrix_sample_QC.csv
+8) E:/R/ACLsenescence2/rebuild_submission/03_pig_chronic/supplement/Salmon_tximport_QC/tables/StepCHRONQC_01_matrix_samples_vs_quant_files_audit.csv
+9) E:/R/ACLsenescence2/rebuild_submission/03_pig_chronic/supplement/Salmon_tximport_QC/tables/StepCHRONQC_01_metadata_vs_matrix_samples_audit.csv
+10) E:/R/ACLsenescence2/rebuild_submission/03_pig_chronic/supplement/Salmon_tximport_QC/tables/StepCHRONQC_01_tx2gene_transcript_matching_audit.csv
+11) E:/R/ACLsenescence2/rebuild_submission/03_pig_chronic/supplement/Salmon_tximport_QC/tables/StepCHRONQC_01_methods_text_Salmon_tximport_QC.txt
+12) E:/R/ACLsenescence2/rebuild_submission/03_pig_chronic/supplement/Salmon_tximport_QC/tables/StepCHRONQC_01_final_summary_for_review.csv
+
+Session information:
+R version 4.5.2 (2025-10-31 ucrt)
+Platform: x86_64-w64-mingw32/x64
+Running under: Windows 10 x64 (build 19045)
+
+Matrix products: default
+  LAPACK version 3.12.1
+
+locale:
+[1] LC_COLLATE=Chinese (Simplified)_China.utf8  LC_CTYPE=Chinese (Simplified)_China.utf8    LC_MONETARY=Chinese (Simplified)_China.utf8 LC_NUMERIC=C                               
+[5] LC_TIME=Chinese (Simplified)_China.utf8    
+
+time zone: Europe/Berlin
+tzcode source: internal
+
+attached base packages:
+[1] stats     graphics  grDevices utils     datasets  methods   base     
+
+other attached packages:
+[1] ggplot2_4.0.2 dplyr_1.1.4  
+
+loaded via a namespace (and not attached):
+ [1] labeling_0.4.3     RColorBrewer_1.1-3 R6_2.6.1           tidyselect_1.2.1   farver_2.1.2       magrittr_2.0.4     gtable_0.3.6       glue_1.8.0         tibble_3.3.1       pkgconfig_2.0.3    generics_0.1.4    
+[12] lifecycle_1.0.5    cli_3.6.5          S7_0.2.1           scales_1.4.0       grid_4.5.2         vctrs_0.7.2        withr_3.0.2        compiler_4.5.2     tools_4.5.2        pillar_1.11.1      rlang_1.1.7       
+===== CHRONIC STEP5B CURRENT78 CORE DE AUDIT =====
+Run time: 2026-05-27 21:35:53 CEST
+Interpretation: chronic DE audit of fixed early-defined 24 core genes; no chronic core redefinition.
+DE source lock: final Chronic Step4 DE/GSEA output only; no fallback to old Step26.
+
+Core gene file: E:/R/ACLsenescence2/rebuild_submission/02_pig_early/tables/step21_current78_Figure4C_core_heatmap/step21_current78_pig_core_ortholog_gene_table.csv
+Chronic DE file: E:/R/ACLsenescence2/rebuild_submission/03_pig_chronic/tables/chronic_step4_current78_DE_GSEA/chronic_step4_DE_ACLT_alone_52W_vs_Control_52W_edgeR_QLF_tximport_offset.csv
+Step5 heatmap summary file: E:/R/ACLsenescence2/rebuild_submission/03_pig_chronic/tables/supplementary_chronic_step5_current78_core_heatmap_TMM_aligned_pig_early_style_compact/logs/chronic_step5_TMM_aligned_pig_early_style_core_heatmap_summary_to_send_me.txt
+
+Fixed early-defined core genes loaded: 24
+Core direction counts:
+
+Down_in_ACLR   Up_in_ACLR 
+           3           21 
+
+Saved: E:/R/ACLsenescence2/rebuild_submission/03_pig_chronic/tables/chronic_step5B_current78_core_DE_audit_Step4_locked/chronic_step5B_early_defined_24_core_chronic_DE_audit_table.csv
+Saved: E:/R/ACLsenescence2/rebuild_submission/03_pig_chronic/tables/chronic_step5B_current78_core_DE_audit_Step4_locked/chronic_step5B_early_defined_24_core_chronic_DE_audit_summary.csv
+Saved: E:/R/ACLsenescence2/rebuild_submission/03_pig_chronic/tables/chronic_step5B_current78_core_DE_audit_Step4_locked/chronic_step5B_core_chronic_DE_audit_by_early_direction.csv
+Saved: E:/R/ACLsenescence2/rebuild_submission/03_pig_chronic/tables/chronic_step5B_current78_core_DE_audit_Step4_locked/chronic_step5B_core_retention_class_summary.csv
+Saved: E:/R/ACLsenescence2/rebuild_submission/03_pig_chronic/tables/chronic_step5B_current78_core_DE_audit_Step4_locked/chronic_step5B_core_genes_chronic_strict_DEG.csv
+Saved: E:/R/ACLsenescence2/rebuild_submission/03_pig_chronic/tables/chronic_step5B_current78_core_DE_audit_Step4_locked/chronic_step5B_core_genes_chronic_strict_and_direction_consistent.csv
+Saved: E:/R/ACLsenescence2/rebuild_submission/03_pig_chronic/tables/chronic_step5B_current78_core_DE_audit_Step4_locked/chronic_step5B_core_genes_direction_consistent_with_early.csv
+Saved: E:/R/ACLsenescence2/rebuild_submission/03_pig_chronic/tables/chronic_step5B_current78_core_DE_audit_Step4_locked/chronic_step5B_core_genes_opposite_or_reversed_in_chronic.csv
+Saved: E:/R/ACLsenescence2/rebuild_submission/03_pig_chronic/tables/chronic_step5B_current78_core_DE_audit_Step4_locked/chronic_step5B_core_genes_not_tested_in_chronic_DE.csv
+Saved: E:/R/ACLsenescence2/rebuild_submission/03_pig_chronic/tables/chronic_step5B_current78_core_DE_audit_Step4_locked/chronic_step5B_input_file_audit.csv
+Saved: E:/R/ACLsenescence2/rebuild_submission/03_pig_chronic/tables/chronic_step5B_current78_core_DE_audit_Step4_locked/chronic_step5B_versions_and_method_records.csv
+
+===== Chronic Step5B current78 core DE audit summary =====
+                                             metric                                                                                                            value
+                     fixed_early_defined_core_genes                                                                                                               24
+                    core_genes_tested_in_chronic_DE                                                                                                               20
+                core_genes_not_tested_in_chronic_DE                                                                                                                4
+                    direction_consistent_with_early                                                                                                               19
+                     opposite_or_reversed_direction                                                                                                                1
+                                chronic_FDR_lt_0.05                                                                                                                9
+                              chronic_abslogFC_gt_1                                                                                                                4
+               chronic_strict_DEG_FDR0.05_abslogFC1                                                                                                                4
+            chronic_strict_and_direction_consistent                                                                                                                4
+                                early_up_core_genes                                                                                                               21
+                      early_up_direction_consistent                                                                                                               17
+                            early_up_chronic_strict                                                                                                                3
+   early_up_chronic_strict_and_direction_consistent                                                                                                                3
+                              early_down_core_genes                                                                                                                3
+                    early_down_direction_consistent                                                                                                                2
+                          early_down_chronic_strict                                                                                                                1
+ early_down_chronic_strict_and_direction_consistent                                                                                                                1
+                              interpretation_policy           This is a chronic DE audit of fixed early-defined core genes; it does not redefine chronic core genes.
+                                         output_dir E:/R/ACLsenescence2/rebuild_submission/03_pig_chronic/tables/chronic_step5B_current78_core_DE_audit_Step4_locked
+
+Direction-level summary:
+ early_signature_direction n_core_genes tested_in_chronic_DE direction_consistent_with_early opposite_or_reversed_direction chronic_FDR_lt_0.05 chronic_abslogFC_gt_1 chronic_strict_DEG
+                Up_in_ACLR           21                   18                              17                              1                   7                     3                  3
+              Down_in_ACLR            3                    2                               2                              0                   2                     1                  1
+ chronic_strict_and_direction_consistent
+                                       3
+                                       1
+
+Retention class summary:
+             chronic_retention_class n_genes
+ direction_consistent_but_attenuated      10
+       direction_consistent_FDR_only       5
+         direction_consistent_strict       4
+                          not_tested       4
+                opposite_or_reversed       1
+
+Strict and direction-consistent genes:
+ display_symbol           pig_ensg early_signature_direction chronic_logFC chronic_PValue chronic_FDR     chronic_retention_class
+           SDC1 ENSSSCG00000008601                Up_in_ACLR      1.910243   1.579902e-05 0.000773991 direction_consistent_strict
+          SPARC ENSSSCG00000017082                Up_in_ACLR      1.239754   1.388184e-04 0.002687367 direction_consistent_strict
+          LOXL2 ENSSSCG00000033608                Up_in_ACLR      1.038790   4.577616e-04 0.005738155 direction_consistent_strict
+          PPARG ENSSSCG00000011579              Down_in_ACLR     -1.760571   4.981670e-05 0.001496843 direction_consistent_strict
+
+Opposite/reversed genes:
+ display_symbol           pig_ensg early_signature_direction chronic_logFC chronic_PValue chronic_FDR chronic_retention_class
+        TNFSF15 ENSSSCG00000059646                Up_in_ACLR    -0.2156482       0.212265   0.3598886    opposite_or_reversed
+
+Version and method records:
+                       item                                                                                                                                                                     value
+                  R_version                                                                                                                                                                     4.5.2
+             method_version                                                                      2026-05-27_Step5B_core_DE_audit_final_Step4_DE_source_locked_no_Step26_fallback_J_summary_path_fixed
+      fixed_core_definition                                                                                       fixed early-defined 24 core ortholog genes from pig early primary-analysis workflow
+          chronic_DE_source E:/R/ACLsenescence2/rebuild_submission/03_pig_chronic/tables/chronic_step4_current78_DE_GSEA/chronic_step4_DE_ACLT_alone_52W_vs_Control_52W_edgeR_QLF_tximport_offset.csv
+         chronic_comparison                                                                                                   ACLT_alone_52W vs Control_52W; logFC > 0 means higher in ACLT_alone_52W
+ direction_consistency_rule                                                                                            Up_in_ACLR requires chronic logFC > 0; Down_in_ACLR requires chronic logFC < 0
+            strict_DEG_rule                                                                                                                                chronic FDR < 0.05 and |chronic logFC| > 1
+              analysis_role                                                                                         chronic DE audit only; final Step4 DE source locked; no chronic core redefinition
+
+Chronic Step5B current78 core DE audit completed.
+Summary to send me: E:/R/ACLsenescence2/rebuild_submission/03_pig_chronic/tables/chronic_step5B_current78_core_DE_audit_Step4_locked/logs/chronic_step5B_current78_core_DE_audit_Step4_locked_summary_to_send_me.txt
+G3;Building exact-basename file index. This can take several minutes for large project roots...
+gG3;  Scanning: E:/R/ACLsenescence2
+gG3;  Scanning: E:/R/ACLsenescence2 LD
+g
+============================================================
+Chronic pig minimal submission package organizer finished.
+Package root:
+E:/R/ACLsenescence2/rebuild_submission/submission/chronic pig
+Copied files: 258 / 263
+Missing/failed required files: 4
+Missing optional files: 1
+Items with duplicate exact-basename candidates: 28
+Manifest directory:
+E:/R/ACLsenescence2/rebuild_submission/submission/chronic pig/manifest
+============================================================
+
+First missing/failed required files:
+                        category                                                       basename_exact           status
+        06_CHRONLOCK_matrix_lock StepCHRONLOCK_01_step25v3_main_manifest_vs_locked_matrices_audit.csv MISSING_REQUIRED
+        12_chronic_step4_DE_GSEA                      chronic_step4_length_matrix_file_candidates.csv MISSING_REQUIRED
+        12_chronic_step4_DE_GSEA      chronic_step4_genes_removed_due_to_invalid_effective_length.csv MISSING_REQUIRED
+ 14_chronic_step5B_core_DE_audit                         chronic_step5B_core_gene_file_candidates.csv MISSING_REQUIRED
+                                                                                                                                          preferred_rel
+ rebuild_submission/03_pig_chronic/tables/step24_chronic_synovium_only_matrix_lock/StepCHRONLOCK_01_step25v3_main_manifest_vs_locked_matrices_audit.csv
+                               rebuild_submission/03_pig_chronic/tables/chronic_step4_current78_DE_GSEA/chronic_step4_length_matrix_file_candidates.csv
+               rebuild_submission/03_pig_chronic/tables/chronic_step4_current78_DE_GSEA/chronic_step4_genes_removed_due_to_invalid_effective_length.csv
+              rebuild_submission/03_pig_chronic/tables/chronic_step5B_current78_core_DE_audit_Step4_locked/chronic_step5B_core_gene_file_candidates.csv
+错误: Required files are missing or failed to copy. Inspect: E:/R/ACLsenescence2/rebuild_submission/submission/chronic pig/manifest/MISSING_REQUIRED_FILES.csv
+G3;Building exact-basename file index. This can take several minutes for large project roots...
+gG3;  Scanning: E:/R/ACLsenescence2
+gG3;  Scanning: E:/R/ACLsenescence2 LD
+g
+============================================================
+Chronic pig minimal submission package organizer v3 finished.
+Package root:
+E:/R/ACLsenescence2/rebuild_submission/submission/chronic pig
+Copied files: 245 / 252
+Required copied: 72 / 73
+Optional copied: 173 / 179
+Missing/failed required files: 1
+Missing optional files: 6
+Items with duplicate exact-basename candidates: 35
+Manifest directory:
+E:/R/ACLsenescence2/rebuild_submission/submission/chronic pig/manifest
+============================================================
+
+First missing/failed required files:
+ required_class                                   category                           basename_exact           status                                                            used_by
+       REQUIRED 01_required_cross_project_early_pig_inputs step18_current78_pig_core_gene_table.csv MISSING_REQUIRED Chronic G signature score, J/J2 core genes, and L Figure5D summary
+                                                                                                                         required_reason
+ These early-pig outputs define the fixed 75-gene signature, fixed 24-core gene set, and early values used in chronic extension figures.
+错误: Required files are missing or failed to copy. Inspect: E:/R/ACLsenescence2/rebuild_submission/submission/chronic pig/manifest/MISSING_REQUIRED_FILES.csv
+G3;Building exact-basename file index. This can take several minutes for large project roots...
+gG3;  Scanning: E:/R/ACLsenescence2
+gG3;  Scanning: E:/R/ACLsenescence2 LD
+g错误于file(file, ifelse(append, "a", "w"), encoding = fileEncoding): 
+  无法打开链结
+此外: 警告信息:
+In file(file, ifelse(append, "a", "w"), encoding = fileEncoding) :
+  无法打开文件'E:/R/ACLsenescence2/rebuild_submission/submission/chronic pig/manifest/MISSING_REQUIRED_FILES.csv': Permission denied
+G3;Building exact-basename file index. This can take several minutes for large project roots...
+gG3;  Scanning: E:/R/ACLsenescence2
+gG3;  Scanning: E:/R/ACLsenescence2 LD
+g

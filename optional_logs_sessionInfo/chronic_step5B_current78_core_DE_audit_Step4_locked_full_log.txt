@@ -1,0 +1,86 @@
+===== CHRONIC STEP5B CURRENT78 CORE DE AUDIT =====
+Run time: 2026-05-27 21:35:53 CEST
+Interpretation: chronic DE audit of fixed early-defined 24 core genes; no chronic core redefinition.
+DE source lock: final Chronic Step4 DE/GSEA output only; no fallback to old Step26.
+
+Core gene file: E:/R/ACLsenescence2/rebuild_submission/02_pig_early/tables/step21_current78_Figure4C_core_heatmap/step21_current78_pig_core_ortholog_gene_table.csv
+Chronic DE file: E:/R/ACLsenescence2/rebuild_submission/03_pig_chronic/tables/chronic_step4_current78_DE_GSEA/chronic_step4_DE_ACLT_alone_52W_vs_Control_52W_edgeR_QLF_tximport_offset.csv
+Step5 heatmap summary file: E:/R/ACLsenescence2/rebuild_submission/03_pig_chronic/tables/supplementary_chronic_step5_current78_core_heatmap_TMM_aligned_pig_early_style_compact/logs/chronic_step5_TMM_aligned_pig_early_style_core_heatmap_summary_to_send_me.txt
+
+Fixed early-defined core genes loaded: 24
+Core direction counts:
+
+Down_in_ACLR   Up_in_ACLR 
+           3           21 
+
+Saved: E:/R/ACLsenescence2/rebuild_submission/03_pig_chronic/tables/chronic_step5B_current78_core_DE_audit_Step4_locked/chronic_step5B_early_defined_24_core_chronic_DE_audit_table.csv
+Saved: E:/R/ACLsenescence2/rebuild_submission/03_pig_chronic/tables/chronic_step5B_current78_core_DE_audit_Step4_locked/chronic_step5B_early_defined_24_core_chronic_DE_audit_summary.csv
+Saved: E:/R/ACLsenescence2/rebuild_submission/03_pig_chronic/tables/chronic_step5B_current78_core_DE_audit_Step4_locked/chronic_step5B_core_chronic_DE_audit_by_early_direction.csv
+Saved: E:/R/ACLsenescence2/rebuild_submission/03_pig_chronic/tables/chronic_step5B_current78_core_DE_audit_Step4_locked/chronic_step5B_core_retention_class_summary.csv
+Saved: E:/R/ACLsenescence2/rebuild_submission/03_pig_chronic/tables/chronic_step5B_current78_core_DE_audit_Step4_locked/chronic_step5B_core_genes_chronic_strict_DEG.csv
+Saved: E:/R/ACLsenescence2/rebuild_submission/03_pig_chronic/tables/chronic_step5B_current78_core_DE_audit_Step4_locked/chronic_step5B_core_genes_chronic_strict_and_direction_consistent.csv
+Saved: E:/R/ACLsenescence2/rebuild_submission/03_pig_chronic/tables/chronic_step5B_current78_core_DE_audit_Step4_locked/chronic_step5B_core_genes_direction_consistent_with_early.csv
+Saved: E:/R/ACLsenescence2/rebuild_submission/03_pig_chronic/tables/chronic_step5B_current78_core_DE_audit_Step4_locked/chronic_step5B_core_genes_opposite_or_reversed_in_chronic.csv
+Saved: E:/R/ACLsenescence2/rebuild_submission/03_pig_chronic/tables/chronic_step5B_current78_core_DE_audit_Step4_locked/chronic_step5B_core_genes_not_tested_in_chronic_DE.csv
+Saved: E:/R/ACLsenescence2/rebuild_submission/03_pig_chronic/tables/chronic_step5B_current78_core_DE_audit_Step4_locked/chronic_step5B_input_file_audit.csv
+Saved: E:/R/ACLsenescence2/rebuild_submission/03_pig_chronic/tables/chronic_step5B_current78_core_DE_audit_Step4_locked/chronic_step5B_versions_and_method_records.csv
+
+===== Chronic Step5B current78 core DE audit summary =====
+                                             metric                                                                                                            value
+                     fixed_early_defined_core_genes                                                                                                               24
+                    core_genes_tested_in_chronic_DE                                                                                                               20
+                core_genes_not_tested_in_chronic_DE                                                                                                                4
+                    direction_consistent_with_early                                                                                                               19
+                     opposite_or_reversed_direction                                                                                                                1
+                                chronic_FDR_lt_0.05                                                                                                                9
+                              chronic_abslogFC_gt_1                                                                                                                4
+               chronic_strict_DEG_FDR0.05_abslogFC1                                                                                                                4
+            chronic_strict_and_direction_consistent                                                                                                                4
+                                early_up_core_genes                                                                                                               21
+                      early_up_direction_consistent                                                                                                               17
+                            early_up_chronic_strict                                                                                                                3
+   early_up_chronic_strict_and_direction_consistent                                                                                                                3
+                              early_down_core_genes                                                                                                                3
+                    early_down_direction_consistent                                                                                                                2
+                          early_down_chronic_strict                                                                                                                1
+ early_down_chronic_strict_and_direction_consistent                                                                                                                1
+                              interpretation_policy           This is a chronic DE audit of fixed early-defined core genes; it does not redefine chronic core genes.
+                                         output_dir E:/R/ACLsenescence2/rebuild_submission/03_pig_chronic/tables/chronic_step5B_current78_core_DE_audit_Step4_locked
+
+Direction-level summary:
+ early_signature_direction n_core_genes tested_in_chronic_DE direction_consistent_with_early opposite_or_reversed_direction chronic_FDR_lt_0.05 chronic_abslogFC_gt_1 chronic_strict_DEG
+                Up_in_ACLR           21                   18                              17                              1                   7                     3                  3
+              Down_in_ACLR            3                    2                               2                              0                   2                     1                  1
+ chronic_strict_and_direction_consistent
+                                       3
+                                       1
+
+Retention class summary:
+             chronic_retention_class n_genes
+ direction_consistent_but_attenuated      10
+       direction_consistent_FDR_only       5
+         direction_consistent_strict       4
+                          not_tested       4
+                opposite_or_reversed       1
+
+Strict and direction-consistent genes:
+ display_symbol           pig_ensg early_signature_direction chronic_logFC chronic_PValue chronic_FDR     chronic_retention_class
+           SDC1 ENSSSCG00000008601                Up_in_ACLR      1.910243   1.579902e-05 0.000773991 direction_consistent_strict
+          SPARC ENSSSCG00000017082                Up_in_ACLR      1.239754   1.388184e-04 0.002687367 direction_consistent_strict
+          LOXL2 ENSSSCG00000033608                Up_in_ACLR      1.038790   4.577616e-04 0.005738155 direction_consistent_strict
+          PPARG ENSSSCG00000011579              Down_in_ACLR     -1.760571   4.981670e-05 0.001496843 direction_consistent_strict
+
+Opposite/reversed genes:
+ display_symbol           pig_ensg early_signature_direction chronic_logFC chronic_PValue chronic_FDR chronic_retention_class
+        TNFSF15 ENSSSCG00000059646                Up_in_ACLR    -0.2156482       0.212265   0.3598886    opposite_or_reversed
+
+Version and method records:
+                       item                                                                                                                                                                     value
+                  R_version                                                                                                                                                                     4.5.2
+             method_version                                                                      2026-05-27_Step5B_core_DE_audit_final_Step4_DE_source_locked_no_Step26_fallback_J_summary_path_fixed
+      fixed_core_definition                                                                                       fixed early-defined 24 core ortholog genes from pig early primary-analysis workflow
+          chronic_DE_source E:/R/ACLsenescence2/rebuild_submission/03_pig_chronic/tables/chronic_step4_current78_DE_GSEA/chronic_step4_DE_ACLT_alone_52W_vs_Control_52W_edgeR_QLF_tximport_offset.csv
+         chronic_comparison                                                                                                   ACLT_alone_52W vs Control_52W; logFC > 0 means higher in ACLT_alone_52W
+ direction_consistency_rule                                                                                            Up_in_ACLR requires chronic logFC > 0; Down_in_ACLR requires chronic logFC < 0
+            strict_DEG_rule                                                                                                                                chronic FDR < 0.05 and |chronic logFC| > 1
+              analysis_role                                                                                         chronic DE audit only; final Step4 DE source locked; no chronic core redefinition

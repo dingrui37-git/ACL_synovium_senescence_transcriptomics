@@ -1,0 +1,312 @@
+============================================================
+StepCHRONMDS_01_chronic_pig_main24_PCA_MDS
+Started at: 2026-05-10 21:03:02 
+Method version: 2026-05-10_chronic_pig_main24_PCA_MDS_unified_with_mouse_and_early_pig 
+============================================================
+
+Script archive note: --file argument was not detected. If running interactively, manually save this script in:
+E:/R/ACLsenescence2/rebuild_submission/03_pig_chronic/supplement/MDS_PCA/scripts 
+
+Required packages loaded.
+edgeR version: 4.8.2 
+limma version: 3.66.0 
+ggplot2 version: 4.0.2 
+ggrepel available for label plots: TRUE 
+
+Input files:
+Counts matrix: E:/R/ACLsenescence2/rebuild_submission/03_pig_chronic/tables/step24_chronic_synovium_only_matrix_lock/tables/StepCHRONLOCK_01_main_24_gene_level_estimated_counts_matrix.csv 
+Metadata: E:/R/ACLsenescence2/rebuild_submission/03_pig_chronic/tables/step24_chronic_synovium_only_matrix_lock/tables/StepCHRONLOCK_01_main_24_sample_metadata_locked.csv 
+Output root: E:/R/ACLsenescence2/rebuild_submission/03_pig_chronic/supplement/MDS_PCA 
+
+Counts table dimension: 22438 rows x 25 columns
+First 10 count table columns:
+ [1] "gene_id"                  "GSM7140486_CON1_synovium" "GSM7140491_CON2_synovium"
+ [4] "GSM7140495_CON3_synovium" "GSM7140500_CON4_synovium" "GSM7140502_CON5_synovium"
+ [7] "GSM7140507_CON6_synovium" "GSM7140511_CON7_synovium" "GSM7140516_CON8_synovium"
+[10] "GSM7140518_CON9_synovium"
+
+Metadata dimension: 24 rows x 6 columns
+Metadata columns:
+[1] "sample_id"     "geo_accession" "sample_label"  "tissue"        "group"         "sample_number"
+Inferred gene ID column: gene_id 
+Inferred metadata sample column: sample_id 
+Inferred metadata group column: group 
+
+Metadata sample count: 24 
+Count matrix sample columns: 24 
+Missing metadata samples in count matrix: none 
+Extra count matrix samples not in metadata: none 
+
+Validated analysis count matrix dimension: 22438 genes x 24 samples
+Group counts:
+
+   Control_52W ACLT_alone_52W 
+            12             12 
+
+Filtering and normalization summary:
+                          metric
+1                 method_version
+2             input_count_matrix
+3                 input_metadata
+4      genes_before_filterByExpr
+5       genes_after_filterByExpr
+6  genes_removed_by_filterByExpr
+7                        samples
+8                         groups
+9           normalization_method
+10            logCPM_prior_count
+11                    PCA_method
+12                    MDS_method
+13                     MDS_input
+14                 MDS_top_genes
+15            MDS_gene_selection
+16   Salmon_tximport_counts_note
+                                                                                                                                                                          value
+1                                                                                                        2026-05-10_chronic_pig_main24_PCA_MDS_unified_with_mouse_and_early_pig
+2  E:/R/ACLsenescence2/rebuild_submission/03_pig_chronic/tables/step24_chronic_synovium_only_matrix_lock/tables/StepCHRONLOCK_01_main_24_gene_level_estimated_counts_matrix.csv
+3              E:/R/ACLsenescence2/rebuild_submission/03_pig_chronic/tables/step24_chronic_synovium_only_matrix_lock/tables/StepCHRONLOCK_01_main_24_sample_metadata_locked.csv
+4                                                                                                                                                                         22438
+5                                                                                                                                                                         14403
+6                                                                                                                                                                          8035
+7                                                                                                                                                                            24
+8                                                                                                                                             Control_52W 12; ACLT_alone_52W 12
+9                                                                                                                                                                     edgeR_TMM
+10                                                                                                                                                                            1
+11                                                                                                                    prcomp(t(filtered_TMM_logCPM), center=TRUE, scale.=FALSE)
+12                                                                                                        limma::plotMDS(filtered_TMM_logCPM, top=500, gene.selection='common')
+13                                                                                                                                        filtered TMM-normalized logCPM matrix
+14                                                                                                                                                                          500
+15                                                                                                                                                                       common
+16                                                                                      Estimated counts from Salmon/tximport were used as numeric values and were not rounded.
+
+Library summary after TMM:
+                                            sample_id          group raw_estimated_count_sum
+GSM7140486_CON1_synovium     GSM7140486_CON1_synovium    Control_52W                 7108677
+GSM7140491_CON2_synovium     GSM7140491_CON2_synovium    Control_52W                 8959039
+GSM7140495_CON3_synovium     GSM7140495_CON3_synovium    Control_52W                 9719015
+GSM7140500_CON4_synovium     GSM7140500_CON4_synovium    Control_52W                 8391254
+GSM7140502_CON5_synovium     GSM7140502_CON5_synovium    Control_52W                12170231
+GSM7140507_CON6_synovium     GSM7140507_CON6_synovium    Control_52W                16132991
+GSM7140511_CON7_synovium     GSM7140511_CON7_synovium    Control_52W                11920148
+GSM7140516_CON8_synovium     GSM7140516_CON8_synovium    Control_52W                 9996314
+GSM7140518_CON9_synovium     GSM7140518_CON9_synovium    Control_52W                12285504
+GSM7140523_CON10_synovium   GSM7140523_CON10_synovium    Control_52W                13966921
+GSM7140527_CON11_synovium   GSM7140527_CON11_synovium    Control_52W                16354930
+GSM7140532_CON12_synovium   GSM7140532_CON12_synovium    Control_52W                11603076
+GSM7140487_ACLT1_synovium   GSM7140487_ACLT1_synovium ACLT_alone_52W                10334100
+GSM7140488_ACLT2_synovium   GSM7140488_ACLT2_synovium ACLT_alone_52W                10521457
+GSM7140489_ACLT3_synovium   GSM7140489_ACLT3_synovium ACLT_alone_52W                18669780
+GSM7140490_ACLT4_synovium   GSM7140490_ACLT4_synovium ACLT_alone_52W                 9298837
+GSM7140492_ACLT5_synovium   GSM7140492_ACLT5_synovium ACLT_alone_52W                 9066422
+GSM7140493_ACLT6_synovium   GSM7140493_ACLT6_synovium ACLT_alone_52W                10831988
+GSM7140494_ACLT7_synovium   GSM7140494_ACLT7_synovium ACLT_alone_52W                10627443
+GSM7140496_ACLT8_synovium   GSM7140496_ACLT8_synovium ACLT_alone_52W                12200497
+GSM7140497_ACLT9_synovium   GSM7140497_ACLT9_synovium ACLT_alone_52W                 7706256
+GSM7140498_ACLT10_synovium GSM7140498_ACLT10_synovium ACLT_alone_52W                 9007486
+GSM7140499_ACLT11_synovium GSM7140499_ACLT11_synovium ACLT_alone_52W                 8387249
+GSM7140501_ACLT12_synovium GSM7140501_ACLT12_synovium ACLT_alone_52W                10569945
+                           filtered_estimated_count_sum norm_factor_TMM effective_library_size
+GSM7140486_CON1_synovium                        7095768       1.1101154                7877121
+GSM7140491_CON2_synovium                        8947879       1.0398987                9304888
+GSM7140495_CON3_synovium                        9703857       1.0996272               10670625
+GSM7140500_CON4_synovium                        8379766       1.0719755                8982903
+GSM7140502_CON5_synovium                       12159517       0.9604690               11678839
+GSM7140507_CON6_synovium                       16100387       1.1194556               18023669
+GSM7140511_CON7_synovium                       11902507       1.1107140               13220282
+GSM7140516_CON8_synovium                        9983675       1.1262162               11243776
+GSM7140518_CON9_synovium                       12268106       1.0968281               13456003
+GSM7140523_CON10_synovium                      13947970       1.0776925               15031622
+GSM7140527_CON11_synovium                      16340716       0.8937062               14603799
+GSM7140532_CON12_synovium                      11587087       1.0909146               12640522
+GSM7140487_ACLT1_synovium                      10309179       0.8850194                9123823
+GSM7140488_ACLT2_synovium                      10495846       0.9955605               10449249
+GSM7140489_ACLT3_synovium                      18653370       0.9271038               17293610
+GSM7140490_ACLT4_synovium                       9289874       0.9943548                9237430
+GSM7140492_ACLT5_synovium                       9055576       0.9985963                9042865
+GSM7140493_ACLT6_synovium                      10822558       0.9057636                9802679
+GSM7140494_ACLT7_synovium                      10613490       0.9235909                9802523
+GSM7140496_ACLT8_synovium                      12169089       1.0304370               12539480
+GSM7140497_ACLT9_synovium                       7697083       1.0103289                7776585
+GSM7140498_ACLT10_synovium                      8996313       1.0381669                9339674
+GSM7140499_ACLT11_synovium                      8380296       0.7937897                6652193
+GSM7140501_ACLT12_synovium                     10509803       0.8144152                8559343
+                           detected_genes_count_gt0_raw detected_genes_count_gt0_filtered
+GSM7140486_CON1_synovium                          16731                             14385
+GSM7140491_CON2_synovium                          16672                             14382
+GSM7140495_CON3_synovium                          16993                             14385
+GSM7140500_CON4_synovium                          16672                             14388
+GSM7140502_CON5_synovium                          16538                             14384
+GSM7140507_CON6_synovium                          17390                             14398
+GSM7140511_CON7_synovium                          17215                             14394
+GSM7140516_CON8_synovium                          16810                             14387
+GSM7140518_CON9_synovium                          17058                             14389
+GSM7140523_CON10_synovium                         16999                             14396
+GSM7140527_CON11_synovium                         16694                             14379
+GSM7140532_CON12_synovium                         16604                             14368
+GSM7140487_ACLT1_synovium                         16660                             14376
+GSM7140488_ACLT2_synovium                         16880                             14391
+GSM7140489_ACLT3_synovium                         16495                             14379
+GSM7140490_ACLT4_synovium                         16367                             14363
+GSM7140492_ACLT5_synovium                         16613                             14386
+GSM7140493_ACLT6_synovium                         16291                             14361
+GSM7140494_ACLT7_synovium                         16710                             14381
+GSM7140496_ACLT8_synovium                         16912                             14393
+GSM7140497_ACLT9_synovium                         16517                             14384
+GSM7140498_ACLT10_synovium                        16511                             14373
+GSM7140499_ACLT11_synovium                        15741                             14293
+GSM7140501_ACLT12_synovium                        15555                             14248
+
+PCA variance explained by first five PCs:
+   PC variance_fraction variance_percent
+1 PC1        0.26311098        26.311098
+2 PC2        0.12713243        12.713243
+3 PC3        0.09648993         9.648993
+4 PC4        0.07997444         7.997444
+5 PC5        0.04872964         4.872964
+
+MDS object diagnostic:
+MDS function used: limma::plotMDS
+MDS input object: filtered TMM-normalized logCPM matrix
+length(mds_obj$x): 24 
+length(mds_obj$y): 24 
+length(colnames(logcpm)): 24 
+MDS coordinate table preview:
+                    sample_id       MDS1        MDS2          group
+1    GSM7140486_CON1_synovium -0.7323405  0.63818484    Control_52W
+2    GSM7140491_CON2_synovium -0.8205781 -0.43598238    Control_52W
+3    GSM7140495_CON3_synovium -0.6862623  0.58739419    Control_52W
+4    GSM7140500_CON4_synovium -0.7545569  0.18701754    Control_52W
+5    GSM7140502_CON5_synovium -0.3690633  0.23804792    Control_52W
+6    GSM7140507_CON6_synovium -1.3714194 -0.31041161    Control_52W
+7    GSM7140511_CON7_synovium -1.0466060 -0.23171280    Control_52W
+8    GSM7140516_CON8_synovium -1.1225941 -0.11587839    Control_52W
+9    GSM7140518_CON9_synovium -0.9816477  0.16076970    Control_52W
+10  GSM7140523_CON10_synovium -1.4262350 -0.05077962    Control_52W
+11  GSM7140527_CON11_synovium  1.1462793 -0.10076299    Control_52W
+12  GSM7140532_CON12_synovium -1.3715130  0.61880493    Control_52W
+13  GSM7140487_ACLT1_synovium  1.5263342  1.33739032 ACLT_alone_52W
+14  GSM7140488_ACLT2_synovium  0.8825123  1.22727402 ACLT_alone_52W
+15  GSM7140489_ACLT3_synovium  1.0117488 -1.03664886 ACLT_alone_52W
+16  GSM7140490_ACLT4_synovium  0.7051015 -0.91733837 ACLT_alone_52W
+17  GSM7140492_ACLT5_synovium  0.7612967  0.04826654 ACLT_alone_52W
+18  GSM7140493_ACLT6_synovium  0.5191446 -1.11764446 ACLT_alone_52W
+19  GSM7140494_ACLT7_synovium  0.5207194 -0.45811418 ACLT_alone_52W
+20  GSM7140496_ACLT8_synovium  0.7931422  1.32682022 ACLT_alone_52W
+21  GSM7140497_ACLT9_synovium  0.6704738  0.67457053 ACLT_alone_52W
+22 GSM7140498_ACLT10_synovium  0.2420734 -0.62816862 ACLT_alone_52W
+23 GSM7140499_ACLT11_synovium  1.4144023 -0.21934301 ACLT_alone_52W
+24 GSM7140501_ACLT12_synovium  0.4895878 -1.42175548 ACLT_alone_52W
+
+Final summary for review:
+                      metric
+1                 run_status
+2             method_version
+3          input_counts_file
+4        input_metadata_file
+5                output_root
+6  genes_before_filterByExpr
+7   genes_after_filterByExpr
+8                    samples
+9                     groups
+10      normalization_method
+11           PCA_PC1_percent
+12           PCA_PC2_percent
+13              MDS_function
+14                 MDS_input
+15                  MDS1_min
+16                  MDS1_max
+17                  MDS2_min
+18                  MDS2_max
+19  estimated_counts_rounded
+20       group_Control_52W_n
+21    group_ACLT_alone_52W_n
+                                                                                                                                                                          value
+1                                                                                                                                                                       SUCCESS
+2                                                                                                        2026-05-10_chronic_pig_main24_PCA_MDS_unified_with_mouse_and_early_pig
+3  E:/R/ACLsenescence2/rebuild_submission/03_pig_chronic/tables/step24_chronic_synovium_only_matrix_lock/tables/StepCHRONLOCK_01_main_24_gene_level_estimated_counts_matrix.csv
+4              E:/R/ACLsenescence2/rebuild_submission/03_pig_chronic/tables/step24_chronic_synovium_only_matrix_lock/tables/StepCHRONLOCK_01_main_24_sample_metadata_locked.csv
+5                                                                                                      E:/R/ACLsenescence2/rebuild_submission/03_pig_chronic/supplement/MDS_PCA
+6                                                                                                                                                                         22438
+7                                                                                                                                                                         14403
+8                                                                                                                                                                            24
+9                                                                                                                                             Control_52W 12; ACLT_alone_52W 12
+10                                                                                                                                                                    edgeR_TMM
+11                                                                                                                                                                    26.311098
+12                                                                                                                                                                    12.713243
+13                                                                                                                                                               limma::plotMDS
+14                                                                                                                                        filtered TMM-normalized logCPM matrix
+15                                                                                                                                                                    -1.426235
+16                                                                                                                                                                     1.526334
+17                                                                                                                                                                    -1.421755
+18                                                                                                                                                                     1.337390
+19                                                                                                                                                                        FALSE
+20                                                                                                                                                                           12
+21                                                                                                                                                                           12
+
+Key output files:
+1) E:/R/ACLsenescence2/rebuild_submission/03_pig_chronic/supplement/MDS_PCA/source_data/StepCHRONMDS_01_main24_filtered_TMM_logCPM_matrix.csv
+2) E:/R/ACLsenescence2/rebuild_submission/03_pig_chronic/supplement/MDS_PCA/source_data/StepCHRONMDS_01_main24_PCA_coordinates.csv
+3) E:/R/ACLsenescence2/rebuild_submission/03_pig_chronic/supplement/MDS_PCA/source_data/StepCHRONMDS_01_main24_MDS_coordinates.csv
+4) E:/R/ACLsenescence2/rebuild_submission/03_pig_chronic/supplement/MDS_PCA/tables/StepCHRONMDS_01_main24_PCA_variance_explained.csv
+5) E:/R/ACLsenescence2/rebuild_submission/03_pig_chronic/supplement/MDS_PCA/tables/StepCHRONMDS_01_main24_library_summary_after_TMM.csv
+6) E:/R/ACLsenescence2/rebuild_submission/03_pig_chronic/supplement/MDS_PCA/figures/StepCHRONMDS_01_main24_PCA_unlabeled.pdf
+7) E:/R/ACLsenescence2/rebuild_submission/03_pig_chronic/supplement/MDS_PCA/figures/StepCHRONMDS_01_main24_PCA_labeled.pdf
+8) E:/R/ACLsenescence2/rebuild_submission/03_pig_chronic/supplement/MDS_PCA/figures/StepCHRONMDS_01_main24_MDS_unlabeled.pdf
+9) E:/R/ACLsenescence2/rebuild_submission/03_pig_chronic/supplement/MDS_PCA/figures/StepCHRONMDS_01_main24_MDS_labeled.pdf
+10) E:/R/ACLsenescence2/rebuild_submission/03_pig_chronic/supplement/MDS_PCA/tables/StepCHRONMDS_01_final_summary_for_review.csv
+
+Session information:
+R version 4.5.2 (2025-10-31 ucrt)
+Platform: x86_64-w64-mingw32/x64
+Running under: Windows 10 x64 (build 19045)
+
+Matrix products: default
+  LAPACK version 3.12.1
+
+locale:
+[1] LC_COLLATE=Chinese (Simplified)_China.utf8  LC_CTYPE=Chinese (Simplified)_China.utf8   
+[3] LC_MONETARY=Chinese (Simplified)_China.utf8 LC_NUMERIC=C                               
+[5] LC_TIME=Chinese (Simplified)_China.utf8    
+
+time zone: Europe/Berlin
+tzcode source: internal
+
+attached base packages:
+[1] stats     graphics  grDevices utils     datasets  methods   base     
+
+other attached packages:
+[1] tidyr_1.3.2      Rsubread_2.24.0  dplyr_1.1.4      ggplot2_4.0.2    singscore_1.30.0
+[6] edgeR_4.8.2      limma_3.66.0    
+
+loaded via a namespace (and not attached):
+ [1] KEGGREST_1.50.0             SummarizedExperiment_1.40.0 gtable_0.3.6               
+ [4] ggrepel_0.9.6               Biobase_2.70.0              lattice_0.22-7             
+ [7] vctrs_0.7.2                 tools_4.5.2                 generics_0.1.4             
+[10] parallel_4.5.2              stats4_4.5.2                tibble_3.3.1               
+[13] AnnotationDbi_1.72.0        RSQLite_2.4.5               blob_1.3.0                 
+[16] pkgconfig_2.0.3             Matrix_1.7-4                RColorBrewer_1.1-3         
+[19] S7_0.2.1                    S4Vectors_0.48.0            graph_1.88.1               
+[22] lifecycle_1.0.5             stringr_1.6.0               compiler_4.5.2             
+[25] farver_2.1.2                Biostrings_2.78.0           statmod_1.5.1              
+[28] Seqinfo_1.0.0               pillar_1.11.1               crayon_1.5.3               
+[31] cachem_1.1.0                DelayedArray_0.36.0         abind_1.4-8                
+[34] tidyselect_1.2.1            locfit_1.5-9.12             stringi_1.8.7              
+[37] reshape2_1.4.5              purrr_1.2.1                 labeling_0.4.3             
+[40] fastmap_1.2.0               grid_4.5.2                  cli_3.6.5                  
+[43] SparseArray_1.10.8          magrittr_2.0.4              S4Arrays_1.10.1            
+[46] XML_3.99-0.20               utf8_1.2.6                  GSEABase_1.72.0            
+[49] withr_3.0.2                 scales_1.4.0                bit64_4.6.0-1              
+[52] XVector_0.50.0              httr_1.4.7                  matrixStats_1.5.0          
+[55] bit_4.6.0                   png_0.1-8                   memoise_2.0.1              
+[58] GenomicRanges_1.62.1        IRanges_2.44.0              rlang_1.1.7                
+[61] Rcpp_1.1.1                  xtable_1.8-4                glue_1.8.0                 
+[64] DBI_1.2.3                   BiocGenerics_0.56.0         annotate_1.88.0            
+[67] plyr_1.8.9                  R6_2.6.1                    MatrixGenerics_1.22.0      
+G2;H2;Warningh in grid.Call.graphics(C_text, as.graphicsAnnot(x$label), x$x, x$y,  :
+  for 'Mouse discovery of a persistent program → early pig validation → chronic pig extension' in 'mbcsToSbcs': -> substituted for → (U+2192)g
+G2;H2;Warningh in grid.Call.graphics(C_text, as.graphicsAnnot(x$label), x$x, x$y,  :
+  for 'Mouse discovery of a persistent program → early pig validation → chronic pig extension' in 'mbcsToSbcs': -> substituted for → (U+2192)g
+Figure1A 3-block linebreak v2 completed successfully.
+PNG: E:/R/ACLsenescence2/rebuild_submission/02_mouse_discovery/06_figures/Figure1/Figure1A_overall_study_workflow_3block_linebreak_v2.png
+PDF: E:/R/ACLsenescence2/rebuild_submission/02_mouse_discovery/06_figures/Figure1/Figure1A_overall_study_workflow_3block_linebreak_v2.pdf
+Summary log: E:/R/ACLsenescence2/rebuild_submission/02_mouse_discovery/08_logs/step01_Figure1A_overall_study_workflow_3block_linebreak_v2_summary_to_send.txt

@@ -1,0 +1,88 @@
+===== Chronic Figure5C current78 core DE gene-level audit plot SUMMARY TO SEND ME =====
+Run time: 2026-05-17 09:11:08
+
+Main run summary:
+                            metric
+           step5B_audit_input_file
+  n_fixed_early_defined_core_genes
+            n_tested_in_chronic_DE
+        n_not_tested_in_chronic_DE
+ n_strict_and_direction_consistent
+            n_opposite_or_reversed
+             strict_retained_genes
+                  not_tested_genes
+                    reversed_genes
+                        figure_png
+                        figure_pdf
+             plot_source_data_file
+              plot_statistics_file
+             interpretation_policy
+                        output_dir
+                                                                                                                                                                                       value
+            E:/R/ACLsenescence2/rebuild_submission/03_pig_chronic/tables/chronic_step5B_current78_core_DE_audit_Step4_locked/chronic_step5B_early_defined_24_core_chronic_DE_audit_table.csv
+                                                                                                                                                                                          24
+                                                                                                                                                                                          20
+                                                                                                                                                                                           4
+                                                                                                                                                                                           4
+                                                                                                                                                                                           1
+                                                                                                                                                                   SDC1, SPARC, LOXL2, PPARG
+                                                                                                                                                                      CCNB1, FOXM1, TTK, CBS
+                                                                                                                                                                                     TNFSF15
+     E:/R/ACLsenescence2/rebuild_submission/03_pig_chronic/figures/Figure5C_current78_core_DE_gene_audit_plot_Step4_locked_fixed_label_v2/Figure5C_current78_core_DE_gene_audit_lollipop.png
+     E:/R/ACLsenescence2/rebuild_submission/03_pig_chronic/figures/Figure5C_current78_core_DE_gene_audit_plot_Step4_locked_fixed_label_v2/Figure5C_current78_core_DE_gene_audit_lollipop.pdf
+ E:/R/ACLsenescence2/rebuild_submission/03_pig_chronic/tables/chronic_figure5C_current78_core_DE_gene_audit_plot_Step4_locked_fixed_label_v2/chronic_figure5C_current78_plot_source_data.csv
+  E:/R/ACLsenescence2/rebuild_submission/03_pig_chronic/tables/chronic_figure5C_current78_core_DE_gene_audit_plot_Step4_locked_fixed_label_v2/chronic_figure5C_current78_plot_statistics.csv
+                                                          Figure5C is a gene-level chronic DE audit plot for the fixed early-defined 24 core genes; it does not redefine a chronic core set.
+                                                 E:/R/ACLsenescence2/rebuild_submission/03_pig_chronic/tables/chronic_figure5C_current78_core_DE_gene_audit_plot_Step4_locked_fixed_label_v2
+
+Plot statistics:
+                          metric                     value
+  fixed_early_defined_core_genes                        24
+            tested_in_chronic_DE                        20
+        not_tested_in_chronic_DE                         4
+ strict_and_direction_consistent                         4
+            opposite_or_reversed                         1
+           strict_retained_genes SDC1, SPARC, LOXL2, PPARG
+                not_tested_genes    CCNB1, FOXM1, TTK, CBS
+                  reversed_genes                   TNFSF15
+
+Preview of plot data:
+ display_symbol           pig_ensg early_signature_direction tested_in_chronic_DE chronic_logFC chronic_FDR             chronic_retention_class plot_x_label    label_x    star_x
+           SDC1 ENSSSCG00000008601                Up_in_ACLR                 TRUE    1.91024307 0.000773991         direction_consistent_strict         1.91  2.7728844  2.258970
+          SPARC ENSSSCG00000017082                Up_in_ACLR                 TRUE    1.23975392 0.002687367         direction_consistent_strict         1.24  2.1023953  1.588481
+          LOXL2 ENSSSCG00000033608                Up_in_ACLR                 TRUE    1.03878999 0.005738155         direction_consistent_strict         1.04  1.9014313  1.387517
+          PPARG ENSSSCG00000011579              Down_in_ACLR                 TRUE   -1.76057116 0.001496843         direction_consistent_strict        -1.76 -1.9991741 -1.411844
+       SERPINE1 ENSSSCG00000025698                Up_in_ACLR                 TRUE    0.95023942 0.031288562       direction_consistent_FDR_only         0.95  1.1888423        NA
+          HTRA1 ENSSSCG00000010703                Up_in_ACLR                 TRUE    0.63812334 0.003732676       direction_consistent_FDR_only         0.64  0.8767263        NA
+          HIF1A ENSSSCG00000005096                Up_in_ACLR                 TRUE    0.51058931 0.012946535       direction_consistent_FDR_only         0.51  0.7491922        NA
+          RUNX1 ENSSSCG00000035537                Up_in_ACLR                 TRUE    0.36099732 0.041156161       direction_consistent_FDR_only         0.36  0.5996002        NA
+           FASN ENSSSCG00000029944              Down_in_ACLR                 TRUE   -0.41523970 0.039015288       direction_consistent_FDR_only        -0.42 -0.6538426        NA
+          ESPL1 ENSSSCG00000000265                Up_in_ACLR                 TRUE    0.70669861 0.081419519 direction_consistent_but_attenuated         0.71  0.9453015        NA
+        RACGAP1 ENSSSCG00000000217                Up_in_ACLR                 TRUE    0.53784113 0.058404168 direction_consistent_but_attenuated         0.54  0.7764441        NA
+          CKAP2 ENSSSCG00000009378                Up_in_ACLR                 TRUE    0.51052580 0.149595012 direction_consistent_but_attenuated         0.51  0.7491287        NA
+           CDK1 ENSSSCG00000010214                Up_in_ACLR                 TRUE    0.32484974 0.638586450 direction_consistent_but_attenuated         0.32  0.5634527        NA
+          KIFC1 ENSSSCG00000001510                Up_in_ACLR                 TRUE    0.27183483 0.418633471 direction_consistent_but_attenuated         0.27  0.5104378        NA
+           NEK2 ENSSSCG00000015604                Up_in_ACLR                 TRUE    0.21802259 0.411319153 direction_consistent_but_attenuated         0.22  0.4566255        NA
+          KIF2C ENSSSCG00000003931                Up_in_ACLR                 TRUE    0.13934715 0.641349907 direction_consistent_but_attenuated         0.14  0.3779501        NA
+           BUB1 ENSSSCG00000030469                Up_in_ACLR                 TRUE    0.12480338 0.785157839 direction_consistent_but_attenuated         0.12  0.3634063        NA
+         KIF20A ENSSSCG00000014326                Up_in_ACLR                 TRUE    0.09549476 0.840852862 direction_consistent_but_attenuated         0.10  0.3340977        NA
+         ENTPD7 ENSSSCG00000010540                Up_in_ACLR                 TRUE    0.02932244 0.821822501 direction_consistent_but_attenuated         0.03  0.2679254        NA
+        TNFSF15 ENSSSCG00000059646                Up_in_ACLR                 TRUE   -0.21564816 0.359888550                opposite_or_reversed        -0.22 -0.4542511        NA
+          CCNB1 ENSSSCG00000029326                Up_in_ACLR                FALSE            NA          NA                          not_tested   Not tested -4.4402656        NA
+          FOXM1 ENSSSCG00000000739                Up_in_ACLR                FALSE            NA          NA                          not_tested   Not tested -4.4402656        NA
+            TTK ENSSSCG00000004466                Up_in_ACLR                FALSE            NA          NA                          not_tested   Not tested -4.4402656        NA
+            CBS ENSSSCG00000040779              Down_in_ACLR                FALSE            NA          NA                          not_tested   Not tested -4.4402656        NA
+
+Version and method records:
+                   item                                                                                 value
+              R_version                                                                                 4.5.2
+        ggplot2_version                                                                                 4.0.2
+     figure_source_step                     Chronic Step5B current78 core DE audit, final Step4 source locked
+ core_definition_policy   fixed early-defined 24 core ortholog genes from pig early primary-analysis workflow
+            plot_design   gene-level lollipop/dot plot with retention-class colors and early-direction shapes
+            figure_role main Figure5C; fixed not-tested label clipping and separated strict-star/logFC labels
+
+Interpretation checkpoint:
+This figure is intended to serve as the main Figure5C.
+It shows which fixed early-defined core genes are strict retained, attenuated, reversed, or not tested in chronic DE.
+It does not redefine a chronic core gene set.

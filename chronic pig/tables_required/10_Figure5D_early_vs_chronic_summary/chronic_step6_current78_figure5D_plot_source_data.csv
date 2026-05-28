@@ -1,0 +1,38 @@
+"stage","metric","label","fill_color","numeric_value","fdr_value","note"
+"Early 1W","Signature
+directional score","Δscore = 0.97
+FDR = 0.005","#E49A4A",0.970371143348358,0.00507486809794025,"Early 1W directional score vs Control"
+"Early 1W","Hallmark NES:
+Inflammatory response","NES = 1.36
+FDR = 0.030","#E49A4A",1.36234981105952,0.030456364054483,"Hallmark inflammatory response"
+"Early 1W","Hallmark NES:
+EMT / ECM remodeling","NES = 1.63
+FDR = 0.001","#E49A4A",1.63292801110191,0.00112343533981957,"Hallmark EMT / ECM remodeling"
+"Early 1W","Core-gene
+status","Strict at 1W
+34 / 75","#E49A4A",0.453333333333333,NA,"Among the fixed 75 pig signature genes, genes strict at early 1W"
+"Early 4W","Signature
+directional score","Δscore = 0.69
+FDR = 0.005","#E49A4A",0.691471072958324,0.00507486809794025,"Early 4W directional score vs Control"
+"Early 4W","Hallmark NES:
+Inflammatory response","NES = 1.01
+FDR = 0.528","#F7E3CC",1.0118052975041,0.527864312911042,"Hallmark inflammatory response"
+"Early 4W","Hallmark NES:
+EMT / ECM remodeling","NES = 1.51
+FDR = 0.003","#E49A4A",1.5134305219531,0.00348396601724827,"Hallmark EMT / ECM remodeling"
+"Early 4W","Core-gene
+status","Strict at 4W
+25 / 75","#F2BF84",0.333333333333333,NA,"Among the fixed 75 pig signature genes, genes strict at early 4W"
+"Chronic 52W","Signature
+directional score","Δscore = 0.30
+FDR = 0.004","#E49A4A",0.30188317531977,0.00401900971132003,"Chronic 52W directional score vs Control"
+"Chronic 52W","Hallmark NES:
+Inflammatory response","NES = -1.03
+FDR = 0.415","#DCEAF7",-1.02599937589292,0.415415415415415,"Hallmark inflammatory response"
+"Chronic 52W","Hallmark NES:
+EMT / ECM remodeling","NES = 2.15
+FDR < 0.001","#E49A4A",2.14764222806787,3.36437709505716e-09,"Hallmark EMT / ECM remodeling"
+"Chronic 52W","Core-gene
+status","Strict retained
+4 / 24
+(19/20 dir-cons.)","#F7E3CC",0.166666666666667,NA,"Among the fixed early-defined 24 core genes, strict + direction-consistent in chronic DE"

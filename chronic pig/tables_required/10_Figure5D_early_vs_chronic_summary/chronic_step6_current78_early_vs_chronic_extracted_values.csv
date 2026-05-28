@@ -1,0 +1,17 @@
+"category","value"
+"early_signature_directional_score_t7",0.970371143348358
+"early_signature_directional_score_t28",0.691471072958324
+"chronic_signature_directional_score",0.30188317531977
+"early_inflammatory_NES_t7",1.36234981105952
+"early_inflammatory_NES_t28",1.0118052975041
+"chronic_inflammatory_NES",-1.02599937589292
+"early_EMT_NES_t7",1.63292801110191
+"early_EMT_NES_t28",1.5134305219531
+"chronic_EMT_NES",2.14764222806787
+"early_signature_detected_genes",75
+"early_strict_t7",34
+"early_strict_t28",25
+"early_core_genes",24
+"chronic_core_genes_tested",20
+"chronic_core_direction_consistent",19
+"chronic_core_strict_direction_consistent",4

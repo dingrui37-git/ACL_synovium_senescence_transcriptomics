@@ -1,0 +1,8 @@
+"item","value"
+"R_version","4.5.2"
+"ggplot2_version","4.0.2"
+"early_signature_source_step","Step19 current78 pig early signature score"
+"early_GSEA_source_step","Step20 current78 pig early full-Hallmark GSEA"
+"chronic_signature_source_step","Chronic Step2 current78 TMM-aligned signature score"
+"chronic_GSEA_source_step","Chronic Step4 current78 edgeR QLF DE + full-Hallmark GSEA"
+"core_comparison_policy","Compare early strict counts among the fixed 75-gene signature with chronic strict retained counts among the fixed early-defined 24 core genes; no chronic core redefinition."

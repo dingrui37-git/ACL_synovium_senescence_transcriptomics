@@ -1,0 +1,4 @@
+"label","file","exists","size_bytes","mtime","md5"
+"fixed early-defined 24 core gene table","E:/R/ACLsenescence2/rebuild_submission/02_pig_early/tables/step21_current78_Figure4C_core_heatmap/step21_current78_pig_core_ortholog_gene_table.csv",TRUE,3342,"2026-05-06 20:04:56","66c0473561ef15267a96a66467730573"
+"final locked chronic Step4 edgeR QLF DE table","E:/R/ACLsenescence2/rebuild_submission/03_pig_chronic/tables/chronic_step4_current78_DE_GSEA/chronic_step4_DE_ACLT_alone_52W_vs_Control_52W_edgeR_QLF_tximport_offset.csv",TRUE,1763889,"2026-05-27 21:13:30","af6bc8ec0d0551e7c95c423b7cdb7fb7"
+"chronic Step5 heatmap summary","E:/R/ACLsenescence2/rebuild_submission/03_pig_chronic/tables/supplementary_chronic_step5_current78_core_heatmap_TMM_aligned_pig_early_style_compact/logs/chronic_step5_TMM_aligned_pig_early_style_core_heatmap_summary_to_send_me.txt",TRUE,15621,"2026-05-27 19:41:12","2e4442be943b5a58af09cd7887fd4cdb"

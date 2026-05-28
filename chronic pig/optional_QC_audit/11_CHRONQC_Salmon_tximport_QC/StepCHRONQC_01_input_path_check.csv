@@ -1,0 +1,6 @@
+"label","path","exists"
+"quant_dir","E:/R/ACLsenescence2/rebuild_submission/raw data/GSE228848_synovium_quant",TRUE
+"tables_dir","E:/R/ACLsenescence2/rebuild_submission/03_pig_chronic/tables",TRUE
+"metadata_file","E:/R/ACLsenescence2/rebuild_submission/03_pig_chronic/tables/chronic_step2_current78_signature_score_TMM_aligned/chronic_step2_current78_TMM_aligned_sample_metadata_used.csv",TRUE
+"tximport_run_summary_file","E:/R/ACLsenescence2/rebuild_submission/03_pig_chronic/tables/step24_pig_chronic_tximport_run_summary.csv",TRUE
+"gtf_file","E:/R/ACLsenescence2/rebuild_submission/02_pig_early_fastp_sensitivity/reference_cache/Sus_scrofa.Sscrofa11.1.115.gtf",TRUE

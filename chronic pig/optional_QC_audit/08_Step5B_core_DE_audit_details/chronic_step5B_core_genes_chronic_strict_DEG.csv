@@ -1,0 +1,5 @@
+"pig_ensg","pig_symbol","human_gene","mouse_symbol","early_signature_direction","chronic_gene_symbol","chronic_logFC","chronic_PValue","chronic_FDR","tested_in_chronic_DE","chronic_direction_consistent_with_early","chronic_FDR_lt_0.05","chronic_abslogFC_gt_1","chronic_strict_DEG","chronic_strict_and_direction_consistent","chronic_retention_class","display_symbol"
+"ENSSSCG00000008601","SDC1","SDC1","Sdc1","Up_in_ACLR","SDC1",1.91024306892836,1.57990242817792e-05,0.000773990975273692,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,"direction_consistent_strict","SDC1"
+"ENSSSCG00000017082","SPARC","SPARC","Sparc","Up_in_ACLR","SPARC",1.23975391556808,0.00013881837799479,0.00268736706755237,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,"direction_consistent_strict","SPARC"
+"ENSSSCG00000033608","LOXL2","LOXL2","Loxl2","Up_in_ACLR","LOXL2",1.03878999296215,0.00045776158636154,0.00573815502903852,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,"direction_consistent_strict","LOXL2"
+"ENSSSCG00000011579","PPARG","PPARG","Pparg","Down_in_ACLR","PPARG",-1.76057116453034,4.98166965695574e-05,0.00149684301302419,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,"direction_consistent_strict","PPARG"

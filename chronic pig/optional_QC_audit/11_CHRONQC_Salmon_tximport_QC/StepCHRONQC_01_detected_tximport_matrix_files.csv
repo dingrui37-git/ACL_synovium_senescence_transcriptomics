@@ -1,0 +1,7 @@
+"label","path","exists"
+"counts_file","E:/R/ACLsenescence2/rebuild_submission/03_pig_chronic/tables/step24_pig_chronic_gene_level_estimated_counts_matrix.csv",TRUE
+"abundance_file","E:/R/ACLsenescence2/rebuild_submission/03_pig_chronic/tables/step24_pig_chronic_gene_level_abundance_tpm_matrix.csv",TRUE
+"effective_length_file","E:/R/ACLsenescence2/rebuild_submission/03_pig_chronic/tables/step24_pig_chronic_gene_level_length_matrix.csv",TRUE
+"gene_annotation_file","E:/R/ACLsenescence2/rebuild_submission/03_pig_chronic/tables/step24_pig_chronic_gene_annotation_from_gtf.csv",TRUE
+"tx2gene_file","E:/R/ACLsenescence2/rebuild_submission/03_pig_chronic/tables/step24_pig_chronic_tx2gene.csv",TRUE
+"tximport_run_summary_file","E:/R/ACLsenescence2/rebuild_submission/03_pig_chronic/tables/step24_pig_chronic_tximport_run_summary.csv",TRUE

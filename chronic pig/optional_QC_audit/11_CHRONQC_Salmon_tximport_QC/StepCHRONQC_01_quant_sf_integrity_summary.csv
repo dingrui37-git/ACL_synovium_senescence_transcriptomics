@@ -1,0 +1,14 @@
+"metric","value"
+"quant_files_all_found",96
+"synovium_candidate_quant_files",48
+"quant_files_read_PASS",48
+"quant_files_standard_columns_PASS",48
+"min_n_transcripts",46295
+"max_n_transcripts",46295
+"mean_n_transcripts",46295
+"min_tpm_sum",1e+06
+"max_tpm_sum",1e+06
+"mean_tpm_sum",1e+06
+"min_numreads_sum",7483048.956
+"max_numreads_sum",19992965.991
+"mean_numreads_sum",13321649.316

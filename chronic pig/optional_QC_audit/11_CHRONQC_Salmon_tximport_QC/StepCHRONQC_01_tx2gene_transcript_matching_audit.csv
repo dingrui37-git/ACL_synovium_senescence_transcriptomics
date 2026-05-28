@@ -1,0 +1,2 @@
+"tx2gene_file","tx2gene_exists","quant_file_used","quant_n_transcripts","tx2gene_n_transcripts","matched_with_version","matched_after_stripping_version","match_rate_with_version_pct","match_rate_after_stripping_version_pct"
+"E:/R/ACLsenescence2/rebuild_submission/03_pig_chronic/tables/step24_pig_chronic_tx2gene.csv",TRUE,"E:/R/ACLsenescence2/rebuild_submission/raw data/GSE228848_synovium_quant/GSM7140486_CON1_synovium_quant.sf.txt.gz",46295,60440,0,45845,0,99.028

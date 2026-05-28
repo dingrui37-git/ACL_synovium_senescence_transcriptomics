@@ -1,0 +1,3 @@
+"early_signature_direction","n_core_genes","tested_in_chronic_DE","direction_consistent_with_early","opposite_or_reversed_direction","chronic_FDR_lt_0.05","chronic_abslogFC_gt_1","chronic_strict_DEG","chronic_strict_and_direction_consistent"
+"Up_in_ACLR",21,18,17,1,7,3,3,3
+"Down_in_ACLR",3,2,2,0,2,1,1,1

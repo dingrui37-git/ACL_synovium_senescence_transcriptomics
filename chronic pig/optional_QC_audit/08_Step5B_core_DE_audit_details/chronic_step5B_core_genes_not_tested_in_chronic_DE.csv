@@ -1,0 +1,5 @@
+"pig_ensg","pig_symbol","human_gene","mouse_symbol","early_signature_direction","chronic_gene_symbol","chronic_logFC","chronic_PValue","chronic_FDR","tested_in_chronic_DE","chronic_direction_consistent_with_early","chronic_FDR_lt_0.05","chronic_abslogFC_gt_1","chronic_strict_DEG","chronic_strict_and_direction_consistent","chronic_retention_class","display_symbol"
+"ENSSSCG00000029326","CCNB1","CCNB1","Ccnb1","Up_in_ACLR",NA,NA,NA,NA,FALSE,NA,FALSE,FALSE,FALSE,FALSE,"not_tested","CCNB1"
+"ENSSSCG00000000739","FOXM1","FOXM1","Foxm1","Up_in_ACLR",NA,NA,NA,NA,FALSE,NA,FALSE,FALSE,FALSE,FALSE,"not_tested","FOXM1"
+"ENSSSCG00000004466","TTK","TTK","Ttk","Up_in_ACLR",NA,NA,NA,NA,FALSE,NA,FALSE,FALSE,FALSE,FALSE,"not_tested","TTK"
+"ENSSSCG00000040779","CBS","CBS","Cbs","Down_in_ACLR",NA,NA,NA,NA,FALSE,NA,FALSE,FALSE,FALSE,FALSE,"not_tested","CBS"

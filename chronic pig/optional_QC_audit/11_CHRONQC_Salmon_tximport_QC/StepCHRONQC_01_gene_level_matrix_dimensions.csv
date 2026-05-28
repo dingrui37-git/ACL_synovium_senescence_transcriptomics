@@ -1,0 +1,4 @@
+"matrix","path","n_genes_rows","n_columns_total","n_sample_columns","first_column"
+"counts","E:/R/ACLsenescence2/rebuild_submission/03_pig_chronic/tables/step24_pig_chronic_gene_level_estimated_counts_matrix.csv",22438,97,96,"gene_id"
+"abundance_TPM","E:/R/ACLsenescence2/rebuild_submission/03_pig_chronic/tables/step24_pig_chronic_gene_level_abundance_tpm_matrix.csv",22438,97,96,"gene_id"
+"effective_length","E:/R/ACLsenescence2/rebuild_submission/03_pig_chronic/tables/step24_pig_chronic_gene_level_length_matrix.csv",22438,97,96,"gene_id"

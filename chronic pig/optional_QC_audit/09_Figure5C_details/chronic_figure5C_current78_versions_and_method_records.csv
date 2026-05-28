@@ -1,0 +1,7 @@
+"item","value"
+"R_version","4.5.2"
+"ggplot2_version","4.0.2"
+"figure_source_step","Chronic Step5B current78 core DE audit, final Step4 source locked"
+"core_definition_policy","fixed early-defined 24 core ortholog genes from pig early primary-analysis workflow"
+"plot_design","gene-level lollipop/dot plot with retention-class colors and early-direction shapes"
+"figure_role","main Figure5C; fixed not-tested label clipping and separated strict-star/logFC labels"

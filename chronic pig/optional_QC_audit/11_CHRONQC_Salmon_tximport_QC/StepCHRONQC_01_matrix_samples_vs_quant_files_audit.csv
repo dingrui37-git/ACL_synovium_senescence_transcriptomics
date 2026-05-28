@@ -1,0 +1,97 @@
+"matrix_geo_accession","matrix_sample_id","quant_file","basename","label_from_filename","tissue_from_filename","inferred_group_from_filename","has_matching_synovium_quant_file"
+"GSM7140438","GSM7140438_CON1_cartilage",NA,NA,NA,NA,NA,FALSE
+"GSM7140439","GSM7140439_ACLT1_cartilage",NA,NA,NA,NA,NA,FALSE
+"GSM7140440","GSM7140440_ACLT2_cartilage",NA,NA,NA,NA,NA,FALSE
+"GSM7140441","GSM7140441_ACLT3_cartilage",NA,NA,NA,NA,NA,FALSE
+"GSM7140442","GSM7140442_ACLT4_cartilage",NA,NA,NA,NA,NA,FALSE
+"GSM7140443","GSM7140443_CON2_cartilage",NA,NA,NA,NA,NA,FALSE
+"GSM7140444","GSM7140444_ACLT5_cartilage",NA,NA,NA,NA,NA,FALSE
+"GSM7140445","GSM7140445_ACLT6_cartilage",NA,NA,NA,NA,NA,FALSE
+"GSM7140446","GSM7140446_ACLT7_cartilage",NA,NA,NA,NA,NA,FALSE
+"GSM7140447","GSM7140447_CON3_cartilage",NA,NA,NA,NA,NA,FALSE
+"GSM7140448","GSM7140448_ACLT8_cartilage",NA,NA,NA,NA,NA,FALSE
+"GSM7140449","GSM7140449_ACLT9_cartilage",NA,NA,NA,NA,NA,FALSE
+"GSM7140450","GSM7140450_ACLT10_cartilage",NA,NA,NA,NA,NA,FALSE
+"GSM7140451","GSM7140451_ACLT11_cartilage",NA,NA,NA,NA,NA,FALSE
+"GSM7140452","GSM7140452_CON4_cartilage",NA,NA,NA,NA,NA,FALSE
+"GSM7140453","GSM7140453_ACLT12_cartilage",NA,NA,NA,NA,NA,FALSE
+"GSM7140454","GSM7140454_CON5_cartilage",NA,NA,NA,NA,NA,FALSE
+"GSM7140455","GSM7140455_RECON1_cartilage",NA,NA,NA,NA,NA,FALSE
+"GSM7140456","GSM7140456_RECON2_cartilage",NA,NA,NA,NA,NA,FALSE
+"GSM7140457","GSM7140457_RECON3_cartilage",NA,NA,NA,NA,NA,FALSE
+"GSM7140458","GSM7140458_RECON4_cartilage",NA,NA,NA,NA,NA,FALSE
+"GSM7140459","GSM7140459_CON6_cartilage",NA,NA,NA,NA,NA,FALSE
+"GSM7140460","GSM7140460_RECON5_cartilage",NA,NA,NA,NA,NA,FALSE
+"GSM7140461","GSM7140461_RECON6_cartilage",NA,NA,NA,NA,NA,FALSE
+"GSM7140462","GSM7140462_RECON7_cartilage",NA,NA,NA,NA,NA,FALSE
+"GSM7140463","GSM7140463_CON7_cartilage",NA,NA,NA,NA,NA,FALSE
+"GSM7140464","GSM7140464_RECON8_cartilage",NA,NA,NA,NA,NA,FALSE
+"GSM7140465","GSM7140465_RECON9_cartilage",NA,NA,NA,NA,NA,FALSE
+"GSM7140466","GSM7140466_RECON10_cartilage",NA,NA,NA,NA,NA,FALSE
+"GSM7140467","GSM7140467_RECON11_cartilage",NA,NA,NA,NA,NA,FALSE
+"GSM7140468","GSM7140468_CON8_cartilage",NA,NA,NA,NA,NA,FALSE
+"GSM7140469","GSM7140469_RECON12_cartilage",NA,NA,NA,NA,NA,FALSE
+"GSM7140470","GSM7140470_CON9_cartilage",NA,NA,NA,NA,NA,FALSE
+"GSM7140471","GSM7140471_REPAIR1_cartilage",NA,NA,NA,NA,NA,FALSE
+"GSM7140472","GSM7140472_REPAIR2_cartilage",NA,NA,NA,NA,NA,FALSE
+"GSM7140473","GSM7140473_REPAIR3_cartilage",NA,NA,NA,NA,NA,FALSE
+"GSM7140474","GSM7140474_REPAIR4_cartilage",NA,NA,NA,NA,NA,FALSE
+"GSM7140475","GSM7140475_CON10_cartilage",NA,NA,NA,NA,NA,FALSE
+"GSM7140476","GSM7140476_REPAIR5_cartilage",NA,NA,NA,NA,NA,FALSE
+"GSM7140477","GSM7140477_REPAIR6_cartilage",NA,NA,NA,NA,NA,FALSE
+"GSM7140478","GSM7140478_REPAIR7_cartilage",NA,NA,NA,NA,NA,FALSE
+"GSM7140479","GSM7140479_CON11_cartilage",NA,NA,NA,NA,NA,FALSE
+"GSM7140480","GSM7140480_REPAIR8_cartilage",NA,NA,NA,NA,NA,FALSE
+"GSM7140481","GSM7140481_REPAIR9_cartilage",NA,NA,NA,NA,NA,FALSE
+"GSM7140482","GSM7140482_REPAIR10_cartilage",NA,NA,NA,NA,NA,FALSE
+"GSM7140483","GSM7140483_REPAIR11_cartilage",NA,NA,NA,NA,NA,FALSE
+"GSM7140484","GSM7140484_CON12_cartilage",NA,NA,NA,NA,NA,FALSE
+"GSM7140485","GSM7140485_REPAIR12_cartilage",NA,NA,NA,NA,NA,FALSE
+"GSM7140486","GSM7140486_CON1_synovium","E:/R/ACLsenescence2/rebuild_submission/raw data/GSE228848_synovium_quant/GSM7140486_CON1_synovium_quant.sf.txt.gz","GSM7140486_CON1_synovium_quant.sf.txt.gz","CON1_synovium","synovium","Control_52W",TRUE
+"GSM7140487","GSM7140487_ACLT1_synovium","E:/R/ACLsenescence2/rebuild_submission/raw data/GSE228848_synovium_quant/GSM7140487_ACLT1_synovium_quant.sf.txt.gz","GSM7140487_ACLT1_synovium_quant.sf.txt.gz","ACLT1_synovium","synovium","ACLT_alone_52W",TRUE
+"GSM7140488","GSM7140488_ACLT2_synovium","E:/R/ACLsenescence2/rebuild_submission/raw data/GSE228848_synovium_quant/GSM7140488_ACLT2_synovium_quant.sf.txt.gz","GSM7140488_ACLT2_synovium_quant.sf.txt.gz","ACLT2_synovium","synovium","ACLT_alone_52W",TRUE
+"GSM7140489","GSM7140489_ACLT3_synovium","E:/R/ACLsenescence2/rebuild_submission/raw data/GSE228848_synovium_quant/GSM7140489_ACLT3_synovium_quant.sf.txt.gz","GSM7140489_ACLT3_synovium_quant.sf.txt.gz","ACLT3_synovium","synovium","ACLT_alone_52W",TRUE
+"GSM7140490","GSM7140490_ACLT4_synovium","E:/R/ACLsenescence2/rebuild_submission/raw data/GSE228848_synovium_quant/GSM7140490_ACLT4_synovium_quant.sf.txt.gz","GSM7140490_ACLT4_synovium_quant.sf.txt.gz","ACLT4_synovium","synovium","ACLT_alone_52W",TRUE
+"GSM7140491","GSM7140491_CON2_synovium","E:/R/ACLsenescence2/rebuild_submission/raw data/GSE228848_synovium_quant/GSM7140491_CON2_synovium_quant.sf.txt.gz","GSM7140491_CON2_synovium_quant.sf.txt.gz","CON2_synovium","synovium","Control_52W",TRUE
+"GSM7140492","GSM7140492_ACLT5_synovium","E:/R/ACLsenescence2/rebuild_submission/raw data/GSE228848_synovium_quant/GSM7140492_ACLT5_synovium_quant.sf.txt.gz","GSM7140492_ACLT5_synovium_quant.sf.txt.gz","ACLT5_synovium","synovium","ACLT_alone_52W",TRUE
+"GSM7140493","GSM7140493_ACLT6_synovium","E:/R/ACLsenescence2/rebuild_submission/raw data/GSE228848_synovium_quant/GSM7140493_ACLT6_synovium_quant.sf.txt.gz","GSM7140493_ACLT6_synovium_quant.sf.txt.gz","ACLT6_synovium","synovium","ACLT_alone_52W",TRUE
+"GSM7140494","GSM7140494_ACLT7_synovium","E:/R/ACLsenescence2/rebuild_submission/raw data/GSE228848_synovium_quant/GSM7140494_ACLT7_synovium_quant.sf.txt.gz","GSM7140494_ACLT7_synovium_quant.sf.txt.gz","ACLT7_synovium","synovium","ACLT_alone_52W",TRUE
+"GSM7140495","GSM7140495_CON3_synovium","E:/R/ACLsenescence2/rebuild_submission/raw data/GSE228848_synovium_quant/GSM7140495_CON3_synovium_quant.sf.txt.gz","GSM7140495_CON3_synovium_quant.sf.txt.gz","CON3_synovium","synovium","Control_52W",TRUE
+"GSM7140496","GSM7140496_ACLT8_synovium","E:/R/ACLsenescence2/rebuild_submission/raw data/GSE228848_synovium_quant/GSM7140496_ACLT8_synovium_quant.sf.txt.gz","GSM7140496_ACLT8_synovium_quant.sf.txt.gz","ACLT8_synovium","synovium","ACLT_alone_52W",TRUE
+"GSM7140497","GSM7140497_ACLT9_synovium","E:/R/ACLsenescence2/rebuild_submission/raw data/GSE228848_synovium_quant/GSM7140497_ACLT9_synovium_quant.sf.txt.gz","GSM7140497_ACLT9_synovium_quant.sf.txt.gz","ACLT9_synovium","synovium","ACLT_alone_52W",TRUE
+"GSM7140498","GSM7140498_ACLT10_synovium","E:/R/ACLsenescence2/rebuild_submission/raw data/GSE228848_synovium_quant/GSM7140498_ACLT10_synovium_quant.sf.txt.gz","GSM7140498_ACLT10_synovium_quant.sf.txt.gz","ACLT10_synovium","synovium","ACLT_alone_52W",TRUE
+"GSM7140499","GSM7140499_ACLT11_synovium","E:/R/ACLsenescence2/rebuild_submission/raw data/GSE228848_synovium_quant/GSM7140499_ACLT11_synovium_quant.sf.txt.gz","GSM7140499_ACLT11_synovium_quant.sf.txt.gz","ACLT11_synovium","synovium","ACLT_alone_52W",TRUE
+"GSM7140500","GSM7140500_CON4_synovium","E:/R/ACLsenescence2/rebuild_submission/raw data/GSE228848_synovium_quant/GSM7140500_CON4_synovium_quant.sf.txt.gz","GSM7140500_CON4_synovium_quant.sf.txt.gz","CON4_synovium","synovium","Control_52W",TRUE
+"GSM7140501","GSM7140501_ACLT12_synovium","E:/R/ACLsenescence2/rebuild_submission/raw data/GSE228848_synovium_quant/GSM7140501_ACLT12_synovium_quant.sf.txt.gz","GSM7140501_ACLT12_synovium_quant.sf.txt.gz","ACLT12_synovium","synovium","ACLT_alone_52W",TRUE
+"GSM7140502","GSM7140502_CON5_synovium","E:/R/ACLsenescence2/rebuild_submission/raw data/GSE228848_synovium_quant/GSM7140502_CON5_synovium_quant.sf.txt.gz","GSM7140502_CON5_synovium_quant.sf.txt.gz","CON5_synovium","synovium","Control_52W",TRUE
+"GSM7140503","GSM7140503_RECON1_synovium","E:/R/ACLsenescence2/rebuild_submission/raw data/GSE228848_synovium_quant/GSM7140503_RECON1_synovium_quant.sf.txt.gz","GSM7140503_RECON1_synovium_quant.sf.txt.gz","RECON1_synovium","synovium","Reconstruction_52W",TRUE
+"GSM7140504","GSM7140504_RECON2_synovium","E:/R/ACLsenescence2/rebuild_submission/raw data/GSE228848_synovium_quant/GSM7140504_RECON2_synovium_quant.sf.txt.gz","GSM7140504_RECON2_synovium_quant.sf.txt.gz","RECON2_synovium","synovium","Reconstruction_52W",TRUE
+"GSM7140505","GSM7140505_RECON3_synovium","E:/R/ACLsenescence2/rebuild_submission/raw data/GSE228848_synovium_quant/GSM7140505_RECON3_synovium_quant.sf.txt.gz","GSM7140505_RECON3_synovium_quant.sf.txt.gz","RECON3_synovium","synovium","Reconstruction_52W",TRUE
+"GSM7140506","GSM7140506_RECON4_synovium","E:/R/ACLsenescence2/rebuild_submission/raw data/GSE228848_synovium_quant/GSM7140506_RECON4_synovium_quant.sf.txt.gz","GSM7140506_RECON4_synovium_quant.sf.txt.gz","RECON4_synovium","synovium","Reconstruction_52W",TRUE
+"GSM7140507","GSM7140507_CON6_synovium","E:/R/ACLsenescence2/rebuild_submission/raw data/GSE228848_synovium_quant/GSM7140507_CON6_synovium_quant.sf.txt.gz","GSM7140507_CON6_synovium_quant.sf.txt.gz","CON6_synovium","synovium","Control_52W",TRUE
+"GSM7140508","GSM7140508_RECON5_synovium","E:/R/ACLsenescence2/rebuild_submission/raw data/GSE228848_synovium_quant/GSM7140508_RECON5_synovium_quant.sf.txt.gz","GSM7140508_RECON5_synovium_quant.sf.txt.gz","RECON5_synovium","synovium","Reconstruction_52W",TRUE
+"GSM7140509","GSM7140509_RECON6_synovium","E:/R/ACLsenescence2/rebuild_submission/raw data/GSE228848_synovium_quant/GSM7140509_RECON6_synovium_quant.sf.txt.gz","GSM7140509_RECON6_synovium_quant.sf.txt.gz","RECON6_synovium","synovium","Reconstruction_52W",TRUE
+"GSM7140510","GSM7140510_RECON7_synovium","E:/R/ACLsenescence2/rebuild_submission/raw data/GSE228848_synovium_quant/GSM7140510_RECON7_synovium_quant.sf.txt.gz","GSM7140510_RECON7_synovium_quant.sf.txt.gz","RECON7_synovium","synovium","Reconstruction_52W",TRUE
+"GSM7140511","GSM7140511_CON7_synovium","E:/R/ACLsenescence2/rebuild_submission/raw data/GSE228848_synovium_quant/GSM7140511_CON7_synovium_quant.sf.txt.gz","GSM7140511_CON7_synovium_quant.sf.txt.gz","CON7_synovium","synovium","Control_52W",TRUE
+"GSM7140512","GSM7140512_RECON8_synovium","E:/R/ACLsenescence2/rebuild_submission/raw data/GSE228848_synovium_quant/GSM7140512_RECON8_synovium_quant.sf.txt.gz","GSM7140512_RECON8_synovium_quant.sf.txt.gz","RECON8_synovium","synovium","Reconstruction_52W",TRUE
+"GSM7140513","GSM7140513_RECON9_synovium","E:/R/ACLsenescence2/rebuild_submission/raw data/GSE228848_synovium_quant/GSM7140513_RECON9_synovium_quant.sf.txt.gz","GSM7140513_RECON9_synovium_quant.sf.txt.gz","RECON9_synovium","synovium","Reconstruction_52W",TRUE
+"GSM7140514","GSM7140514_RECON10_synovium","E:/R/ACLsenescence2/rebuild_submission/raw data/GSE228848_synovium_quant/GSM7140514_RECON10_synovium_quant.sf.txt.gz","GSM7140514_RECON10_synovium_quant.sf.txt.gz","RECON10_synovium","synovium","Reconstruction_52W",TRUE
+"GSM7140515","GSM7140515_RECON11_synovium","E:/R/ACLsenescence2/rebuild_submission/raw data/GSE228848_synovium_quant/GSM7140515_RECON11_synovium_quant.sf.txt.gz","GSM7140515_RECON11_synovium_quant.sf.txt.gz","RECON11_synovium","synovium","Reconstruction_52W",TRUE
+"GSM7140516","GSM7140516_CON8_synovium","E:/R/ACLsenescence2/rebuild_submission/raw data/GSE228848_synovium_quant/GSM7140516_CON8_synovium_quant.sf.txt.gz","GSM7140516_CON8_synovium_quant.sf.txt.gz","CON8_synovium","synovium","Control_52W",TRUE
+"GSM7140517","GSM7140517_RECON12_synovium","E:/R/ACLsenescence2/rebuild_submission/raw data/GSE228848_synovium_quant/GSM7140517_RECON12_synovium_quant.sf.txt.gz","GSM7140517_RECON12_synovium_quant.sf.txt.gz","RECON12_synovium","synovium","Reconstruction_52W",TRUE
+"GSM7140518","GSM7140518_CON9_synovium","E:/R/ACLsenescence2/rebuild_submission/raw data/GSE228848_synovium_quant/GSM7140518_CON9_synovium_quant.sf.txt.gz","GSM7140518_CON9_synovium_quant.sf.txt.gz","CON9_synovium","synovium","Control_52W",TRUE
+"GSM7140519","GSM7140519_REPAIR1_synovium","E:/R/ACLsenescence2/rebuild_submission/raw data/GSE228848_synovium_quant/GSM7140519_REPAIR1_synovium_quant.sf.txt.gz","GSM7140519_REPAIR1_synovium_quant.sf.txt.gz","REPAIR1_synovium","synovium","Repair_52W",TRUE
+"GSM7140520","GSM7140520_REPAIR2_synovium","E:/R/ACLsenescence2/rebuild_submission/raw data/GSE228848_synovium_quant/GSM7140520_REPAIR2_synovium_quant.sf.txt.gz","GSM7140520_REPAIR2_synovium_quant.sf.txt.gz","REPAIR2_synovium","synovium","Repair_52W",TRUE
+"GSM7140521","GSM7140521_REPAIR3_synovium","E:/R/ACLsenescence2/rebuild_submission/raw data/GSE228848_synovium_quant/GSM7140521_REPAIR3_synovium_quant.sf.txt.gz","GSM7140521_REPAIR3_synovium_quant.sf.txt.gz","REPAIR3_synovium","synovium","Repair_52W",TRUE
+"GSM7140522","GSM7140522_REPAIR4_synovium","E:/R/ACLsenescence2/rebuild_submission/raw data/GSE228848_synovium_quant/GSM7140522_REPAIR4_synovium_quant.sf.txt.gz","GSM7140522_REPAIR4_synovium_quant.sf.txt.gz","REPAIR4_synovium","synovium","Repair_52W",TRUE
+"GSM7140523","GSM7140523_CON10_synovium","E:/R/ACLsenescence2/rebuild_submission/raw data/GSE228848_synovium_quant/GSM7140523_CON10_synovium_quant.sf.txt.gz","GSM7140523_CON10_synovium_quant.sf.txt.gz","CON10_synovium","synovium","Control_52W",TRUE
+"GSM7140524","GSM7140524_REPAIR5_synovium","E:/R/ACLsenescence2/rebuild_submission/raw data/GSE228848_synovium_quant/GSM7140524_REPAIR5_synovium_quant.sf.txt.gz","GSM7140524_REPAIR5_synovium_quant.sf.txt.gz","REPAIR5_synovium","synovium","Repair_52W",TRUE
+"GSM7140525","GSM7140525_REPAIR6_synovium","E:/R/ACLsenescence2/rebuild_submission/raw data/GSE228848_synovium_quant/GSM7140525_REPAIR6_synovium_quant.sf.txt.gz","GSM7140525_REPAIR6_synovium_quant.sf.txt.gz","REPAIR6_synovium","synovium","Repair_52W",TRUE
+"GSM7140526","GSM7140526_REPAIR7_synovium","E:/R/ACLsenescence2/rebuild_submission/raw data/GSE228848_synovium_quant/GSM7140526_REPAIR7_synovium_quant.sf.txt.gz","GSM7140526_REPAIR7_synovium_quant.sf.txt.gz","REPAIR7_synovium","synovium","Repair_52W",TRUE
+"GSM7140527","GSM7140527_CON11_synovium","E:/R/ACLsenescence2/rebuild_submission/raw data/GSE228848_synovium_quant/GSM7140527_CON11_synovium_quant.sf.txt.gz","GSM7140527_CON11_synovium_quant.sf.txt.gz","CON11_synovium","synovium","Control_52W",TRUE
+"GSM7140528","GSM7140528_REPAIR8_synovium","E:/R/ACLsenescence2/rebuild_submission/raw data/GSE228848_synovium_quant/GSM7140528_REPAIR8_synovium_quant.sf.txt.gz","GSM7140528_REPAIR8_synovium_quant.sf.txt.gz","REPAIR8_synovium","synovium","Repair_52W",TRUE
+"GSM7140529","GSM7140529_REPAIR9_synovium","E:/R/ACLsenescence2/rebuild_submission/raw data/GSE228848_synovium_quant/GSM7140529_REPAIR9_synovium_quant.sf.txt.gz","GSM7140529_REPAIR9_synovium_quant.sf.txt.gz","REPAIR9_synovium","synovium","Repair_52W",TRUE
+"GSM7140530","GSM7140530_REPAIR10_synovium","E:/R/ACLsenescence2/rebuild_submission/raw data/GSE228848_synovium_quant/GSM7140530_REPAIR10_synovium_quant.sf.txt.gz","GSM7140530_REPAIR10_synovium_quant.sf.txt.gz","REPAIR10_synovium","synovium","Repair_52W",TRUE
+"GSM7140531","GSM7140531_REPAIR11_synovium","E:/R/ACLsenescence2/rebuild_submission/raw data/GSE228848_synovium_quant/GSM7140531_REPAIR11_synovium_quant.sf.txt.gz","GSM7140531_REPAIR11_synovium_quant.sf.txt.gz","REPAIR11_synovium","synovium","Repair_52W",TRUE
+"GSM7140532","GSM7140532_CON12_synovium","E:/R/ACLsenescence2/rebuild_submission/raw data/GSE228848_synovium_quant/GSM7140532_CON12_synovium_quant.sf.txt.gz","GSM7140532_CON12_synovium_quant.sf.txt.gz","CON12_synovium","synovium","Control_52W",TRUE
+"GSM7140533","GSM7140533_REPAIR12_synovium","E:/R/ACLsenescence2/rebuild_submission/raw data/GSE228848_synovium_quant/GSM7140533_REPAIR12_synovium_quant.sf.txt.gz","GSM7140533_REPAIR12_synovium_quant.sf.txt.gz","REPAIR12_synovium","synovium","Repair_52W",TRUE

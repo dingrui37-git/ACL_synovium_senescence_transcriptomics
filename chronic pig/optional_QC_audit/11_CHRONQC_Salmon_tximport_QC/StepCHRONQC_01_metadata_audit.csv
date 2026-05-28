@@ -1,0 +1,2 @@
+"metadata_file","exists","n_rows","n_cols","inferred_sample_col","inferred_group_col"
+"E:/R/ACLsenescence2/rebuild_submission/03_pig_chronic/tables/chronic_step2_current78_signature_score_TMM_aligned/chronic_step2_current78_TMM_aligned_sample_metadata_used.csv",TRUE,24,3,"sample_id","group"

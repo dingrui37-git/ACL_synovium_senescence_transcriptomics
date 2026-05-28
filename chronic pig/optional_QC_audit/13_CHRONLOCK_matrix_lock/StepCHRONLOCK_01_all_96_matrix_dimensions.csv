@@ -1,0 +1,4 @@
+"matrix","n_gene_rows","n_columns_total","n_sample_columns","first_column"
+"estimated_counts",22438,97,96,"gene_id"
+"abundance_TPM",22438,97,96,"gene_id"
+"effective_length",22438,97,96,"gene_id"

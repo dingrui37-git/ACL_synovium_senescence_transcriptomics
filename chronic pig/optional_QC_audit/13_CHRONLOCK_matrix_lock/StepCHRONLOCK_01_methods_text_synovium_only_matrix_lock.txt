@@ -1,0 +1,5 @@
+The chronic pig tximport-derived gene-level matrices were first inspected as all processed GSE228848 quantification files.
+Because the step24 tximport output contained 96 samples across cartilage and synovium, synovium-only matrices were locked by subsetting the estimated counts, TPM abundance and effective length matrices to the 48 columns annotated as synovium based on GEO accession/sample labels.
+The locked synovium-only matrices contained 22,438 genes and 48 samples, comprising 12 Control_52W, 12 ACLT_alone_52W, 12 Reconstruction_52W and 12 Repair_52W samples.
+The main chronic comparison matrix was then defined as the 24-sample subset containing Control_52W and ACLT_alone_52W only.
+The locked subsets were audited against the available synovium Salmon quant.sf files and the current chronic main-comparison metadata.

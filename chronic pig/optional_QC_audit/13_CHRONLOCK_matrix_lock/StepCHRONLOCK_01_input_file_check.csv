@@ -1,0 +1,7 @@
+"label","path","exists"
+"counts_file","E:/R/ACLsenescence2/rebuild_submission/03_pig_chronic/tables/step24_pig_chronic_gene_level_estimated_counts_matrix.csv",TRUE
+"abundance_file","E:/R/ACLsenescence2/rebuild_submission/03_pig_chronic/tables/step24_pig_chronic_gene_level_abundance_tpm_matrix.csv",TRUE
+"effective_length_file","E:/R/ACLsenescence2/rebuild_submission/03_pig_chronic/tables/step24_pig_chronic_gene_level_length_matrix.csv",TRUE
+"tximport_summary_file","E:/R/ACLsenescence2/rebuild_submission/03_pig_chronic/tables/step24_pig_chronic_tximport_run_summary.csv",TRUE
+"metadata_24_file","E:/R/ACLsenescence2/rebuild_submission/03_pig_chronic/tables/chronic_step2_current78_signature_score/chronic_step2_current78_sample_metadata_used.csv",TRUE
+"quant_dir","E:/R/ACLsenescence2/rebuild_submission/raw data/GSE228848_synovium_quant",TRUE

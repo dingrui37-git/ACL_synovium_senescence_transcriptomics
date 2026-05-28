@@ -1,0 +1,7 @@
+"matrix","n_gene_rows","n_columns_total","n_sample_columns","first_column"
+"synovium_48_estimated_counts",22438,49,48,"gene_id"
+"synovium_48_abundance_TPM",22438,49,48,"gene_id"
+"synovium_48_effective_length",22438,49,48,"gene_id"
+"main_24_estimated_counts",22438,25,24,"gene_id"
+"main_24_abundance_TPM",22438,25,24,"gene_id"
+"main_24_effective_length",22438,25,24,"gene_id"

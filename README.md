@@ -45,8 +45,8 @@ The complete tested results are retained rather than only the significant result
 
 ## Data availability
 
-The public source cohorts are available through GEO accession records cited in the manuscript. The code and revision materials are available in this GitHub repository. The archived release is linked through the repository citation metadata and the associated Zenodo record.
+The public source cohorts are available through GEO accession records cited in the manuscript. The code and revision materials are available in this GitHub repository. The current revision archive is available at [Zenodo DOI 10.5281/zenodo.22819688](https://doi.org/10.5281/zenodo.22819688); the all-versions concept record is [10.5281/zenodo.20384121](https://doi.org/10.5281/zenodo.20384121).
 
 ## Citation and license
 
-Please cite the associated manuscript and the archived repository release when using these data or scripts. Citation metadata are provided in `CITATION.cff`. The repository is released under the MIT License.
+Please cite the associated manuscript and the versioned Zenodo release (DOI: 10.5281/zenodo.22819688) when using these data or scripts. Citation metadata are provided in `CITATION.cff`. The repository is released under the MIT License.

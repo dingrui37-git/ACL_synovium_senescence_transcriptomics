@@ -1,0 +1,6 @@
+Supplementary Figure 5: matched-gene-set directional-score null control for the early-pig and chronic-pig contrasts.
+Shaded density: 10,000 matched random-gene-set effects.
+Dashed lines: null 95% interval; dotted line: zero; red line: observed signature effect.
+BH-FDR is across the three prespecified pig comparisons.
+Controls are measurable pig genes with exactly one g:Profiler pig-to-human orthologue, excluding the 75-gene signature.
+Within each mean-expression x across-sample-SD stratum, each permutation preserves the observed up/down counts (65/10 overall) and samples without replacement; SD uses all samples in the corresponding cohort.

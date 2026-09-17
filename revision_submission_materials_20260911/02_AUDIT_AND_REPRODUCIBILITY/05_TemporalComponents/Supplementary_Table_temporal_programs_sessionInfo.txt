@@ -1,0 +1,2 @@
+sessionInfo() unavailable: $ operator is invalid for atomic vectors
+R.version: R version 4.5.2 (2025-10-31 ucrt)

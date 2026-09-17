@@ -1,0 +1,6 @@
+"comparison","n_predefined_terms","n_testable_terms","n_not_tested_terms","n_primary_FDR_lt_0.05","n_primary_FDR_positive","n_primary_FDR_negative","n_nominal_only","n_global_135_FDR_lt_0.05","n_full_subcollection_FDR_lt_0.05","primary_correction","sensitivity_corrections"
+"mouse_1W",33,28,5,2,2,0,5,2,5,"BH within comparison across all testable predefined SENESCEN|SASP terms","BH across all 135 testable panel rows; fgsea BH within each full subcollection"
+"mouse_4W",33,28,5,3,3,0,6,3,5,"BH within comparison across all testable predefined SENESCEN|SASP terms","BH across all 135 testable panel rows; fgsea BH within each full subcollection"
+"pig_early_1W",33,27,6,5,5,0,4,5,5,"BH within comparison across all testable predefined SENESCEN|SASP terms","BH across all 135 testable panel rows; fgsea BH within each full subcollection"
+"pig_early_4W",33,26,7,4,3,1,4,2,3,"BH within comparison across all testable predefined SENESCEN|SASP terms","BH across all 135 testable panel rows; fgsea BH within each full subcollection"
+"pig_chronic_52W",33,26,7,3,3,0,5,3,4,"BH within comparison across all testable predefined SENESCEN|SASP terms","BH across all 135 testable panel rows; fgsea BH within each full subcollection"

@@ -1,0 +1,4 @@
+Source: Figure6_Main_SenescencePanel/Figure6_LeadingEdge_and_8set_results.csv
+Scope: FRIDMAN_SENESCENCE_UP and FRIDMAN_SENESCENCE_DN across mouse 1W, mouse 4W, pig early 1W, pig early 4W and pig chronic 52W.
+No enrichment statistics were recomputed; rows and leading-edge members were extracted from the frozen Figure 6 result table.
+Interpretive driver labels are descriptive annotations for the Results paragraph and do not constitute independent pathway tests.

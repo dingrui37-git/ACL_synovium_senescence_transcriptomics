@@ -1,0 +1,7 @@
+"gene_list","analysis_role","database","n_tested_pathways","n_nominal_p_lt_0.05","n_within_database_FDR_lt_0.05","n_joint_Reactome_KEGG_FDR_lt_0.05","min_joint_FDR"
+"persistent_up","primary direction-stratified ORA","KEGG",350,40,16,17,3.24817553122091e-09
+"persistent_up","primary direction-stratified ORA","Reactome",937,105,52,52,1.13183135498191e-43
+"persistent_down","primary direction-stratified ORA","KEGG",350,48,20,15,1.47098643533787e-09
+"persistent_down","primary direction-stratified ORA","Reactome",937,73,15,17,6.2050953235341e-06
+"persistent_all","secondary combined-list context","KEGG",350,35,12,13,3.98334000617319e-10
+"persistent_all","secondary combined-list context","Reactome",937,105,51,51,3.75222722856306e-33

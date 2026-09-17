@@ -33,3 +33,7 @@ Key manifest files:
 
 If MISSING_REQUIRED_FILES.csv has any rows, do not submit this package before resolving them.
 Optional missing files are expected when conditional diagnostics or supplementary/sensitivity outputs were not generated.
+
+Revision status:
+- Figure5C is the wide-layout chronic core-DE audit export with enlarged value labels.
+- Figure5D was retired during manuscript revision and its dedicated figures, script, tables and logs were removed.

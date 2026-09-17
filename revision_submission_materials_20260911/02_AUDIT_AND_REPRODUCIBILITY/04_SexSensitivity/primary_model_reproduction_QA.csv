@@ -1,0 +1,3 @@
+"timepoint","frozen_genes","reproduced_genes","common_genes","identical_gene_set","max_abs_logFC_difference","max_abs_t_difference","max_abs_P_difference","max_abs_FDR_difference"
+"1W",14311,14311,14311,TRUE,5.10702591327572e-15,4.9737991503207e-14,5.55111512312578e-16,5.55111512312578e-16
+"4W",14316,14316,14316,TRUE,5.10702591327572e-15,4.08562073062058e-14,4.9960036108132e-16,5.55111512312578e-16

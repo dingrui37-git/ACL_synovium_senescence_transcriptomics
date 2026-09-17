@@ -1,0 +1,25 @@
+kegg	KEGG (Kyoto Encyclopedia of Genes and Genomes)
+	pathway        587  2026/08/31
+	brite          205  2026/08/31
+	module         573  2026/08/20
+	ko          28,453  2026/09/01
+	genes   68,478,288  2026/09/01
+	  ag         4,449  2026/08/25
+	  vg       708,619  2026/09/01
+	  vp           377  2023/08/31
+	genome      11,945  2026/09/01
+	vtax        14,648  2026/07/14
+	vgenome        359  2024/09/25
+	compound    19,626  2026/09/01
+	glycan      11,285  2026/08/20
+	reaction    12,478  2026/08/28
+	rclass       3,216  2026/07/15
+	rmodule         48  2025/08/14
+	enzyme       6,972  2026/08/31
+	network      1,623  2026/07/24
+	ntmap          154  2026/07/22
+	variant      1,978  2026/07/24
+	disease      3,104  2026/09/01
+	drug        12,896  2026/08/27
+	dgroup       2,544  2026/08/25
+	Kanehisa Laboratories

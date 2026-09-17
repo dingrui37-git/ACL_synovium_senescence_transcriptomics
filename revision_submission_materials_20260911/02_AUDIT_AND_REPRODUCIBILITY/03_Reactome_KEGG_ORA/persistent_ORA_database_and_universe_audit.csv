@@ -1,0 +1,3 @@
+"database","database_release","background_genes_tested_at_both_timepoints","database_annotated_background_genes","gene_sets_loaded","gene_sets_tested_size_10_to_500","persistent_all_in_database_universe","persistent_up_in_database_universe","persistent_down_in_database_universe","min_gene_set_size","max_gene_set_size"
+"Reactome","2026.1.Mm",14184,7327,1333,937,736,503,233,10,500
+"KEGG","2026-08-31",14184,6421,368,350,728,473,255,10,500

@@ -1,0 +1,13 @@
+"metric","value"
+"n_quant_files",96
+"unique_deposited_transcript_ids_after_version_normalization",46295
+"unique_ids_mapped_to_ensembl115_tx2gene",45845
+"unique_ids_unmapped",450
+"mapping_percentage",99.0279727832379
+"unmapped_percentage",0.972027216762069
+"NumReads_mapping_percentage_mean",95.9756334272715
+"NumReads_mapping_percentage_min",90.6398905108222
+"NumReads_mapping_percentage_max",98.6315118362236
+"NumReads_mapping_percentage_weighted_all_files",96.1185168362077
+"per_file_mapping_percentage_min",99.0279727832379
+"per_file_mapping_percentage_max",99.0279727832379

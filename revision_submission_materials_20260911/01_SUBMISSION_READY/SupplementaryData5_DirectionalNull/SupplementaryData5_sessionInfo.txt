@@ -1,0 +1,12 @@
+R version 4.5.2 (2025-10-31 ucrt)
+edgeR=4.8.2
+gprofiler2=0.2.4
+n_perm=10000
+random_seed_pig_early=20260901
+random_seed_pig_chronic=20260902
+orthology_source=sscrofa_to_hsapiens_gProfiler_gorth
+gprofiler_query_date=2026-09-03
+orthology_mapping_path=D:/workspace/ACLsenescence2_reviewer1_directional_score_null/orthology_eligibility_mapping.csv
+sd_scope=all_samples_within_corresponding_cohort
+sampling_within_permutation=without_replacement
+sampling_across_permutations=independent_permutations

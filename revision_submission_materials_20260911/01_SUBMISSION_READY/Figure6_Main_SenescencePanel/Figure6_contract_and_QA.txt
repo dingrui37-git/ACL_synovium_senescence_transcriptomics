@@ -1,0 +1,7 @@
+Rows: directional score (mouse reference; pig validation), five direct senescence/SASP gene sets, three supporting mechanistic gene sets and two existing Hallmark context readouts.
+Columns: Mouse 1W; Mouse 4W; Pig 1W; Pig 4W; Pig 52W.
+GSEA FDR: the five direct and three mechanistic prespecified entries use BH within comparison across eight; inflammation and EMT retain FDR from the complete 50-set Hallmark analysis.
+Directional-score row: mouse is a descriptive derivation-species reference score based on the 75 mouse genes corresponding to the measurable one-to-one pig orthologues; pig is the projected validation score. Mouse scores use paired Wilcoxon tests but are not treated as independent validation tests because gene membership and directions were derived from mouse data.
+Pig directional-score cells retain the original dataset-specific primary score-analysis BH-FDR: early pig used all 12 score-comparison rows (six score definitions by two time contrasts), and chronic pig used all six score definitions. Mouse score cells have no inferential FDR or asterisk.
+Asterisk: FDR < 0.05 within the applicable inferential family. Color is centered at zero.
+The former Figure 5D information-integration panel was intentionally omitted.

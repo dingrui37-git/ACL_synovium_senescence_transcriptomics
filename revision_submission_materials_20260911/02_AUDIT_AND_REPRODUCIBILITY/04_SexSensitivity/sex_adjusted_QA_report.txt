@@ -1,0 +1,21 @@
+Mouse sex-adjusted sensitivity analysis QA report
+Generated: 2026-09-02 15:32:17 CEST
+Checks passed: 15/15
+Overall status: PASS
+
+                          check status
+              1W_sample_balance   PASS
+              4W_sample_balance   PASS
+           1W_pair_completeness   PASS
+           4W_pair_completeness   PASS
+     1W_adjusted_design_columns   PASS
+     4W_adjusted_design_columns   PASS
+ 1W_primary_gene_set_reproduced   PASS
+ 4W_primary_gene_set_reproduced   PASS
+    1W_primary_logFC_reproduced   PASS
+    4W_primary_logFC_reproduced   PASS
+    1W_adjusted_unique_gene_ids   PASS
+    4W_adjusted_unique_gene_ids   PASS
+    adjusted_probability_ranges   PASS
+     original_persistent_unique   PASS
+      persistent_audit_complete   PASS

@@ -1,0 +1,7 @@
+"metric","value"
+"NumReads_mapping_percentage_min",90.6398905108222
+"NumReads_mapping_percentage_max",98.6315118362236
+"NumReads_mapping_percentage_mean",95.9756334272715
+"n_unmapped_nonzero_min",167
+"n_unmapped_nonzero_max",230
+"n_unmapped_nonzero_mean",200.34375

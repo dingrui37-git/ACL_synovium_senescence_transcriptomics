@@ -1,4 +1,4 @@
-# Chronic Figure5C current78: gene-level lollipop/dot plot for core-gene chronic DE audit
+# Chronic Figure5C current78: wide gene-level lollipop/dot plot for core-gene chronic DE audit
 # Purpose:
 #   Generate Figure5C as a gene-level chronic DE audit plot for the fixed early-defined
 #   24 core ortholog genes, using a lollipop/dot-plot design.
@@ -15,6 +15,11 @@
 #   - This figure does NOT redefine a chronic core set.
 #   - It audits how the fixed early-defined 24 core genes behave in chronic DE.
 #
+# Revision note:
+#   This is a non-overwriting wide-layout derivative of the locked v2 script.
+#   The plotting width is doubled (11.8 -> 23.6 inches) and value/axis typography
+#   is enlarged for manuscript layout. Input audit tables remain unchanged.
+#
 # Output:
 #   One PNG and one PDF only, plus source data/statistics/summary logs.
 #   This script does NOT auto-archive or overwrite any manually saved R script.
@@ -25,15 +30,22 @@ options(stringsAsFactors = FALSE)
 ## 0. Paths
 ## =========================
 
-project_root <- "E:/R/ACLsenescence2"
-rebuild_root <- file.path(project_root, "rebuild_submission")
+repo_root <- Sys.getenv("ACL_REPO_ROOT", unset = "")
+if (!nzchar(repo_root)) {
+  wd <- normalizePath(getwd(), mustWork = FALSE)
+  repo_root <- if (basename(wd) == "chronic pig") {
+    wd
+  } else if (basename(wd) == "scripts") {
+    dirname(wd)
+  } else {
+    file.path(wd, "chronic pig")
+  }
+}
 
-pig_chronic_dir <- file.path(rebuild_root, "03_pig_chronic")
-step5b_dir <- file.path(pig_chronic_dir, "tables", "chronic_step5B_current78_core_DE_audit_Step4_locked")
-
-out_table_dir <- file.path(pig_chronic_dir, "tables", "chronic_figure5C_current78_core_DE_gene_audit_plot_Step4_locked_fixed_label_v2")
-out_fig_dir <- file.path(pig_chronic_dir, "figures", "Figure5C_current78_core_DE_gene_audit_plot_Step4_locked_fixed_label_v2")
-log_dir <- file.path(out_table_dir, "logs")
+step5b_dir <- file.path(repo_root, "tables_required", "08_Step5B_core_DE_audit")
+out_table_dir <- file.path(repo_root, "tables_required", "09_Figure5C_core_DE_audit_plot")
+out_fig_dir <- file.path(repo_root, "figures_required", "Figure5C_core_DE_gene_audit_plot")
+log_dir <- file.path(repo_root, "optional_logs_sessionInfo")
 
 dir.create(out_table_dir, recursive = TRUE, showWarnings = FALSE)
 dir.create(out_fig_dir, recursive = TRUE, showWarnings = FALSE)
@@ -44,7 +56,7 @@ summary_log_file <- file.path(log_dir, "chronic_figure5C_current78_core_DE_gene_
 
 sink(full_log_file, split = TRUE)
 
-cat("===== CHRONIC FIGURE5C CURRENT78 CORE DE GENE-LEVEL AUDIT PLOT =====\n")
+cat("===== CHRONIC FIGURE5C CURRENT78 CORE DE GENE-LEVEL AUDIT PLOT (WIDE V3) =====\n")
 cat("Run time: ", format(Sys.time(), "%Y-%m-%d %H:%M:%S %Z"), "\n", sep = "")
 cat("Purpose: generate Figure5C as a gene-level lollipop/dot plot for the chronic DE audit of the fixed early-defined 24 core genes.\n\n")
 
@@ -242,8 +254,10 @@ suppressPackageStartupMessages(library(ggplot2))
 # Segments only for tested genes
 segment_df <- plot_df[plot_df$tested_in_chronic_DE, , drop = FALSE]
 
-# Dynamic figure height for gene labels
+# Dynamic figure height for gene labels; width is intentionally fixed at twice the
+# locked v2 export width for manuscript placement.
 plot_height <- max(8.2, 0.36 * nrow(plot_df) + 2.7)
+plot_width <- 23.6
 
 # Axis breaks: include special "Not tested" position
 pretty_breaks <- pretty(c(x_min, x_max), n = 6)
@@ -273,12 +287,12 @@ p <- ggplot(plot_df, aes(y = gene_label)) +
     data = plot_df[plot_df$chronic_strict_and_direction_consistent %in% TRUE, , drop = FALSE],
     aes(x = star_x, label = "*"),
     hjust = 0.5,
-    size = 5.0,
+    size = 6.0,
     fontface = "bold"
   ) +
   geom_text(
     aes(x = label_x, label = plot_x_label, hjust = label_hjust),
-    size = 3.05,
+    size = 4.2,
     color = "#333333"
   ) +
   scale_fill_manual(values = retention_colors, drop = FALSE) +
@@ -303,20 +317,20 @@ p <- ggplot(plot_df, aes(y = gene_label)) +
     color = "Retention class",
     shape = "Early signature direction"
   ) +
-  theme_bw(base_size = 13) +
+  theme_bw(base_size = 16) +
   theme(
-    plot.title = element_text(hjust = 0.5, face = "bold", size = 16),
-    plot.subtitle = element_text(hjust = 0.5, size = 11),
+    plot.title = element_text(hjust = 0.5, face = "bold", size = 19),
+    plot.subtitle = element_text(hjust = 0.5, size = 14),
     panel.grid.major.y = element_blank(),
     panel.grid.minor = element_blank(),
     panel.grid.major.x = element_line(color = "#E6E6E6"),
-    axis.text.y = element_text(size = 10.5),
-    axis.text.x = element_text(size = 10.5),
-    axis.title.x = element_text(size = 13),
+    axis.text.y = element_text(size = 12.5),
+    axis.text.x = element_text(size = 12.5),
+    axis.title.x = element_text(size = 15),
     legend.position = "right",
     legend.box = "vertical",
-    legend.title = element_text(size = 10.5),
-    legend.text = element_text(size = 9.5),
+    legend.title = element_text(size = 12.5),
+    legend.text = element_text(size = 11.5),
     plot.margin = margin(t = 8, r = 24, b = 8, l = 18)
   ) +
   coord_cartesian(clip = "off") +
@@ -329,8 +343,8 @@ p <- ggplot(plot_df, aes(y = gene_label)) +
 figure_png <- file.path(out_fig_dir, "Figure5C_current78_core_DE_gene_audit_lollipop.png")
 figure_pdf <- file.path(out_fig_dir, "Figure5C_current78_core_DE_gene_audit_lollipop.pdf")
 
-ggsave(figure_png, p, width = 11.8, height = plot_height, dpi = 320)
-ggsave(figure_pdf, p, width = 11.8, height = plot_height)
+ggsave(figure_png, p, width = plot_width, height = plot_height, dpi = 320)
+ggsave(figure_pdf, p, width = plot_width, height = plot_height)
 
 cat("Saved plot: ", figure_png, "\n", sep = "")
 cat("Saved plot: ", figure_pdf, "\n\n", sep = "")
@@ -342,7 +356,7 @@ cat("Saved plot: ", figure_pdf, "\n\n", sep = "")
 plot_source_file <- file.path(out_table_dir, "chronic_figure5C_current78_plot_source_data.csv")
 plot_stats_file <- file.path(out_table_dir, "chronic_figure5C_current78_plot_statistics.csv")
 summary_out_file <- file.path(out_table_dir, "chronic_figure5C_current78_core_DE_gene_audit_plot_summary.csv")
-version_file <- file.path(out_table_dir, "chronic_figure5C_current78_versions_and_method_records.csv")
+version_file <- file.path(repo_root, "optional_QC_audit", "09_Figure5C_details", "chronic_figure5C_current78_versions_and_method_records.csv")
 support_lists_file <- file.path(out_table_dir, "chronic_figure5C_current78_gene_category_lists.csv")
 
 write_csv(plot_df, plot_source_file)
@@ -439,8 +453,8 @@ version_df <- data.frame(
     as.character(utils::packageVersion("ggplot2")),
     "Chronic Step5B current78 core DE audit, final Step4 source locked",
     "fixed early-defined 24 core ortholog genes from pig early primary-analysis workflow",
-    "gene-level lollipop/dot plot with retention-class colors and early-direction shapes",
-    "main Figure5C; fixed not-tested label clipping and separated strict-star/logFC labels"
+    "gene-level lollipop/dot plot with retention-class colors and early-direction shapes; wide manuscript layout",
+    "wide Figure5C derivative; 23.6-inch export width, enlarged value labels and typography; fixed not-tested label clipping and separated strict-star/logFC labels"
   ),
   stringsAsFactors = FALSE
 )
@@ -459,7 +473,7 @@ cat("\nVersion and method records:\n")
 print(version_df, row.names = FALSE)
 
 summary_con <- file(summary_log_file, open = "wt")
-writeLines("===== Chronic Figure5C current78 core DE gene-level audit plot SUMMARY TO SEND ME =====", summary_con)
+writeLines("===== Chronic Figure5C current78 core DE gene-level audit plot SUMMARY (WIDE V3) =====", summary_con)
 writeLines(paste0("Run time: ", format(Sys.time(), "%Y-%m-%d %H:%M:%S")), summary_con)
 writeLines("", summary_con)
 writeLines("Main run summary:", summary_con)

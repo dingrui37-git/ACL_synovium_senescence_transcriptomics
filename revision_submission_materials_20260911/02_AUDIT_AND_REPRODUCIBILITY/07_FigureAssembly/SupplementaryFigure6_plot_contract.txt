@@ -1,0 +1,5 @@
+Plot scope: up to eight pathways with the lowest primary FDR among FDR-supported pathways per database and direction; no significant stratum would be displayed without points.
+Supplementary Figure 6: Reactome/KEGG broader pathway ORA for direction-consistent persistent genes.
+The complete results for all tested Reactome/KEGG pathways, including nominal P values and BH-adjusted FDR values, are supplied as source data in SupplementaryFigure6_all_tested_results.csv.
+Primary ORA FDR: within each persistent-gene direction, BH jointly across 937 Reactome and 350 KEGG pathways.
+Persistent-up input: 970 genes; persistent-down input: 446 genes; the same database-annotated subset of the common 14,184-gene eligibility universe was used for both directions.

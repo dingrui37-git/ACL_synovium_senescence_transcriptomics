@@ -1,0 +1,8 @@
+Formal primary analysis: prespecified direct senescence/SASP panel.
+Panel selection rule: official MSigDB gene-set name matches /SENESCEN|SASP/i; selection is independent of enrichment results.
+Total unique panel terms: 33.
+Primary multiplicity family: all testable panel terms from Reactome, GO:BP, CGP, and WikiPathways within each prespecified comparison.
+Primary correction: BH.
+Sensitivity 1: BH across all 135 testable panel term-by-comparison rows.
+Sensitivity 2: fgsea BH adjustment within each complete MSigDB subcollection.
+The five comparisons are distinct prespecified biological contrasts; significance counts are not formal tests of between-contrast differences.

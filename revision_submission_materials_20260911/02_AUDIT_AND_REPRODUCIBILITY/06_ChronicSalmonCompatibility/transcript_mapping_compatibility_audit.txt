@@ -1,0 +1,7 @@
+GSE228848 transcript-ID compatibility audit
+Quantification files: 96
+Unique deposited transcript IDs after version normalization: 46295
+Mapped to Ensembl release 115 tx2gene: 45845
+Unmapped: 450
+Compatibility: 99.02797%
+Version suffixes were removed before matching, consistent with tximport ignoreTxVersion = TRUE.

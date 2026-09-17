@@ -1,0 +1,41 @@
+Persistent Reactome/KEGG ORA QA report
+Generated: 2026-09-02 12:08:37 CEST
+Checks passed: 17/17
+Overall status: PASS
+
+                                check status
+                           input_rows   PASS
+                  input_unique_entrez   PASS
+               input_direction_counts   PASS
+              input_strict_thresholds   PASS
+                      all_result_rows   PASS
+                    result_unique_key   PASS
+                membership_unique_key   PASS
+       hypergeometric_p_recalculation   PASS
+     within_database_BH_recalculation   PASS
+ joint_Reactome_KEGG_BH_recalculation   PASS
+                   overlap_gene_count   PASS
+                   contingency_bounds   PASS
+                   probability_ranges   PASS
+            primary_significant_count   PASS
+        significant_file_exact_subset   PASS
+           database_releases_recorded   PASS
+               pathway_names_complete   PASS
+                                    detail
+                                      1416
+                                      1416
+                          up=970; down=446
+ FDR<0.05 and |logFC|>1 at both timepoints
+              observed=3861; expected=3861
+                          duplicate_keys=0
+                          duplicate_rows=0
+                              5.551115e-16
+                              4.107825e-15
+                              3.996803e-15
+                                         0
+                     all k<=n,K and n,K<=N
+             all P and FDR values in [0,1]
+              observed=101; up=69; down=32
+                 saved=101; recomputed=101
+       Reactome 2026.1.Mm; KEGG 2026-08-31
+                                 missing=0

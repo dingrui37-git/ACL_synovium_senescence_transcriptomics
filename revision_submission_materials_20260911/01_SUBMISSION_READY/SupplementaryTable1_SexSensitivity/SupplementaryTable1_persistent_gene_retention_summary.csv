@@ -1,0 +1,14 @@
+"metric","value"
+"primary_persistent_total",1416
+"primary_persistent_up",970
+"primary_persistent_down",446
+"sex_adjusted_persistent_total",1413
+"sex_adjusted_persistent_up",957
+"sex_adjusted_persistent_down",456
+"persistent_intersection_total",1384
+"primary_persistent_retention_fraction",0.977401129943503
+"persistent_jaccard",0.957785467128028
+"primary_up_retained_as_adjusted_up",953
+"primary_up_retention_fraction",0.982474226804124
+"primary_down_retained_as_adjusted_down",431
+"primary_down_retention_fraction",0.966367713004484

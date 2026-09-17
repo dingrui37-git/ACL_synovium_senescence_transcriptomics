@@ -45,8 +45,8 @@ The complete tested results are retained rather than only the significant result
 
 ## Data availability
 
-The public source cohorts are available through GEO accession records cited in the manuscript. The code and revision materials are available in this GitHub repository. The current revision archive is available at [Zenodo DOI 10.5281/zenodo.22819688](https://doi.org/10.5281/zenodo.22819688); the all-versions concept record is [10.5281/zenodo.20384121](https://doi.org/10.5281/zenodo.20384121).
+The study reuses three public source cohorts: mouse synovium data from GEO accession `GSE271903`, early-pig synovium data from ArrayExpress accession `E-MTAB-6664`, and chronic-pig synovium data from GEO accession `GSE228848`. Processed data, source data underlying the figures, complete tested result tables, analysis scripts, audit manifests, logs and software/version records are available in this GitHub repository and in the current revision archive at [Zenodo DOI 10.5281/zenodo.22819688](https://doi.org/10.5281/zenodo.22819688); the all-versions concept record is [10.5281/zenodo.20384121](https://doi.org/10.5281/zenodo.20384121). No new primary sequencing data were generated for this study. Large raw sequencing files, BAM files, reference genome/index files and other regenerable intermediate files are not redistributed here; their public sources and regeneration procedures are documented in the analysis scripts and manifests.
 
 ## Citation and license
 
-Please cite the associated manuscript and the versioned Zenodo release (DOI: 10.5281/zenodo.22819688) when using these data or scripts. Citation metadata are provided in `CITATION.cff`. The repository is released under the MIT License.
+Please cite the associated manuscript, the versioned Zenodo release (DOI: 10.5281/zenodo.22819688) and the three public source datasets when using these data or scripts. Citation metadata are provided in `CITATION.cff`. The repository is released under the MIT License.
